@@ -1,13 +1,13 @@
 {"0": {
     "doc": "Home",
     "title": "Home",
-    "content": "{%- for lang in site.manual_languages -%} [{{site.manual_settings.collections[lang].name}}]({{'/' | append: lang | append: '/' | relative_url}}) version {% endfor %} ",
+    "content": "English version . Traditional Chinese version . ",
     "url": "/",
     "relUrl": "/"
   },"1": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
-    "content": "Redirecting to latest version . ",
+    "content": "English manual is coming soon, please select other language EnglishTraditional Chinese . ",
     "url": "/en/",
     "relUrl": "/en/"
   },"2": {
