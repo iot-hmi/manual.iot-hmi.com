@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Home",
     "title": "Home",
-    "content": "English version . Traditional Chinese version . ",
+    "content": "{%- for lang in site.manual_languages -%} [{{site.manual_settings.collections[lang].name}}]({{'/' | append: lang | append: '/' | relative_url}}) version {% endfor %} ",
     "url": "/",
     "relUrl": "/"
   },"1": {
@@ -12,635 +12,677 @@
     "relUrl": "/en/"
   },"2": {
     "doc": "Introduction",
-    "title": "TODO",
-    "content": ". | 教育影片是否改成到 manual 網站? | Widgets &gt; On Widget Editor | Widgets &gt; On Context Menu | Widgets &gt; Standard Widget Library | Widgets &gt; System Widget Library | Widgets &gt; Clip and Mask Widgets | . ",
-    "url": "/zh-tw/3.3.0/#todo",
-    "relUrl": "/zh-tw/3.3.0/#todo"
-  },"3": {
-    "doc": "Introduction",
     "title": "Introduction",
     "content": "博橡科技開發之 ADE (Acorn Development Environment)是針對人機介面 (Human-Machine Interface, HMI) 設計、驗證，佈署所研發的一個開發平台。功能完整，並提供大量且視覺效果精緻的 widgets 。ADE 可以讓使用者從HMI 設計、模擬、系統驗證、量產都在同一個開發環境完成。搭配博橡科技Ubique Panel產品，可快速完成開發，驗證，以及佈署之循環，加速產品Time to Market。 使用者僅需要一台執行 Windows10 64bit X64 的電腦，當設計完成後，僅需要一條隨處可見的USB線，即可下載到博橡科技的 Ubique Panel ，完成您的專案。 . 這份文件會對 ADE 功能做詳細介紹，請與博橡科技網頁之教育影片搭配學習，體會次世代HMI開發工具的威力。 . ",
     "url": "/zh-tw/3.3.0/",
     "relUrl": "/zh-tw/3.3.0/"
-  },"4": {
+  },"3": {
     "doc": "Introduction",
     "title": "System Requirement",
     "content": "• OS: Windows 10 64bit . • CPU: Intel or AMD processor with 64-bit support; . • Disk Storage: 4 GB of free disk space . • Monitor Resolution: 1920x1080; . • Internet: Internet connection required for reference document . ",
     "url": "/zh-tw/3.3.0/#system-requirement",
     "relUrl": "/zh-tw/3.3.0/#system-requirement"
-  },"5": {
+  },"4": {
     "doc": "Install and Launch ADE",
     "title": "Install and Launch ADE",
     "content": " ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/"
-  },"6": {
+  },"5": {
     "doc": "Install",
     "title": "下載ADE安裝程式",
     "content": "點擊連結以下載ADE . ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/install/#%E4%B8%8B%E8%BC%89ade%E5%AE%89%E8%A3%9D%E7%A8%8B%E5%BC%8F",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/install/#下載ade安裝程式"
-  },"7": {
+  },"6": {
     "doc": "Install",
     "title": "安裝 ADE",
     "content": "下載完成後點擊安裝程式會看到以下畫面 . 點擊[安裝]後會看到以下畫面，請耐心等待ADE安裝 . 安裝完成決定是否要直接開啟ADE . ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/install/#%E5%AE%89%E8%A3%9D-ade",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/install/#安裝-ade"
-  },"8": {
+  },"7": {
     "doc": "Install",
     "title": "Install",
     "content": " ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/install/",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/install/"
-  },"9": {
+  },"8": {
     "doc": "啟動 ADE",
     "title": "第一次使用",
     "content": "安裝完成後，下面圖示ADE 的 icon 會出現在使用者的 Windows 桌面: . 看到此icon表示安裝完成，點此 icon 便可以開始執行 ADE。 一進入ADE，您就可看到下面的畫面: . 點擊頁面左方[Widgets]喚出Widget Panel，再點擊頁面中間[Create a New Design]喚出文件樣板 . 進入此畫面表示您的ADE 安裝成功，順利執行。 . Check Version . 如何檢查ADE版本: . 滑鼠點擊左上角之選單圖示，顯示主功能表(如圖1 - 7)，點選About…，出現About視窗，顯示版本及版權聲明還有發行公告(如圖1 - 8) . ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/launch_ade/#%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/launch_ade/#第一次使用"
-  },"10": {
+  },"9": {
     "doc": "啟動 ADE",
     "title": "啟動 ADE",
     "content": " ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/launch_ade/",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/launch_ade/"
-  },"11": {
+  },"10": {
     "doc": "Main Screen Description",
     "title": "Main Screen Description",
     "content": "當使用者點選任何一個文件樣板開啟後，主畫面可以分成三個部分: Control Panel, Widget Panel 和 Design Panel. Control Panel . 在按下左上角的選單圖示時，會出現整體系統選單 (System Menu): . ",
     "url": "/zh-tw/3.3.0/main_screen_description/",
     "relUrl": "/zh-tw/3.3.0/main_screen_description/"
-  },"12": {
+  },"11": {
     "doc": "Main Screen Description",
     "title": "System Menu",
     "content": "New Design from Template 讓使用者選擇一個博橡科技Ubique Panel 產品，開始做 HMI 的開發。 . Open 讓使用者打開儲存的 HMI Design。選擇此功能ADE打開檔案選擇對話窗，供使用這選擇域開啟之檔案，ADE HMI設計檔的副檔名為.epgz，檔案選擇對話框只會顯示此種型態的檔案。 . Save 是儲存 HMI Design，若是新設計尚未指定檔名，會開啟檔案儲存對話視窗，讓使用者指定或是選擇檔名。 . Save as 是另存HMI Design。會開啟檔案儲存對話視窗，讓使用者指定或是選擇檔名。 . Export 是匯出 HMI Design，可以下載到博橡科技 Ubique Panel 的控制板，或是輸出為PDF甚至是含超連結(Hyper Links) 的 HTML 檔。 . Print 是列印出 HMI Design。 . Recent Files 列出最近使用者所開啟的 HMI Designs，使用者可以快速開啟過去的設計。 . Settings 設定整體ADE系統參數。 . 按下 Settings 後會出現以下的視窗: . ",
     "url": "/zh-tw/3.3.0/main_screen_description/#system-menu",
     "relUrl": "/zh-tw/3.3.0/main_screen_description/#system-menu"
-  },"13": {
+  },"12": {
     "doc": "Setting",
     "title": "Setting",
     "content": "在Setting Tab有以下選項可供設定 . General 的選單裡，有下列的選單: . Start from Primary Monitor 設定 ADE 在主要的螢幕上開始。若不勾選ADE會從上次關閉時所在螢幕開啟。 . ADE/Capture Delay 是設定 ADE 下載時出圖的延遲，初始值是設定為 50，如果使用者是使用效能較差之舊型電腦來執行ADE，建議把這個值調到100以上。 . ADE/Document Template Refreshing Time 是設定刷新樣板時的延遲，初始值為1000，如果使用者使用效能較差之舊型電腦來執行ADE，建議把這個值調到2000以上。 . Canvas/Show Grid 選擇設計HMI時是否在畫面上顯示網格，若選擇顯示網格則可以設定尺寸以及樣式。 . Canvas/Snap Objects to Grid 在拖入 Widget 時主動對準網格。 . Canvas/Snap Objects to Objects 拉入 Widget 時畫面會出現對齊線幫助使用者對齊之前已經放入的Widgets。 . Edit/Cut and Paste at the Same Place 設定後，做複製貼上或剪下貼上的動作，在做貼上動作時，ADE 會把目標放在剛剛執行複製/剪下的動作同一個位置。 . Edit/Enable Undo/Redo 是設定復原和取消復原最大深度，上限是99層。 . User Interface/Text Scale 設定ADE使用這介面顯示文字的比例，ADE整體使用者解面會根據這個比例自動調整。 . User Interface/Use Compact Layout 設定ADE採用緊密排版顯示模式。 . ",
     "url": "/zh-tw/3.3.0/main_screen_description/setting/",
     "relUrl": "/zh-tw/3.3.0/main_screen_description/setting/"
-  },"14": {
+  },"13": {
     "doc": "Installation and Update",
     "title": "Installation and Update",
     "content": "選取 Installation and Update Tab會出現下面的畫面： . Default Document Template 重新載入博橡科技Ubique Panel 產品，通常使用於更新ADE之後，想要確定新的文件樣版時使用。 . Firmware Update 更新Ubique Panel 控制板上的韌體。 . 注意韌體更新需要: . 取得更新的韌體檔案，會隨ADE更新版附贈，或是從博橡科技網頁單獨下載。 使用USB 訊號線與 Ubique Panel 控制板連接。 BootLoader Update 更新Ubique Panel 控制板上的BootLoader。 . 注意Bootloader更新需要: . 取得更新的Bootloader檔案，會隨ADE更新版附贈，或是從博橡科技網頁單獨下載。 使用USB 訊號線與 Ubique Panel 控制板連接。 Sync PC System Datetime to IOT Ubique Panel 設定Ubique Panel 控制板上的時間與執行ADE 的電腦系統時間同步。 . Make Factory Reset for IOT Ubique Panel 是強制讓Ubique Panel 控制板回到出廠時的設定。此選項會清除Ubique Panel上所有圖資以及使用者儲存之資料。 . Tools . Tools 有兩選單Manage Collections 和 Manage Fonts . Manage Collections 用於管理Widget Panel上的Widget Library的排列順序以及顯示設定。點擊後會出現下面的畫面： . 用以設定 Widget Library 是否要顯示，或者是否要移除。 . 另外，可以用滑鼠拖曳來設定Library在 Widget Panel 中顯示的順序。 . ",
     "url": "/zh-tw/3.3.0/main_screen_description/installation_and_update/",
     "relUrl": "/zh-tw/3.3.0/main_screen_description/installation_and_update/"
-  },"15": {
+  },"14": {
     "doc": "Fonts Management",
     "title": "Fonts Management",
     "content": "本章節將介紹如何新增並且管理字型 . 1.首先從ADE左上角打開主功能表，找到工具，然後打開字型管理頁面 . 2.點擊安裝新字型 . 3.從檔案系統選擇要新增的字型並且為新字型命名，設定完成點擊安裝即可 . 字型檔案格式支援ttf檔 . 4.可從字型管理頁面確認已安裝字型並且設定字型是否要嵌入設計 . 若嵌入，字型檔會被包含進設計檔內，檔案大小會急遽增加 . 若不嵌入，字型檔不會被包含進設計檔內，當開啟設計檔時，如果該系統沒有指定的設計檔時，Windows會以默認字型做取代 . 注意:建議安裝完新字後，關閉並重新啟動ADE，確保所有新安裝字型順利被載入。 . 5.可從Widget的字型選擇器中確認並使用新增的字型 . ",
     "url": "/zh-tw/3.3.0/font_management/",
     "relUrl": "/zh-tw/3.3.0/font_management/"
-  },"16": {
+  },"15": {
     "doc": "工具列",
     "title": "工具列",
     "content": "工具列，ADE常用功能被安排在畫面頂端的工具列上，並以功能區分區域，如圖: . 以下詳述各工具列按鈕功能: . Download Toolbar 的三個控制按鍵,如下圖所示： . ",
     "url": "/zh-tw/3.3.0/toolbars/",
     "relUrl": "/zh-tw/3.3.0/toolbars/"
-  },"17": {
+  },"16": {
     "doc": "Download",
     "title": "Download",
     "content": "最左邊的是下載到 Ubique Panel 控制板的按鍵: . 連接usb並點擊download鍵即可將設計下載至控制板 . 當下載成功時，ADE 會出現下面的彈出視窗: . 這表示整個 Design 已經成功下載到 Ubique Panel 的控制板上。下在時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。 . 中間的按鍵是用來開啟內建的模擬器(Simulator): . 內建的模擬器是模擬使用者設計被載入Ubique Panel之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖介面功能。並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與Ubique Panel上一致(色差可能發生於使用者使用的螢幕以及Ubique Panel之間，其色域規格以Ubique Panel規格書定義為準)。 . 模擬器無法於個人電腦模擬Ubique Panel上的I/O, PWM,ADC等實體出入行為，但可以模擬Ubique Panel Register Communication Protocol。 . 最右邊的按鍵啟動Messenger，目的是在個人電腦上與Ubique Panel或是模擬器通訊 . 如果打開對外通訊的 Messenger，下面的視窗便會出現， . 在這視窗中，使用者可以透過個人電腦的COM Port，連結Ubique Panel，藉由Register communication protocol改變暫存器的內容值, 模擬由外部MCU透過UART1傳遞數值給Ubique Panel。 . 以下詳細說明與模擬器以及Ubique Panel通訊方法: . 一.利用Messenger和模擬器通訊 . 首先用ADE開啟一個既有設計 . 確認IOConfig頁面UART1為Enabled且Baud Rate正確且暫存器已選取 . 到Register Table 找到欲進行通訊的Register並勾選Sent to Host . 打開Messenger視窗與模擬器，進行以下操作 . 1.設定Socket . 2.點擊連接，連接成功會看到彈出信息框顯示成功 . 3.點擊連接確認，Messenger會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。 . 4.連接正常，接收確認資訊ack . 5.通訊指令 . 選擇Set Register 表示要寫入暫存器內容，並且設定暫存器ID以及要寫次的資料以及型態，該暫存器ID以及資料型態必須與ADE設計專案內暫存器設定相符。 . 6.模擬器接收通訊指令且模擬器上會依通訊指令修改對應暫存器數值，若該暫存器有對應的Display Widget則模擬器進行相對應的顯示 . 二. Messenger與Ubique Panel通訊 . 首先利用ADE將既有的設計下載至博橡科技控制板上 . 之後利用USB to TTL模組連接控制板RX1 TX1 GND與ADE所在電腦的USB . 連接完成後打開Messenger視窗 . 1.設定Serial Port，利用[Scan]掃描更新串口，選擇正確的串口並設定鮑率 . 2.點擊[Ack Test]確認連接 . 3.連接正常，接收到ack訊息 . 4.設定並傳送通訊指令 . 接下來即可在Ubique Panel上看到相對應的顯示 . 三. PC Simulator與Ubique Panel 通訊 . 目的為快速測試設計運作是正常 . 首先 利用ADE準備兩個設計，一個負責傳送數值，一個負責接收數值 . 將負責傳送數值的設計利用模擬器打開，負責接收數值的設計下載至博橡科技控制板 . ※注意!!確保兩個設計欲溝通的暫存器ID相同，且傳送方要勾選[Send to Host] . 1.設定Serial Port，選擇正確的串口並且設定好鮑率 . 2.利用Widget改變暫存器內容，再透過UART傳送至博橡控制板 . 接下來可以在Ubique Panel上看到相對應的顯示 . 四.Ubique Panel和Ubique Panel通訊 . 首先，使用杜邦線將兩塊控制板的RX1和TX1互接，接法如圖2-17所示 . 其次，準備兩個ADE Project，一個負責送一個負責接，並確認兩個Project欲溝通的暫存器id是否相同。將負責送的Project暫存器勾選Send to Host，表示作為傳送方。 . 專案一，利用進度條改變暫存器內容 以傳送資料，相關設定如下圖: . 專案二， 使用圓規和捲動文本顯示接收到的資料，相關設定如下圖: . 再 分別將兩個Project下載至控制板。打開電源即可開始通訊。 . 五.Ubique Panel和 MCU通訊 . 首先，準備一個ADE Project並且設好暫存器。再參考博橡的通訊協定寫出Arduino程式，將資料透過通訊傳給指定ID的暫存器。 . 以下是UART Communication Protocol . 其次，連接博橡控制板與Arduino控制板的RX和TX . 將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。 . 下一個控制按鍵的群組是 XTOOLS: . ",
     "url": "/zh-tw/3.3.0/toolbars/download/",
     "relUrl": "/zh-tw/3.3.0/toolbars/download/"
-  },"18": {
+  },"17": {
     "doc": "XTools",
     "title": "XTools",
     "content": "最左邊的按鍵是用來呼叫暫存器編輯對話框(Register Table)， . 按下此按鍵之後，暫存器編輯對話框出現: . 在暫存器編輯對話框中，會列出整個HMI 設計的專案中 所有用到的系統暫存器，這包含 ADE 內建的暫存器，使用者也可以自訂暫存器。自訂的暫存器會排列在系統暫存器之後。暫存器的使用是ADE 重要的觀念，我們會有專章說明解釋(暫存器綁定)Register Binding 的觀念和做法。 . 勾選Send to host即可將暫存器內容透過設定的UART port進行Communication . ※UART通訊必須為兩個相同Index的暫存器才有效 . 點選書寫鈕可以開啟Blockly編輯器，對暫存器內容進行驗證 . 如上圖所示，寫入暫存器的內容長度必須大於等於四，否則不予以寫入 . 第二個按鍵目的是用來啟動系統全域 Blockly Function 的編輯器: . 按下後，Blockly 編輯器 (Blockly Editor) 便會打開: . 在這個編輯器所編輯的 Blockly 程式是全域的 (global)，也就是說在HMI設計中，每一個地方都可以看的到。這不同於個別 Widget 的 Blockly function 只能鎖在 Widget 中。 . Blockly 是一種視覺化程式設計語言，是一種開源的程式語言，使用者可以到下面的網站獲取更多相關資訊: . https://developers.google.com/blockly . 第三個按鍵為開啟系統就緒後執行函數的編輯視窗 . 按下後Blockly編輯器(Blockly Editor)便會打開，在此編輯器可以編輯系統就緒後執行的函數 . 接下來的控制按鍵群組是 EDIT: . ",
     "url": "/zh-tw/3.3.0/toolbars/xtools/",
     "relUrl": "/zh-tw/3.3.0/toolbars/xtools/"
-  },"19": {
+  },"18": {
     "doc": "EDIT",
     "title": "EDIT",
     "content": "左邊是複製 (Copy)功能，中間是剪下 (Cut)功能，右邊是貼上 (Paste)功能。這三個功能與一般編輯器裡面的功能是類似的。這三個功能只能用在 HMI 的設計上。 . 下一個控制按鍵群組是ZOOMING: . ",
     "url": "/zh-tw/3.3.0/toolbars/edit/",
     "relUrl": "/zh-tw/3.3.0/toolbars/edit/"
-  },"20": {
+  },"19": {
     "doc": "ZOOMING",
     "title": "ZOOMING",
     "content": "左邊是縮小 (Zoom Out), 右邊是放大 (Zoom In)，中間是回到初始設定的大小。 . 再下一個控制按鍵的群組 ALIGNMENT: . ",
     "url": "/zh-tw/3.3.0/toolbars/zooming/",
     "relUrl": "/zh-tw/3.3.0/toolbars/zooming/"
-  },"21": {
+  },"20": {
     "doc": "ALIGNMENT",
     "title": "ALIGNMENT",
     "content": "下列三個按鍵為水平對齊選項鈕: . 分別代表 向左對齊，水平置中，向右對齊。 . 接下來三個按鍵為垂直對齊選項鈕: . 分別代表 向上對齊，垂直置中，向下對齊。 . 以上六個按鍵必須在 Design Panel 中選取至少兩個(含)以上 widgets 才會顯示並可以作用。如果沒有選取兩個以上widgets, 這六個按鍵會無效: . 在 ALIGNMENT 最左邊的按鍵為圓心對齊鈕: . 這個按鍵的目的是在兩個以上有 “圓心”的 widgets (例如: Circular Gauge, Rotation Image)，要讓所有的圓心對齊，而不需要用手動來調整。 . 舉個例子，在下面的圖示中，有兩個 Widgets (Circular Gauge, Rotation Image): . 首先把這兩個 widgets 選取起來，然後按下圓心對齊之後，兩個圓心便會對齊，這樣可以避免用手動的方式對齊而產生的偏差，如下圖所示 . ",
     "url": "/zh-tw/3.3.0/toolbars/alignment/",
     "relUrl": "/zh-tw/3.3.0/toolbars/alignment/"
-  },"22": {
+  },"21": {
     "doc": "SAME SIZES & SPACES",
     "title": "SAME SIZES &amp; SPACES",
     "content": ". 這個按鍵群組的主要的目的是調整 Widget 的大小和彼此的間距。 . 左邊這兩個按鍵為尺寸對齊鈕: . 是讓所選的 widgets (必須兩個或以上) 向垂直或是水平方向最大的widget ，做尺寸對齊。 . 右邊這兩個按鍵為間距等長鈕: . 讓所選的 widgets (必須兩個以上) 向垂直或是水平方向間距相等。 . ",
     "url": "/zh-tw/3.3.0/toolbars/same_sizes_and_spaces/#same-sizes--spaces",
     "relUrl": "/zh-tw/3.3.0/toolbars/same_sizes_and_spaces/#same-sizes--spaces"
-  },"23": {
+  },"22": {
     "doc": "SAME SIZES & SPACES",
     "title": "SAME SIZES & SPACES",
     "content": " ",
     "url": "/zh-tw/3.3.0/toolbars/same_sizes_and_spaces/",
     "relUrl": "/zh-tw/3.3.0/toolbars/same_sizes_and_spaces/"
-  },"24": {
+  },"23": {
     "doc": "LOCATION",
     "title": "LOCATION",
     "content": ". 調整選取的Widget位置，Design Panel左上角為(0,0) . 右邊按鈕為鎖定所選Widget的位置，避免不小心的拖曳而改變Widget位置 . ",
     "url": "/zh-tw/3.3.0/toolbars/location/",
     "relUrl": "/zh-tw/3.3.0/toolbars/location/"
-  },"25": {
+  },"24": {
     "doc": "SIZE",
     "title": "SIZE",
     "content": ". 調整選取的Widget大小 . 右邊按鈕為鎖定所選Widget的長寬比，讓Widget樣子可以維持比例的進行縮放 . ",
     "url": "/zh-tw/3.3.0/toolbars/size/",
     "relUrl": "/zh-tw/3.3.0/toolbars/size/"
-  },"26": {
+  },"25": {
     "doc": "ADE Design Flow",
     "title": "ADE Design Flow",
     "content": "ADE設計步驟跟三步驟 : 設計Design、驗證Verification和Deployment . 設計Design : 利用ADE開發平台設計專案 . 驗證Verification : 驗證又分為下載至模擬器(Download to simulator)及下載至控制板(Download to control board)兩種 . Deployment : 把設計完的HMI 透過USB 線下載到博橡科技的 Ubique Panel 產品上，就完成了。不用任何第三方的 Compiler, loader 等等的工具。 . ",
     "url": "/zh-tw/3.3.0/ade_design_flow/",
     "relUrl": "/zh-tw/3.3.0/ade_design_flow/"
-  },"27": {
+  },"26": {
     "doc": "Register",
     "title": "Register",
     "content": "暫存器是ADE HMI設計中用來，儲存輸出入資料，控制Widget狀態，與使用者互動的重要工具， 本章將詳細描述ADE中Register的使用方法: . ADE的Widget，以運作方式分類的話，大致可以分為: . 1.Input Widget: . 從使用者或是外界(I/O, Communication)輸入資料的輸入Widget，譬如各種Button, Touch Area, Digit Input, RTC等 . 2.Output Widget: . 反映數值，或是對外輸出資料者，譬如Slider, Rotation Image, Image List, Digit Output, PWM,聲音等。 . 3.Input &amp; Output Widget: . 同時具備Input以及Output特性，可以接受使用者輸入，並且輸出反映的數值的，闢如帶Knob的可輸入Slider,可以提供使用者輸入的Rotation Image等。 . 然而輸入的值，可能需要被記錄，被Blockly程式運算，甚至是經過不同修改後才能反映到輸出端去，因此，抽象化出一個可以用來儲存使用者輸入，I/O輸入，通訊輸入，並提供程式運算，且能作為Widget顯示數值，通訊輸出，或是I/O輸出的實體，即可滿足這些要求。 . 在ADE中，這個實體叫做暫存器(Register)，它的功能可以被想像成是高階語言中的全域變數，或是PLC內部的X,Y,D,M等暫存器，每個暫存器擁有名稱，編號(ID)，資料型別等屬性，可以用來儲存對應的資料。 . 暫存器分為三種: . 1.系統預設暫存器: . 譬如用來提供換頁功能的system_page，屬於這類暫存器，任何使用這程式，將頁面名稱寫入這個暫存器，系統立即跳到該頁。 . 2.產品樣板預設暫存器: . 不同的產品，會搭配不同的I/O組態，每個IO會對應一個或是多個暫存器，這些暫存器在開啟設計文件樣版時會被加入設計中並自動綁定I/O Widget，使用者不需設定與修改，即可直接使用。 . 3.使用者定義暫存器: . 使用者可以自訂任一多暫存器，用來記錄各種數值或是狀態，其使用方式就像高階語言中的全域變數一般。 . 在XTool的Reegister Editor對話窗中，使用者可以自行建立暫存器，如下圖所示: . 暫存器對話窗同時顯示暫存器的ID,名稱，描述，型別，初始值，是否為系統暫存器，當此暫存器值改變時，是否自動通訊等，也可以利用Blockly編輯器驗證暫存器內容。若此暫存器無人使用，則按垃圾桶Icon即可刪除。 . ADE會自動指定ID給暫存器，使用者可以藉由拖曳暫存器改變ID的順序。 . 當Input Widget要保存資料，只要在ADE指定要將資料儲存進去的暫存器即可。 . 當Output Widget要顯示資料，只要在ADE指定要取出資料來顯示的暫存器即可。 . 暫存器觀念的引入，可將ADE內，資料的取得和存儲的使用區分開來，並利用簡單的暫存器綁定，達到修改或是顯示暫存器內容的功能。 . 舉例來說，使用者可以在ADE設定將Ubique Panel 的IO Configure Page將ADC1這個I/O Widget的輸入值綁定到r_ADC_IN1這個暫存器上(也可以換成使用者自訂暫存器) . ADC1 Widget會自動定時讀取Ubique Panel上ADC1類比輸入的值，並且更新在r_ADC_IN1 . 使用者可拖入一個Circular Progress Bar,將Value Binding Register設定為r_ADC_IN1,並將Maxinum Data Value以及Mininum Data Value設定成適當的值(這個例子是4095以及0，因為Ubique Panel ADC1解析度為12bits)，如此Circular Progress Bar就可以即時顯示ADC1的輸入數值了。 . 設定如下圖所示: 關於ADE上暫存器使用請參考暫存器選擇器以及暫存器操作相關章節。 . 在ADE Blockly程式中亦可以使用以及設定暫存器，說明如下: . 在Blockly Editor 視窗中，選擇Register Tab，出現如下圖顯示，第一個積木為設定暫存器，其他積木為使用暫存器積木。所有既有暫存器皆會被列出。 . 設定暫存器: 使用設定暫存器積木，可以選定暫存器，並在其後連接設定值。設定值的型別需要與暫存器型別一致。此外若此暫存器已經綁定Widget，則改變暫存器的值會立即影響Widget的顯示，並在下一次螢幕更新時改變顯示。 使用暫存器:暫存器積木可以用在數值運算式，邏輯運算式以及字串運算積木。 此外，暫存器也支援事件驅動程式撰寫方式，當暫存器數值變化時，執行設定的程式。 . 使用者可使用System Widget Library中的Register Obseerver監視暫存器的變化，若有任何輸入Widget、I/O或者使用者撰寫的Blockly程式修改暫存器的值，皆會觸發Register Observer，使用者附掛的Blockly程式就會被執行。 . 點選Register Tab會看到既有的所有暫存器，以及設定暫存器的積木 . 設定暫存器，選擇要進行設定的暫存器，並將數值指派給它 . 使用暫存器，取得暫存器內容，可用於數值運算等 . ",
     "url": "/zh-tw/3.3.0/register/",
     "relUrl": "/zh-tw/3.3.0/register/"
-  },"28": {
+  },"27": {
     "doc": "Page",
     "title": "Page",
     "content": "HMI設計可以允許多個頁面，在ADE中可以設計多個頁面，再透過按鈕等Widget在執行期切換。 . 在Design Panel下方的頁面清單可以看到所有頁面的縮圖 . 點選收合鈕，收合/顯示頁面清單 . 當頁面太多時，點選搜尋過濾可節省搜尋頁面的時間 . 點選新增頁面進行設定，新增頁面設定頁如下圖 . 設定頁面名稱，名稱不得重複 . 設定頁面大小，可以利用慣用頁面大小清單選擇也可以自行輸入 . 設定背景採用方式，可選擇用背景顏色、透明背景或者將其他頁面作為背景 . 選擇背景顏色需要設定背景的主要顏色與漸層顏色 . 選擇將其他頁面作為背景的話，可以設定是否要嵌入背景頁的Links to . 如果嵌入背景頁的Links to，匯出為含超連結的HTML檔時，可使用背景頁設定的超連結 . 設定是否要作為彈出視窗，若勾選作為彈出視窗即可於Popup Window Widget屬性進行選取 . 於頁面縮圖上點擊右鍵，可以對頁面進行一些操作，操作如下 . Duplicate，複製此頁的頁面屬性與頁面內容作為新頁面 . Delete，將此頁面以及頁面內容刪除，如果有頁碼選擇器使用到此頁面需注意 . Move Left，將此頁面的縮圖往左移 . Move Right，將此頁面的縮圖往右移 . Goto，選擇要作為當前頁面的頁碼 . Export Page as PNG…，將此頁面匯出成為PNG圖檔 . Copy Page Bitmap，複製此頁面作為點陣圖至剪貼簿 . Edit Page Note…，編輯頁面說明，當匯出成PDF或者HTML檔時，會作為註解寫於頁面下方 . Properties，編輯頁面屬性 . ",
     "url": "/zh-tw/3.3.0/page/",
     "relUrl": "/zh-tw/3.3.0/page/"
-  },"29": {
+  },"28": {
     "doc": "Widgets",
     "title": "Widgets",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/",
     "relUrl": "/zh-tw/3.3.0/widgets/"
-  },"30": {
+  },"29": {
     "doc": "Collection",
     "title": "Collection",
     "content": "ADE中可以用來設計HMI畫面以及動作的元件稱為Widget，Widget在ADE Widget Panel中被分類為各種Collection，如Standard Widget Library Collection, IOT Gallery Minimalist Collection, Shape Widget Collection, System Widget Collection, Clip and Mask Widget Collection 等等(錯誤! 找不到參照來源。)。 . 使用者可以點選左方的Collection Tab來選擇不同的Widget Collection，也可以藉由上方的Search Bar 藉由關鍵字或是名字搜尋Widget(錯誤! 找不到參照來源。)。並可以點擊Manage Collection按鈕管理Collection的排列以及呈現。點擊左下角icon可對Library進行隱藏，也可以藉由拖曳修改Library間的排列順序(錯誤! 找不到參照來源。) . 使用者藉由滑鼠將Widget拖曳進入Design Panel來完成HMI畫面擺設。 . 點選設定鈕進行預設屬性設定 . Widget預設屬性 . 改變當Widget被拖曳進Design Panel後顯示的預設屬性 . ",
     "url": "/zh-tw/3.3.0/widgets/collection/",
     "relUrl": "/zh-tw/3.3.0/widgets/collection/"
-  },"31": {
+  },"30": {
     "doc": "Widget Property Editor",
     "title": "Widget Property Editor",
     "content": "每個Widget是以WYSIWYG方式呈現，但是每個Widget仍會有眾多屬性可以讓使用這設定以及修改，當一個Widget被拖曳進入HMI畫面後，畫面右方的屬性編輯器即顯示該Widget的可調整屬性( 錯誤! 找不到參照來源。 )，Widget的屬性被歸入不同的屬性群組，在屬性編輯器中，使用者可以用展開或是收合屬性群組，捲動屬性編輯器等方法找到欲編輯的widget屬性並修改之。 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_property_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_property_editor/"
-  },"32": {
+  },"31": {
     "doc": "Name",
     "title": "Name",
     "content": ". 單行文字編輯器，可藉由點擊，方向鍵，文字鍵，滑鼠選擇，剪貼等動作編輯其中文字。 . 此文字代表Widget名稱，命名須遵守以下命名規則: . | 第一個字可為英文字母或底線，但不得為數字 | 第一個以外可為英文字母、底線、數字，但不得為其他符號 | . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/name/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/name/"
-  },"33": {
+  },"32": {
     "doc": "Checkbox",
     "title": "Checkbox",
     "content": ". 利用點擊進行勾選與取消，勾選表示啟動或是選用其前方文字代表之功能。譬如錯誤! 找不到參照來源。表示啟動文字顯示，但是關閉文字遮罩。 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/checkbox/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/checkbox/"
-  },"34": {
+  },"33": {
     "doc": "Drop down list",
     "title": "Drop down list 下拉式選單",
     "content": ". 點擊開啟清單列表，若屬性具有兩個或是以上的選項可以選擇時，會採用這個下拉選項表，使用者可以選擇其中一項，隨選項多寡以及屬性所在位置，選項表可能下拉或是上提。 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/drop_down_list/#drop-down-list-%E4%B8%8B%E6%8B%89%E5%BC%8F%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/drop_down_list/#drop-down-list-下拉式選單"
-  },"35": {
+  },"34": {
     "doc": "Drop down list",
     "title": "Drop down list",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/drop_down_list/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/drop_down_list/"
-  },"36": {
+  },"35": {
     "doc": "Plain Text",
     "title": "Plain Text",
     "content": ". 通常用來輸入純文字訊息，或是提示。並提供一般滑鼠，方向鍵，剪貼等編輯功能。這些文字會被顯示在Widget上，在Ubique Panel 支援的情況下，部分Widget允許輸入多行文字及符號(Unicode) . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/plain_text/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/plain_text/"
-  },"37": {
+  },"36": {
     "doc": "Rich Text",
     "title": "Rich Text",
     "content": ". 允許Widget就地編輯，輸入多行文字及符號，可選是不同字型，風格，尺寸及顏色。 利用Shift+Enter換行 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/rich_text/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/rich_text/"
-  },"38": {
+  },"37": {
     "doc": "Number Editor",
     "title": "Number Editor",
     "content": ". 藉由拖曳旋鈕、點擊增加及減少數值，也可自行輸入想要的數值 . 每個屬性有各自的數值範圍，超過該範圍，即無法輸入。Number Editor可能有以下多種形式，並用來輸入數字，角度，弧長等屬性 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/number_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/number_editor/"
-  },"39": {
+  },"38": {
     "doc": "Font Selector",
     "title": "Font Selector",
     "content": ". 設定屬性文字的字型樣式、字體大小、粗細、斜體及行距 . 由字型Drop Down List, 字體Number Editor，粗體Drop Down List，斜體按鈕，以及行距Number Editor組成，用來設定文字樣式。 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/font_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/font_selector/"
-  },"40": {
+  },"39": {
     "doc": "Color Selector",
     "title": "Color Selector",
     "content": ". 設定和編輯色彩 . 設定Circular Scale和Circular Gauge刻度的漸變顏色與臨界顏色，並設定臨界顏色開始位置 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/color_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/color_selector/"
-  },"41": {
+  },"40": {
     "doc": "Alignment Selector",
     "title": "Alignment Selector",
     "content": ". 設定文字的對齊方式 . 設定圓心的對齊方式 . 設定刻度數字對齊方式 . 設定捲動文本對齊方式 . 設定圓規圓心x、y坐標 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/alignment_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/alignment_selector/"
-  },"42": {
+  },"41": {
     "doc": "Page Selector",
     "title": "Page Selector",
     "content": ". 選擇要進行跳轉的頁面 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/page_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/page_selector/"
-  },"43": {
+  },"42": {
     "doc": "Register Selector",
     "title": "Register Selector",
     "content": ". 選擇要綁定的暫存器 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/register_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/register_selector/"
-  },"44": {
+  },"43": {
     "doc": "Register Operation Setting",
     "title": "Register Operation Setting",
     "content": ". 選擇要對暫存器進行的操作 . 選擇要將暫存器設為False或者True . 暫存器類型必須為Boolean . 將字串值指定給暫存器 . 暫存器類型必須為String . 將整數或浮點數數值指定給暫存器 . 暫存器類型為Integer或Floating Point Number . 選擇對暫存器進行遞增或者遞減操作 . 設定每次遞增/遞減的數值，可為整數或浮點數 . 暫存器類型為Integer或Floating Point Number . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/register_operation_setting/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/register_operation_setting/"
-  },"45": {
+  },"44": {
     "doc": "Blockly Editor",
     "title": "Blockly Editor",
     "content": ". 利用Blockly設計回呼函式 . 當按鈕被點擊或Widget被觸發時，此處設計的行為會執行 . Blockly編輯器，詳情參考Google Blockly . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/blockly_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/blockly_editor/"
-  },"46": {
+  },"45": {
     "doc": "Image Collection Management",
     "title": "Image Collection Management",
     "content": ". 開啟影像收集管理對話框，一次載入多張圖片，並且可以自行設定圖片順序 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/image_collection_management/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/image_collection_management/"
-  },"47": {
+  },"46": {
     "doc": "Visibility Control",
     "title": "Visibility Control",
     "content": ". 選擇暫存器，利用暫存器內容控制Widget可視性 . 如果暫存器內容為True，則Widget不可視 . 如果暫存器內容為False，則Widget可視 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/visibility_control/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/visibility_control/"
-  },"48": {
+  },"47": {
     "doc": "Blending Selector",
     "title": "Blending Selector",
     "content": ". 正常，將每一個像素編輯或繪製成結果色彩，這是預設模式 . 色彩增值，以混合色彩增值基本色彩。結果色彩永遠是較暗的顏色。以黑色增值任何顏色都會產生黑色，但是以白色增值任何顏色，不會改變原來的顏色。 . 濾色，將混合色彩和基本色彩的倒數相乘。結果色彩永遠是較亮的顏色。使用黑色濾色不會改變原來的顏色，使用白色濾色則會產生白色。 . 疊加，根據基本色彩，增值或以濾色篩選顏色。圖樣或顏色會覆蓋現有的像素，但同時會保留基本色彩的亮部和陰影。基本色彩並不會被取代，它會與混合色彩混合，反映原始色彩的明暗。 . 變暗，選取基本或混合色彩 (兩者中較暗的那一個) 做為結果色彩。比混合色彩亮的像素會被取代，比混合色彩暗的像素不會改變。 . 變亮，選取基本或混合色彩 (兩者中較亮的那一個) 做為結果色彩。比混合色彩暗的像素會被取代，比混合色彩亮的像素不會改變。 . 加亮顏色，透過減少兩者間的對比，讓基本色彩變亮以反映出混合色彩。與黑色混合不會產生任何改變。 . 加深顏色，讓基本色彩變暗，以增加對比的方式反映出混合色彩。與白色混合不會產生改變。 . 實光，根據混合色彩，增值或以濾色篩選顏色。這個效果類似於在影像上照射刺眼的聚光燈。如果混合色彩 (光源) 比 50% 灰階亮，影像就會像以濾色篩選過一般變亮。這對於增加影像中的亮部很有幫助。如果混合色彩比 50% 灰階暗，影像就會像增值過一般變暗。這對於增加影像中的陰影很有幫助。使用純黑色或純白色繪畫，會產生純黑色或純白色。 . 柔光，根據混合色彩，讓顏色變暗或變亮。這個效果類似在影像上照射擴散的聚光燈。如果混合色彩 (光源) 比 50% 灰階亮，影像就會像加亮過一般變亮，如果漸變顏色比 50% 的灰色深，那麼影像會暗化，就像是色彩加深。使用純黑或純白繪畫，會產生很清楚的較暗或較亮區域，但不會得到純黑或純白的結果。 . 差異化，根據基本色彩和混合色彩兩者中亮度值較大的來決定從基本色彩中減去混合色彩，或從混合色彩中減去基本色彩。與白色混合會反轉基本色彩值，與黑色混合不會產生任何改變。 . 排除，所建立的效果與「差異化」模式類似，但對比效果較低。與白色混合會反轉基本色彩值，與黑色混合不會產生任何改變。 . 色相，所建立的結果色彩具有基本色彩的明度和飽和度，以及混合色彩的色相。 . 飽和度，所建立的結果色彩具有基本色彩的明度和色相，以及混合色彩的飽和度。在沒有飽和度 (飽和度為 0，即為灰色) 的區域中，以這個模式繪畫不會造成任何改變。 . 顏色，所建立的結果色彩具有基本色彩的明度，以及混合色彩的色相和飽和度。這會保留影像中的灰階，因此可以用來為單色影像著色，以及調整彩色影像的濃淡。 . 明度，所建立的結果色彩具有基本色彩的色相和飽和度，以及混合色彩的明度。這個模式建立「顏色」模式的負片效果。 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/blending_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/blending_selector/"
-  },"49": {
+  },"48": {
     "doc": "File Open Dialog Box",
     "title": "File Open Dialog box",
     "content": ". 開啟檔案系統，使用者自行選擇要載入的圖片 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/file_open_dialog_box/#file-open-dialog-box",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/file_open_dialog_box/#file-open-dialog-box"
-  },"50": {
+  },"49": {
     "doc": "File Open Dialog Box",
     "title": "File Open Dialog Box",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/file_open_dialog_box/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/file_open_dialog_box/"
-  },"51": {
+  },"50": {
     "doc": "Image Editor Dialog Box",
     "title": "Image Editor Dialog Box",
     "content": ". 開啟影像編輯對話框，對圖片進行編輯 . 縮放 : 選擇要縮放的比例 . 裁剪 : 裁剪選取的範圍 . 水平/垂直翻轉 : 將圖片水平/垂直翻轉 . 亮度 : 調整亮度 . 對比 : 調整對比度 . 不透明度 : 調整不透明度 . 旋轉圖片 : 輸入逆時鐘旋轉的角度Enter後旋轉，如果沒有勾選版面旋轉，則只有影像會旋轉 . 快速模糊 : 利用快速模糊演算法將圖片模糊化 . 高斯模糊 : 利用高斯模糊演算法將圖片模糊化 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/image_editor_dialog_box/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/image_editor_dialog_box/"
-  },"52": {
+  },"51": {
     "doc": "PlainTextArray Table Dialog",
     "title": "PlainTextArray Table Dialog",
     "content": ". 開啟文本陣列編輯對話框，建立文本陣列，拖曳文本改變順序 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/plaintextarray_table_dialog/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/plaintextarray_table_dialog/"
-  },"53": {
+  },"52": {
     "doc": "Format String",
     "title": "Format String",
     "content": "使用python的格式化字串，把字串中的變數變成變數值 . 可通過 { }和: 取代% . | 格式 | 描述 | 數字 | 輸出 | . | {:d} | 10進位整數 | 200 | 200 | . | {:x} | 16進位整數，小寫 | 200 | c8 | . | {:X} | 16進位整數，大寫 | 200 | C8 | . | {:&gt;10d} | 寬度為10，向右對齊 | 2 | 2 | . | {:&lt;10d} | 寬度為10，向左對齊 | 2 | 2 | . | {:^10d} | 寬度為10，置中對齊 | 2 | 2 | . | {:0&gt;2d} {:02} | 寬度為2，位數不夠左邊補0 | 5 | 05 | . | {:x&gt;2d} | 寬度為2，位數不夠左邊補x | 5 | x5 | . | {:x&lt;2d} | 寬度為2，位數不夠右邊補x | 5 | 5x | . | {:f} | 浮點數 | 3.1415926 | 3.1415926 | . | {:.0f} | 不帶小數 | 3.1415926 | 3 | . | {:.2f} | 保留小數點後兩位 | 3.1415926 | 3.14 | . | {:+.2f} | 帶正負號，保留小數點後兩位 | 3.1415926 | +3.14 | . | {:,} | 以逗號分格數字，每3位一逗號 | 1000000 | 1,000,000 | . | {:.0%} | 百分比 | 0.33333 | 33% | . | {:.2%} | 百分比，小數點後兩位 | 0.33333 | 33.33% | . | {:s} | 利用str()轉換成字串 | ‘hello’ | hello | . 詳情參考: . https://docs.python.org/2/library/stdtypes.html#string-formatting-operations . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/format_string/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/format_string/"
-  },"54": {
+  },"53": {
     "doc": "Label Display Mode",
     "title": "Label Display Mode",
     "content": ". Expand the Label size to the text size : Widget大小隨文本大小變動 . Keep the Label width, wrap text to next line : Widget寬度不變，如果文本長度過長，則將文字換到下一行 . Keep the object size, break the text write dots : Widget大小固定，以…取代超出範圍的文字 . Keep the size and scroll the label back and forth : Widget大小固定，來回滾動文本 . Keep the size and scroll the label circularly : Widget大小固定，循環滾動文本 . Keep the size and crop the text out of it : Widget大小固定，剪裁超出範圍的文字 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/label_display_mode/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/label_display_mode/"
-  },"55": {
+  },"54": {
     "doc": "Frame Selector",
     "title": "Frame Selector",
     "content": ". 選擇框線風格並且設定框線寬度 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/frame_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/frame_selector/"
-  },"56": {
+  },"55": {
     "doc": "Input Data Selector",
     "title": "Input Data Selector",
     "content": ". 選擇輸入板與輸入資料的類型 . Integer ，輸入板為數字板，輸入的資料類型為整數 . Floating Point Number，輸入板為數字板，輸入的資料類型為浮點數 . String，輸入板為字符板，輸入的資料類型為字串 . Integer Number as String，輸入板為數字板，輸入的資料類型為字串，適合做密碼輸入，且0可為第一位數 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/input_data_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/input_data_selector/"
-  },"57": {
+  },"56": {
     "doc": "MessageBox Selector",
     "title": "MessageBox Selector",
     "content": ". 選擇信息框模式，點擊按鈕後會將按鈕的索引值作為結果暫存器的內容 . 第一個按鈕索引值為0，第二個索引值為1，以此類推第N個按鈕索引值為(N-1) . 如果使用客製化按鈕，按鈕由文本陣列編輯對話框新增 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/messagebox_selector/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/messagebox_selector/"
-  },"58": {
+  },"57": {
     "doc": "FileArray Table Dialog",
     "title": "FileArray Table Dialog",
     "content": ". 開啟檔案陣列編輯對話框，新增、刪除檔案，利用拖曳改變檔案順序 . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/filearray_table_dialog/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/filearray_table_dialog/"
-  },"59": {
+  },"58": {
     "doc": "Widget Properties",
     "title": "Widget Properties",
     "content": "Widget 的屬性眾多，主要分類以及編輯方法如下: . ",
     "url": "/zh-tw/3.3.0/widgets/widget_properties/",
     "relUrl": "/zh-tw/3.3.0/widgets/widget_properties/"
-  },"60": {
+  },"59": {
     "doc": "Mask Editor",
     "title": "Mask Editor",
     "content": ". 利用拖曳箭頭改變Mask大小 . 利用拖曳箭頭改變Mask圓角半徑，可將Mask從矩形變成橢圓 . 如果Mask Shape為Oval則無效 . 利用拖曳綠點改變橢圓大小與位置 . 利用拖曳綠點改變前景圖片的大小與位置 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/mask_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/mask_editor/"
-  },"61": {
+  },"60": {
     "doc": "Offset Editor",
     "title": "Offset Editor",
     "content": "利用拖曳箭頭調整文字x軸與y軸的偏移量 . | | 文字Alignment置頂時，箭頭往下移文字往下移 | . | | 文字Alignment置底時，箭頭往下移文字往上移 | . | | 文字Alignment置左時,箭頭往右移文字往右移 | . | | 文字Alignment置右時，箭頭往右移文字往左移 | . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/offset_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/offset_editor/"
-  },"62": {
+  },"61": {
     "doc": "Center Editor",
     "title": "Center Editor",
     "content": ". 利用拖曳綠環改變Widget圓心位置，藉此改變使用圓心對齊時的位置 . 利用拖曳綠環改變圓弧角度的位置，同時改變圓心對齊時的位置 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/center_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/center_editor/"
-  },"63": {
+  },"62": {
     "doc": "Liquid Column Editor",
     "title": "Liquid Column Editor",
     "content": ". 利用拖曳箭頭改變水銀柱位置 . ⮜水銀柱示意圖 . 如果起始位置對應到旋鈕，正中間對應到進度條開始位置，則水銀柱會跟隨旋鈕增加和減少 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/liquid_column_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/liquid_column_editor/"
-  },"64": {
+  },"63": {
     "doc": "Knob Editor",
     "title": "Knob Editor",
     "content": ". 利用拖曳箭頭調整旋鈕大小 . 利用拖曳兩側輔助圖示調整旋鈕的開始位置以及結束位置 . ⮜旋鈕起始結束示意圖 . 旋鈕中線對應到兩側輔助圖示 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/knob_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/knob_editor/"
-  },"65": {
+  },"64": {
     "doc": "Bore Editor",
     "title": "Bore Editor",
     "content": ". 毛細管不隨旋鈕改變而改變，為固定位置的 . 利用拖曳箭頭改變毛細管的位置及寬度 . 如果選擇將刻度作為遮罩，可以利用毛細管將顏色透出來 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/bore_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/bore_editor/"
-  },"66": {
+  },"65": {
     "doc": "Scale Editor",
     "title": "Scale Editor",
     "content": ". 利用拖曳調整刻度位置，可上下左右移動調整x軸及y軸位置 . 利用拖曳調整刻度數字位置，只能調整y軸位置，x軸跟隨刻度改變 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/scale_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/scale_editor/"
-  },"67": {
+  },"66": {
     "doc": "Label Editor",
     "title": "Label Editor",
     "content": ". 利用拖曳調整刻度圓弧的位置及大小 . 調整刻度圓弧的位置及大小來符合需求 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/label_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/label_editor/"
-  },"68": {
+  },"67": {
     "doc": "Image Editor",
     "title": "Image Editor",
     "content": ". 拖曳三角形調整背景圖片大小及位置 . ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_edditor/image_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_edditor/image_editor/"
-  },"69": {
+  },"68": {
     "doc": "On Widget Editor",
     "title": "On Widget Editor",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/on_widget_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_widget_editor/"
-  },"70": {
+  },"69": {
     "doc": "Reset Editor",
     "title": "Reset Editor",
     "content": "Reset to Original Size : 將Widget重置回圖片的原始大小 . Reset Ratio by Width : 將Widget長寬比例根據寬度重置 . Reset Ratio by Height : 將Widget寬度比例根據高度重置 . ",
     "url": "/zh-tw/3.3.0/widgets/on_context_menu/reset_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_context_menu/reset_editor/"
-  },"71": {
+  },"70": {
     "doc": "Center Editor",
     "title": "Center Editor",
     "content": "Mover to Center : 將圓心水平垂直置中，方便於使用圓心對齊 . ",
     "url": "/zh-tw/3.3.0/widgets/on_context_menu/center_editor/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_context_menu/center_editor/"
-  },"72": {
+  },"71": {
     "doc": "N-Patch",
     "title": "N-Patch",
     "content": ". 利用Configure N-Patch設定延伸範圍與保留範圍 . 當圖片進行縮放時，重複延伸範圍並維持保留範圍，確保圖片縮放時圖形不會變形 . ",
     "url": "/zh-tw/3.3.0/widgets/on_context_menu/n-patch/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_context_menu/n-patch/"
-  },"73": {
+  },"72": {
     "doc": "On Context Menu",
     "title": "On Context Menu",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/on_context_menu/",
     "relUrl": "/zh-tw/3.3.0/widgets/on_context_menu/"
-  },"74": {
+  },"73": {
     "doc": "Slider Switch",
     "title": "Properties",
     "content": "Slider Switch . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . OFF State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定開關為關時是否要顯示文字 | Checkbox | . | Text As Mask | 決定開關為關時是否以文字為遮罩 | Checkbox | . | Text | 顯示開關為關時的文字內容 | Plain Text | . | Font | 設定開關為關時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定開關為關時文字的顯示顏色 | Color Selector | . | Alignment | 設定開關為關時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定開關為關時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定開關為關時的遮罩顏色 | Color Selector | . ON State Text Setting . | Display Text | 決定開關為開時是否要顯示文字 | Checkbox | . | Text As Mask | 決定開關為開時是否以文字為遮罩 | Checkbox | . | Text | 顯示開關為開時的文字內容 | Plain Text | . | Font | 設定開關為開時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定開關為開時文字的顯示顏色 | Color Selector | . | Alignment | 設定開關為開時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定開關為開時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定開關為開時的遮罩顏色 | Color Selector | . Switch ON Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Switch OFF Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . State Binding Register . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Eable State Binding Register | 決定是否要將狀態綁定暫存器 | Checkbox | . | Binding Register | 狀態綁定的暫存器，藉由改變暫存器值變換Widget狀態 | Register Selector | . OFF State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . ON State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#properties"
-  },"75": {
+  },"74": {
     "doc": "Slider Switch",
     "title": "On Widget Editor",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#on-widget-editor",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#on-widget-editor"
-  },"76": {
+  },"75": {
     "doc": "Slider Switch",
     "title": "On Context Menu",
     "content": "Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load OFF State Image… | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Load ON State Image… | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit OFF State Image… | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Edit ON State Image… | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste OFF State Image… | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . | Paste ON State Image… | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#on-context-menu"
-  },"77": {
+  },"76": {
     "doc": "Slider Switch",
     "title": "Slider Switch",
     "content": ". 滑動開關既是一個Input Widget也是Output Widget，主要作為一個雙態按鈕。 . 狀態可以由使用者觸摸按鈕來改變，或是藉由其他Widget或是程式改變繫結的暫存器內容來改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。 . 按鈕的不同按鈕狀態可以對應到不同的顯示圖像以及文字。 . 開關按紐時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/"
-  },"78": {
+  },"77": {
     "doc": "Click Button",
     "title": "Properties",
     "content": "Click Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . Released State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定放開按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定放開按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示放開按鈕時的文字內容 | Plain Text | . | Font | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定放開按鈕時的遮罩顏色 | Color Selector | . Pressed State Text Setting . | Display Text | 決定按著按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定按著按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示按著按鈕時的文字內容 | Plain Text | . | Font | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定按著按鈕時的遮罩顏色 | Color Selector | . Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Released State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . Pressed State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#properties"
-  },"79": {
+  },"78": {
     "doc": "Click Button",
     "title": "On Widget Editor",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#on-widget-editor",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#on-widget-editor"
-  },"80": {
+  },"79": {
     "doc": "Click Button",
     "title": "On Context Menu",
     "content": "Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Released State Image… | 從檔案系統選擇作為Widget放開狀態的圖片 | File Open Dialog Box | . | Load Pressed State Image… | 從檔案系統選擇作為Widget按著狀態的圖片 | File Open Dialog Box | . | Edit Released State Image… | 編輯Widget放開狀態的圖片 | Image Editor Dialog Box | . | Edit Pressed State Image… | 編輯Widget按著狀態的圖片 | Image Editor Dialog Box | . | Paste Released State Image… | 貼上剪貼簿中的圖片作為Widget放開狀態的圖片 |   | . | Paste Pressed State Image… | 貼上剪貼簿中的圖片作為Widget按著狀態的圖片 |   | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#on-context-menu"
-  },"81": {
+  },"80": {
     "doc": "Click Button",
     "title": "Click Button",
     "content": ". 按鈕是一個Input Widget，主要作為一個無內部狀態的按鈕，按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 點擊按紐時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/"
-  },"82": {
+  },"81": {
     "doc": "Press/Release Button",
     "title": "Properties",
     "content": "Press/Release Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . Released State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定放開按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定放開按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示放開按鈕時的文字內容 | Plain Text | . | Font | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定放開按鈕時的遮罩顏色 | Color Selector | . Pressed State Text Setting . | Display Text | 決定按著按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定按著按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示按著按鈕時的文字內容 | Plain Text | . | Font | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定按著按鈕時的遮罩顏色 | Color Selector | . Pressing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被按著時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被按著時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被按著時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Releasing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被放開時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被放開時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被放開時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Released State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . Pressed State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#properties"
-  },"83": {
+  },"82": {
     "doc": "Press/Release Button",
     "title": "On Widget Editor",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#on-widget-editor",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#on-widget-editor"
-  },"84": {
+  },"83": {
     "doc": "Press/Release Button",
     "title": "On Context Menu",
     "content": "Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Released State Image… | 從檔案系統選擇作為Widget放開狀態的圖片 | File Open Dialog Box | . | Load Pressed State Image… | 從檔案系統選擇作為Widget按著狀態的圖片 | File Open Dialog Box | . | Edit Released State Image… | 編輯Widget放開狀態的圖片 | Image Editor Dialog Box | . | Edit Pressed State Image… | 編輯Widget按著狀態的圖片 | Image Editor Dialog Box | . | Paste Released State Image… | 貼上剪貼簿中的圖片作為Widget放開狀態的圖片 |   | . | Paste Pressed State Image… | 貼上剪貼簿中的圖片作為Widget按著狀態的圖片 |   | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#on-context-menu"
-  },"85": {
+  },"84": {
     "doc": "Press/Release Button",
     "title": "Press/Release Button",
     "content": ". 按下釋放按鈕是一個Input Widget，主要作為一個無內部狀態的按鈕。 . 按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 按鈕按下、釋放時皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可以控制按下與釋放時做不同的動作。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/"
-  },"86": {
+  },"85": {
     "doc": "Momentary Push Button",
     "title": "Properties",
     "content": "Momentary Push Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . Released State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定放開按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定放開按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示放開按鈕時的文字內容 | Plain Text | . | Font | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定放開按鈕時的遮罩顏色 | Color Selector | . Pressed State Text Setting . | Display Text | 決定按著按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定按著按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示按著按鈕時的文字內容 | Plain Text | . | Font | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定按著按鈕時的遮罩顏色 | Color Selector | . Continuous Pressing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被長按1.5秒時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Releasing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被放開時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被放開時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被放開時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Released State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . Pressed State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#properties"
-  },"87": {
+  },"86": {
     "doc": "Momentary Push Button",
     "title": "On Widget Editor",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#on-widget-editor",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#on-widget-editor"
-  },"88": {
+  },"87": {
     "doc": "Momentary Push Button",
     "title": "On Context Menu",
     "content": "Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Released State Image… | 從檔案系統選擇作為Widget放開狀態的圖片 | File Open Dialog Box | . | Load Pressed State Image… | 從檔案系統選擇作為Widget按著狀態的圖片 | File Open Dialog Box | . | Edit Released State Image… | 編輯Widget放開狀態的圖片 | Image Editor Dialog Box | . | Edit Pressed State Image… | 編輯Widget按著狀態的圖片 | Image Editor Dialog Box | . | Paste Released State Image… | 貼上剪貼簿中的圖片作為Widget放開狀態的圖片 |   | . | Paste Pressed State Image… | 貼上剪貼簿中的圖片作為Widget按著狀態的圖片 |   | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#on-context-menu"
-  },"89": {
+  },"88": {
     "doc": "Momentary Push Button",
     "title": "Momentary Push Button",
     "content": ". 單擊按鈕是一個Input Widget，主要作為一個無內部狀態的按鈕。 . 可以偵測使用者長按行為，長按以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 單擊按鈕被長按(按下超過1.5秒)或釋放時會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/"
-  },"90": {
+  },"89": {
     "doc": "Generic Push Button",
     "title": "Properties",
     "content": "Generic Push Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . Released State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定放開按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定放開按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示放開按鈕時的文字內容 | Plain Text | . | Font | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定放開按鈕時的遮罩顏色 | Color Selector | . Pressed State Text Setting . | Display Text | 決定按著按鈕時是否要顯示文字 | Checkbox | . | Text As Mask | 決定按著按鈕時是否以文字為遮罩 | Checkbox | . | Text | 顯示按著按鈕時的文字內容 | Plain Text | . | Font | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | Alignment | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定按著按鈕時的遮罩顏色 | Color Selector | . Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Pressing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被按著時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被按著時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被按著時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Releasing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被放開時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被放開時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被放開時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Short Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被快速點擊(小於1秒)時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被快速點擊(小於1秒)時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被快速點擊(小於1秒)時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Long Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被長按1.5秒時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Continuous Pressing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被循環長按1.5秒時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被循環長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被循環長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Released State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . Pressed State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#properties"
-  },"91": {
+  },"90": {
     "doc": "Generic Push Button",
     "title": "On Widget Editor",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#on-widget-editor",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#on-widget-editor"
-  },"92": {
+  },"91": {
     "doc": "Generic Push Button",
     "title": "On Context Menu",
     "content": "Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Released State Image… | 從檔案系統選擇作為Widget放開狀態的圖片 | File Open Dialog Box | . | Load Pressed State Image… | 從檔案系統選擇作為Widget按著狀態的圖片 | File Open Dialog Box | . | Edit Released State Image… | 編輯Widget放開狀態的圖片 | Image Editor Dialog Box | . | Edit Pressed State Image… | 編輯Widget按著狀態的圖片 | Image Editor Dialog Box | . | Paste Released State Image… | 貼上剪貼簿中的圖片作為Widget放開狀態的圖片 |   | . | Paste Pressed State Image… | 貼上剪貼簿中的圖片作為Widget按著狀態的圖片 |   | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#on-context-menu"
-  },"93": {
+  },"92": {
     "doc": "Generic Push Button",
     "title": "Generic Push Button",
     "content": ". 有段按鈕是一個Input Widget，主要作為一個無內部狀態的按鈕。 . 按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 有段按鈕提供所有按鈕能觸發的事件，包括點擊、按下、釋放、短按、長按和持續按等動作，所有動作皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可精細控制不同的觸發做不同的動作。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/"
-  },"94": {
+  },"93": {
     "doc": "Generic Latching Button",
     "title": "Properties",
     "content": "Generic Latching Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Text on Release | 設定按鈕放開時的文字 | Plain Text | . | Color | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | Text Opacity % | 設定按鈕放開時的文字不透明度(1-100%) | Number Editor | . | Enable Pressed State Color | 決定按鈕放開與按下時是否要顯示不同的文字並另外設定按下時的文字與風格 | Checkbox | . | Text on Press | 設定按鈕按下時的文字 | Plain Text | . | Color | 設定按鈕按下時的文字顏色 | Color Selector | . | Text Opacity % | 設定按鈕按下時的文字不透明度(1-100%) | Number Editor | . Body Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Main Color | 設定按鈕的主要顏色 | Color Selector | . | Gradient Color | 設定按鈕的漸變顏色 | Color Selector | . | Body Opacity % | 設定按鈕的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定按鈕的圓角半徑，最大值隨Widget大小而變動 | Number Editor | . | Enable Pressed State Style | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | Main Color | 設定按鈕的主要顏色 | Color Selector | . | Gradient Color | 設定按鈕按下時的漸變顏色 | Color Selector | . | Body Opacity % | 設定按鈕按下時的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定按鈕按下時的圓角半徑，最大值隨Widget大小而變動 | Number Editor | . Border Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Border Color | 設定按鈕邊框的顏色 | Color Selector | . | Border Width | 設定按鈕邊框的寬度 | Number Editor | . | Enable Pressed State Style | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | Border Color | 設定按鈕按下時邊框的顏色 | Color Selector | . | Border Width | 設定按鈕按下時邊框的寬度 | Number Editor | . Shadow Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Shadow Color | 設定按鈕陰影的顏色 | Color Selector | . | Shadow Width | 設定按鈕陰影的寬度 | Number Editor | . | Enable Pressed State Style | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | Shadow Color | 設定按鈕按下時陰的顏色 | Color Selector | . | Shadow Width | 設定按鈕按下時陰的寬度 | Number Editor | . Switch ON Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Switch OFF Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . State Binding Register . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Eable State Binding Register | 決定是否要將狀態綁定暫存器 | Checkbox | . | Binding Register | 狀態綁定的暫存器，藉由改變暫存器值變換Widget狀態 | Register Selector | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_latching_button/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_latching_button/#properties"
-  },"95": {
+  },"94": {
     "doc": "Generic Latching Button",
     "title": "On Context Menu",
     "content": "Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_latching_button/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_latching_button/#on-context-menu"
-  },"96": {
+  },"95": {
     "doc": "Generic Latching Button",
     "title": "Generic Latching Button",
     "content": ". 交互按鈕既是一個Input Widget也是Output Widget，主要作為一個雙態按鈕。 . 狀態可以由使用者觸摸按鈕來改變，或是藉由其他Widget或是程式改變繫結的暫存器內容來改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。 . 交互按鈕為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。 . 按下或釋放按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_latching_button/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_latching_button/"
-  },"97": {
+  },"96": {
     "doc": "Generic Button",
     "title": "Properties",
     "content": "Generic Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Show Released/Pressed State . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | State | 選擇要預覽的狀態 | Dropdown List | . Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Text on Release | 設定按鈕放開時的文字 | Plain Text | . | Color | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | Text Opacity % | 設定按鈕放開時的文字不透明度(1-100%) | Number Editor | . | Enable Pressed State Color | 決定按鈕放開與按下時是否要顯示不同的文字並另外設定按下時的文字與風格 | Checkbox | . | Text on Press | 設定按鈕按下時的文字 | Plain Text | . | Color | 設定按鈕按下時的文字顏色 | Color Selector | . | Text Opacity % | 設定按鈕按下時的文字不透明度(1-100%) | Number Editor | . Body Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Main Color | 設定按鈕的主要顏色 | Color Selector | . | Gradient Color | 設定按鈕的漸變顏色 | Color Selector | . | Body Opacity % | 設定按鈕的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定按鈕的圓角半徑，最大值隨Widget大小而變動 | Number Editor | . | Enable Pressed State Style | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | Main Color | 設定按鈕的主要顏色 | Color Selector | . | Gradient Color | 設定按鈕按下時的漸變顏色 | Color Selector | . | Body Opacity % | 設定按鈕按下時的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定按鈕按下時的圓角半徑，最大值隨Widget大小而變動 | Number Editor | . Border Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Border Color | 設定按鈕邊框的顏色 | Color Selector | . | Border Width | 設定按鈕邊框的寬度 | Number Editor | . | Enable Pressed State Style | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | Border Color | 設定按鈕按下時邊框的顏色 | Color Selector | . | Border Width | 設定按鈕按下時邊框的寬度 | Number Editor | . Shadow Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Shadow Color | 設定按鈕陰影的顏色 | Color Selector | . | Shadow Width | 設定按鈕陰影的寬度 | Number Editor | . | Enable Pressed State Style | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | Shadow Color | 設定按鈕按下時陰的顏色 | Color Selector | . | Shadow Width | 設定按鈕按下時陰的寬度 | Number Editor | . Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Pressing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被按著時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被按著時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被按著時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Releasing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被放開時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被放開時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被放開時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Short Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被快速點擊(小於1秒)時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被快速點擊(小於1秒)時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被快速點擊(小於1秒)時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Long Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被長按1.5秒時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Continuous Pressing Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被循環長按1.5秒時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被循環長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被循環長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_button/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_button/#properties"
-  },"98": {
+  },"97": {
     "doc": "Generic Button",
     "title": "On Context Menu",
     "content": "Enable Pressed State Style . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Pressed State Style | 決定按鈕按鈕放開與按下時是否要顯示不同陰影風格並另外設定按下時的陰影風格 |   | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Preview | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_button/#on-context-menu",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_button/#on-context-menu"
-  },"99": {
+  },"98": {
     "doc": "Generic Button",
     "title": "Generic Button",
     "content": ". 有段按鈕是一個Input Widget，主要作為一個無內部狀態的按鈕。 . 為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。 . 有段按鈕提供所有按鈕能觸發的事件，包括點擊、按下、釋放、短按、長按和持續按等動作，所有動作皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可精細控制不同的觸發做不同的動作。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_button/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_button/"
+  },"99": {
+    "doc": "Multiple State Button",
+    "title": "Properties",
+    "content": "Multiple State Button . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Collection Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Image Collection | 詳情參考Image Collection Management | Image Collection Management | . Image Display Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Index Register | 對圖片的索引進行暫存器綁定，暫存器的值改變時變換顯示的圖片 | Register Selector | . | Preview Indexed Image | Image Collection的圖片索引 | Number Editor | . | Alignment | 將圓心水平垂直置中 | Alignment Selector | . Click Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/#properties"
   },"100": {
+    "doc": "Multiple State Button",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整Widget的圓心 | Center Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/#on-widget-editor"
+  },"101": {
+    "doc": "Multiple State Button",
+    "title": "On Context Menu",
+    "content": "Move to Center . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Move to Center | 將圓心水平垂直置中 | Center Editor | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/#on-context-menu"
+  },"102": {
+    "doc": "Multiple State Button",
+    "title": "Multiple State Button",
+    "content": ". 多態按鈕是一個Input Widget，作為有多個內部狀態的按鈕。 . 不同的內部狀態可以對應到不同圖片，可將一個暫存器繫結到按鈕狀態，並且可以用Blockly程式處理點擊事件。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/multiple_state_button/"
+  },"103": {
+    "doc": "Image List ",
+    "title": "Properties",
+    "content": "Image List . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Collection Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Image Collection | 詳情參考Image Collection Management | Image Collection Management | . Image Display Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Index Register | 對圖片的索引進行暫存器綁定，暫存器的值改變時變換顯示的圖片 | Register Selector | . | Preview Indexed Image | Image Collection的圖片索引 | Number Editor | . | Alignment | 將圓心水平垂直置中 | Alignment Selector | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/#properties"
+  },"104": {
+    "doc": "Image List ",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整Widget的圓心 | Center Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/#on-widget-editor"
+  },"105": {
+    "doc": "Image List ",
+    "title": "On Context Menu",
+    "content": "Move to Center . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Move to Center | 將圓心水平垂直置中 | Center Editor | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Reset to Original Size | 將Widget重置為原始大小 | Reset Editor | . | Reset Ratio by Width | 依Widget寬度將Widget高度與寬度比例重置 | Reset Editor | . | Reset Ratio by Height | 依Widget高度將Widget高度與寬度比例重置 | Reset Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/#on-context-menu"
+  },"106": {
+    "doc": "Image List ",
+    "title": "Image List ",
+    "content": ". 影像清單為Output Widget。 . 使用者預先載入多張圖片，繫結的暫存器內容決定圖片的顯示，此Widget經常用以顯示多狀態燈號，或是車輛檔位等圖形。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_list/"
+  },"107": {
     "doc": "Standard Widget Library",
     "title": "Standard Widget Library",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/"
-  },"101": {
+  },"108": {
     "doc": "System Widget Library",
     "title": "System Widget Library",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/system_widget_library/",
     "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/"
-  },"102": {
+  },"109": {
     "doc": "Clip and Mask Widgets",
     "title": "Clip and Mask Widgets",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/clip_and_mask_widgets/",
     "relUrl": "/zh-tw/3.3.0/widgets/clip_and_mask_widgets/"
-  },"103": {
+  },"110": {
     "doc": "IOT Gallery Minimalist",
     "title": "IOT Gallery Minimalist",
     "content": "點擊IOT Gallery Minimalist會得到多種樣式的Widget . Widget種類和Standard Widget Library相同，但Design Style不同 . 直接拖拉至Design Panel即可使用，節省美工花費的時間 . ",
     "url": "/zh-tw/3.3.0/iot_gallery_minimalist/",
     "relUrl": "/zh-tw/3.3.0/iot_gallery_minimalist/"
-  },"104": {
+  },"111": {
     "doc": "My Collections",
     "title": "My Collections",
     "content": "本章節會介紹如何將設計好的Design搬移至另一個ADE Project . My Widget頁面會顯示已儲存的Collection集和Collection包含的Shape . 使用方法 : . | 將要加入My Widget的Widget全選取起來，點擊右鍵選擇建立群組，如果只有單一Widget要加入My Widget則不須建立群組 | . 2.建立完群組後再次點擊右鍵，選擇Add to My Collections… . 3.選擇是否建立新的Collection或者使用現有的Collection . 4.輸入Collection名稱、描述和Shape名稱並選擇Shape icon，設定完成點擊Finish即可在My Widget獲得新建立的Collection . 5.將Shape拖曳至Design Panel即可使用 . 在My Widget頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在Shape上點擊右鍵則可以對Shape進行刪除和編輯 . ",
     "url": "/zh-tw/3.3.0/my_collections/",
     "relUrl": "/zh-tw/3.3.0/my_collections/"
-  },"105": {
+  },"112": {
     "doc": "Widget Inspector",
     "title": "Widget Inspector",
     "content": "本章節將介紹一些實用的Widget圖層相關工具，讓設計變得更加簡單 . 首先點選Widget Panel的Widget Inspector按鈕，進入Widget監察頁 . 進入頁面後可以看見當前Design Panel所在的頁面所有Widget及其相關圖層設定 . Widget實體名稱為使用者自行定義之名稱，不可重複，方便辨識及尋找， . 透過點選鎖定按鈕，將Widget鎖定，用以保護Widget內容 . 鎖定中的Widget會呈現灰色的鎖定圖示，且屬性不可被更改 . 點選可見按鈕調整Widget可見性，方便修改重疊的Widget . 顯示可見的Widget會顯示眼睛的可見圖示 . ",
     "url": "/zh-tw/3.3.0/widget_inspector/",
     "relUrl": "/zh-tw/3.3.0/widget_inspector/"
-  },"106": {
+  },"113": {
     "doc": "Shortcut Keys",
     "title": "Shortcut Keys",
     "content": "| 快捷鍵 |   | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟Messenger | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋Widget | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | Ctrl+拖移 | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+N | 建立檔案 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放Design Panel | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小Design Panel | . | Ctrl+[+] | 放大Design Panel | . | Shift+滑鼠滾輪 | 左右捲動Design Panel | . | Ctrl+Widget | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個Widget | . | Shift+Tab | 換上一個Widget | . | F3 | 開啟Library管理頁面 | . | F10 | 鎖定Widget比例 | . | F12 | 鎖定Widget位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示Widget Panel | . ",
     "url": "/zh-tw/3.3.0/shortcut_keys/",
     "relUrl": "/zh-tw/3.3.0/shortcut_keys/"
-  },"107": {
+  },"114": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
     "content": "Redirecting to latest version . ",
