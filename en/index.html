@@ -6,14 +6,15 @@
   <script type="text/javascript" src="/assets/js/jquery-3.6.0.js"></script>
 </head>
 <body>
-  <p>Redirecting to <a href="/en/0.0.2/">latest version</a></p>
-
+  <p>English manual is coming soon, please select other language
+          <select class="lang_select"><option value="/en/" selected="">English</option><option value="/zh-tw/">Traditional Chinese</option></select>
 <script>
 $( document ).ready(function(){
-      window.location.href = "/en/0.0.2/";
-  });
-</script>
-
+    $(".lang_select").on( "change", function() {
+        window.location.href = $(this).val();
+    });
+});
+</script></p>
 
 </body>
 </html>

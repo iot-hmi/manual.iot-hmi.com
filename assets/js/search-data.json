@@ -7,7 +7,7 @@
   },"1": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
-    "content": "Redirecting to latest version . ",
+    "content": "English manual is coming soon, please select other language EnglishTraditional Chinese . ",
     "url": "/en/",
     "relUrl": "/en/"
   },"2": {
@@ -695,48 +695,90 @@
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/datetime_label/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/datetime_label/"
   },"116": {
+    "doc": "Image Label",
+    "title": "Properties",
+    "content": "Image Label . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Shadow Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Shadow | 決定是否要顯示陰影 | Checkbox | . Background Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Background Main Color | 設定背景的顏色 | Color Selector | . | Background Grad Color | 設定背景的漸變顏色 | Color Selector | . Border Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Color | 設定邊框的顏色 | Color Selector | . | Style | 設定邊框的框線風格 | Dropdown List | . Text Format Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Font | 設定文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定文字的顏色 | Color Selector | . | Alignment | 設定文字的對齊方式 | Alignment Selector | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#properties"
+  },"117": {
+    "doc": "Image Label",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字，可利用Shift+Enter換行輸入 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#on-widget-editor"
+  },"118": {
+    "doc": "Image Label",
+    "title": "On Context Menu",
+    "content": "Enable Shadow . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Shadow | 決定是否要顯示陰影 | Checkbox | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Remove Border | 移除Border，將Border寬度變為0 |   | . | Make Squared | 根據長度和寬度的最大值，將Widget變成方形 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#on-context-menu"
+  },"119": {
+    "doc": "Image Label",
+    "title": "Image Label",
+    "content": ". 影像文本為Output Widget。 . 目標是顯示Rich Text文本，並且支援多國語言以及使用者安裝字型。內容必須在ADE編輯時輸入，且在執行期間內容無法變動，適合用作展現文字風格的標題或是指示標示。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/"
+  },"120": {
+    "doc": "Digits",
+    "title": "Properties",
+    "content": "Digits . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Digit Format Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Total Digits | 設定顯示的總位數 | Number Editor | . | Fractional Digits | 設定小數點後顯示的位數 | Number Editor | . | Signed Value | 是否顯示有號數字 | Checkbox | . | Show Positive sign as | 設定如果為正數時是否顯示正號。使用Signed Value時有效 | Dropdown List | . | Color | 設定文字的顏色 | Color Selector | . | Font | 設定文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Value Binding Register | 綁定暫存器顯示數字 | Register Selector | . | Preview | 隨機顯示數字預覽格式 |   | . Seven Segment Display Background Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Shadow | 模擬七段顯示器未發光部分 | Checkbox | . | Color | 設定未發光部分的顏色 | Color Selector | . Digit Shadow Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Digit Shadow Dx | 設定陰影x坐標 | Number Editor | . | Digit Shadow Dy | 設定陰影y坐標 | Number Editor | . | Digit Shadow Color | 設定陰影顏色 | Color Selector | . Background Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Background | 是否要顯示背景顏色 | Checkbox | . | Background Color | 設定背景顏色 | Color Selector | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/#properties"
+  },"121": {
+    "doc": "Digits",
+    "title": "On Context Menu",
+    "content": "Signed Value . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Signed Value | 是否顯示有號數字 | Checkbox | . Show Positive Sign as . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Positive sign as | 設定如果為正數時是否顯示正號。使用Signed Value時有效 | Dropdown List | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Preview | 隨機顯示數字預覽格式 |   | . Enable Shadow . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Shadow | 決定是否要顯示陰影 | Checkbox | . Enable Background . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Background | 是否要顯示背景顏色 | Checkbox | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/#on-context-menu"
+  },"122": {
+    "doc": "Digits",
+    "title": "Digits",
+    "content": ". 七段顯示器是一個Output Widget。 . 用以顯示特定位數帶正負號或是不帶正負號的整數或是小數。可以指定尺寸、字型、顏色、背景顏色以及陰影，適合用來做大尺寸數字，如時速、馬達轉速、溫度及溼度等。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/"
+  },"123": {
     "doc": "Standard Widget Library",
     "title": "Standard Widget Library",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/"
-  },"117": {
+  },"124": {
     "doc": "System Widget Library",
     "title": "System Widget Library",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/system_widget_library/",
     "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/"
-  },"118": {
+  },"125": {
     "doc": "Clip and Mask Widgets",
     "title": "Clip and Mask Widgets",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/clip_and_mask_widgets/",
     "relUrl": "/zh-tw/3.3.0/widgets/clip_and_mask_widgets/"
-  },"119": {
+  },"126": {
     "doc": "IOT Gallery Minimalist",
     "title": "IOT Gallery Minimalist",
     "content": "點擊IOT Gallery Minimalist會得到多種樣式的Widget . Widget種類和Standard Widget Library相同，但Design Style不同 . 直接拖拉至Design Panel即可使用，節省美工花費的時間 . ",
     "url": "/zh-tw/3.3.0/iot_gallery_minimalist/",
     "relUrl": "/zh-tw/3.3.0/iot_gallery_minimalist/"
-  },"120": {
+  },"127": {
     "doc": "My Collections",
     "title": "My Collections",
     "content": "本章節會介紹如何將設計好的Design搬移至另一個ADE Project . My Widget頁面會顯示已儲存的Collection集和Collection包含的Shape . 使用方法 : . | 將要加入My Widget的Widget全選取起來，點擊右鍵選擇建立群組，如果只有單一Widget要加入My Widget則不須建立群組 | . 2.建立完群組後再次點擊右鍵，選擇Add to My Collections… . 3.選擇是否建立新的Collection或者使用現有的Collection . 4.輸入Collection名稱、描述和Shape名稱並選擇Shape icon，設定完成點擊Finish即可在My Widget獲得新建立的Collection . 5.將Shape拖曳至Design Panel即可使用 . 在My Widget頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在Shape上點擊右鍵則可以對Shape進行刪除和編輯 . ",
     "url": "/zh-tw/3.3.0/my_collections/",
     "relUrl": "/zh-tw/3.3.0/my_collections/"
-  },"121": {
+  },"128": {
     "doc": "Widget Inspector",
     "title": "Widget Inspector",
     "content": "本章節將介紹一些實用的Widget圖層相關工具，讓設計變得更加簡單 . 首先點選Widget Panel的Widget Inspector按鈕，進入Widget監察頁 . 進入頁面後可以看見當前Design Panel所在的頁面所有Widget及其相關圖層設定 . Widget實體名稱為使用者自行定義之名稱，不可重複，方便辨識及尋找， . 透過點選鎖定按鈕，將Widget鎖定，用以保護Widget內容 . 鎖定中的Widget會呈現灰色的鎖定圖示，且屬性不可被更改 . 點選可見按鈕調整Widget可見性，方便修改重疊的Widget . 顯示可見的Widget會顯示眼睛的可見圖示 . ",
     "url": "/zh-tw/3.3.0/widget_inspector/",
     "relUrl": "/zh-tw/3.3.0/widget_inspector/"
-  },"122": {
+  },"129": {
     "doc": "Shortcut Keys",
     "title": "Shortcut Keys",
     "content": "| 快捷鍵 |   | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟Messenger | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋Widget | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | Ctrl+拖移 | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+N | 建立檔案 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放Design Panel | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小Design Panel | . | Ctrl+[+] | 放大Design Panel | . | Shift+滑鼠滾輪 | 左右捲動Design Panel | . | Ctrl+Widget | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個Widget | . | Shift+Tab | 換上一個Widget | . | F3 | 開啟Library管理頁面 | . | F10 | 鎖定Widget比例 | . | F12 | 鎖定Widget位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示Widget Panel | . ",
     "url": "/zh-tw/3.3.0/shortcut_keys/",
     "relUrl": "/zh-tw/3.3.0/shortcut_keys/"
-  },"123": {
+  },"130": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
     "content": "Redirecting to latest version . ",
