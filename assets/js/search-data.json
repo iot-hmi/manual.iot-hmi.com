@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Home",
     "title": "Home",
-    "content": "{%- for lang in site.manual_languages -%} [{{site.manual_settings.collections[lang].name}}]({{'/' | append: lang | append: '/' | relative_url}}) version {% endfor %} ",
+    "content": "English version . Traditional Chinese version . ",
     "url": "/",
     "relUrl": "/"
   },"1": {
