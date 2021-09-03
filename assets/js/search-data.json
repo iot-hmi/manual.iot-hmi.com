@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Home",
     "title": "Home",
-    "content": "English version . Traditional Chinese version . ",
+    "content": "{%- for lang in site.manual_languages -%} [{{site.manual_settings.collections[lang].name}}]({{'/' | append: lang | append: '/' | relative_url}}) version {% endfor %} ",
     "url": "/",
     "relUrl": "/"
   },"1": {
@@ -439,7 +439,7 @@
   },"73": {
     "doc": "Slider Switch",
     "title": "Properties",
-    "content": "Slider Switch . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . OFF State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定開關為關時是否要顯示文字 | Checkbox | . | Text As Mask | 決定開關為關時是否以文字為遮罩 | Checkbox | . | Text | 顯示開關為關時的文字內容 | Plain Text | . | Font | 設定開關為關時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定開關為關時文字的顯示顏色 | Color Selector | . | Alignment | 設定開關為關時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定開關為關時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定開關為關時的遮罩顏色 | Color Selector | . ON State Text Setting . | Display Text | 決定開關為開時是否要顯示文字 | Checkbox | . | Text As Mask | 決定開關為開時是否以文字為遮罩 | Checkbox | . | Text | 顯示開關為開時的文字內容 | Plain Text | . | Font | 設定開關為開時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定開關為開時文字的顯示顏色 | Color Selector | . | Alignment | 設定開關為開時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定開關為開時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定開關為開時的遮罩顏色 | Color Selector | . Switch ON Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Switch OFF Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . State Binding Register . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Eable State Binding Register | 決定是否要將狀態綁定暫存器 | Checkbox | . | Binding Register | 狀態綁定的暫存器，藉由改變暫存器值變換Widget狀態 | Register Selector | . OFF State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . ON State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
+    "content": "Slider Switch . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Mask Shape | 決定遮罩形狀，分為橢圓及矩 | Dropdown List | . | State | 選擇要預覽的狀態 | Dropdown List | . OFF State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定開關為關時是否要顯示文字 | Checkbox | . | Text As Mask | 決定開關為關時是否以文字為遮罩 | Checkbox | . | Text | 顯示開關為關時的文字內容 | Plain Text | . | Font | 設定開關為關時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定開關為關時文字的顯示顏色 | Color Selector | . | Alignment | 設定開關為關時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定開關為關時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定開關為關時的遮罩顏色 | Color Selector | . ON State Text Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Text | 決定開關為開時是否要顯示文字 | Checkbox | . | Text As Mask | 決定開關為開時是否以文字為遮罩 | Checkbox | . | Text | 顯示開關為開時的文字內容 | Plain Text | . | Font | 設定開關為開時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Color | 設定開關為開時文字的顯示顏色 | Color Selector | . | Alignment | 設定開關為開時文字的對齊方式 | Alignment Selector | . | Blending Mode | 決定開關為開時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為遮罩時此功能無效 | Blending Selector | . | Mask Color | 設定開關為開時的遮罩顏色 | Color Selector | . Switch ON Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . Switch OFF Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . State Binding Register . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Eable State Binding Register | 決定是否要將狀態綁定暫存器 | Checkbox | . | Binding Register | 狀態綁定的暫存器，藉由改變暫存器值變換Widget狀態 | Register Selector | . OFF State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget OFF狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget OFF狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget OFF狀態的圖片 |   | . ON State Image Operation . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Image | 從檔案系統選擇作為Widget ON狀態的圖片 | File Open Dialog Box | . | Edit Image | 編輯Widget ON狀態的圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為Widget ON狀態的圖片 |   | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽Widget點擊效果 |   | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#properties"
   },"74": {
@@ -737,48 +737,246 @@
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/digits/"
   },"123": {
+    "doc": "Circular Progress Bar",
+    "title": "Properties",
+    "content": "Circular Progress Bar . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Direction | 進度條順時針或逆時針的增長 | Dropdown List | . | Reversed Scale | 進度條順時針或逆時針的減少 | Dropdown List | . | Minimum Data Value | 對應到圓弧開始角度的資料值，必須小於Maximum Data Value | Number Editor | . | Maximum Data Value | 對應到圓弧結束角度的資料值，必須大於Minimum Data Value | Number Editor | . | Value Binding Register | 暫存器的內容是Minimum Data Value的話，Circular Progress Bar 會顯示在開始角度，隨著暫存器數值增加，角度會隨著增加，直至暫存器是Maximum Data Value時Circular Progress Bar 會顯示到最大角度 | Register Selector | . | Show Direction Guide | 是否要顯示方向指示箭頭 | Checkbox | . | Center Location | 設定圓心的坐標 | Alignment Selector | . | Alignment | 將圓心水平垂直置中 | Alignment Selector | . Style Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Foreground Image | 是否要顯示前景圖片，如果前景圖片帶透明，則可以將進度條透出來顯示 | Checkbox | . | Load Foreground Image | 從檔案系統選擇作為前景圖片 | File Open Dialog Box | . | Rounded Endpoints | 是否要將進度條兩端終點圓弧化 | Checkbox | . | Start Angle | 進度條圓弧開始角度(0-359)，詳情參考Number Editor | Number Editor | . | Arc Length | 進度條圓弧長度(1-359) | Number Editor | . | Radius | 進度條半徑大小，最大值隨Widget大小而變動 | Number Editor | . | Color | 設定進度條顏色 | Color Selector | . | Width | 設定進度條寬度(0-100) | Number Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/#properties"
+  },"124": {
+    "doc": "Circular Progress Bar",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整Widget的圓心 | Center Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/#on-widget-editor"
+  },"125": {
+    "doc": "Circular Progress Bar",
+    "title": "On Context Menu",
+    "content": "Move to Center . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Move to Center | 將圓心水平垂直置中 | Center Editor | . Direction . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Direction | 進度條順時針或逆時針的增長 | Center Editor | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Edit Image | 編輯前景圖片 | Image Editor Dialog Box | . | Load Foreground Image… | 從檔案系統選擇作為前景圖片 | File Open Dialog Box | . | Paste from Clipboard | 貼上剪貼簿中的圖片作為前景圖片 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/#on-context-menu"
+  },"126": {
+    "doc": "Circular Progress Bar",
+    "title": "Circular Progress Bar",
+    "content": ". 圓形進度條為Output Widget。 . 藉由填充顏色顯示進度或是數值，可設定不同的填充方向以及填充角度與最小最大數值的對應，並且可以加上有鏤空區域的前景圖片，可以用來設計類似內有LED光源並隨數值變化亮滅的旋鈕，或是圓形碼表等圖示。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_progress_bar/"
+  },"127": {
+    "doc": "Circular Meter",
+    "title": "Properties",
+    "content": "Circular Meter . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Minimum Data Value | 對應到圓弧開始角度的資料值，必須小於Maximum Data Value | Number Editor | . | Maximum Data Value | 對應到圓弧結束角度的資料值，必須大於Minimum Data Value | Number Editor | . | Start Angle | 進度條圓弧開始角度(0-359)，詳情參考Number Editor | Number Editor | . | Arc Length | 進度條圓弧長度(1-359) | Number Editor | . | Value Binding Register | 暫存器的內容是Minimum Data Value的話，Circular Meter 會顯示底色，隨著暫存器數值增加，會顯示活躍顏色，直至暫存器是Maximum Data Value時Circular Meter顏色會顯示全滿 | Register Selector | . Style Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Inactive Segment Color | 設定未作動片段的顏色 | Color Selector | . | Active Segment Start Color | 設定作動片段起始的主要顏色 | Color Selector | . | Active Segment End Color | 設定作動片段結束的漸變顏色 | Color Selector | . | Tick Granularity | 設定刻度的分格數 | Number Editor | . | Tick Width | 設定刻度的寬度 | Number Editor | . | Tick Length | 設定刻度的長度 | Number Editor | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Protractor | 是否要顯示輔助抓取點 | Checkbox | . | Value | 將最小資料值與最大資料值對應圓弧角度和長度進行預覽顯示 | Number Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/#properties"
+  },"128": {
+    "doc": "Circular Meter",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整Widget的圓心 | Center Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/#on-widget-editor"
+  },"129": {
+    "doc": "Circular Meter",
+    "title": "On Context Menu",
+    "content": "Move to Center . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Move to Center | 將圓心水平垂直置中 | Center Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/#on-context-menu"
+  },"130": {
+    "doc": "Circular Meter",
+    "title": "Circular Meter",
+    "content": ". 儀表為Output Widget。 . 其功能類似圓形進度條，但是儀表左右顯示角度必須對稱，並且可以使用漸層顏色表達不同輸入資料大小，並有默認底色。適合用來作為數值高低不同時，帶警告或是指示訊息的儀表，譬如壓力表。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/circular_meter/"
+  },"131": {
+    "doc": "Generic Progress Bar",
+    "title": "Properties",
+    "content": "Generic Progress Bar . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Minimum Data Value | 最小資料值，對應到進度條開始 | Number Editor | . | Maximum Data Value | 最大資料值，對應到進度條結束 | Number Editor | . | Value Binding Register | 如果綁定的暫存器內容等於Minimum Data Value，Generic Progress Bar顯示在開始位置如果綁定的暫存器內容等於Maximum Data Value，Generic Progress Bar顯示在結束位置 | Register Selector | . | Preview Segment | 選擇要預覽的段落狀態 | Dropdown List | . Bar Line Style Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Main Color | 設定進度條的主要顏色 | Color Selector | . | Gradient Color | 設定進度條的漸變顏色 | Color Selector | . | Bar Opacity % | 設定進度條的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定進度條的圓角半徑 | Number Editor | . | Border Color | 設定進度條邊框的顏色 | Color Selector | . | Border Width | 設定進度條邊框的寬度 | Number Editor | . | Shadow Color | 設定進度條陰影的顏色 | Color Selector | . | Shadow Width | 設定進度條陰影的寬度 | Number Editor | . Segment 2 Style Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Data Segment 2 | 決定是否要顯示第二段落 | Checkbox | . | Data Value | 設定第二段落開始數值，當綁定的暫存器內容等於此數值時，顯示第二段落與其設定 必須小於第三段落開始數值 | Number Editor | . | Main Color | 設定第二段落的主要顏色 | Color Selector | . | Gradient Color | 設定第二段落的漸變顏色 | Color Selector | . | Bar Opacity % | 設定第二段落的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定第二段落的圓角半徑 | Number Editor | . | Border Color | 設定第二段落邊框的顏色 | Color Selector | . | Border Width | 設定第二段落邊框的寬度 | Number Editor | . | Shadow Color | 設定第二段落陰影的顏色 | Color Selector | . | Shadow Width | 設定第二段落陰影的寬度 | Number Editor | . Segment 3 Style Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Data Segment 3 | 決定是否要顯示第三段落 | Checkbox | . | Data Value | 設定第三段落開始數值，當綁定的暫存器內容等於此數值時，顯示第三段落與其設定 | Number Editor | . | Main Color | 設定第三段落的主要顏色 | Color Selector | . | Gradient Color | 設定第三段落的漸變顏色 | Color Selector | . | Bar Opacity % | 設定第三段落的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定第三段落的圓角半徑 | Number Editor | . | Border Color | 設定第三段落邊框的顏色 | Color Selector | . | Border Width | 設定第三段落邊框的寬度 | Number Editor | . | Shadow Color | 設定第三段落陰影的顏色 | Color Selector | . | Shadow Width | 設定第三段落陰影的寬度 | Number Editor | . Line Padding Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Padding Top/Bottom | 調整進度條和背景的上下邊距，最大最小值隨Widget高度而改變 | Number Editor | . | Padding Left/Right | 調整進度條和背景的左右邊距，最大最小值隨Widget寬度而改變 | Number Editor | . Slider Knob Style Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Slider Knob | 決定是否要顯示使用滑鈕，可以藉由滑鈕改變暫存器的值 | Checkbox | . | Main Color | 設定滑鈕的主要顏色 | Color Selector | . | Gradient Color | 設定滑鈕的漸變顏色 | Color Selector | . | Bar Opacity % | 設定滑鈕的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定滑鈕的圓角半徑 | Number Editor | . | Border Color | 設定滑鈕邊框的顏色 | Color Selector | . | Border Width | 設定滑鈕邊框的寬度 | Number Editor | . | Shadow Color | 設定滑鈕陰影的顏色 | Color Selector | . | Shadow Width | 設定滑鈕陰影的寬度 | Number Editor | . Bar Background Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Main Color | 設定進度條背景的主要顏色 | Color Selector | . | Gradient Color | 設定進度條背景的漸變顏色 | Color Selector | . | Bar Opacity % | 設定進度條背景的不透明度(0-100%) | Number Editor | . | Corner Radius | 設定進度條背景的圓角半徑 | Number Editor | . | Border Color | 設定進度條背景邊框的顏色 | Color Selector | . | Border Width | 設定進度條背景邊框的寬度 | Number Editor | . | Shadow Color | 設定進度條背景陰影的顏色 | Color Selector | . | Shadow Width | 設定進度條背景陰影的寬度 | Number Editor | . Background Padding . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Padding Top/Bottom | 調整背景和Widget外框的上下邊距，最大最小值隨Widget高度而改變 | Number Editor | . | Padding Left/Right | 調整背景和Widget外框的左右邊距，最大最小值隨Widget寬度而改變 | Number Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/#properties"
+  },"132": {
+    "doc": "Generic Progress Bar",
+    "title": "On Context Menu",
+    "content": "Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Preview Segment | 選擇要預覽的段落狀態 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/#on-context-menu"
+  },"133": {
+    "doc": "Generic Progress Bar",
+    "title": "Generic Progress Bar",
+    "content": ". 進度條可作為Output以及Input Widget，將Knob開啟時進度條為Input Widget，否則則為Output Widget。 . 進度條可以有橫式以及直式兩種，視長寬的尺寸自行調整。此外進度條可以調整背景、進度條和Knob的邊框、顏色、透明度以及圓角半徑等風格屬性。 . 當需要使用大量進條時，此Widget為兼顧美觀，效能與資源的最佳選擇。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/"
+  },"134": {
+    "doc": "Horizontal Slider",
+    "title": "Properties",
+    "content": "Horizontal Slider . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Background Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示背景圖片 | Checkbox | . | Show Origin Line | 決定是否要顯示背景圖片的輔助線輔助線顯示Widget外框及中心點 | Checkbox | . | Load Image | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . Liquid Column Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示水銀柱圖片，水銀柱隨著暫存器值改變 | Checkbox | . | Show Handler | 決定是否要顯示水銀柱的調整圖示利用調整圖示調整水銀柱的位置，以及水銀柱的寬度 | Checkbox | . | Liquid Column Top Left | 設定水銀柱左上的坐標水銀柱使用Show Handler時有效 | Alignment Selector | . | Liquid Column Bottom Right | 設定水銀柱右下的坐標水銀柱使用Show Handler時有效 | Alignment Selector | . | Load Image | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . Knob Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示滑鈕圖片，可以藉由滑鈕改變暫存器的值 | Checkbox | . | Show Handler | 決定是否要顯示滑鈕的調整圖示利用調整圖示調整滑鈕的開始與結束位置，以及滑鈕的大小 | Checkbox | . | Knob Top Left | 設定滑鈕左上的坐標滑鈕使用Show Handler時有效 | Alignment Selector | . | Knob Bottom Right | 設定滑鈕右下的坐標滑鈕使用Show Handler時有效 | Alignment Selector | . | Load Image | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . Bore Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示毛細管圖片 | Checkbox | . | Show Handler | 決定是否要顯示毛細管的輔助圖示利用輔助圖示調整毛細管的位置，以及毛細管的寬度 | Checkbox | . | Bore Top Left | 設定毛細管左上的坐標毛細管使用Show Handler時有效 | Alignment Selector | . | Bore Bottom Right | 設定毛細管左上的坐標毛細管使用Show Handler時有效 | Alignment Selector | . | Load Image | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . Scale Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Scale | 決定是否要顯示刻度 | Checkbox | . | Select Tick Head Style | 設定刻度是否要圓頭矩形 | Dropdown List | . | Scale as Mask | 決定是否以刻度為遮罩如果選擇以刻度為遮罩，刻度會鏤空透出後面的顏色 | Checkbox | . | Mark Start Location | 設定刻度開始位置坐標Display Scale時有效 | Alignment Selector | . | Mark End Location | 設定刻度結束位置坐標Display Scale時有效 | Alignment Selector | . | Tick Granularity | 設定刻度的分格數 | Number Editor | . | Tick Color | 設定刻度的顏色 | Color Selector | . | Tick Style | 設定刻度的框線風格 | Frame Selector | . | Display Sub Tick | 決定是否要顯示子刻度 | Checkbox | . | Sub Tick Granularity | 設定子刻度的分格數 | Number Editor | . | Sub Tick Color | 設定子刻度的顏色 | Color Selector | . | Sub Tick Style | 設定子刻度的框線風格 | Frame Selector | . | Sub Tick Length as % | 設定子刻度的長度佔刻度長度的百分比(1-100%) | Number Editor | . | Display Number | 決定是否要顯示刻度數字 | Checkbox | . | Start Number | 設定刻度開始的數值 | Number Editor | . | End Number | 設定刻度結束的數值 | Number Editor | . | Alignment | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . | Number Font | 設定刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Number Color | 設定刻度數字的顏色 | Color Selector | . Knob Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Minimum Data Value | 最小資料值，對應到滑桿開始 | Number Editor | . | Maximum Data Value | 最大資料值，對應到滑桿結束 | Number Editor | . | Reversed Value Mapping | 決定是否要反向對應數值Minimum Data Value對應到滑桿結束，Maximum Data Value對應到滑桿開始 | Checkbox | . | Value Binding Register | 如果綁定的暫存器內容等於Minimum Data Value，滑桿顯示在開始位置如果綁定的暫存器內容等於Maximum Data Value，滑桿顯示在結束位置 | Register Selector | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽滑桿隨著暫存器內容而變化 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/#properties"
+  },"135": {
+    "doc": "Horizontal Slider",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整水銀柱位置以及寬度 | Liquid Column Editor | . | | 調整滑鈕的開始與結束位置，以及滑鈕的大小 | Knob Editor | . | | 調整毛細管的位置及寬度 | Bore Editor | . | | 調整刻度位置 | Scale Editor | . | | 調整刻度數字位置 | Scale Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/#on-widget-editor"
+  },"136": {
+    "doc": "Horizontal Slider",
+    "title": "On Context Menu",
+    "content": "Select Tick Head Style . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Select Tick Head Style | 設定刻度要圓頭矩形或平頭矩形 |   | . Display Number . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Number | 決定是否要顯示刻度數字 | Checkbox | . Alignment . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Alignment | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . Reversed Value Mapping . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Reversed Value Mapping | 決定是否要反向對應數值Minimum Data Value對應到滑桿結束，Maximum Data Value對應到滑桿開始 | Checkbox | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Background Image… | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | Edit Background Image | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | Paste to Background Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . | Load Liquid Column Image… | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | Edit Liquid Column Image | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | Paste to Liquid Column Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . | Load Knob Image… | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | Edit Knob Image | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | Paste to Knob Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . | Load Bore Image… | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | Edit Bore Image | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | Paste to Bore Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . | Preview | 預覽滑桿隨著暫存器內容而變化 |   | . | Open User Manual | 連接使用者手冊 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/#on-context-menu"
+  },"137": {
+    "doc": "Horizontal Slider",
+    "title": "Horizontal Slider",
+    "content": ". 水平圖像進度條可作為Output以及Input Widget，將Knob開啟時進度條為Input Widget，否則則為Output Widget。 . 水平圖像進度條的背景、進度條、進度條底色和Knob等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/"
+  },"138": {
+    "doc": "Vertical Slider",
+    "title": "Properties",
+    "content": "Vertical Slider . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Visibility Control . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Binding Hidden Control Register | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget | Checkbox | . | Hidden Control Register | 透過改變暫存器值決定顯示或不顯示Widget | Register Selector | . Background Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示背景圖片 | Checkbox | . | Show Origin Line | 決定是否要顯示背景圖片的輔助線輔助線顯示Widget外框及中心點 | Checkbox | . | Load Image | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . Liquid Column Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示水銀柱圖片，水銀柱隨著暫存器值改變 | Checkbox | . | Show Handler | 決定是否要顯示水銀柱的調整圖示利用調整圖示調整水銀柱的位置，以及水銀柱的寬度 | Checkbox | . | Liquid Column Top Left | 設定水銀柱左上的坐標水銀柱使用Show Handler時有效 | Alignment Selector | . | Liquid Column Bottom Right | 設定水銀柱右下的坐標水銀柱使用Show Handler時有效 | Alignment Selector | . | Load Image | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . Knob Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示滑鈕圖片，可以藉由滑鈕改變暫存器的值 | Checkbox | . | Show Handler | 決定是否要顯示滑鈕的調整圖示利用調整圖示調整滑鈕的開始與結束位置，以及滑鈕的大小 | Checkbox | . | Knob Top Left | 設定滑鈕左上的坐標滑鈕使用Show Handler時有效 | Alignment Selector | . | Knob Bottom Right | 設定滑鈕右下的坐標滑鈕使用Show Handler時有效 | Alignment Selector | . | Load Image | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . Bore Image Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Show Image | 決定是否要顯示毛細管圖片 | Checkbox | . | Show Handler | 決定是否要顯示毛細管的輔助圖示利用輔助圖示調整毛細管的位置，以及毛細管的寬度 | Checkbox | . | Bore Top Left | 設定毛細管左上的坐標毛細管使用Show Handler時有效 | Alignment Selector | . | Bore Bottom Right | 設定毛細管左上的坐標毛細管使用Show Handler時有效 | Alignment Selector | . | Load Image | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | Edit Image | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | Paste Image | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . Scale Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Scale | 決定是否要顯示刻度 | Checkbox | . | Select Tick Head Style | 設定刻度是否要圓頭矩形 | Dropdown List | . | Scale as Mask | 決定是否以刻度為遮罩如果選擇以刻度為遮罩，刻度會鏤空透出後面的顏色 | Checkbox | . | Mark Start Location | 設定刻度開始位置坐標Display Scale時有效 | Alignment Selector | . | Mark End Location | 設定刻度結束位置坐標Display Scale時有效 | Alignment Selector | . | Tick Granularity | 設定刻度的分格數 | Number Editor | . | Tick Color | 設定刻度的顏色 | Color Selector | . | Tick Style | 設定刻度的框線風格 | Frame Selector | . | Display Sub Tick | 決定是否要顯示子刻度 | Checkbox | . | Sub Tick Granularity | 設定子刻度的分格數 | Number Editor | . | Sub Tick Color | 設定子刻度的顏色 | Color Selector | . | Sub Tick Style | 設定子刻度的框線風格 | Frame Selector | . | Sub Tick Length as % | 設定子刻度的長度佔刻度長度的百分比(1-100%) | Number Editor | . | Display Number | 決定是否要顯示刻度數字 | Checkbox | . | Start Number | 設定刻度開始的數值 | Number Editor | . | End Number | 設定刻度結束的數值 | Number Editor | . | Alignment | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . | Number Font | 設定刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | Number Color | 設定刻度數字的顏色 | Color Selector | . Knob Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Minimum Data Value | 最小資料值，對應到滑桿開始 | Number Editor | . | Maximum Data Value | 最大資料值，對應到滑桿結束 | Number Editor | . | Reversed Value Mapping | 決定是否要反向對應數值Minimum Data Value對應到滑桿結束，Maximum Data Value對應到滑桿開始 | Checkbox | . | Value Binding Register | 如果綁定的暫存器內容等於Minimum Data Value，滑桿顯示在開始位置如果綁定的暫存器內容等於Maximum Data Value，滑桿顯示在結束位置 | Register Selector | . Preview . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Animate | 預覽滑桿隨著暫存器內容而變化 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/#properties"
+  },"139": {
+    "doc": "Vertical Slider",
+    "title": "On Widget Editor",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整水銀柱位置以及寬度 | Liquid Column Editor | . | | 調整滑鈕的開始與結束位置，以及滑鈕的大小 | Knob Editor | . | | 調整毛細管的位置及寬度 | Bore Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/#on-widget-editor",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/#on-widget-editor"
+  },"140": {
+    "doc": "Vertical Slider",
+    "title": "On Context Menu",
+    "content": "Select Tick Head Style . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Select Tick Head Style | 設定刻度要圓頭矩形或平頭矩形 |   | . Display Number . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Display Number | 決定是否要顯示刻度數字 | Checkbox | . Alignment . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Alignment | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . Reversed Value Mapping . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Reversed Value Mapping | 決定是否要反向對應數值Minimum Data Value對應到滑桿結束，Maximum Data Value對應到滑桿開始 | Checkbox | . Action . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Load Background Image… | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | Edit Background Image | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | Paste to Background Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . | Load Liquid Column Image… | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | Edit Liquid Column Image | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | Paste to Liquid Column Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . | Load Knob Image… | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | Edit Knob Image | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | Paste to Knob Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . | Load Bore Image… | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | Edit Bore Image | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | Paste to Bore Image from Clipboard | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . | Preview | 預覽滑桿隨著暫存器內容而變化 |   | . | Open User Manual | 連接使用者手冊 |   | . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/#on-context-menu",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/#on-context-menu"
+  },"141": {
+    "doc": "Vertical Slider",
+    "title": "Vertical Slider",
+    "content": ". 垂直圖像進度條可作為Output以及Input Widget，將Knob開啟時進度條為Input Widget，否則則為Output Widget。 . 垂直圖像進度條的背景、進度條、進度條底色和Knob等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
+    "url": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/",
+    "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/"
+  },"142": {
     "doc": "Standard Widget Library",
     "title": "Standard Widget Library",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/"
-  },"124": {
+  },"143": {
+    "doc": "Retained Data",
+    "title": "Properties",
+    "content": "Retained Data . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Retained Data Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Key of Retained Data | 設定保留資料的金鑰，利用金鑰區分不同儲存資料，因此不能重複 | Plain Text | . | Binding Value Register | 設定要保留的暫存器內容 | Register Selector | . | Use Trigger Register | 決定是否要使用觸發暫存器 | Checkbox | . | Binding Trigger Register | 設定觸發暫存器，依觸發方式決定是否儲存 | Register Selector | . | Trigger Mode | 設定觸發方式為暫存器有改變就記錄或暫存器被寫入再記錄 | Dropdown List | . On Context Menu . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Use Trigger Register | 決定是否要使用觸發暫存器 | Checkbox | . | Trigger Mode | 設定觸發方式為暫存器有改變就記錄或暫存器被寫入再記錄，如果使用觸發暫存器則無效 | Dropdown List | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/retained_data/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/retained_data/#properties"
+  },"144": {
+    "doc": "Retained Data",
+    "title": "Retained Data",
+    "content": ". Retained Data提供將資料寫入非揮發性記憶體的功能，寫入的資料在屏的電源消失後會被保存，並於下次電源開啟後被讀出，適合用來紀錄持續性資訊，如紀錄屏的總使用時間等。 . 此元件紀錄的方法為Key/Value對，一個字串Key可以對應一個Value，Key不能重複。此元件開始運作後，Key對應的Value會在屏啟動時自動被載入繫結的暫存器。 . 在ADE 系統功能表中的Make Factory Reset按鈕可以清除屏上的所有已經儲存的Key/Value以及設計圖資。 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/retained_data/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/retained_data/"
+  },"145": {
+    "doc": "Popup Window",
+    "title": "Properties",
+    "content": "PopUp Window . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Title Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Title Text | 設定彈出視窗的視窗標題 | Plain Text | . | Using Register Value as Title | 決定是否要使用暫存器內容作為彈出視窗的視窗標題 | Checkbox | . | Content Register | 設定作為視窗標題的暫存器 | Register Selector | . | Content Page | 設定一個頁面作為彈出視窗，該頁面需進行以下設定才可作為彈出頁面 | Page Selector | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Register | 設定觸發彈出視窗的暫存器，暫存器內容為True時彈出視窗，當關閉視窗時自動將暫存器內容設為False | Register Selector | . | Behavior Before Popup | 當彈出視窗被觸發時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | Behavior After Popup | 當結束彈出視窗後，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . On Context Menu . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Using Register Value as Title | 決定是否要使用暫存器內容作為彈出視窗的視窗標題 | Checkbox | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/popup_window/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/popup_window/#properties"
+  },"146": {
+    "doc": "Popup Window",
+    "title": "Popup Window",
+    "content": ". Popup Window容許使用者將ADE的指定頁面以彈出視窗的形式，重疊顯示在目前頁面上，其作用就像在Windows上的對話盒，使用者可以使用不同的尺寸以及元件設計自己的對話盒。 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/popup_window/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/popup_window/"
+  },"147": {
+    "doc": "Popup InputPad",
+    "title": "Properties",
+    "content": "PopUp InputPad . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Title Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Title Text | 設定彈出視窗的視窗標題 | Plain Text | . | Using Register Value as Title | 決定是否要使用暫存器內容作為彈出視窗的視窗標題 | Checkbox | . | Content Register | 設定作為視窗標題的暫存器 | Register Selector | . | Enable Password Mode | 決定是否要使用密碼模式，如果使用密碼模式，輸入板將以*代替字元。 | Checkbox | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Input Data Mode | 定彈出輸入板的模式，詳情參考Input Data Selector | Input Data Selector | . | Trigger Register | 定觸發彈出輸入板的暫存器，暫存器內容為True時彈出輸入板，當輸入結束自動將暫存器內容設為False | Register Selector | . | Result Register | 設定暫存器儲存由彈出輸入板輸入的字符 | Register Selector | . Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Callback Before Open | 當彈出輸入板被觸發時，根據Before Open設計的Callback Function進行操作 | Checkbox | . | Before Open | 當彈出輸入板被觸發時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | Enable Callback After Close | 當輸入完成時，根據After Close設計的Callback Function進行操作 | Checkbox | . | After Close | 當輸入完成時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | Enable Callback After Cancel | 當輸入被取消時，根據After Cancel設計的Callback Function進行操作 | Checkbox | . | After Cancel | 當輸入被取消時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . On Context Menu . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Using Register Value as Title | 決定是否要使用暫存器內容作為彈出輸入板的視窗標題 | Checkbox | . | Enable Password Mode | 決定是否要使用密碼模式，如果使用密碼模式，輸入板將以*代替字元 | Checkbox | . | Input Data Mode | 設定彈出輸入板的模式，詳情參考Input Data Selector | Input Data Selector | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/#properties"
+  },"148": {
+    "doc": "Popup InputPad",
+    "title": "Popup InputPad",
+    "content": ". Popup Input Pad是一個彈出的對話盒，其目的為提供使用者輸入文字、數字或是密碼，並將其值紀錄於繫結的暫存器中。HMI通常會有需要使用者輸入數字或是文字的功能，這個元件可以省去自行設計輸入頁的時間。 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/"
+  },"149": {
+    "doc": "Popup MessageBox",
+    "title": "Properties",
+    "content": "PopUp MesssageBox . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Title Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Content/Select Register | 設定暫存器內容作為信息框的視窗標題或者作為視窗標題陣列的索引 | Register Selector | . | Using Register Value as Select Index | 決定是否要將暫存器內容作為視窗標題陣列的索引 | Checkbox | . | Title Array | 設定信息框的視窗標題陣列，詳情參考PlainTextArray Table Dialog | Plain Text Array Table Dialog | . Button Configuration . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | MessageBox Mode | 設定彈出信息框的模式，詳情參考MessageBox Selector | MessageBox Selector | . | Button Captions | 自訂彈出信息框的選擇按鈕，MessageBox Mode選擇Customized有效 | Plain Text Array Table Dialog | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Trigger Register | 設定觸發彈出信息框的暫存器，暫存器內容為True時彈出信息框，當選擇完成自動將暫存器內容設為False | Register Selector | . | Button Result Register | 設定暫存器儲存選擇的按鈕索引 | Register Selector | . Event Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Callback Before Open | 當彈出輸入板被觸發時，根據Before Open設計的Callback Function進行操作 | Checkbox | . | Before Open | 當彈出輸入板被觸發時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | Enable Callback After Close | 當輸入完成時，根據After Close設計的Callback Function進行操作 | Checkbox | . | After Close | 當輸入完成時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . On Context Menu . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Using Register to Select Text Index | 決定是否要將暫存器內容作為視窗標題陣列的索引 | Checkbox | . | MessageBox Mode | 設定彈出信息框的模式，詳情參考MessageBox Selector | Input Data Selector | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/#properties"
+  },"150": {
+    "doc": "Popup MessageBox",
+    "title": "Popup MessageBox",
+    "content": ". Popup Input Pad是一個彈出的對話盒，其目的為提供使用者輸入文字、數字或是密碼，並將其值紀錄於繫結的暫存器中。HMI通常會有需要使用者輸入數字或是文字的功能，這個元件可以省去自行設計輸入頁的時間。 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/"
+  },"151": {
+    "doc": "Register Observer",
+    "title": "Properties",
+    "content": "Register Observer . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Observed Register | 當暫存器被寫入且值有改變時，根據Callback Function設計的行為進行操作 | Register Selector | . | Callback Function | 當暫存器被寫入且值有改變時，此處的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/register_observer/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/register_observer/#properties"
+  },"152": {
+    "doc": "Register Observer",
+    "title": "Register Observer",
+    "content": ". 此元件的功能在於監視暫存器數值的變化，並於暫存器數值變化時執行相對應的Blockly程式來啟動元件與元件之間的事件鏈。 . 譬如，ADC輸入可以藉由將輸入暫存器繫結到儀表Widget，這個儀表Widget即可顯示輸入數值。但若是使用者想要在輸入數值大於某個閥值之後，使用一個LED來顯示警告，但是LED繫結於另一個暫存器。 . 此時使用者可以用一個Register Observer監視ADC暫存器，當ADC暫存器的數值改變時，此Register Observer的對應Blockly程式會被呼叫，因此可以在Blockly程式中比較 ADC數值，當大於閥值時，就設定LED繫結的暫存器數值，讓LED亮起。 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/register_observer/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/register_observer/"
+  },"153": {
+    "doc": "Timer",
+    "title": "Properties",
+    "content": "Timer . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Peiord Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Fixed Timer Period | 決定是否要使用固定計時器週期 | Checkbox | . | Period in ms | 設定固定計時器週期(單位為毫秒)，使用Fixed Timer Period有效 | Number Editor | . | Period Register | 設定暫存器內容作為計時器週期，使用Fixed Timer Period無效 | Register Selector | . Enable Time Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable on Power-On | 決定是否要開機就啟動計時器 | Checkbox | . | Trigger Register | 設定暫存器觸發計時器，使用Enable on Power-On無效 | Register Selector | . | Oneshot Timer | 決定計時器是否只執行一次 | Checkbox | . Time Up Behavior . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enable Page Selection | 當計時器時間到時，根據Select Target Page的內容啟動換頁行為 | Checkbox | . | Select Target Page | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | Enable Register Operation | 當計時器時間到時，根據Binding Register以及Operation Mode的內容對暫存器進行操作 | Checkbox | . | Binding Register | 決定要改變的暫存器 | Register Selector | . | Operation Mode | 當計時器時間到時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | Enable Callback Function | 當計時器時間到時，根據Behavior Programming設計的Callback Function進行操作 | Checkbox | . | Behavior Programming | 當計時器時間到時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . On Context Menu . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Fixed Timer Period | 決定是否要使用固定計時器週期 | Checkbox | . | Enable on Power-On | 決定是否要開機就啟動計時器 | Checkbox | . | Oneshot Timer | 決定計時器是否只執行一次 | Checkbox | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/timer/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/timer/#properties"
+  },"154": {
+    "doc": "Timer",
+    "title": "Timer",
+    "content": ". Timer可以週期性的觸發事件，並呼叫對應的Blockly程式，任何需要週期性檢查、讀取或是改變的資料，都可以用Timer來產生觸發事件 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/timer/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/timer/"
+  },"155": {
+    "doc": "Audio Player",
+    "title": "Properties",
+    "content": "Audio Player . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enabled | 決定是否要使用Audio Player，如果沒有Enable則不能使用 | Checkbox | . | Player Command Register | 設定暫存器作為Audio Player指令 暫存器內容為 0 時表示停止播放暫存器內容為 1 時表示開始播放暫存器內容為 2 時表示暫停撥放暫存器內容為 3 時表示恢復暫停 | Register Selector | . | Index Register | 設定暫存器內容作為音檔的索引 | Register Selector | . | Import Audio Files | 詳情參考FileArray Table Dialog | [FileArray Table Dialog] (/zh-tw/3.3.0/widgets/widget_properties/filearray_table_dialog/) | . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/audio_player/#properties",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/audio_player/#properties"
+  },"156": {
+    "doc": "Audio Player",
+    "title": "Audio Player",
+    "content": ". 音頻播放器為Output Widget，功能為播放音樂，目前支援音樂格式為WAV File, Mono, 8bits 16k sample。 . 可指定多個音效檔，並於執行期根據繫結的暫存器，指定播放檔案的ID以及播放指令。 . ",
+    "url": "/zh-tw/3.3.0/widgets/system_widget_library/audio_player/",
+    "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/audio_player/"
+  },"157": {
     "doc": "System Widget Library",
     "title": "System Widget Library",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/system_widget_library/",
     "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/"
-  },"125": {
+  },"158": {
     "doc": "Clip and Mask Widgets",
     "title": "Clip and Mask Widgets",
     "content": " ",
     "url": "/zh-tw/3.3.0/widgets/clip_and_mask_widgets/",
     "relUrl": "/zh-tw/3.3.0/widgets/clip_and_mask_widgets/"
-  },"126": {
+  },"159": {
     "doc": "IOT Gallery Minimalist",
     "title": "IOT Gallery Minimalist",
     "content": "點擊IOT Gallery Minimalist會得到多種樣式的Widget . Widget種類和Standard Widget Library相同，但Design Style不同 . 直接拖拉至Design Panel即可使用，節省美工花費的時間 . ",
     "url": "/zh-tw/3.3.0/iot_gallery_minimalist/",
     "relUrl": "/zh-tw/3.3.0/iot_gallery_minimalist/"
-  },"127": {
+  },"160": {
     "doc": "My Collections",
     "title": "My Collections",
     "content": "本章節會介紹如何將設計好的Design搬移至另一個ADE Project . My Widget頁面會顯示已儲存的Collection集和Collection包含的Shape . 使用方法 : . | 將要加入My Widget的Widget全選取起來，點擊右鍵選擇建立群組，如果只有單一Widget要加入My Widget則不須建立群組 | . 2.建立完群組後再次點擊右鍵，選擇Add to My Collections… . 3.選擇是否建立新的Collection或者使用現有的Collection . 4.輸入Collection名稱、描述和Shape名稱並選擇Shape icon，設定完成點擊Finish即可在My Widget獲得新建立的Collection . 5.將Shape拖曳至Design Panel即可使用 . 在My Widget頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在Shape上點擊右鍵則可以對Shape進行刪除和編輯 . ",
     "url": "/zh-tw/3.3.0/my_collections/",
     "relUrl": "/zh-tw/3.3.0/my_collections/"
-  },"128": {
+  },"161": {
     "doc": "Widget Inspector",
     "title": "Widget Inspector",
     "content": "本章節將介紹一些實用的Widget圖層相關工具，讓設計變得更加簡單 . 首先點選Widget Panel的Widget Inspector按鈕，進入Widget監察頁 . 進入頁面後可以看見當前Design Panel所在的頁面所有Widget及其相關圖層設定 . Widget實體名稱為使用者自行定義之名稱，不可重複，方便辨識及尋找， . 透過點選鎖定按鈕，將Widget鎖定，用以保護Widget內容 . 鎖定中的Widget會呈現灰色的鎖定圖示，且屬性不可被更改 . 點選可見按鈕調整Widget可見性，方便修改重疊的Widget . 顯示可見的Widget會顯示眼睛的可見圖示 . ",
     "url": "/zh-tw/3.3.0/widget_inspector/",
     "relUrl": "/zh-tw/3.3.0/widget_inspector/"
-  },"129": {
+  },"162": {
     "doc": "Shortcut Keys",
     "title": "Shortcut Keys",
     "content": "| 快捷鍵 |   | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟Messenger | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋Widget | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | Ctrl+拖移 | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+N | 建立檔案 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放Design Panel | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小Design Panel | . | Ctrl+[+] | 放大Design Panel | . | Shift+滑鼠滾輪 | 左右捲動Design Panel | . | Ctrl+Widget | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個Widget | . | Shift+Tab | 換上一個Widget | . | F3 | 開啟Library管理頁面 | . | F10 | 鎖定Widget比例 | . | F12 | 鎖定Widget位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示Widget Panel | . ",
     "url": "/zh-tw/3.3.0/shortcut_keys/",
     "relUrl": "/zh-tw/3.3.0/shortcut_keys/"
-  },"130": {
+  },"163": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
     "content": "Redirecting to latest version . ",
