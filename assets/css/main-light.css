@@ -1540,4 +1540,6 @@ table.table_properties td:nth-child(2) { width: 40vw; }
 
 table.table_properties td:nth-child(3) { width: 20vw; }
 
+figure.video_container_educational iframe { width: 1280px; height: 700px; }
+
 /*# sourceMappingURL=main-light.css.map */
