@@ -1339,7 +1339,7 @@
   },"223": {
     "doc": "Audio Player",
     "title": "Properties",
-    "content": "Audio Player . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enabled | 決定是否要使用Audio Player，如果沒有Enable則不能使用 | Checkbox | . | Player Command Register | 設定暫存器作為Audio Player指令 暫存器內容為 0 時表示停止播放暫存器內容為 1 時表示開始播放暫存器內容為 2 時表示暫停撥放暫存器內容為 3 時表示恢復暫停 | Register Selector | . | Index Register | 設定暫存器內容作為音檔的索引 | Register Selector | . | Import Audio Files | 詳情參考FileArray Table Dialog | [FileArray Table Dialog] (/zh-tw/3.3.0/widgets/widget_properties/filearray_table_dialog/) | . ",
+    "content": "Audio Player . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Name | Widget實體名稱 | Name | . Behavior Setting . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | Enabled | 決定是否要使用Audio Player，如果沒有Enable則不能使用 | Checkbox | . | Player Command Register | 設定暫存器作為Audio Player指令 暫存器內容為 0 時表示停止播放暫存器內容為 1 時表示開始播放暫存器內容為 2 時表示暫停撥放暫存器內容為 3 時表示恢復暫停 | Register Selector | . | Index Register | 設定暫存器內容作為音檔的索引 | Register Selector | . | Import Audio Files | 詳情參考FileArray Table Dialog | FileArray Table Dialog | . ",
     "url": "/zh-tw/3.3.0/widgets/system_widget_library/audio_player/#properties",
     "relUrl": "/zh-tw/3.3.0/widgets/system_widget_library/audio_player/#properties"
   },"224": {
