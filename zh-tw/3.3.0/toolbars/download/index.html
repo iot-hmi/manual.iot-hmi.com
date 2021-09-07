@@ -271,7 +271,7 @@
           <h1 id="download">
         
         
-          <a href="#download" class="anchor-heading" aria-labelledby="download"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Download
+          <a href="#download" class="anchor-heading" aria-labelledby="download"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> DOWNLOAD
         
         
       </h1>
@@ -279,7 +279,14 @@
 <p>Download Toolbar 的三個控制按鍵，如下圖所示：</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file22.png" alt="圖2-6 下載工具列" /></p>
-
+      <h2 id="download-1">
+        
+        
+          <a href="#download-1" class="anchor-heading" aria-labelledby="download-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Download
+        
+        
+      </h2>
+    
 <p>最左邊的是下載到 Ubique Panel 控制板的按鍵:</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file23.png" alt="圖2-7 下載鈕" /></p>
@@ -291,7 +298,14 @@
 <p><img src="/zh-tw/3.3.0/imgs/file24.png" alt="圖2-8 下載完成提示對話框" /></p>
 
 <p>這表示整個 Design 已經成功下載到 Ubique Panel 的控制板上。下在時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。</p>
-
+      <h2 id="launch-simulator">
+        
+        
+          <a href="#launch-simulator" class="anchor-heading" aria-labelledby="launch-simulator"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Launch Simulator
+        
+        
+      </h2>
+    
 <p>中間的按鍵是用來開啟內建的模擬器(Simulator):</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file25.png" alt="圖2-9 啟動模擬器按鈕" /></p>
@@ -299,7 +313,14 @@
 <p>內建的模擬器是模擬使用者設計被載入Ubique Panel之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖介面功能。並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與Ubique Panel上一致(色差可能發生於使用者使用的螢幕以及Ubique Panel之間，其色域規格以Ubique Panel規格書定義為準)。</p>
 
 <p>模擬器無法於個人電腦模擬Ubique Panel上的I/O, PWM,ADC等實體出入行為，但可以模擬Ubique Panel Register Communication Protocol。</p>
-
+      <h2 id="launch-messenger">
+        
+        
+          <a href="#launch-messenger" class="anchor-heading" aria-labelledby="launch-messenger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Launch Messenger
+        
+        
+      </h2>
+    
 <p>最右邊的按鍵啟動Messenger，目的是在個人電腦上與Ubique Panel或是模擬器通訊</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
@@ -311,116 +332,201 @@
 <p>在這視窗中，使用者可以透過個人電腦的COM Port，連結Ubique Panel，藉由Register communication protocol改變暫存器的內容值, 模擬由外部MCU透過UART1傳遞數值給Ubique Panel。</p>
 
 <p>以下詳細說明與模擬器以及Ubique Panel通訊方法:</p>
+      <h3 id="利用messenger和模擬器通訊">
+        
+        
+          <a href="#利用messenger和模擬器通訊" class="anchor-heading" aria-labelledby="利用messenger和模擬器通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 利用Messenger和模擬器通訊
+        
+        
+      </h3>
+    
 
-<p>一.利用Messenger和模擬器通訊</p>
+<ul>
+  <li>
+    <p>首先用ADE開啟一個既有設計</p>
 
-<p>首先用ADE開啟一個既有設計</p>
+    <p>確認IOConfig頁面UART1為Enabled且Baud Rate正確且暫存器已選取</p>
 
-<p>確認IOConfig頁面UART1為Enabled且Baud Rate正確且暫存器已選取</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file28.png" alt="圖2-12 IOConfig頁面-UART設定" /></p>
+  </li>
+  <li>
+    <p>到Register Table 找到欲進行通訊的Register並勾選<strong>Sent to Host</strong></p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file28.png" alt="圖2-12 IOConfig頁面-UART設定" /></p>
+    <p><img src="/zh-tw/3.3.0/imgs/file29.png" alt="圖2-13 暫存器編輯視窗" /></p>
+  </li>
+  <li>
+    <p>打開Messenger視窗與模擬器，進行以下操作</p>
 
-<p>到Register Table 找到欲進行通訊的Register並勾選<strong>Sent to Host</strong></p>
+    <p><img src="/zh-tw/3.3.0/imgs/file30.png" alt="圖2-14 Messenger和模擬器通訊" /></p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file29.png" alt="圖2-13 暫存器編輯視窗" /></p>
+    <ol>
+      <li>
+        <p>設定Socket</p>
+      </li>
+      <li>
+        <p>點擊連接，連接成功會看到彈出信息框顯示成功</p>
+      </li>
+      <li>
+        <p>點擊連接確認，Messenger會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
+      </li>
+      <li>
+        <p>連接正常，接收確認資訊ack</p>
+      </li>
+      <li>
+        <p>通訊指令</p>
 
-<p>打開Messenger視窗與模擬器，進行以下操作</p>
+        <p>選擇Set Register 表示要寫入暫存器內容，並且設定暫存器ID以及要寫次的資料以及型態，該暫存器ID以及資料型態必須與ADE設計專案內暫存器設定相符。</p>
+      </li>
+      <li>
+        <p>模擬器接收通訊指令且模擬器上會依通訊指令修改對應暫存器數值，若該暫存器有對應的Display Widget則模擬器進行相對應的顯示</p>
+      </li>
+    </ol>
 
-<p><img src="/zh-tw/3.3.0/imgs/file30.png" alt="圖2-14 Messenger和模擬器通訊" /></p>
+    <p><img src="/zh-tw/3.3.0/imgs/file31.png" alt="圖2-15 模擬器顯示通訊結果" /></p>
+  </li>
+</ul>
+      <h3 id="messenger與ubique-panel通訊">
+        
+        
+          <a href="#messenger與ubique-panel通訊" class="anchor-heading" aria-labelledby="messenger與ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Messenger與Ubique Panel通訊
+        
+        
+      </h3>
+    
 
-<p>1.設定Socket</p>
+<ul>
+  <li>
+    <p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
+  </li>
+  <li>
+    <p>之後利用USB to TTL模組連接控制板RX1 TX1 GND與ADE所在電腦的USB</p>
+  </li>
+  <li>
+    <p>連接完成後打開Messenger視窗</p>
 
-<p>2.點擊連接，連接成功會看到彈出信息框顯示成功</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file32.png" alt="" /></p>
 
-<p>3.點擊連接確認，Messenger會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
+    <ol>
+      <li>
+        <p>設定Serial Port，利用[Scan]掃描更新串口，選擇正確的串口並設定鮑率</p>
+      </li>
+      <li>
+        <p>點擊[Ack Test]確認連接</p>
+      </li>
+      <li>
+        <p>連接正常，接收到ack訊息</p>
+      </li>
+      <li>
+        <p>設定並傳送通訊指令</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>接下來即可在Ubique Panel上看到相對應的顯示</p>
 
-<p>4.連接正常，接收確認資訊ack</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file33.png" alt="" /></p>
+  </li>
+</ul>
+      <h3 id="pc-simulator與ubique-panel-通訊">
+        
+        
+          <a href="#pc-simulator與ubique-panel-通訊" class="anchor-heading" aria-labelledby="pc-simulator與ubique-panel-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> PC Simulator與Ubique Panel 通訊
+        
+        
+      </h3>
+    
+<p><em>目的為快速測試設計運作是正常</em></p>
 
-<p>5.通訊指令</p>
+<ul>
+  <li>
+    <p>首先，利用ADE準備兩個設計，一個負責傳送數值，一個負責接收數值</p>
+  </li>
+  <li>
+    <p>將負責傳送數值的設計利用模擬器打開，負責接收數值的設計下載至博橡科技控制板</p>
 
-<p>選擇Set Register 表示要寫入暫存器內容，並且設定暫存器ID以及要寫次的資料以及型態，該暫存器ID以及資料型態必須與ADE設計專案內暫存器設定相符。</p>
+    <p><strong>※注意!!確保兩個設計欲溝通的暫存器ID相同，且傳送方要勾選[Send to Host]</strong></p>
 
-<p>6.模擬器接收通訊指令且模擬器上會依通訊指令修改對應暫存器數值，若該暫存器有對應的Display Widget則模擬器進行相對應的顯示</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file34.png" alt="" /></p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file31.png" alt="圖2-15 模擬器顯示通訊結果" /></p>
+    <ol>
+      <li>
+        <p>設定Serial Port，選擇正確的串口並且設定好鮑率</p>
+      </li>
+      <li>
+        <p>利用Widget改變暫存器內容，再透過UART傳送至博橡控制板</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>接下來可以在Ubique Panel上看到相對應的顯示</p>
 
-<p>二. Messenger與Ubique Panel通訊</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file35.png" alt="" /></p>
+  </li>
+</ul>
+      <h3 id="ubique-panel和ubique-panel通訊">
+        
+        
+          <a href="#ubique-panel和ubique-panel通訊" class="anchor-heading" aria-labelledby="ubique-panel和ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel和Ubique Panel通訊
+        
+        
+      </h3>
+    
 
-<p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
+<ul>
+  <li>
+    <p>首先，使用杜邦線將兩塊控制板的RX1和TX1互接，接法如圖2-17所示</p>
 
-<p>之後利用USB to TTL模組連接控制板RX1 TX1 GND與ADE所在電腦的USB</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file36.png" alt="圖2-16 Ubique Panel UART位置示意圖" /></p>
 
-<p>連接完成後打開Messenger視窗</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file37.png" alt="圖2-17 Ubique Panel通訊UART接法" /></p>
+  </li>
+  <li>
+    <p>其次，準備兩個ADE Project，一個負責送一個負責接，並確認兩個Project欲溝通的暫存器id是否相同。將負責送的Project暫存器勾選Send to Host，表示作為傳送方。</p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file32.png" alt="" /></p>
+    <ul>
+      <li>專案一，利用進度條改變暫存器內容 以傳送資料，相關設定如下圖:</li>
+    </ul>
 
-<p>1.設定Serial Port，利用[Scan]掃描更新串口，選擇正確的串口並設定鮑率</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file38.png" alt="" /></p>
 
-<p>2.點擊[Ack Test]確認連接</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file39.png" alt="" /></p>
 
-<p>3.連接正常，接收到ack訊息</p>
+    <ul>
+      <li>專案二， 使用圓規和捲動文本顯示接收到的資料，相關設定如下圖:</li>
+    </ul>
 
-<p>4.設定並傳送通訊指令</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file40.png" alt="" /></p>
 
-<p>接下來即可在Ubique Panel上看到相對應的顯示</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file41.pngs" alt="" /></p>
+  </li>
+  <li>
+    <p>再分別將兩個Project下載至控制板。打開電源即可開始通訊。</p>
+  </li>
+</ul>
+      <h3 id="ubique-panel和-mcu通訊">
+        
+        
+          <a href="#ubique-panel和-mcu通訊" class="anchor-heading" aria-labelledby="ubique-panel和-mcu通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel和 MCU通訊
+        
+        
+      </h3>
+    
 
-<p><img src="/zh-tw/3.3.0/imgs/file33.png" alt="" /></p>
+<ul>
+  <li>
+    <p>首先，準備一個ADE Project並且設好暫存器。再參考博橡的通訊協定寫出Arduino程式，將資料透過通訊傳給指定ID的暫存器。</p>
 
-<p>三. PC Simulator與Ubique Panel 通訊</p>
+    <p>以下是UART Communication Protocol</p>
 
-<p>目的為快速測試設計運作是正常</p>
-
-<p>首先 利用ADE準備兩個設計，一個負責傳送數值，一個負責接收數值</p>
-
-<p>將負責傳送數值的設計利用模擬器打開，負責接收數值的設計下載至博橡科技控制板</p>
-
-<p>※注意!!確保兩個設計欲溝通的暫存器ID相同，且傳送方要勾選[Send to Host]</p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file34.png" alt="" /></p>
-
-<p>1.設定Serial Port，選擇正確的串口並且設定好鮑率</p>
-
-<p>2.利用Widget改變暫存器內容，再透過UART傳送至博橡控制板</p>
-
-<p>接下來可以在Ubique Panel上看到相對應的顯示</p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file35.png" alt="" /></p>
-
-<p>四.Ubique Panel和Ubique Panel通訊</p>
-
-<p>首先，使用杜邦線將兩塊控制板的RX1和TX1互接，接法如圖2-17所示</p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file36.png" alt="圖2-16 Ubique Panel UART位置示意圖" /></p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file37.png" alt="圖2-17 Ubique Panel通訊UART接法" /></p>
-
-<p>其次，準備兩個ADE Project，一個負責送一個負責接，並確認兩個Project欲溝通的暫存器id是否相同。將負責送的Project暫存器勾選Send to Host，表示作為傳送方。</p>
-
-<p>專案一，利用進度條改變暫存器內容 以傳送資料，相關設定如下圖:</p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file38.png" alt="" /></p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file39.png" alt="" /></p>
-
-<p>專案二， 使用圓規和捲動文本顯示接收到的資料，相關設定如下圖:</p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file40.png" alt="" /></p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file41.pngs" alt="" /></p>
-
-<p>再 分別將兩個Project下載至控制板。打開電源即可開始通訊。</p>
-
-<p>五.Ubique Panel和 MCU通訊</p>
-
-<p>首先，準備一個ADE Project並且設好暫存器。再參考博橡的通訊協定寫出Arduino程式，將資料透過通訊傳給指定ID的暫存器。</p>
-
-<p>以下是UART Communication Protocol</p>
-
-<p><img src="/zh-tw/3.3.0/imgs/file42.png" alt="圖2-18 UART通訊協定" /></p>
-
-<p>其次，連接博橡控制板與Arduino控制板的RX和TX</p>
-
-<p>將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。</p>
+    <p><img src="/zh-tw/3.3.0/imgs/file42.png" alt="圖2-18 UART通訊協定" /></p>
+  </li>
+  <li>
+    <p>其次，連接博橡控制板與Arduino控制板的RX和TX</p>
+  </li>
+  <li>
+    <p>將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。</p>
+  </li>
+</ul>
 
         
 
