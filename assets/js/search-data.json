@@ -19,7 +19,7 @@
   },"3": {
     "doc": "Introduction",
     "title": "System Requirement",
-    "content": "• OS: Windows 10 64bit . • CPU: Intel or AMD processor with 64-bit support; . • Disk Storage: 4 GB of free disk space . • Monitor Resolution: 1920x1080; . • Internet: Internet connection required for reference document . ",
+    "content": "• OS : Windows 10 64bit . • CPU : Intel or AMD processor with 64-bit support; . • Disk Storage : 4 GB of free disk space . • Monitor Resolution : 1920x1080; . • Internet : Internet connection required for reference document . ",
     "url": "/zh-tw/3.3.0/#system-requirement",
     "relUrl": "/zh-tw/3.3.0/#system-requirement"
   },"4": {
@@ -1369,7 +1369,7 @@
   },"228": {
     "doc": "My Collections",
     "title": "My Collections",
-    "content": "本章節會介紹如何將設計好的Design搬移至另一個ADE Project . My Widget頁面會顯示已儲存的Collection集和Collection包含的Shape . 使用方法 : . | 將要加入My Widget的Widget全選取起來，點擊右鍵選擇建立群組，如果只有單一Widget要加入My Widget則不須建立群組 | . 2.建立完群組後再次點擊右鍵，選擇Add to My Collections… . 3.選擇是否建立新的Collection或者使用現有的Collection . 4.輸入Collection名稱、描述和Shape名稱並選擇Shape icon，設定完成點擊Finish即可在My Widget獲得新建立的Collection . 5.將Shape拖曳至Design Panel即可使用 . 在My Widget頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在Shape上點擊右鍵則可以對Shape進行刪除和編輯 . ",
+    "content": "本章節會介紹如何將設計好的Design搬移至另一個ADE Project . My Widget頁面會顯示已儲存的Collection集和Collection包含的Shape . 使用方法 : . | 將要加入My Widget的Widget全選取起來，點擊右鍵選擇建立群組，如果只有單一Widget要加入My Widget則不須建立群組 . | 建立完群組後再次點擊右鍵，選擇Add to My Collections… . | 選擇是否建立新的Collection或者使用現有的Collection . | 輸入Collection名稱、描述和Shape名稱並選擇Shape icon，設定完成點擊Finish即可在My Widget獲得新建立的Collection . | 將Shape拖曳至Design Panel即可使用 . 在My Widget頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在Shape上點擊右鍵則可以對Shape進行刪除和編輯 . | . ",
     "url": "/zh-tw/3.3.0/my_collections/",
     "relUrl": "/zh-tw/3.3.0/my_collections/"
   },"229": {
