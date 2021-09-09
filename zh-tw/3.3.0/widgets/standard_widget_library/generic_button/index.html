@@ -271,15 +271,15 @@
         
           <p><img src="/zh-tw/3.3.0/imgs/file170.png" alt="" /></p>
 
-<p>有段按鈕是一個Input Widget，主要作為一個無內部狀態的按鈕。</p>
+<p>有段按鈕是一個輸入元件，主要作為一個無內部狀態的按鈕。</p>
 
 <p>為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。</p>
 
 <p>有段按鈕提供所有按鈕能觸發的事件，包括點擊、按下、釋放、短按、長按和持續按等動作，所有動作皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可精細控制不同的觸發做不同的動作。</p>
-      <h2 id="properties">
+      <h2 id="元件屬性">
         
         
-          <a href="#properties" class="anchor-heading" aria-labelledby="properties"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Properties
+          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
         
         
       </h2>
@@ -303,16 +303,16 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Name</td>
-      <td style="text-align: left">Widget實體名稱</td>
+      <td style="text-align: left">元件名稱</td>
+      <td style="text-align: left">元件實體名稱</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="visibility-control">
+      <h3 id="顯示隱藏控制">
         
         
-          <a href="#visibility-control" class="anchor-heading" aria-labelledby="visibility-control"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Visibility Control
+          <a href="#顯示隱藏控制" class="anchor-heading" aria-labelledby="顯示隱藏控制"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 顯示/隱藏控制
         
         
       </h3>
@@ -328,13 +328,13 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Binding Hidden Control Register</td>
-      <td style="text-align: left">決定是否要綁定暫存器，藉由暫存器內容觸發隱藏Widget</td>
+      <td style="text-align: left">繫結顯示/隱藏</td>
+      <td style="text-align: left">決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Hidden Control Register</td>
-      <td style="text-align: left">透過改變暫存器值決定顯示或不顯示Widget</td>
+      <td style="text-align: left">選擇顯示/隱藏</td>
+      <td style="text-align: left">透過改變暫存器值決定顯示或不顯示元件</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
   </tbody>
@@ -358,7 +358,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">State</td>
+      <td style="text-align: left">元件狀態</td>
       <td style="text-align: left">選擇要預覽的狀態</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
     </tr>
@@ -574,10 +574,10 @@
     </tr>
   </tbody>
 </table></div>
-      <h3 id="click-event-setting">
+      <h3 id="點擊事件設定">
         
         
-          <a href="#click-event-setting" class="anchor-heading" aria-labelledby="click-event-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Click Event Setting
+          <a href="#點擊事件設定" class="anchor-heading" aria-labelledby="點擊事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 點擊事件設定
         
         
       </h3>
@@ -593,46 +593,46 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Enable Page Selection</td>
-      <td style="text-align: left">當按鈕被點擊時，根據Select Target Page的內容啟動換頁行為</td>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">選擇目標頁面</td>
       <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Register Operation</td>
-      <td style="text-align: left">當按鈕被點擊時，根據Binding Register以及Operation Mode的內容對暫存器進行操作</td>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">綁定暫存器</td>
       <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">操作模式</td>
       <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Callback Function</td>
-      <td style="text-align: left">當按鈕被點擊時，根據Behavior Programming設計的Callback Function進行操作</td>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被點擊時，根據行為設計設計的Callback Function進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Behavior Programming</td>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="pressing-event-setting">
+      <h3 id="按下事件設定">
         
         
-          <a href="#pressing-event-setting" class="anchor-heading" aria-labelledby="pressing-event-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Pressing Event Setting
+          <a href="#按下事件設定" class="anchor-heading" aria-labelledby="按下事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 按下事件設定
         
         
       </h3>
@@ -648,46 +648,46 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Enable Page Selection</td>
-      <td style="text-align: left">當按鈕被按著時，根據Select Target Page的內容啟動換頁行為</td>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">選擇目標頁面</td>
       <td style="text-align: left">當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Register Operation</td>
-      <td style="text-align: left">當按鈕被按著時，根據Binding Register以及Operation Mode的內容對暫存器進行操作</td>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">綁定暫存器</td>
       <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">操作模式</td>
       <td style="text-align: left">當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Callback Function</td>
-      <td style="text-align: left">當按鈕被按著時，根據Behavior Programming設計的Callback Function進行操作</td>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被按著時，根據行為設計設計的Callback Function進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Behavior Programming</td>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="releasing-event-setting">
+      <h3 id="釋放事件設定">
         
         
-          <a href="#releasing-event-setting" class="anchor-heading" aria-labelledby="releasing-event-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Releasing Event Setting
+          <a href="#釋放事件設定" class="anchor-heading" aria-labelledby="釋放事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 釋放事件設定
         
         
       </h3>
@@ -703,37 +703,37 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Enable Page Selection</td>
-      <td style="text-align: left">當按鈕被放開時，根據Select Target Page的內容啟動換頁行為</td>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">選擇目標頁面</td>
       <td style="text-align: left">當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Register Operation</td>
-      <td style="text-align: left">當按鈕被放開時，根據Binding Register以及Operation Mode的內容對暫存器進行操作</td>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">綁定暫存器</td>
       <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">操作模式</td>
       <td style="text-align: left">當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Callback Function</td>
-      <td style="text-align: left">當按鈕被放開時，根據Behavior Programming設計的Callback Function進行操作</td>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被放開時，根據行為設計設計的Callback Function進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Behavior Programming</td>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
@@ -758,37 +758,37 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Enable Page Selection</td>
-      <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，根據Select Target Page的內容啟動換頁行為</td>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，根據選擇目標頁面的內容啟動換頁行為</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">選擇目標頁面</td>
       <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Register Operation</td>
-      <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，根據Binding Register以及Operation Mode的內容對暫存器進行操作</td>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">綁定暫存器</td>
       <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">操作模式</td>
       <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Callback Function</td>
-      <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，根據Behavior Programming設計的Callback Function進行操作</td>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，根據行為設計設計的Callback Function進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Behavior Programming</td>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
@@ -813,37 +813,37 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Enable Page Selection</td>
-      <td style="text-align: left">當按鈕被長按1.5秒時，根據Select Target Page的內容啟動換頁行為</td>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">選擇目標頁面</td>
       <td style="text-align: left">當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Register Operation</td>
-      <td style="text-align: left">當按鈕被長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作</td>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">綁定暫存器</td>
       <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">操作模式</td>
       <td style="text-align: left">當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Callback Function</td>
-      <td style="text-align: left">當按鈕被長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作</td>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被長按1.5秒時，根據行為設計設計的Callback Function進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Behavior Programming</td>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
@@ -868,46 +868,46 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Enable Page Selection</td>
-      <td style="text-align: left">當按鈕被循環長按1.5秒時，根據Select Target Page的內容啟動換頁行為</td>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被循環長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">選擇目標頁面</td>
       <td style="text-align: left">當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Register Operation</td>
-      <td style="text-align: left">當按鈕被循環長按1.5秒時，根據Binding Register以及Operation Mode的內容對暫存器進行操作</td>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被循環長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">綁定暫存器</td>
       <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">操作模式</td>
       <td style="text-align: left">當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Callback Function</td>
-      <td style="text-align: left">當按鈕被循環長按1.5秒時，根據Behavior Programming設計的Callback Function進行操作</td>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被循環長按1.5秒時，根據行為設計設計的Callback Function進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Behavior Programming</td>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="preview">
+      <h3 id="預覽">
         
         
-          <a href="#preview" class="anchor-heading" aria-labelledby="preview"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Preview
+          <a href="#預覽" class="anchor-heading" aria-labelledby="預覽"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 預覽
         
         
       </h3>
@@ -929,10 +929,10 @@
     </tr>
   </tbody>
 </table></div>
-      <h2 id="on-context-menu">
+      <h2 id="右鍵選單">
         
         
-          <a href="#on-context-menu" class="anchor-heading" aria-labelledby="on-context-menu"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> On Context Menu
+          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
         
         
       </h2>
@@ -962,10 +962,10 @@
     </tr>
   </tbody>
 </table></div>
-      <h3 id="action">
+      <h3 id="元件子功能">
         
         
-          <a href="#action" class="anchor-heading" aria-labelledby="action"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Action
+          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
         
         
       </h3>
