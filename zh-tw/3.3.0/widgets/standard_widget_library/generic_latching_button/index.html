@@ -271,11 +271,11 @@
         
           <p><img src="/zh-tw/3.3.0/imgs/file169.png" alt="" /></p>
 
-<p>交互按鈕既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。</p>
+<p>有段按鈕既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。</p>
 
 <p>狀態可以由使用者觸摸按鈕來改變，或是藉由其他Widget或是程式改變繫結的暫存器內容來改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。</p>
 
-<p>交互按鈕為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。</p>
+<p>有段按鈕為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。</p>
 
 <p>按下或釋放按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。</p>
       <h2 id="教育影片">
@@ -300,16 +300,16 @@
         
       </h2>
     
-      <h3 id="generic-latching-button">
+      <h3 id="有段按鈕">
         
         
-          <a href="#generic-latching-button" class="anchor-heading" aria-labelledby="generic-latching-button"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Generic Latching Button
+          <a href="#有段按鈕" class="anchor-heading" aria-labelledby="有段按鈕"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 有段按鈕
         
         
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -323,6 +323,11 @@
       <td style="text-align: left">元件實體名稱</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
+    <tr>
+      <td style="text-align: left">連結到教學影片</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
+    </tr>
   </tbody>
 </table></div>
       <h3 id="顯示隱藏控制">
@@ -334,7 +339,7 @@
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -355,16 +360,16 @@
     </tr>
   </tbody>
 </table></div>
-      <h3 id="text-setting">
+      <h3 id="顯示offon狀態">
         
         
-          <a href="#text-setting" class="anchor-heading" aria-labelledby="text-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Text Setting
+          <a href="#顯示offon狀態" class="anchor-heading" aria-labelledby="顯示offon狀態"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 顯示OFF/ON狀態
         
         
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -374,52 +379,77 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Text on Release</td>
+      <td style="text-align: left">元件狀態</td>
+      <td style="text-align: left">選擇要預覽的狀態</td>
+      <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="文字設定">
+        
+        
+          <a href="#文字設定" class="anchor-heading" aria-labelledby="文字設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 文字設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">釋放時文字</td>
       <td style="text-align: left">設定按鈕放開時的文字</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/plain_text/">Plain Text</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color</td>
+      <td style="text-align: left">文字顏色</td>
       <td style="text-align: left">設定放開按鈕時文字的顯示顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Text Opacity %</td>
+      <td style="text-align: left">文字不透明度 %</td>
       <td style="text-align: left">設定按鈕放開時的文字不透明度(1-100%)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Pressed State Color</td>
+      <td style="text-align: left">啟用按下時風格</td>
       <td style="text-align: left">決定按鈕放開與按下時是否要顯示不同的文字並另外設定按下時的文字與風格</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Text on Press</td>
+      <td style="text-align: left">按下時文字</td>
       <td style="text-align: left">設定按鈕按下時的文字</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/plain_text/">Plain Text</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color</td>
+      <td style="text-align: left">文字顏色</td>
       <td style="text-align: left">設定按鈕按下時的文字顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Text Opacity %</td>
+      <td style="text-align: left">文字不透明度 %</td>
       <td style="text-align: left">設定按鈕按下時的文字不透明度(1-100%)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="body-setting">
+      <h3 id="本體設定">
         
         
-          <a href="#body-setting" class="anchor-heading" aria-labelledby="body-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Body Setting
+          <a href="#本體設定" class="anchor-heading" aria-labelledby="本體設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 本體設定
         
         
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -429,62 +459,62 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Main Color</td>
+      <td style="text-align: left">主要顏色</td>
       <td style="text-align: left">設定按鈕的主要顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Gradient Color</td>
+      <td style="text-align: left">漸變顏色</td>
       <td style="text-align: left">設定按鈕的漸變顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Body Opacity %</td>
+      <td style="text-align: left">按鈕不透明度 %</td>
       <td style="text-align: left">設定按鈕的不透明度(0-100%)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Corner Radius</td>
+      <td style="text-align: left">圓角半徑</td>
       <td style="text-align: left">設定按鈕的圓角半徑，最大值隨Widget大小而變動</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Pressed State Style</td>
+      <td style="text-align: left">啟用按下時風格</td>
       <td style="text-align: left">決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Main Color</td>
+      <td style="text-align: left">主要顏色</td>
       <td style="text-align: left">設定按鈕的主要顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Gradient Color</td>
+      <td style="text-align: left">漸變顏色</td>
       <td style="text-align: left">設定按鈕按下時的漸變顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Body Opacity %</td>
+      <td style="text-align: left">按鈕不透明度 %</td>
       <td style="text-align: left">設定按鈕按下時的不透明度(0-100%)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Corner Radius</td>
+      <td style="text-align: left">圓角半徑</td>
       <td style="text-align: left">設定按鈕按下時的圓角半徑，最大值隨Widget大小而變動</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="border-setting">
+      <h3 id="邊框設定">
         
         
-          <a href="#border-setting" class="anchor-heading" aria-labelledby="border-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Border Setting
+          <a href="#邊框設定" class="anchor-heading" aria-labelledby="邊框設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 邊框設定
         
         
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -494,42 +524,42 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Border Color</td>
+      <td style="text-align: left">邊框顏色</td>
       <td style="text-align: left">設定按鈕邊框的顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Border Width</td>
+      <td style="text-align: left">邊框寬度</td>
       <td style="text-align: left">設定按鈕邊框的寬度</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Pressed State Style</td>
+      <td style="text-align: left">啟用按下時風格</td>
       <td style="text-align: left">決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Border Color</td>
+      <td style="text-align: left">邊框顏色</td>
       <td style="text-align: left">設定按鈕按下時邊框的顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Border Width</td>
+      <td style="text-align: left">邊框寬度</td>
       <td style="text-align: left">設定按鈕按下時邊框的寬度</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="shadow-setting">
+      <h3 id="陰影設定">
         
         
-          <a href="#shadow-setting" class="anchor-heading" aria-labelledby="shadow-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Shadow Setting
+          <a href="#陰影設定" class="anchor-heading" aria-labelledby="陰影設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 陰影設定
         
         
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -539,28 +569,28 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Shadow Color</td>
+      <td style="text-align: left">陰影顏色</td>
       <td style="text-align: left">設定按鈕陰影的顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Shadow Width</td>
+      <td style="text-align: left">陰影寬度</td>
       <td style="text-align: left">設定按鈕陰影的寬度</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Enable Pressed State Style</td>
+      <td style="text-align: left">啟用按下時風格</td>
       <td style="text-align: left">決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Shadow Color</td>
-      <td style="text-align: left">設定按鈕按下時陰的顏色</td>
+      <td style="text-align: left">陰影顏色</td>
+      <td style="text-align: left">設定按鈕按下時陰影的顏色</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Shadow Width</td>
-      <td style="text-align: left">設定按鈕按下時陰的寬度</td>
+      <td style="text-align: left">陰影寬度</td>
+      <td style="text-align: left">設定按鈕按下時陰影的寬度</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
   </tbody>
@@ -574,7 +604,7 @@
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -629,7 +659,7 @@
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -684,7 +714,7 @@
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -714,7 +744,7 @@
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -724,7 +754,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Animate</td>
+      <td style="text-align: left">按鈕按下動畫</td>
       <td style="text-align: left">預覽Widget點擊效果</td>
       <td style="text-align: left"> </td>
     </tr>
@@ -747,7 +777,7 @@
       </h3>
     
 
-<div class="table-wrapper"><table>
+<div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
       <th style="text-align: left">屬性名稱</th>
@@ -757,8 +787,13 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Preview</td>
+      <td style="text-align: left">預覽按鈕按下動畫</td>
       <td style="text-align: left">預覽Widget點擊效果</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">連接到教學影片…</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
