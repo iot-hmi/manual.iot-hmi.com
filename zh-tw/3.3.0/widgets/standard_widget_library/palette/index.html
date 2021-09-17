@@ -236,6 +236,16 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/gpio/" class="nav-list-link">GPIO</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/pwm/" class="nav-list-link">PWM</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/adc/" class="nav-list-link">ADC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/uart/" class="nav-list-link">UART</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/backlight/" class="nav-list-link">Back Light</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
                   </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a></li></ul>
 
           
@@ -300,10 +310,10 @@
         
       </h2>
     
-      <h3 id="palette">
+      <h3 id="調色盤">
         
         
-          <a href="#palette" class="anchor-heading" aria-labelledby="palette"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Palette
+          <a href="#調色盤" class="anchor-heading" aria-labelledby="調色盤"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 調色盤
         
         
       </h3>
@@ -322,6 +332,11 @@
       <td style="text-align: left">元件名稱</td>
       <td style="text-align: left">元件實體名稱</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/name/">Name</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">連結到教學影片</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
@@ -374,42 +389,42 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Binding RGB Register</td>
+      <td style="text-align: left">綁定三原色暫存器</td>
       <td style="text-align: left">決定是否要綁定三原色暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color 0</td>
+      <td style="text-align: left">顏色 0</td>
       <td style="text-align: left">設定顏色0，如果綁定三原色暫存器則無效</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color 1</td>
+      <td style="text-align: left">顏色 1</td>
       <td style="text-align: left">設定顏色1，如果綁定三原色暫存器則無效</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color 2</td>
+      <td style="text-align: left">顏色 2</td>
       <td style="text-align: left">設定顏色2，如果綁定三原色暫存器則無效</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color 3</td>
+      <td style="text-align: left">顏色 3</td>
       <td style="text-align: left">設定顏色3，如果綁定三原色暫存器則無效</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/color_selector/">Color Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color R</td>
+      <td style="text-align: left">紅色</td>
       <td style="text-align: left">設定暫存器內容，將暫存器內容對應三原色紅色的比例(0-255)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color G</td>
+      <td style="text-align: left">綠色</td>
       <td style="text-align: left">設定暫存器內容，將暫存器內容對應三原色綠色的比例(0-255)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Color B</td>
+      <td style="text-align: left">藍色</td>
       <td style="text-align: left">設定暫存器內容，將暫存器內容對應三原色藍色的比例(0-255)</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
@@ -419,12 +434,17 @@
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
+      <td style="text-align: left">形狀</td>
+      <td style="text-align: left">設定調色盤的形狀為圓形或矩形</td>
+      <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
+    </tr>
+    <tr>
       <td style="text-align: left">圓角半徑</td>
-      <td style="text-align: left">設定調色盤的圓角半徑</td>
+      <td style="text-align: left">設定調色盤的圓角半徑，如果形狀為圓形則無效</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Show Color</td>
+      <td style="text-align: left">預覽顏色</td>
       <td style="text-align: left">設定要預覽的顏色，如果綁定三原色暫存器則無效</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
     </tr>
@@ -457,6 +477,39 @@
       <td style="text-align: left">邊框寬度</td>
       <td style="text-align: left">設定調色盤邊框的寬度，最大值隨Widget大小變化</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="右鍵選單">
+        
+        
+          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
+        
+        
+      </h2>
+    
+      <h3 id="元件子功能">
+        
+        
+          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">連接到教學影片…</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>

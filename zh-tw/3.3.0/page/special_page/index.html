@@ -236,6 +236,16 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/gpio/" class="nav-list-link">GPIO</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/pwm/" class="nav-list-link">PWM</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/adc/" class="nav-list-link">ADC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/uart/" class="nav-list-link">UART</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/backlight/" class="nav-list-link">Back Light</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
                   </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a></li></ul>
 
           
@@ -293,61 +303,106 @@
 <p>I/O Configuration 頁面如下圖:
 <img src="/zh-tw/3.3.0/imgs/file252.png" alt="I/O Configuration頁面" />
 此頁面包含以下幾種元件</p>
-<ol>
-  <li>
-    <p>GPIO:</p>
+      <h2 id="gpio">
+        
+        
+          <a href="#gpio" class="anchor-heading" aria-labelledby="gpio"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> GPIO
+        
+        
+      </h2>
+    
 
-    <p>GPIO元件，以GPIO開始，加上一個數字代表I/O Pin編號(詳見<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>)，並以底線連接 IN或是OUT表示該I/O點為輸入或是輸出。
- 元件左邊的圓點表示該I/O是否被致能。
- 不同的設計樣板可能啟動不同的I/O，詳情見各產品Datasheet。</p>
+<p>GPIO元件，以GPIO開始，加上一個數字代表I/O Pin編號(詳見<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>)，並以底線連接 IN或是OUT表示該I/O點為輸入或是輸出。</p>
 
-    <p><strong>GPIO元件的設定以及使用方式詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/gpio/&quot;">GPIO Widget</a></strong></p>
-  </li>
-  <li>
-    <p>PWM/Input Capture:</p>
+<p>元件左邊的圓點表示該I/O是否被致能。</p>
 
-    <p>PWM/Input Capture元件，以IOPWM開頭，加上一個數字代表PWM Pin編號(詳見<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>)，用以設定PWM輸出的調變頻率。
- 作為Input Capture元件時，用以計算一定時間內輸入的脈波次數，此元件以與PWM元件命名方法相同，末尾加上_IC
- 元件左邊的圓點表示該PWM是否被致能。</p>
+<p>不同的設計樣板可能啟動不同的I/O，詳情見各產品Datasheet。</p>
 
-    <p><strong>PWM元件的設定以及使用方式詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/pwm/&quot;">PWM Widget</a></strong></p>
-  </li>
-  <li>
-    <p>ADC:</p>
+<p><strong>GPIO元件的設定以及使用方式詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/gpio/&quot;">GPIO Widget</a></strong></p>
+      <h2 id="pwminput-capture">
+        
+        
+          <a href="#pwminput-capture" class="anchor-heading" aria-labelledby="pwminput-capture"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> PWM/Input Capture
+        
+        
+      </h2>
+    
 
-    <p>ADC元件用以讀取類比輸入值，以ADC開頭，加上數字代表ADC Pin編號(詳見<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>)，再加上_IN。
- 元件左邊的圓點表示該ADC是否被致能。</p>
+<p>PWM/Input Capture元件，以IOPWM開頭，加上一個數字代表PWM Pin編號(詳見<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>)，用以設定PWM輸出的調變頻率。</p>
 
-    <p><strong>ADC元件的設定以及使用方式詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/adc/&quot;">Input Capture Widget</a></strong></p>
-  </li>
-  <li>
-    <p>UART:</p>
+<p>作為Input Capture元件時，用以計算一定時間內輸入的脈波次數，此元件以與PWM元件命名方法相同，末尾加上_IC</p>
 
-    <p>UART元件用來設定UART通訊組態，關於UART連接Pin以及通訊協定請參閱<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>
- 元件左邊的圓點表示該UART是否被致能，通訊功能是預設啟動的。</p>
+<p>元件左邊的圓點表示該PWM是否被致能。</p>
 
-    <p><strong>UART元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/uart/&quot;">UART Widget</a></strong></p>
-  </li>
-  <li>
-    <p>BackLight:</p>
+<p><strong>PWM/Input Capture元件的設定以及使用方式詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/pwm/&quot;">PWM Widget</a></strong></p>
+      <h2 id="adc">
+        
+        
+          <a href="#adc" class="anchor-heading" aria-labelledby="adc"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ADC
+        
+        
+      </h2>
+    
 
-    <p>Back light元件用於調整螢幕被光亮度以及螢幕休眠功能。</p>
+<p>ADC元件用以讀取類比輸入值，以ADC開頭，加上數字代表ADC Pin編號(詳見<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a>)，再加上_IN。</p>
 
-    <p><strong>BackLight元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/backlight/&quot;">BackLight Widget</a></strong></p>
-  </li>
-  <li>
-    <p>RTC:</p>
+<p>元件左邊的圓點表示該ADC是否被致能。</p>
 
-    <p>RTC元件用以啟動系統時鐘功能。
- <strong>元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/rtc/&quot;">RTC Widget</a></strong></p>
-  </li>
-  <li>
-    <p>Logo:</p>
+<p><strong>ADC元件的設定以及使用方式詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/adc/&quot;">Input Capture Widget</a></strong></p>
+      <h2 id="uart">
+        
+        
+          <a href="#uart" class="anchor-heading" aria-labelledby="uart"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> UART
+        
+        
+      </h2>
+    
 
-    <p>Logo元件顯示如圖示<img src="/zh-tw/3.3.0/imgs/file253.png" alt="Logo" />，提供使用者自訂開機Logo顯示功能以及顯示時間。
- <strong>Logo元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/logo/&quot;">Logo Widget</a></strong></p>
-  </li>
-</ol>
+<p>UART元件用來設定UART通訊組態，關於UART連接Pin以及通訊協定請參閱<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view">Ubique Panel Datasheet</a></p>
+
+<p>元件左邊的圓點表示該UART是否被致能，通訊功能是預設啟動的。</p>
+
+<p><strong>UART元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/uart/&quot;">UART Widget</a></strong></p>
+      <h2 id="backlight">
+        
+        
+          <a href="#backlight" class="anchor-heading" aria-labelledby="backlight"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> BackLight
+        
+        
+      </h2>
+    
+
+<p>Back light元件用於調整螢幕被光亮度以及螢幕休眠功能。</p>
+
+<p><strong>BackLight元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/backlight/&quot;">BackLight Widget</a></strong></p>
+      <h2 id="rtc">
+        
+        
+          <a href="#rtc" class="anchor-heading" aria-labelledby="rtc"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> RTC
+        
+        
+      </h2>
+    
+
+<p>RTC元件用以啟動系統時鐘功能。</p>
+
+<p><strong>元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/rtc/&quot;">RTC Widget</a></strong></p>
+      <h2 id="logo">
+        
+        
+          <a href="#logo" class="anchor-heading" aria-labelledby="logo"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Logo:
+        
+        
+      </h2>
+    
+
+<p>Logo元件顯示如圖示</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file253.png" alt="Logo" /></p>
+
+<p>提供使用者自訂開機Logo顯示功能以及顯示時間。</p>
+
+<p><strong>Logo元件的設定以及使用詳見<a href="&quot;/zh-tw/3.3.0/widgets/system_widget_library/logo/&quot;">Logo Widget</a></strong></p>
 
         
 
