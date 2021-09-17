@@ -1453,10 +1453,22 @@
   },"242": {
     "doc": "Shortcut Keys",
     "title": "Shortcut Keys",
-    "content": "| 快捷鍵 |   | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟Messenger | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋Widget | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | Ctrl+拖移 | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+N | 建立檔案 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放Design Panel | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小Design Panel | . | Ctrl+[+] | 放大Design Panel | . | Shift+滑鼠滾輪 | 左右捲動Design Panel | . | Ctrl+Widget | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個Widget | . | Shift+Tab | 換上一個Widget | . | F3 | 開啟Library管理頁面 | . | F10 | 鎖定Widget比例 | . | F12 | 鎖定Widget位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示Widget Panel | . ",
+    "content": "| 快捷鍵 | 功能描述 | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟Messenger | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋Widget | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | Ctrl+拖移 | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+N | 建立檔案 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放Design Panel | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小Design Panel | . | Ctrl+[+] | 放大Design Panel | . | Shift+滑鼠滾輪 | 左右捲動Design Panel | . | Ctrl+Widget | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個Widget | . | Shift+Tab | 換上一個Widget | . | F3 | 開啟Library管理頁面 | . | F10 | 鎖定Widget比例 | . | F12 | 鎖定Widget位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示Widget Panel | . ",
     "url": "/zh-tw/3.3.0/shortcut_keys/",
     "relUrl": "/zh-tw/3.3.0/shortcut_keys/"
   },"243": {
+    "doc": "Application Note",
+    "title": "Application Note",
+    "content": " ",
+    "url": "/zh-tw/3.3.0/application_note/",
+    "relUrl": "/zh-tw/3.3.0/application_note/"
+  },"244": {
+    "doc": "Application Note",
+    "title": "目標",
+    "content": ". | 以Arduino作為主控版，將讀取的IO訊息顯示在Ubique Panel上 . | Ubique Panel與使用者的互動，可以通過通訊協定傳送給Arduino，Arduino控制板可採取相應措施 . | . 事前準備 . | ADE : 請前往IOT Website下載 . | Arduino IDE : 請前往Arduino Website下載 . | . 步驟1 : 下載 IOTBinary Protocol . | 前往 IOT Github . | 下載ZIP檔 . | 根據 README.md 進行操作 . | . 步驟2 : 開啟Arduino IDE . | 建立一個資料夾並命名為 demobox_arduino . | 將從Github下載的ZIP檔解壓縮 . | src裡面的IOTBinaryProtocol.cpp和IOTBinaryProtocol.h檔複製到demobox_arduino的資料夾中 . | examples裡面的demobox_arduino.ino複製到demobox_arduino的資料夾中 . | 利用Arduino IDE開啟demobox_arduino資料夾中的demobox_arduino.ino . | 開發版選擇 Arduino Nano . | 利用usb A轉mini連接線連接Arduino Nano和PC，選擇正確的處理器和序列埠 . | 請依不同Nano選擇處理器，如果還有問題請參考Arduino Website | . | 如果找不到序列埠，請至ftdichip官網下載FT232 USB UART Driver | . | 點擊箭頭⇨下載Arduino程式 . | 拔除Arduino與PC的usb連線 . | . 步驟3 : 開啟 ADE . | 利用ADE開啟examples &gt; ade資料夾中的demobox.epgz . | 將電源和Ubique Panel連接 . | 開啟電源 . | 利用usb線連接Ubique Panel和PC . | 點擊箭頭⇩下載ADE Design . | 拔除Ubique Panel與PC的連線 . | . 步驟4 : 連接Arduino控制板和Ubique Panel . | 利用杜邦線連接Arduino控制板和Ubique Panel | . | Ubique Panel上的連接器是Pitch 2.0 . | . ",
+    "url": "/zh-tw/3.3.0/application_note/#%E7%9B%AE%E6%A8%99",
+    "relUrl": "/zh-tw/3.3.0/application_note/#目標"
+  },"245": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
     "content": "Redirecting to latest version . ",
