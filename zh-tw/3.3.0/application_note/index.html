@@ -221,8 +221,6 @@
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widgets/system_widget_library/" class="nav-list-link">System Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/retained_data/" class="nav-list-link">Retained Data</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_window/" class="nav-list-link">Popup Window</a>
-                  </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">Popup InputPad</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/" class="nav-list-link">Popup MessageBox</a>
@@ -246,7 +244,7 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
-                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item active"><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link active">Application Note</a></li></ul>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link active">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li></ul></li></ul>
 
           
         
@@ -274,182 +272,19 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="application-note">
-        
-        
-          <a href="#application-note" class="anchor-heading" aria-labelledby="application-note"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Application Note
-        
-        
-      </h1>
-    
-      <h2 id="目標">
-        
-        
-          <a href="#目標" class="anchor-heading" aria-labelledby="目標"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 目標
-        
-        
-      </h2>
-    
-
-<ol>
-  <li>
-    <p>以Arduino作為主控版，將讀取的IO訊息顯示在Ubique Panel上</p>
-  </li>
-  <li>
-    <p>Ubique Panel與使用者的互動，可以通過通訊協定傳送給Arduino，Arduino控制板可採取相應措施</p>
-  </li>
-</ol>
-      <h3 id="事前準備">
-        
-        
-          <a href="#事前準備" class="anchor-heading" aria-labelledby="事前準備"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 事前準備
-        
-        
-      </h3>
-    
-
-<ol>
-  <li>
-    <p>ADE : 請前往<a href="https://www.iot-hmi.com/download/ade/">IOT Website</a>下載</p>
-  </li>
-  <li>
-    <p>Arduino IDE : 請前往<a href="https://www.arduino.cc/en/software">Arduino Website</a>下載</p>
-  </li>
-</ol>
-      <h3 id="步驟1--下載-iotbinary-protocol">
-        
-        
-          <a href="#步驟1--下載-iotbinary-protocol" class="anchor-heading" aria-labelledby="步驟1--下載-iotbinary-protocol"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 步驟1 : 下載 IOTBinary Protocol
-        
-        
-      </h3>
-    
-
-<ol>
-  <li>
-    <p>前往 <a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino">IOT Github</a></p>
-  </li>
-  <li>
-    <p>下載ZIP檔</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file254.png" alt="" /></p>
-  </li>
-  <li>
-    <p>根據 <a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino/blob/main/README.md">README.md</a> 進行操作</p>
-  </li>
-</ol>
-      <h3 id="步驟2--開啟arduino-ide">
-        
-        
-          <a href="#步驟2--開啟arduino-ide" class="anchor-heading" aria-labelledby="步驟2--開啟arduino-ide"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 步驟2 : 開啟Arduino IDE
-        
-        
-      </h3>
-    
-
-<ol>
-  <li>
-    <p>建立一個資料夾並命名為 <span style="color:#1a59b2">demobox_arduino</span></p>
-  </li>
-  <li>
-    <p>將從Github下載的ZIP檔解壓縮</p>
-  </li>
-  <li>
-    <p>src裡面的IOTBinaryProtocol.cpp和IOTBinaryProtocol.h檔複製到<span style="color:#1a59b2">demobox_arduino</span>的資料夾中</p>
-  </li>
-  <li>
-    <p>examples裡面的demobox_arduino.ino複製到<span style="color:#1a59b2">demobox_arduino</span>的資料夾中</p>
-  </li>
-  <li>
-    <p>利用Arduino IDE開啟<span style="color:#1a59b2">demobox_arduino</span>資料夾中的demobox_arduino.ino</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file255.png" alt="" /></p>
-  </li>
-  <li>
-    <p>開發版選擇 <strong>Arduino Nano</strong></p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file256.png" alt="" /></p>
-  </li>
-  <li>
-    <p>利用usb A轉mini連接線連接Arduino Nano和PC，選擇正確的處理器和序列埠</p>
-
-    <ul>
-      <li>請依不同Nano選擇處理器，如果還有問題請參考<a href="https://www.arduino.cc/en/Guide/ArduinoNano">Arduino Website</a></li>
-    </ul>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file257.png" alt="" /></p>
-
-    <ul>
-      <li>如果找不到序列埠，請至<a href="https://ftdichip.com/drivers/vcp-drivers/">ftdichip官網</a>下載FT232 USB UART Driver</li>
-    </ul>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file258.png" alt="" /></p>
-  </li>
-  <li>
-    <p>點擊箭頭⇨下載Arduino程式</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file259.png" alt="" /></p>
-  </li>
-  <li>
-    <p>拔除Arduino與PC的usb連線</p>
-  </li>
-</ol>
-      <h3 id="步驟3--開啟-ade">
-        
-        
-          <a href="#步驟3--開啟-ade" class="anchor-heading" aria-labelledby="步驟3--開啟-ade"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 步驟3 : 開啟 ADE
-        
-        
-      </h3>
-    
-
-<ol>
-  <li>
-    <p>利用ADE開啟examples &gt; ade資料夾中的demobox.epgz</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file260.png" alt="" /></p>
-  </li>
-  <li>
-    <p>將電源和Ubique Panel連接</p>
-  </li>
-  <li>
-    <p>開啟電源</p>
-  </li>
-  <li>
-    <p>利用usb線連接Ubique Panel和PC</p>
-  </li>
-  <li>
-    <p>點擊箭頭⇩下載ADE Design</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file261.png" alt="" /></p>
-  </li>
-  <li>
-    <p>拔除Ubique Panel與PC的連線</p>
-  </li>
-</ol>
-      <h3 id="步驟4--連接arduino控制板和ubique-panel">
-        
-        
-          <a href="#步驟4--連接arduino控制板和ubique-panel" class="anchor-heading" aria-labelledby="步驟4--連接arduino控制板和ubique-panel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 步驟4 : 連接Arduino控制板和Ubique Panel
-        
-        
-      </h3>
-    
-
-<ol>
-  <li>
-    <p>利用杜邦線連接Arduino控制板和Ubique Panel</p>
-
-    <ul>
-      <li>Ubique Panel上的連接器是Pitch 2.0</li>
-    </ul>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file262.png" alt="" /></p>
-  </li>
-</ol>
+          
 
         
 
+        
+          <hr>
+          <h2 class="text-delta">Table of contents</h2>
+          <ul>
+              <li>
+                <a href="/zh-tw/3.3.0/application_note/connect_with_arduino/">Connect with Arduino</a>
+              </li>
+            
+          </ul>
         
 
         

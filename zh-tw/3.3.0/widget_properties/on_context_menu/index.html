@@ -221,8 +221,6 @@
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widgets/system_widget_library/" class="nav-list-link">System Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/retained_data/" class="nav-list-link">Retained Data</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_window/" class="nav-list-link">Popup Window</a>
-                  </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">Popup InputPad</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/" class="nav-list-link">Popup MessageBox</a>
@@ -246,7 +244,7 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
-                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a></li></ul>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li></ul></li></ul>
 
           
         
@@ -282,7 +280,307 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          
+          <h1 id="共同右鍵選單">
+        
+        
+          <a href="#共同右鍵選單" class="anchor-heading" aria-labelledby="共同右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 共同右鍵選單
+        
+        
+      </h1>
+    
+<p>在設計畫布上按下滑鼠右鍵時，會出現右鍵選單，此選單會根據是否選擇Widget以及所選擇的不同Widget而改變選單內容，不同Widget提供的選單內容將在各個Widget的說明頁中描述，此頁專職描述所有右鍵選單的共同功能。</p>
+      <h2 id="未選擇任何widget時">
+        
+        
+          <a href="#未選擇任何widget時" class="anchor-heading" aria-labelledby="未選擇任何widget時"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 未選擇任何Widget時
+        
+        
+      </h2>
+    
+      <h3 id="基本編輯功能">
+        
+        
+          <a href="#基本編輯功能" class="anchor-heading" aria-labelledby="基本編輯功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 基本編輯功能
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">Shortcut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">復原:</td>
+      <td style="text-align: left">復原回上一個動作，選單會一併顯示復原的動作名稱</td>
+      <td style="text-align: left">Ctrl+Z</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">重作:</td>
+      <td style="text-align: left">當可以重坐上一個動作時，選單會致能，可以重做上一個動作</td>
+      <td style="text-align: left">Ctrl+Y</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上</td>
+      <td style="text-align: left">從剪貼簿貼上，目前支援Widget貼上，圖片貼上，以及SVG貼上功能</td>
+      <td style="text-align: left">Ctrl+V</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">全選</td>
+      <td style="text-align: left">選擇此設計頁面上的所有元件</td>
+      <td style="text-align: left">Ctrl+A</td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="畫布尺寸">
+        
+        
+          <a href="#畫布尺寸" class="anchor-heading" aria-labelledby="畫布尺寸"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 畫布尺寸
+        
+        
+      </h3>
+    
+
+<p>此功能主要用於文件邊即時自動調整畫布大小，在編輯HMI用頁面時較少用到</p>
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">Shortcut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">尺寸符合頁面內容</td>
+      <td style="text-align: left">將畫布尺寸調整為包含目前所有widget的最小長方型</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">尺寸符合頁面內容加上留白</td>
+      <td style="text-align: left">將畫布尺寸調整為包含目前所有widget的最小長方型，再加上留白點數，此功能會顯示一個對話盒要求使用者輸入留白點數</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">尺寸符合編輯區大小</td>
+      <td style="text-align: left">將畫布尺寸調整為目前編輯區的尺寸，即扣除左邊Widget Panel以及右邊Property Panel，下方Page List之後的所有空間</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="選擇一個或是多個widget時">
+        
+        
+          <a href="#選擇一個或是多個widget時" class="anchor-heading" aria-labelledby="選擇一個或是多個widget時"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 選擇一個或是多個Widget時
+        
+        
+      </h2>
+    
+      <h3 id="圖層順序">
+        
+        
+          <a href="#圖層順序" class="anchor-heading" aria-labelledby="圖層順序"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 圖層順序
+        
+        
+      </h3>
+    
+
+<p>選擇單機或是多個Widget時，可以調整所選Widgets在頁面上的圖層順序，藉由帶透明度元件的不同圖層安排，Ubique Panel可以顯示豐富多樣的視覺效果。</p>
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">Shortcut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">移至最上一層</td>
+      <td style="text-align: left">將所選元件移至畫布的最上層</td>
+      <td style="text-align: left">Shift+Page Up</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">上移一層</td>
+      <td style="text-align: left">將所選元件上移一層</td>
+      <td style="text-align: left">Page Up</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">下移一層</td>
+      <td style="text-align: left">將所選元件下移一層</td>
+      <td style="text-align: left">Page Down</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">移至最下層</td>
+      <td style="text-align: left">將所選元件移至畫布的最下層</td>
+      <td style="text-align: left">Shift+Page Down</td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="元件子功能">
+        
+        
+          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+        
+        
+      </h3>
+    
+
+<p>功能隨選擇的元件改變，詳件個元件說明。</p>
+      <h3 id="連結頁面">
+        
+        
+          <a href="#連結頁面" class="anchor-heading" aria-labelledby="連結頁面"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 連結頁面
+        
+        
+      </h3>
+    
+
+<p>選擇匯出的網頁件，按下此元件時是否要切換到其他頁面，若設定連接，則匯出的網頁可以做HMI換頁動作，適合在HMI開發過程中做展示說明。
+可連結的頁面名稱會顯示在子功能表中被選擇。</p>
+      <h3 id="鎖定">
+        
+        
+          <a href="#鎖定" class="anchor-heading" aria-labelledby="鎖定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 鎖定
+        
+        
+      </h3>
+    
+
+<p>勾選此選項，可以固定此Widget的座標位置以及尺寸，並避免此widget被滑鼠點選，以免失誤移動或是改變其位置。</p>
+      <h3 id="建立群駔">
+        
+        
+          <a href="#建立群駔" class="anchor-heading" aria-labelledby="建立群駔"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 建立群駔
+        
+        
+      </h3>
+    
+
+<p>當選擇多個Widget時，可以用這個選項將他們建立成一個群組，方便移動，調整尺寸，收入私有收藏等。</p>
+
+<p>Shortcut: Ctrl+G</p>
+      <h3 id="解散群組">
+        
+        
+          <a href="#解散群組" class="anchor-heading" aria-labelledby="解散群組"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 解散群組
+        
+        
+      </h3>
+    
+
+<p>此選項可以解散以建立的群組</p>
+
+<p>Shortcut: Ctrl+Shift+G</p>
+      <h3 id="刪除所選">
+        
+        
+          <a href="#刪除所選" class="anchor-heading" aria-labelledby="刪除所選"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 刪除所選
+        
+        
+      </h3>
+    
+
+<p>刪除選擇的Widget</p>
+
+<p>Shortcut: Delete</p>
+      <h3 id="將選擇加入私有收藏">
+        
+        
+          <a href="#將選擇加入私有收藏" class="anchor-heading" aria-labelledby="將選擇加入私有收藏"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 將選擇加入私有收藏
+        
+        
+      </h3>
+    
+
+<p>此選項可以將所選擇的Widget或是群組加入私有收藏，方便日後使用，詳情請見<a href="/zh-tw/3.3.0/my_collections/">私有收藏</a>。</p>
+      <h3 id="剪下">
+        
+        
+          <a href="#剪下" class="anchor-heading" aria-labelledby="剪下"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 剪下
+        
+        
+      </h3>
+    
+
+<p>剪下所選元件，並存於剪貼簿</p>
+
+<p>Shortcut: Ctrl+X</p>
+      <h3 id="複製">
+        
+        
+          <a href="#複製" class="anchor-heading" aria-labelledby="複製"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 複製
+        
+        
+      </h3>
+    
+
+<p>複製所選元件，並存於剪貼簿</p>
+
+<p>Shortcut: Ctrl+C</p>
+      <h3 id="貼上">
+        
+        
+          <a href="#貼上" class="anchor-heading" aria-labelledby="貼上"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 貼上
+        
+        
+      </h3>
+    
+
+<p>貼上於剪貼簿上的元件，有些元件若多次貼上，其貼上位置以及尺寸會相同因此重疊，使用這需重新調整Widget位置。</p>
+
+<p>Shortcut: Ctrl+V</p>
+      <h3 id="匯出選取部分含背景作為png圖檔">
+        
+        
+          <a href="#匯出選取部分含背景作為png圖檔" class="anchor-heading" aria-labelledby="匯出選取部分含背景作為png圖檔"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選取部分(含背景)作為PNG圖檔…
+        
+        
+      </h3>
+    
+<p>將所選Widget或是群組匯出成PNG圖片，此功能會出現檔案對話盒讓使用者指定儲存檔名。
+此選項會連同所選的元件的背景一併匯出。</p>
+
+<p>若點選此功能時按住Shift鍵，則匯出的圖片會直接儲存於剪貼簿，可以提之後貼上使用，不會儲存到檔案。</p>
+
+<p>Shortcut: Ctrl+Alt+E</p>
+      <h3 id="匯出選取部分不含背景作為png圖檔">
+        
+        
+          <a href="#匯出選取部分不含背景作為png圖檔" class="anchor-heading" aria-labelledby="匯出選取部分不含背景作為png圖檔"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選取部分(不含背景)作為PNG圖檔…
+        
+        
+      </h3>
+    
+<p>將所選Widget或是群組匯出成PNG圖片，此功能會出現檔案對話盒讓使用者指定儲存檔名。
+此選項不會匯出背景。</p>
+
+<p>若點選此功能時按住Shift鍵，則匯出的圖片會直接儲存於剪貼簿，可以提之後貼上使用，不會儲存到檔案。</p>
+
+<p>Shortcut: Ctrl+Alt+E</p>
+      <h3 id="設定尺寸調整規則">
+        
+        
+          <a href="#設定尺寸調整規則" class="anchor-heading" aria-labelledby="設定尺寸調整規則"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 設定尺寸調整規則
+        
+        
+      </h3>
+    
+
+<p>此功能用於設定元件在一個群組中，當群組尺寸改變時，元件的尺寸以及位置調整選項，當使用者想要把一個群組存在私有蒐藏以供日後使用，並日後此蒐藏可能改變尺寸，應用在不同階析度的顯示器上時，此功能提供正確地元件尺寸改變方式。</p>
+
+<p>詳情見</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file1001.png" alt="尺吋變化規則" /></p>
+
+<p>藉由指定群組尺寸變化時，單一Widget的寬度，高度，水平位置，垂直位置如何隨之變化，來調整群組尺寸縮放的視覺效果。</p>
 
         
 

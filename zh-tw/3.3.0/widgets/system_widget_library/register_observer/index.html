@@ -221,8 +221,6 @@
                   </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widgets/system_widget_library/" class="nav-list-link">System Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/retained_data/" class="nav-list-link">Retained Data</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_window/" class="nav-list-link">Popup Window</a>
-                  </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">Popup InputPad</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/popup_messagebox/" class="nav-list-link">Popup MessageBox</a>
@@ -246,7 +244,7 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
-                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a></li></ul>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li></ul></li></ul>
 
           
         
@@ -285,11 +283,11 @@
         
           <p><img src="/zh-tw/3.3.0/imgs/file228.png" alt="" /></p>
 
-<p>此元件的功能在於監視暫存器數值的變化，並於暫存器數值變化時執行相對應的Blockly程式來啟動元件與元件之間的事件鏈。</p>
+<p>暫存器監視器的功能在於監視暫存器數值的變化，並於暫存器數值變化時執行相對應的Blockly程式來啟動元件與元件之間的事件鏈。</p>
 
 <p>譬如，ADC輸入可以藉由將輸入暫存器繫結到儀表Widget，這個儀表Widget即可顯示輸入數值。但若是使用者想要在輸入數值大於某個閥值之後，使用一個LED來顯示警告，但是LED繫結於另一個暫存器。</p>
 
-<p>此時使用者可以用一個Register Observer監視ADC暫存器，當ADC暫存器的數值改變時，此Register Observer的對應Blockly程式會被呼叫，因此可以在Blockly程式中比較 ADC數值，當大於閥值時，就設定LED繫結的暫存器數值，讓LED亮起。</p>
+<p>此時使用者可以用一個暫存器監視器監視ADC暫存器，當ADC暫存器的數值改變時，此暫存器監視器的對應Blockly程式會被呼叫，因此可以在Blockly程式中比較 ADC數值，當大於閥值時，就設定LED繫結的暫存器數值，讓LED亮起。</p>
       <h2 id="教育影片">
         
         
@@ -312,10 +310,10 @@
         
       </h2>
     
-      <h3 id="register-observer">
+      <h3 id="暫存器監視器">
         
         
-          <a href="#register-observer" class="anchor-heading" aria-labelledby="register-observer"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Register Observer
+          <a href="#暫存器監視器" class="anchor-heading" aria-labelledby="暫存器監視器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器監視器
         
         
       </h3>
@@ -334,6 +332,11 @@
       <td style="text-align: left">元件名稱</td>
       <td style="text-align: left">元件實體名稱</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/name/">Name</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">連結到教學影片</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
@@ -356,14 +359,72 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Observed Register</td>
+      <td style="text-align: left">繫結被監視暫存器</td>
       <td style="text-align: left">當暫存器被寫入且值有改變時，根據Callback Function設計的行為進行操作</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
+  </tbody>
+</table></div>
+      <h3 id="回呼函式設定">
+        
+        
+          <a href="#回呼函式設定" class="anchor-heading" aria-labelledby="回呼函式設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 回呼函式設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
     <tr>
-      <td style="text-align: left">Callback Function</td>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當暫存器被寫入且值有改變時，根據行為設計設計的Callback Function進行操作</td>
+      <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">行為設計</td>
       <td style="text-align: left">當暫存器被寫入且值有改變時，此處的行為會執行，詳情參考Blockly Editor</td>
       <td style="text-align: left"><a href="/zh-tw/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="右鍵選單">
+        
+        
+          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
+        
+        
+      </h2>
+    
+      <h3 id="元件子功能">
+        
+        
+          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">連接到教學影片…</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
