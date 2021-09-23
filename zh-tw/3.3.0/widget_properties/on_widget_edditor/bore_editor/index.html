@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <title>Bore Editor - ADE Reference Manual</title>
+  <title>Bore Boundary Handler - ADE Reference Manual</title>
 
 
 
@@ -97,8 +97,6 @@
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/properties/plain_text/" class="nav-list-link">Plain Text</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/properties/rich_text/" class="nav-list-link">Rich Text</a>
-                  </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/" class="nav-list-link">Number Editor</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/properties/font_selector/" class="nav-list-link">Font Selector</a>
@@ -147,15 +145,17 @@
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/liquid_column_editor/" class="nav-list-link">Liquid Column Editor</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/knob_editor/" class="nav-list-link">Knob Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/" class="nav-list-link">Knob Size Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
                   </li><li class="nav-list-item  active">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link active">Bore Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link active">Bore Boundary Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Scale Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Tick Boundary Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Label Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Tick Diameter Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Size Handler</a>
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widget_properties/on_context_menu/" class="nav-list-link">On Context Menu</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">Reset Editor</a>
                   </li><li class="nav-list-item ">
@@ -244,7 +244,7 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
-                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/application_note_english/" class="nav-list-link">Application Note English</a></li></ul></li></ul>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/arduino_hmi/" class="nav-list-link">Arduino HMI</a></li></ul></li></ul>
 
           
         
@@ -274,31 +274,30 @@
                 <li class="breadcrumb-nav-list-item"><a href="/zh-tw/3.3.0/widget_properties/">Widget Properties</a></li>
                 <li class="breadcrumb-nav-list-item"><a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/">On Widget Editor</a></li>
               
-              <li class="breadcrumb-nav-list-item"><span>Bore Editor</span></li>
+              <li class="breadcrumb-nav-list-item"><span>Bore Boundary Handler</span></li>
             </ol>
           </nav>
         
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="bore-editor">
+          <h1 id="bore-boundary-handler">
         
         
-          <a href="#bore-editor" class="anchor-heading" aria-labelledby="bore-editor"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Bore Editor
+          <a href="#bore-boundary-handler" class="anchor-heading" aria-labelledby="bore-boundary-handler"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Bore Boundary Handler
         
         
       </h1>
     
 
+<p>利用左上，右下兩個標籤，調整顯示毛細管的位置以及尺寸。毛細管的位置與尺寸與旋鈕位置無關，獨立設定。
+一般而言，毛細管會作為條狀調節器的條狀顯示的背景，水銀柱圖形會作為前景。水銀柱會隨輸入數值移動，而毛細管不會移動。</p>
+
 <p><img src="/zh-tw/3.3.0/imgs/file140.png" alt="" /></p>
-
-<p>毛細管不隨旋鈕改變而改變，為固定位置的</p>
-
-<p>利用拖曳箭頭改變毛細管的位置及寬度</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file141.png" alt="" /></p>
 
-<p>如果選擇將刻度作為遮罩，可以利用毛細管將顏色透出來</p>
+<p>如果選擇將刻度作為遮罩，可以利用毛細管將顏色透出來，此例中毛細管是灰色的。</p>
 
         
 

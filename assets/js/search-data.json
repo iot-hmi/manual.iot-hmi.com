@@ -61,7 +61,7 @@
   },"10": {
     "doc": "開始新設計",
     "title": "開啟新設計",
-    "content": "當ADE安裝完成，並確認版本無誤後，使用者可以開始新設計。 第一次開啟ADE時，主畫面中央會顯示新設計畫面，如下圖: 新設計畫面提供使用者選擇目標博橡科技產品，依照螢幕廠牌，解析度，以及觸控形式分類，使用者根據目標產品進行挑選，點擊後會自動開啟對應到該產品的設計頁樣板，樣板包括一個空白頁以及該產品的I/O設定頁面，使用者可以在空白頁開始HMI設計。 . 若非第一次開啟ADE，則開始主畫面會停留在最近設計頁面，最近設計頁面會記錄20個最近使用過的檔案，方便使用者快速點擊開啟最近工作的頁面。 . 最近設計頁面以及新設計頁面接可以使用畫面有上角的格狀顯示，以及清單顯示紐切換不同的排效果，清單顯示效果如下圖所示: . 不管在清單顯示模式或是格狀顯示模式，使用者接可以使用設計文件圖示卡片右上角的刪除按鈕，來移除最近使用紀錄，如下圖所示: . 使用者也可以使用設計文件圖示卡片右下角的釘選紐，確保該檔案的最近使用紀錄被釘選，不會被其他設計檔案擠出最近使用紀錄清單。如下圖所示: . ",
+    "content": "當ADE安裝完成，並確認版本無誤後，使用者可以開始新設計。 . 第一次開啟ADE時，主畫面中央會顯示新設計畫面，如下圖: . 新設計畫面提供使用者選擇目標博橡科技產品，依照螢幕廠牌，解析度，以及觸控形式分類，使用者根據目標產品進行挑選，點擊後會自動開啟對應到該產品的設計頁樣板，樣板包括一個空白頁以及該產品的I/O設定頁面，使用者可以在空白頁開始HMI設計。 . 若非第一次開啟ADE，則開始主畫面會停留在最近設計頁面。 . 最近設計頁面會記錄20個最近使用過的檔案，方便使用者快速點擊開啟最近工作的頁面。 . 最近設計頁面以及新設計頁面接可以使用畫面有上角的格狀顯示，以及清單顯示紐切換不同的排效果，清單顯示效果如下圖所示: . 不管在清單顯示模式或是格狀顯示模式，使用者接可以使用設計文件圖示卡片右上角的刪除按鈕，來移除最近使用紀錄，如下圖所示: . 使用者也可以使用設計文件圖示卡片右下角的釘選紐，確保該檔案的最近使用紀錄被釘選，不會被其他設計檔案擠出最近使用紀錄清單。如下圖所示: . ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/start_a_new_design/#%E9%96%8B%E5%95%9F%E6%96%B0%E8%A8%AD%E8%A8%88",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/start_a_new_design/#開啟新設計"
   },"11": {
@@ -79,7 +79,7 @@
   },"13": {
     "doc": "System Menu",
     "title": "System Menu",
-    "content": "在按下左上角的選單圖示時，會出現整體系統選單 (System Menu): . | New Design : 讓使用者開啟一個空白文件。 . | New Design from Template : 讓使用者選擇一個博橡科技Ubique Panel 產品，開始做 HMI 的開發。 . | Open : 讓使用者打開儲存的 HMI Design。選擇此功能ADE打開檔案選擇對話窗，供使用這選擇域開啟之檔案，ADE HMI設計檔的副檔名為.epgz，檔案選擇對話框只會顯示此種型態的檔案。 . | Save : 儲存 HMI Design，若是新設計尚未指定檔名，會開啟檔案儲存對話視窗，讓使用者指定或是選擇檔名。 . | Save as :另存HMI Design。會開啟檔案儲存對話視窗，讓使用者指定或是選擇檔名。 . | Export : 匯出 HMI Design，可以下載到博橡科技 Ubique Panel 的控制板，或是輸出為PDF甚至是含超連結(Hyper Links) 的 HTML 檔。詳情參考 Export . | Print : 列印出 HMI Design。 . | Close : 關閉 HMI Design。 . | Recent Files : 列出最近使用者所開啟的 HMI Designs，使用者可以快速開啟過去的設計。 . | Settings 設定整體ADE系統參數。詳情參考 Settings . | Select Language : 讓使用者切換語言，可以選擇英文或繁體中文。 . | Tools : 讓使用者管理元件庫以及字型。詳情參考 Tools . | About : 顯示版本及版權聲明還有發行公告。 . | Exit : 關閉 ADE。 . | . ",
+    "content": "在按下左上角的選單圖示時，會出現整體系統選單 (System Menu): . | New Design : 讓使用者開啟一個空白文件。 . | New Design from Template : 讓使用者選擇一個博橡科技Ubique Panel 產品，開始做 HMI 的開發。 . | Open : 讓使用者打開儲存的 HMI Design。選擇此功能ADE打開檔案選擇對話窗，供使用這選擇域開啟之檔案，ADE HMI設計檔的副檔名為.epgz，檔案選擇對話框只會顯示此種型態的檔案。 . | Save : 儲存 HMI Design，若是新設計尚未指定檔名，會開啟檔案儲存對話視窗，讓使用者指定或是選擇檔名。 . | Save as :另存HMI Design。會開啟檔案儲存對話視窗，讓使用者指定或是選擇檔名。 . | Export : 匯出 HMI Design，可以下載到博橡科技 Ubique Panel 的控制板，或是輸出為PDF甚至是含超連結(Hyper Links) 的 HTML 檔。詳情參考 Export . | Print : 列印出 HMI Design， 詳細操作請參考Export。 . | Close : 關閉 HMI Design。 . | Recent Files : 列出最近使用者所開啟的 HMI Designs，使用者可以快速開啟過去的設計。 . | Settings 設定整體ADE系統參數。詳情參考 Settings . | Select Language : 讓使用者切換語言，可以選擇英文或繁體中文。 . | Tools : 讓使用者管理元件庫以及字型。詳情參考 Tools . | About : 顯示版本及版權聲明還有發行公告。 . | Exit : 關閉 ADE。 . | . ",
     "url": "/zh-tw/3.3.0/system_menu/",
     "relUrl": "/zh-tw/3.3.0/system_menu/"
   },"14": {
@@ -341,201 +341,201 @@
     "url": "/zh-tw/3.3.0/widget_properties/properties/plain_text/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/plain_text/"
   },"57": {
-    "doc": "Rich Text",
-    "title": "Rich Text",
-    "content": ". 允許Widget就地編輯，輸入多行文字及符號，可選是不同字型，風格，尺寸及顏色。 利用Shift+Enter換行 . ",
-    "url": "/zh-tw/3.3.0/widget_properties/properties/rich_text/",
-    "relUrl": "/zh-tw/3.3.0/widget_properties/properties/rich_text/"
-  },"58": {
     "doc": "Number Editor",
     "title": "Number Editor",
     "content": ". 藉由拖曳旋鈕、點擊增加及減少數值，也可自行輸入想要的數值 . 每個屬性有各自的數值範圍，超過該範圍，即無法輸入。Number Editor可能有以下多種形式，並用來輸入數字，角度，弧長等屬性 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/number_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/number_editor/"
-  },"59": {
+  },"58": {
     "doc": "Font Selector",
     "title": "Font Selector",
     "content": ". 設定屬性文字的字型樣式、字體大小、粗細、斜體及行距 . 由字型Drop Down List, 字體Number Editor，粗體Drop Down List，斜體按鈕，以及行距Number Editor組成，用來設定文字樣式。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/font_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/font_selector/"
-  },"60": {
+  },"59": {
     "doc": "Color Selector",
     "title": "Color Selector",
     "content": ". 設定和編輯色彩 . 設定Circular Scale和Circular Gauge刻度的漸變顏色與臨界顏色，並設定臨界顏色開始位置 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/color_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/color_selector/"
-  },"61": {
+  },"60": {
     "doc": "Alignment Selector",
     "title": "Alignment Selector",
     "content": ". 設定文字的對齊方式 . 設定圓心的對齊方式 . 設定刻度數字對齊方式 . 設定捲動文本對齊方式 . 設定圓規圓心x、y坐標 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/alignment_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/alignment_selector/"
-  },"62": {
+  },"61": {
     "doc": "Page Selector",
     "title": "Page Selector",
     "content": ". 選擇要進行跳轉的頁面 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/page_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/page_selector/"
-  },"63": {
+  },"62": {
     "doc": "Register Selector",
     "title": "Register Selector",
     "content": ". 選擇要綁定的暫存器 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/register_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/register_selector/"
-  },"64": {
+  },"63": {
     "doc": "Register Operation Setting",
     "title": "Register Operation Setting",
     "content": ". 選擇要對暫存器進行的操作 . 選擇要將暫存器設為False或者True . 暫存器類型必須為Boolean . 將字串值指定給暫存器 . 暫存器類型必須為String . 將整數或浮點數數值指定給暫存器 . 暫存器類型為Integer或Floating Point Number . 選擇對暫存器進行遞增或者遞減操作 . 設定每次遞增/遞減的數值，可為整數或浮點數 . 暫存器類型為Integer或Floating Point Number . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/"
-  },"65": {
+  },"64": {
     "doc": "Blockly Editor",
     "title": "Blockly Editor",
     "content": ". 利用Blockly設計回呼函式 . 當按鈕被點擊或Widget被觸發時，此處設計的行為會執行 . Blockly編輯器，詳情參考Google Blockly . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/blockly_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/blockly_editor/"
-  },"66": {
+  },"65": {
     "doc": "Image Collection Management",
     "title": "Image Collection Management",
     "content": ". 開啟影像收集管理對話框，一次載入多張圖片，並且可以自行設定圖片順序 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/image_collection_management/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/image_collection_management/"
-  },"67": {
+  },"66": {
     "doc": "Visibility Control",
     "title": "Visibility Control",
     "content": ". 選擇暫存器，利用暫存器內容控制Widget可視性 . 如果暫存器內容為True，則Widget不可視 . 如果暫存器內容為False，則Widget可視 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/visibility_control/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/visibility_control/"
-  },"68": {
+  },"67": {
     "doc": "Blending Selector",
     "title": "Blending Selector",
     "content": ". 正常，將每一個像素編輯或繪製成結果色彩，這是預設模式 . 色彩增值，以混合色彩增值基本色彩。結果色彩永遠是較暗的顏色。以黑色增值任何顏色都會產生黑色，但是以白色增值任何顏色，不會改變原來的顏色。 . 濾色，將混合色彩和基本色彩的倒數相乘。結果色彩永遠是較亮的顏色。使用黑色濾色不會改變原來的顏色，使用白色濾色則會產生白色。 . 疊加，根據基本色彩，增值或以濾色篩選顏色。圖樣或顏色會覆蓋現有的像素，但同時會保留基本色彩的亮部和陰影。基本色彩並不會被取代，它會與混合色彩混合，反映原始色彩的明暗。 . 變暗，選取基本或混合色彩 (兩者中較暗的那一個) 做為結果色彩。比混合色彩亮的像素會被取代，比混合色彩暗的像素不會改變。 . 變亮，選取基本或混合色彩 (兩者中較亮的那一個) 做為結果色彩。比混合色彩暗的像素會被取代，比混合色彩亮的像素不會改變。 . 加亮顏色，透過減少兩者間的對比，讓基本色彩變亮以反映出混合色彩。與黑色混合不會產生任何改變。 . 加深顏色，讓基本色彩變暗，以增加對比的方式反映出混合色彩。與白色混合不會產生改變。 . 實光，根據混合色彩，增值或以濾色篩選顏色。這個效果類似於在影像上照射刺眼的聚光燈。如果混合色彩 (光源) 比 50% 灰階亮，影像就會像以濾色篩選過一般變亮。這對於增加影像中的亮部很有幫助。如果混合色彩比 50% 灰階暗，影像就會像增值過一般變暗。這對於增加影像中的陰影很有幫助。使用純黑色或純白色繪畫，會產生純黑色或純白色。 . 柔光，根據混合色彩，讓顏色變暗或變亮。這個效果類似在影像上照射擴散的聚光燈。如果混合色彩 (光源) 比 50% 灰階亮，影像就會像加亮過一般變亮，如果漸變顏色比 50% 的灰色深，那麼影像會暗化，就像是色彩加深。使用純黑或純白繪畫，會產生很清楚的較暗或較亮區域，但不會得到純黑或純白的結果。 . 差異化，根據基本色彩和混合色彩兩者中亮度值較大的來決定從基本色彩中減去混合色彩，或從混合色彩中減去基本色彩。與白色混合會反轉基本色彩值，與黑色混合不會產生任何改變。 . 排除，所建立的效果與「差異化」模式類似，但對比效果較低。與白色混合會反轉基本色彩值，與黑色混合不會產生任何改變。 . 色相，所建立的結果色彩具有基本色彩的明度和飽和度，以及混合色彩的色相。 . 飽和度，所建立的結果色彩具有基本色彩的明度和色相，以及混合色彩的飽和度。在沒有飽和度 (飽和度為 0，即為灰色) 的區域中，以這個模式繪畫不會造成任何改變。 . 顏色，所建立的結果色彩具有基本色彩的明度，以及混合色彩的色相和飽和度。這會保留影像中的灰階，因此可以用來為單色影像著色，以及調整彩色影像的濃淡。 . 明度，所建立的結果色彩具有基本色彩的色相和飽和度，以及混合色彩的明度。這個模式建立「顏色」模式的負片效果。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/blending_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/blending_selector/"
-  },"69": {
+  },"68": {
     "doc": "File Open Dialog Box",
     "title": "File Open Dialog box",
     "content": ". 開啟檔案系統，使用者自行選擇要載入的圖片 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/file_open_dialog_box/#file-open-dialog-box",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/file_open_dialog_box/#file-open-dialog-box"
-  },"70": {
+  },"69": {
     "doc": "File Open Dialog Box",
     "title": "File Open Dialog Box",
     "content": " ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/file_open_dialog_box/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/file_open_dialog_box/"
-  },"71": {
+  },"70": {
     "doc": "Image Editor Dialog Box",
     "title": "Image Editor Dialog Box",
     "content": ". 開啟影像編輯對話框，對圖片進行編輯 . 縮放 : 選擇要縮放的比例 . 裁剪 : 裁剪選取的範圍 . 水平/垂直翻轉 : 將圖片水平/垂直翻轉 . 亮度 : 調整亮度 . 對比 : 調整對比度 . 不透明度 : 調整不透明度 . 旋轉圖片 : 輸入逆時鐘旋轉的角度Enter後旋轉，如果沒有勾選版面旋轉，則只有影像會旋轉 . 快速模糊 : 利用快速模糊演算法將圖片模糊化 . 高斯模糊 : 利用高斯模糊演算法將圖片模糊化 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/image_editor_dialog_box/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/image_editor_dialog_box/"
-  },"72": {
+  },"71": {
     "doc": "PlainTextArray Table Dialog",
     "title": "PlainTextArray Table Dialog",
     "content": ". 開啟文本陣列編輯對話框，建立文本陣列，拖曳文本改變順序 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/plaintextarray_table_dialog/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/plaintextarray_table_dialog/"
-  },"73": {
+  },"72": {
     "doc": "Format String",
     "title": "Format String",
     "content": "使用python的格式化字串，把字串中的變數變成變數值 . 可通過 { }和: 取代% . | 格式 | 描述 | 數字 | 輸出 | . | {:d} | 10進位整數 | 200 | 200 | . | {:x} | 16進位整數，小寫 | 200 | c8 | . | {:X} | 16進位整數，大寫 | 200 | C8 | . | {:&gt;10d} | 寬度為10，向右對齊 | 2 | 2 | . | {:&lt;10d} | 寬度為10，向左對齊 | 2 | 2 | . | {:^10d} | 寬度為10，置中對齊 | 2 | 2 | . | {:0&gt;2d} {:02} | 寬度為2，位數不夠左邊補0 | 5 | 05 | . | {:x&gt;2d} | 寬度為2，位數不夠左邊補x | 5 | x5 | . | {:x&lt;2d} | 寬度為2，位數不夠右邊補x | 5 | 5x | . | {:f} | 浮點數 | 3.1415926 | 3.1415926 | . | {:.0f} | 不帶小數 | 3.1415926 | 3 | . | {:.2f} | 保留小數點後兩位 | 3.1415926 | 3.14 | . | {:+.2f} | 帶正負號，保留小數點後兩位 | 3.1415926 | +3.14 | . | {:,} | 以逗號分格數字，每3位一逗號 | 1000000 | 1,000,000 | . | {:.0%} | 百分比 | 0.33333 | 33% | . | {:.2%} | 百分比，小數點後兩位 | 0.33333 | 33.33% | . | {:s} | 利用str()轉換成字串 | ‘hello’ | hello | . 詳情參考: . https://docs.python.org/2/library/stdtypes.html#string-formatting-operations . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/format_string/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/format_string/"
-  },"74": {
+  },"73": {
     "doc": "Label Display Mode",
     "title": "Label Display Mode",
     "content": ". Expand the Label size to the text size : Widget大小隨文本大小變動 . Keep the Label width, wrap text to next line : Widget寬度不變，如果文本長度過長，則將文字換到下一行 . Keep the object size, break the text write dots : Widget大小固定，以…取代超出範圍的文字 . Keep the size and scroll the label back and forth : Widget大小固定，來回滾動文本 . Keep the size and scroll the label circularly : Widget大小固定，循環滾動文本 . Keep the size and crop the text out of it : Widget大小固定，剪裁超出範圍的文字 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/label_display_mode/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/label_display_mode/"
-  },"75": {
+  },"74": {
     "doc": "Frame Selector",
     "title": "Frame Selector",
     "content": ". 選擇框線風格並且設定框線寬度 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/frame_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/frame_selector/"
-  },"76": {
+  },"75": {
     "doc": "Input Data Selector",
     "title": "Input Data Selector",
     "content": ". 選擇輸入板與輸入資料的類型 . Integer ，輸入板為數字板，輸入的資料類型為整數 . Floating Point Number，輸入板為數字板，輸入的資料類型為浮點數 . String，輸入板為字符板，輸入的資料類型為字串 . Integer Number as String，輸入板為數字板，輸入的資料類型為字串，適合做密碼輸入，且0可為第一位數 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/input_data_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/input_data_selector/"
-  },"77": {
+  },"76": {
     "doc": "MessageBox Selector",
     "title": "MessageBox Selector",
     "content": ". 選擇信息框模式，點擊按鈕後會將按鈕的索引值作為結果暫存器的內容 . 第一個按鈕索引值為0，第二個索引值為1，以此類推第N個按鈕索引值為(N-1) . 如果使用客製化按鈕，按鈕由文本陣列編輯對話框新增 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/messagebox_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/messagebox_selector/"
-  },"78": {
+  },"77": {
     "doc": "FileArray Table Dialog",
     "title": "FileArray Table Dialog",
     "content": ". 開啟檔案陣列編輯對話框，新增、刪除檔案，利用拖曳改變檔案順序 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/filearray_table_dialog/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/filearray_table_dialog/"
-  },"79": {
+  },"78": {
     "doc": "Properties",
     "title": "Widget Properties",
     "content": "Widget 的屬性眾多，主要分類以及編輯方法如下: . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/#widget-properties",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/#widget-properties"
-  },"80": {
+  },"79": {
     "doc": "Properties",
     "title": "Properties",
     "content": " ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/"
-  },"81": {
+  },"80": {
     "doc": "Mask Editor",
     "title": "Mask Editor",
     "content": ". 利用拖曳箭頭改變Mask大小 . 利用拖曳箭頭改變Mask圓角半徑，可將Mask從矩形變成橢圓 . 如果Mask Shape為Oval則無效 . 利用拖曳綠點改變橢圓大小與位置 . 利用拖曳綠點改變前景圖片的大小與位置 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/mask_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/mask_editor/"
-  },"82": {
+  },"81": {
     "doc": "Offset Editor",
     "title": "Offset Editor",
     "content": "利用拖曳箭頭調整文字x軸與y軸的偏移量 . | | 文字Alignment置頂時，箭頭往下移文字往下移 | . | | 文字Alignment置底時，箭頭往下移文字往上移 | . | | 文字Alignment置左時,箭頭往右移文字往右移 | . | | 文字Alignment置右時，箭頭往右移文字往左移 | . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/offset_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/offset_editor/"
-  },"83": {
+  },"82": {
     "doc": "Center Editor",
     "title": "Center Editor",
     "content": ". 利用拖曳綠環改變Widget圓心位置，藉此改變使用圓心對齊時的位置 . 利用拖曳綠環改變圓弧角度的位置，同時改變圓心對齊時的位置 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/center_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/center_editor/"
-  },"84": {
+  },"83": {
     "doc": "Liquid Column Editor",
     "title": "Liquid Column Editor",
     "content": ". 利用拖曳箭頭改變水銀柱位置 . ⮜水銀柱示意圖 . 如果起始位置對應到旋鈕，正中間對應到進度條開始位置，則水銀柱會跟隨旋鈕增加和減少 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/liquid_column_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/liquid_column_editor/"
+  },"84": {
+    "doc": "Knob Size Handler",
+    "title": "Knob Size Handler",
+    "content": ". 利用拖曳箭頭調整旋鈕圖片的位置大小以及比例 . 利用拖曳兩側輔助圖示調整旋鈕的開始位置以及結束位置。 . ⮜旋鈕起始結束示意圖 . 旋鈕中線對應到兩側輔助圖示 . ",
+    "url": "/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/",
+    "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/"
   },"85": {
-    "doc": "Knob Editor",
-    "title": "Knob Editor",
-    "content": ". 利用拖曳箭頭調整旋鈕大小 . 利用拖曳兩側輔助圖示調整旋鈕的開始位置以及結束位置 . ⮜旋鈕起始結束示意圖 . 旋鈕中線對應到兩側輔助圖示 . ",
-    "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/knob_editor/",
-    "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/knob_editor/"
+    "doc": "Rich Text Editor",
+    "title": "Rich Text Editor",
+    "content": ". 允許Widget就地編輯，輸入多行文字及符號，可選是不同字型，風格，尺寸及顏色。 利用Shift+Enter換行 . ",
+    "url": "/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/",
+    "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/"
   },"86": {
-    "doc": "Bore Editor",
-    "title": "Bore Editor",
-    "content": ". 毛細管不隨旋鈕改變而改變，為固定位置的 . 利用拖曳箭頭改變毛細管的位置及寬度 . 如果選擇將刻度作為遮罩，可以利用毛細管將顏色透出來 . ",
+    "doc": "Bore Boundary Handler",
+    "title": "Bore Boundary Handler",
+    "content": "利用左上，右下兩個標籤，調整顯示毛細管的位置以及尺寸。毛細管的位置與尺寸與旋鈕位置無關，獨立設定。 一般而言，毛細管會作為條狀調節器的條狀顯示的背景，水銀柱圖形會作為前景。水銀柱會隨輸入數值移動，而毛細管不會移動。 . 如果選擇將刻度作為遮罩，可以利用毛細管將顏色透出來，此例中毛細管是灰色的。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/"
   },"87": {
-    "doc": "Scale Editor",
-    "title": "Scale Editor",
-    "content": ". 利用拖曳調整刻度位置，可上下左右移動調整x軸及y軸位置 . 利用拖曳調整刻度數字位置，只能調整y軸位置，x軸跟隨刻度改變 . ",
+    "doc": "Tick Boundary Handler",
+    "title": "Tick Boundary Handler",
+    "content": ". 利用拖曳調整刻度的範圍，藉由調整右上角以及左下角的調整標籤，可以決定刻度的範圍。 . 利用拖曳T字標籤調整數字的垂直或是水平位置。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/"
   },"88": {
-    "doc": "Label Editor",
-    "title": "Label Editor",
-    "content": ". 利用拖曳調整刻度圓弧的位置及大小 . 調整刻度圓弧的位置及大小來符合需求 . ",
+    "doc": "Tick Diameter Handler",
+    "title": "Tick Diameter Handler",
+    "content": ". 利用拖曳調整刻度圓弧的半徑大小 . 調整刻度圓弧的半徑大小來符合需求，刻度以及刻度文字會以此半徑為基準。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/"
   },"89": {
-    "doc": "Image Editor",
-    "title": "Image Editor",
-    "content": ". 拖曳三角形調整背景圖片大小及位置 . ",
+    "doc": "Image Size Handler",
+    "title": "Image Size Handler",
+    "content": ". 拖曳左上角或是右下角的三角形調整背景圖片大小及位置，圖片的大小限制為外框的尺寸。 此調整功能被使用於Circular Scale以及Circular Gauge。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/"
   },"90": {
@@ -937,7 +937,7 @@
   },"156": {
     "doc": "Image Label",
     "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字，可利用Shift+Enter換行輸入 |   | . ",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字，可利用Shift+Enter換行輸入 | RichText Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/image_label/#元件上編輯器"
   },"157": {
@@ -1681,7 +1681,7 @@
   },"280": {
     "doc": "Connect with Arduino",
     "title": "目標",
-    "content": ". | 以Arduino作為主控版，將讀取的IO訊息顯示在Ubique Panel上 . | Ubique Panel與使用者的互動，可以通過通訊協定傳送給Arduino，Arduino控制板可採取相應措施 . | . 事前準備 . | ADE : 請前往IOT Website下載 . | Arduino IDE : 請前往Arduino Website下載 . | . 步驟1 : 下載 IOTBinary Protocol . | 前往 IOT Github . | 下載ZIP檔 . | 根據 README.md 進行操作 . | . 步驟2 : 開啟Arduino IDE . | 建立一個資料夾並命名為 demobox_arduino . | 將從Github下載的ZIP檔解壓縮 . | src裡面的IOTBinaryProtocol.cpp和IOTBinaryProtocol.h檔複製到demobox_arduino的資料夾中 . | examples裡面的demobox_arduino.ino複製到demobox_arduino的資料夾中 . | 利用Arduino IDE開啟demobox_arduino資料夾中的demobox_arduino.ino . | 開發版選擇 Arduino Nano . | 利用usb A轉mini連接線連接Arduino Nano和PC，選擇正確的處理器和序列埠 . | 請依不同Nano選擇處理器，如果還有問題請參考Arduino Website | . | 如果找不到序列埠，請至ftdichip官網下載FT232 USB UART Driver | . | 點擊箭頭⇨下載Arduino程式 . | 拔除Arduino與PC的usb連線 . | . 步驟3 : 開啟 ADE . | 利用ADE開啟examples &gt; ade資料夾中的demobox.epgz . | 將電源和Ubique Panel連接 . | 開啟電源 . | 利用usb線連接Ubique Panel和PC . | 點擊箭頭⇩下載ADE Design . | 拔除Ubique Panel與PC的連線 . | . 步驟4 : 連接Arduino控制板和Ubique Panel . | 利用杜邦線連接Arduino控制板和Ubique Panel . | Ubique Panel上的連接器是Pitch 2.0 | . | . ",
+    "content": ". | 以Arduino作為主控版，將讀取的IO訊息顯示在Ubique Panel上 . | Ubique Panel與使用者的互動，可以通過通訊協定傳送給Arduino，Arduino控制板可採取相應措施 . | . 事前準備 . | ADE : 請前往IOT Website下載 . | Arduino IDE : 請前往Arduino Website下載 . | . 步驟1 : 下載 IOTBinary Protocol . | 前往 IOT Github . | 下載ZIP檔 . | 根據 README.md 進行操作 . | . 步驟2 : 開啟Arduino IDE . | 建立一個資料夾並命名為 demobox_arduino . | 將從Github下載的ZIP檔解壓縮 . | src裡面的IOTBinaryProtocol.cpp和IOTBinaryProtocol.h檔複製到demobox_arduino的資料夾中 . | examples裡面的demobox_arduino.ino複製到demobox_arduino的資料夾中 . | 利用Arduino IDE開啟demobox_arduino資料夾中的demobox_arduino.ino . | 開發版選擇 Arduino Nano . | 利用usb A轉mini連接線連接Arduino Nano和PC，選擇正確的處理器和序列埠 . | 請依不同Nano選擇處理器，如果還有問題請參考Arduino Website | . | 如果找不到序列埠，請至ftdichip官網下載FT232 USB UART Driver | . | 點擊箭頭⇨下載Arduino程式 . | 拔除Arduino與PC的usb連線 . | . 步驟3 : 開啟 ADE . | 利用ADE開啟examples &gt; ade資料夾中的demobox.epgz . | 將電源和Ubique Panel連接 . | 開啟電源 . | 利用usb線連接Ubique Panel和PC . | 點擊箭頭⇩下載ADE Design . | 拔除Ubique Panel與PC的連線 . | . 步驟4 : 連接Arduino控制板和Ubique Panel . | 利用杜邦線連接Arduino控制板和Ubique Panel . | Arduino Nano 請獨立供電 . | Ubique Panel上的連接器是Pitch 2.0 . | . | . ",
     "url": "/zh-tw/3.3.0/application_note/connect_with_arduino/#%E7%9B%AE%E6%A8%99",
     "relUrl": "/zh-tw/3.3.0/application_note/connect_with_arduino/#目標"
   },"281": {
@@ -1691,24 +1691,18 @@
     "url": "/zh-tw/3.3.0/application_note/connect_with_arduino/",
     "relUrl": "/zh-tw/3.3.0/application_note/connect_with_arduino/"
   },"282": {
-    "doc": "Application Note English",
-    "title": "Application Note",
+    "doc": "Arduino HMI",
+    "title": "Arduino HMI",
     "content": " ",
-    "url": "/zh-tw/3.3.0/application_note/application_note_english/#application-note",
-    "relUrl": "/zh-tw/3.3.0/application_note/application_note_english/#application-note"
+    "url": "/zh-tw/3.3.0/application_note/arduino_hmi/",
+    "relUrl": "/zh-tw/3.3.0/application_note/arduino_hmi/"
   },"283": {
-    "doc": "Application Note English",
+    "doc": "Arduino HMI",
     "title": "Goals",
-    "content": ". | Use Arduino module as the main control board for controlling the I/O functions and show I/O status on Ubique Panel . | Ubique Panel serves as the HMI that communicates with the Arduino module with the predfined protocol. Users can accomplish this without writing any code in Ubique Panel. | . Preparations . | ADE: Please download from IOT Website . | Arduino IDE: Please download from Arduino Website . | . Step 1 : Download IOTBinary Protocol . | Please go to IOT Github . | Download the ZIP file . | Please follow the instructions described in README.md . | . Step 2 : Open Arduino IDE . | Please create a folder and name it demobox_arduino. | Please unzip the downloaded ZIP file from Githbub. | Please copy IOTBinaryProtocol.cpp and IOTBinaryProtocol.h of src directory to demobox_arduino. | Please copy demobox_arduino.ino of examples directory to demobox_arduino. | Please open demobox_arduino.ino of folder demobox_arduino in Arduino IDE. | Please choose Arduino Nano . | Use USB Type A to USB mini connector to connect Arduino Nano with your PC. Please make sure you choose the right processor and serial port. | Please choose the right processor for your NANO module. Please refer to Arduino Website for details. | . | If you cannot find the serial port, Please visit ftdichip and download FT232 USB UART Driver. | . | Pleae click arrow ⇨ to download Arduino program. | Please disconnet the USB cable between the Arduino module and your PC. | . Step 3 : Open ADE . | In ADE, please open demobox.epgz in the examples &gt; ade folder. | Conneect Ubique Panel power cable. | Switch on power. | Use USB cabel to connect your PC with Ubique Panel. | Please click ⇩ for downloading the ADE Design to Ubique Panel. | Disconnect the USB cable between Ubique Panel and your PC. | . Step 4 : Connect Arduino module and Ubique Panel . | Please use DuPont Line to connect the Arduino with Ubique Panel . | The connector pitch of Ubique Panel is 2.0mm. | . | . ",
-    "url": "/zh-tw/3.3.0/application_note/application_note_english/#goals",
-    "relUrl": "/zh-tw/3.3.0/application_note/application_note_english/#goals"
+    "content": ". | Use Arduino module as the main control board for controlling the I/O functions and show I/O status on Ubique Panel . | Ubique Panel serves as the HMI that communicates with the Arduino module with the predfined protocol. Users can accomplish this without writing any code in Ubique Panel. | . Preparations . | ADE: Please download from IOT Website . | Arduino IDE: Please download from Arduino Website . | . Step 1 : Download IOTBinary Protocol . | Please go to IOT Github . | Download the ZIP file . | Please follow the instructions described in README.md . | . Step 2 : Open Arduino IDE . | Please create a folder and name it demobox_arduino. | Please unzip the downloaded ZIP file from Githbub. | Please copy IOTBinaryProtocol.cpp and IOTBinaryProtocol.h of src directory to demobox_arduino. | Please copy demobox_arduino.ino of examples directory to demobox_arduino. | Please open demobox_arduino.ino of folder demobox_arduino in Arduino IDE. | Please choose Arduino Nano . | Use USB Type A to USB mini connector to connect Arduino Nano with your PC. Please make sure you choose the right processor and serial port. | Please choose the right processor for your NANO module. Please refer to Arduino Website for details. | . | If you cannot find the serial port, Please visit ftdichip and download FT232 USB UART Driver. | . | Pleae click arrow ⇨ to download Arduino program. | Please disconnet the USB cable between the Arduino module and your PC. | . Step 3 : Open ADE . | In ADE, please open demobox.epgz in the examples &gt; ade folder. | Conneect Ubique Panel power cable. | Switch on power. | Use USB cabel to connect your PC with Ubique Panel. | Please click ⇩ for downloading the ADE Design to Ubique Panel. | Disconnect the USB cable between Ubique Panel and your PC. | . Step 4 : Connect Arduino module and Ubique Panel . | Please use DuPont Line to connect the Arduino with Ubique Panel . | ARDUINO NANO module needs a separate and independent power supply. | The connector pitch of Ubique Panel is 2.0mm. | . | . ",
+    "url": "/zh-tw/3.3.0/application_note/arduino_hmi/#goals",
+    "relUrl": "/zh-tw/3.3.0/application_note/arduino_hmi/#goals"
   },"284": {
-    "doc": "Application Note English",
-    "title": "Application Note English",
-    "content": " ",
-    "url": "/zh-tw/3.3.0/application_note/application_note_english/",
-    "relUrl": "/zh-tw/3.3.0/application_note/application_note_english/"
-  },"285": {
     "doc": "Auto Redirect",
     "title": "Auto Redirect",
     "content": "Redirecting to latest version . ",

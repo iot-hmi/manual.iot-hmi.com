@@ -97,8 +97,6 @@
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/properties/plain_text/" class="nav-list-link">Plain Text</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/properties/rich_text/" class="nav-list-link">Rich Text</a>
-                  </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/properties/number_editor/" class="nav-list-link">Number Editor</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/properties/font_selector/" class="nav-list-link">Font Selector</a>
@@ -147,15 +145,17 @@
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/liquid_column_editor/" class="nav-list-link">Liquid Column Editor</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/knob_editor/" class="nav-list-link">Knob Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/" class="nav-list-link">Knob Size Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link">Bore Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Scale Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link">Bore Boundary Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Label Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Tick Boundary Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Editor</a>
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Tick Diameter Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Size Handler</a>
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widget_properties/on_context_menu/" class="nav-list-link">On Context Menu</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">Reset Editor</a>
                   </li><li class="nav-list-item ">
@@ -244,7 +244,7 @@
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
-                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/application_note_english/" class="nav-list-link">Application Note English</a></li></ul></li></ul>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/zh-tw/3.3.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/application_note/" class="nav-list-link">Application Note</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/connect_with_arduino/" class="nav-list-link">Connect with Arduino</a></li><li class="nav-list-item "><a href="/zh-tw/3.3.0/application_note/arduino_hmi/" class="nav-list-link">Arduino HMI</a></li></ul></li></ul>
 
           
         
@@ -288,21 +288,29 @@
         
       </h1>
     
-<p>當ADE安裝完成，並確認版本無誤後，使用者可以開始新設計。
-第一次開啟ADE時，主畫面中央會顯示新設計畫面，如下圖:
-<img src="/zh-tw/3.3.0/imgs/file248.png" alt="新設計圖示" />
-新設計畫面提供使用者選擇目標博橡科技產品，依照螢幕廠牌，解析度，以及觸控形式分類，使用者根據目標產品進行挑選，點擊後會自動開啟對應到該產品的設計頁樣板，樣板包括一個空白頁以及該產品的I/O設定頁面，使用者可以在空白頁開始HMI設計。</p>
+<p>當ADE安裝完成，並確認版本無誤後，使用者可以開始新設計。</p>
 
-<p>若非第一次開啟ADE，則開始主畫面會停留在最近設計頁面，最近設計頁面會記錄20個最近使用過的檔案，方便使用者快速點擊開啟最近工作的頁面。</p>
+<p>第一次開啟ADE時，主畫面中央會顯示<strong>新設計畫面</strong>，如下圖:</p>
 
-<p>最近設計頁面以及新設計頁面接可以使用畫面有上角的格狀顯示，以及清單顯示紐切換不同的排效果，清單顯示效果如下圖所示:
-<img src="/zh-tw/3.3.0/imgs/file249.png" alt="清單顯示" /></p>
+<p><img src="/zh-tw/3.3.0/imgs/file248.png" alt="新設計圖示" /></p>
 
-<p>不管在清單顯示模式或是格狀顯示模式，使用者接可以使用設計文件圖示卡片右上角的刪除按鈕，來移除最近使用紀錄，如下圖所示:
-<img src="/zh-tw/3.3.0/imgs/file250.png" alt="移除最近使用紀錄" /></p>
+<p>新設計畫面提供使用者選擇目標博橡科技產品，依照螢幕廠牌，解析度，以及觸控形式分類，使用者根據目標產品進行挑選，點擊後會自動開啟對應到該產品的設計頁樣板，樣板包括一個空白頁以及該產品的I/O設定頁面，使用者可以在空白頁開始HMI設計。</p>
 
-<p>使用者也可以使用設計文件圖示卡片右下角的釘選紐，確保該檔案的最近使用紀錄被釘選，不會被其他設計檔案擠出最近使用紀錄清單。如下圖所示:
-<img src="/zh-tw/3.3.0/imgs/file251.png" alt="釘選最近使用紀錄" /></p>
+<p>若非第一次開啟ADE，則開始主畫面會停留在<strong>最近設計頁面</strong>。</p>
+
+<p>最近設計頁面會記錄20個最近使用過的檔案，方便使用者快速點擊開啟最近工作的頁面。</p>
+
+<p>最近設計頁面以及新設計頁面接可以使用畫面有上角的格狀顯示，以及清單顯示紐切換不同的排效果，清單顯示效果如下圖所示:</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file249.png" alt="清單顯示" /></p>
+
+<p>不管在清單顯示模式或是格狀顯示模式，使用者接可以使用設計文件圖示卡片右上角的刪除按鈕，來移除最近使用紀錄，如下圖所示:</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file250.png" alt="移除最近使用紀錄" /></p>
+
+<p>使用者也可以使用設計文件圖示卡片右下角的釘選紐，確保該檔案的最近使用紀錄被釘選，不會被其他設計檔案擠出最近使用紀錄清單。如下圖所示:</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file251.png" alt="釘選最近使用紀錄" /></p>
 
         
 
