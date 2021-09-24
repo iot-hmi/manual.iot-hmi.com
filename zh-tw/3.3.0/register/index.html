@@ -272,30 +272,36 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="register">
+          <h1 id="暫存器">
         
         
-          <a href="#register" class="anchor-heading" aria-labelledby="register"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Register
+          <a href="#暫存器" class="anchor-heading" aria-labelledby="暫存器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器
         
         
       </h1>
     
 
-<p>暫存器是ADE HMI設計中用來，儲存輸出入資料，控制Widget狀態，與使用者互動的重要工具， 本章將詳細描述ADE中Register的使用方法:</p>
+<p>暫存器是 ADE HMI 設計中用來儲存輸出入資料，控制元件狀態和與使用者互動的重要工具， 本章將詳細描述ADE中暫存器的使用方法:</p>
 
-<p>ADE的Widget，以運作方式分類的話，大致可以分為:</p>
+<p>ADE的元件，以運作方式分類的話，大致可以分為:</p>
 
-<p>1.輸入元件:</p>
+<ol>
+  <li>
+    <p><strong>輸入元件</strong> :</p>
 
-<p>從使用者或是外界(I/O, Communication)輸入資料的輸入Widget，譬如各種Button, Touch Area, Digit Input, RTC等</p>
+    <p>從使用者或是外界(I/O，通訊)輸入資料的輸入元件，譬如各種按鈕，觸控區域，數位輸入和即時時鐘等</p>
+  </li>
+  <li>
+    <p><strong>輸出元件</strong> :</p>
 
-<p>2.輸出元件:</p>
+    <p>反映數值，或是對外輸出資料者，譬如圓形進度條，影像清單， 數位輸出，脈衝寬度調變和聲音等。</p>
+  </li>
+  <li>
+    <p><strong>輸入&amp;輸出元件</strong>:</p>
 
-<p>反映數值，或是對外輸出資料者，譬如Slider, Rotation Image, Image List, Digit Output, PWM,聲音等。</p>
-
-<p>3.Input &amp; 輸出元件:</p>
-
-<p>同時具備Input以及Output特性，可以接受使用者輸入，並且輸出反映的數值的，闢如帶Knob的可輸入Slider,可以提供使用者輸入的Rotation Image等。</p>
+    <p>同時具備輸入以及輸出特性，可以接受使用者輸入，並且輸出反映的數值的，譬如帶滑鈕的可輸入條狀調節器，以及可以提供使用者輸入的旋轉影像等。</p>
+  </li>
+</ol>
 
 <p>然而輸入的值，可能需要被記錄，被Blockly程式運算，甚至是經過不同修改後才能反映到輸出端去，因此，抽象化出一個可以用來儲存使用者輸入，I/O輸入，通訊輸入，並提供程式運算，且能作為Widget顯示數值，通訊輸出，或是I/O輸出的實體，即可滿足這些要求。</p>
 
@@ -305,23 +311,29 @@
 
 <p>暫存器分為三種:</p>
 
-<p>1.系統預設暫存器:</p>
+<ol>
+  <li>
+    <p><strong>系統預設暫存器</strong> :</p>
 
-<p>譬如用來提供換頁功能的system_page，屬於這類暫存器，任何使用這程式，將頁面名稱寫入這個暫存器，系統立即跳到該頁。</p>
+    <p>譬如用來提供換頁功能的system_page，屬於這類暫存器，任何使用這程式，將頁面名稱寫入這個暫存器，系統立即跳到該頁。</p>
+  </li>
+  <li>
+    <p><strong>產品樣板預設暫存器</strong>:</p>
 
-<p>2.產品樣板預設暫存器:</p>
+    <p>不同的產品，會搭配不同的I/O組態，每個IO會對應一個或是多個暫存器，這些暫存器在開啟設計文件樣版時會被加入設計中並自動綁定I/O元件，使用者不需設定與修改，即可直接使用。</p>
+  </li>
+  <li>
+    <p><strong>使用者定義暫存器</strong>:</p>
 
-<p>不同的產品，會搭配不同的I/O組態，每個IO會對應一個或是多個暫存器，這些暫存器在開啟設計文件樣版時會被加入設計中並自動綁定I/O Widget，使用者不需設定與修改，即可直接使用。</p>
+    <p>使用者可以自訂任一多暫存器，用來記錄各種數值或是狀態，其使用方式就像高階語言中的全域變數一般。</p>
+  </li>
+</ol>
 
-<p>3.使用者定義暫存器:</p>
+<p>在程式工具的暫存器編輯視窗中，使用者可以自行建立暫存器，如下圖所示:</p>
 
-<p>使用者可以自訂任一多暫存器，用來記錄各種數值或是狀態，其使用方式就像高階語言中的全域變數一般。</p>
+<p>暫存器對話窗同時顯示暫存器的序號,名稱，描述，型別，初始值，是否為系統暫存器，當此暫存器值改變時，是否自動通訊等，也可以利用Blockly編輯器驗證暫存器內容。若此暫存器無人使用，則按垃圾桶圖標即可刪除。</p>
 
-<p>在XTool的Reegister Editor對話窗中，使用者可以自行建立暫存器，如下圖所示:</p>
-
-<p>暫存器對話窗同時顯示暫存器的ID,名稱，描述，型別，初始值，是否為系統暫存器，當此暫存器值改變時，是否自動通訊等，也可以利用Blockly編輯器驗證暫存器內容。若此暫存器無人使用，則按垃圾桶Icon即可刪除。</p>
-
-<p>ADE會自動指定ID給暫存器，使用者可以藉由拖曳暫存器改變ID的順序。</p>
+<p>ADE會自動指定序號給暫存器，使用者可以藉由拖曳暫存器改變序號的順序。</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file68.png" alt="" />
 <img src="/zh-tw/3.3.0/imgs/file69.png" alt="" /></p>
@@ -332,26 +344,29 @@
 
 <p>暫存器觀念的引入，可將ADE內，資料的取得和存儲的使用區分開來，並利用簡單的暫存器綁定，達到修改或是顯示暫存器內容的功能。</p>
 
-<p>舉例來說，使用者可以在ADE設定將Ubique Panel 的IO Configure Page將ADC1這個I/O Widget的輸入值綁定到r_ADC_IN1這個暫存器上(也可以換成使用者自訂暫存器)</p>
+<p>舉例來說，使用者可以在ADE設定將 Ubique Panel 的I/O Configuration Page將ADC1這個I/O Widget的輸入值綁定到r_ADC_IN1這個暫存器上(也可以換成使用者自訂暫存器)</p>
 
 <p>ADC1 Widget會自動定時讀取Ubique Panel上ADC1類比輸入的值，並且更新在r_ADC_IN1</p>
 
 <p>使用者可拖入一個Circular Progress Bar,將Value Binding Register設定為r_ADC_IN1,並將Maxinum Data Value以及Mininum Data Value設定成適當的值(這個例子是4095以及0，因為Ubique Panel ADC1解析度為12bits)，如此Circular Progress Bar就可以即時顯示ADC1的輸入數值了。</p>
 
-<p>設定如下圖所示:
-<img src="/zh-tw/3.3.0/imgs/file70.png" alt="" />
-<img src="/zh-tw/3.3.0/imgs/file71.png" alt="" />
-關於ADE上暫存器使用請參考暫存器選擇器以及暫存器操作相關章節。</p>
+<p>設定如下圖所示:</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file70.png" alt="" /></p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file71.png" alt="" /></p>
+
+<p>關於ADE上暫存器使用請參考暫存器選擇器以及暫存器操作相關章節。</p>
 
 <p>在ADE Blockly程式中亦可以使用以及設定暫存器，說明如下:</p>
 
-<p>在Blockly Editor 視窗中，選擇Register Tab，出現如下圖顯示，第一個積木為設定暫存器，其他積木為使用暫存器積木。所有既有暫存器皆會被列出。</p>
+<p>在Blockly Editor視窗中，選擇Register Tab，出現如下圖顯示，第一個積木為設定暫存器，其他積木為使用暫存器積木。所有既有暫存器皆會被列出。</p>
 
-<p>設定暫存器: 使用設定暫存器積木，可以選定暫存器，並在其後連接設定值。設定值的型別需要與暫存器型別一致。此外若此暫存器已經綁定Widget，則改變暫存器的值會立即影響Widget的顯示，並在下一次螢幕更新時改變顯示。
+<p>設定暫存器: 使用設定暫存器積木，可以選定暫存器，並在其後連接設定值。設定值的型別需要與暫存器型別一致。此外若此暫存器已經綁定元件，則改變暫存器的值會立即影響元件的顯示，並在下一次螢幕更新時改變顯示。
 使用暫存器:暫存器積木可以用在數值運算式，邏輯運算式以及字串運算積木。
 此外，暫存器也支援事件驅動程式撰寫方式，當暫存器數值變化時，執行設定的程式。</p>
 
-<p>使用者可使用System Widget Library中的Register Obseerver監視暫存器的變化，若有任何輸入Widget、I/O或者使用者撰寫的Blockly程式修改暫存器的值，皆會觸發Register Observer，使用者附掛的Blockly程式就會被執行。</p>
+<p>使用者可使用系統元件庫中的暫存器監視器來監視暫存器的變化，若有任何輸入元件、I/O或者使用者撰寫的Blockly程式修改暫存器的值，皆會觸發暫存器監視器，使用者附掛的Blockly程式就會被執行。</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file72.png" alt="" /></p>
 
