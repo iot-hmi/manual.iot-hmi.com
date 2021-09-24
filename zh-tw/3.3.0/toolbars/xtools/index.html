@@ -280,53 +280,76 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="xtools">
+          <h1 id="程式工具">
         
         
-          <a href="#xtools" class="anchor-heading" aria-labelledby="xtools"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> XTools
+          <a href="#程式工具" class="anchor-heading" aria-labelledby="程式工具"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 程式工具
         
         
       </h1>
     
-<p>XTools 的三個控制按鍵，如下圖所示:</p>
+<p>程式工具的三個控制按鍵，如下圖所示:</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file43.png" alt="圖2-19 XTools工具列" /></p>
+      <h2 id="暫存器編輯視窗">
+        
+        
+          <a href="#暫存器編輯視窗" class="anchor-heading" aria-labelledby="暫存器編輯視窗"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器編輯視窗
+        
+        
+      </h2>
+    
+<p>最左邊是用來呼叫暫存器編輯視窗(Register Table)的按鍵:</p>
 
-<p>最左邊的按鍵是用來呼叫暫存器編輯對話框(Register Table)，</p>
+<p><img src="/zh-tw/3.3.0/imgs/file44.png" alt="圖2-20 啟動暫存器編輯視窗" /></p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file44.png" alt="圖2-20 啟動暫存器編輯對話框" /></p>
+<p>按下此按鍵之後，暫存器編輯視窗出現:</p>
 
-<p>按下此按鍵之後，暫存器編輯對話框出現:</p>
+<p><img src="/zh-tw/3.3.0/imgs/file45.png" alt="圖2-21 暫存器編輯視窗" /></p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file45.png" alt="圖2-21 暫存器編輯對話框" /></p>
+<p>在暫存器編輯視窗中，會列出整個 HMI 設計的專案中 所有用到的系統暫存器，包含 ADE 內建的暫存器。使用者也可以自訂暫存器，自訂的暫存器會排列在系統暫存器之後。暫存器的使用是 ADE 重要的觀念，我們會有專章說明解釋暫存器綁定(Register Binding)的觀念和做法，詳請參考<a href="/zh-tw/3.3.0/register/">暫存器</a>。</p>
 
-<p>在暫存器編輯對話框中，會列出整個HMI 設計的專案中 所有用到的系統暫存器，這包含 ADE 內建的暫存器，使用者也可以自訂暫存器。自訂的暫存器會排列在系統暫存器之後。暫存器的使用是ADE 重要的觀念，我們會有專章說明解釋(暫存器綁定)Register Binding 的觀念和做法。</p>
+<p>勾選<strong>自動通訊上傳</strong>即可將暫存器內容透過UART進行通訊</p>
 
-<p>勾選Send to host即可將暫存器內容透過設定的UART port進行Communication</p>
+<ul>
+  <li>UART通訊必須為兩個相同序號的暫存器才有效</li>
+</ul>
 
-<p>※UART通訊必須為兩個相同Index的暫存器才有效</p>
+<p>點選驗證鈕可以開啟Blockly編輯器，對暫存器內容進行驗證</p>
 
-<p>點選書寫鈕可以開啟Blockly編輯器，對暫存器內容進行驗證</p>
+<p><em>寫入暫存器的內容長度必須大於等於四，否則不予以寫入</em></p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file46.png" alt="圖2-22 暫存器內容驗證" /></p>
-
-<p>如上圖所示，寫入暫存器的內容長度必須大於等於四，否則不予以寫入</p>
-
-<p>第二個按鍵目的是用來啟動系統全域 Blockly Function 的編輯器:</p>
+      <h2 id="全域積木函數編輯視窗">
+        
+        
+          <a href="#全域積木函數編輯視窗" class="anchor-heading" aria-labelledby="全域積木函數編輯視窗"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 全域積木函數編輯視窗
+        
+        
+      </h2>
+    
+<p>第二個是用來啟動系統全域函數積木編輯視窗的按鍵:</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file47.png" alt="圖2-23 全域Blockly Function編輯器啟動鈕" /></p>
 
-<p>按下後，Blockly 編輯器 (Blockly Editor) 便會打開:</p>
+<p>按下後，全域函數Blockly編輯視窗(Blockly Editor)便會打開:</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file48.png" alt="圖2-24 Blockly編輯器" /></p>
 
-<p>在這個編輯器所編輯的 Blockly 程式是全域的 (global)，也就是說在HMI設計中，每一個地方都可以看的到。這不同於個別 Widget 的 Blockly function 只能鎖在 Widget 中。</p>
+<p>在這個編輯視窗所編輯的 Blockly 程式是全域的(global)，也就是說在 HMI 設計中，每一個地方都可以看的到。這不同於個別元件的 Blockly 函式只能鎖在元件中。</p>
 
 <p>Blockly 是一種視覺化程式設計語言，是一種開源的程式語言，使用者可以到下面的網站獲取更多相關資訊:</p>
 
 <p><a href="https://developers.google.com/blockly">https://developers.google.com/blockly</a></p>
-
-<p>第三個按鍵為開啟系統就緒後執行函數的編輯視窗</p>
+      <h2 id="系統就緒回呼函數blockly編輯視窗">
+        
+        
+          <a href="#系統就緒回呼函數blockly編輯視窗" class="anchor-heading" aria-labelledby="系統就緒回呼函數blockly編輯視窗"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 系統就緒回呼函數Blockly編輯視窗
+        
+        
+      </h2>
+    
+<p>第三個為開啟系統就緒後執行函數的編輯視窗的按鍵:</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file49.png" alt="圖2-25 系統就緒後執行函數編輯器啟動鈕" /></p>
 
