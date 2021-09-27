@@ -147,8 +147,6 @@
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/" class="nav-list-link">Knob Size Handler</a>
                   </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
-                  </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link">Bore Boundary Handler</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Tick Boundary Handler</a>
@@ -156,12 +154,12 @@
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Tick Diameter Handler</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Size Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
                   </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widget_properties/on_context_menu/" class="nav-list-link active">On Context Menu</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">Reset Editor</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/center_editor/" class="nav-list-link">Center Editor</a>
-                  </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/n-patch/" class="nav-list-link">N-Patch</a>
                   </li></ul></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widgets/" class="nav-list-link">Widgets</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.3.0/widgets/collection/" class="nav-list-link">Collection</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.3.0/widgets/standard_widget_library/" class="nav-list-link">Standard Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/" class="nav-list-link">Slider Switch</a>
                   </li><li class="nav-list-item ">
@@ -288,11 +286,12 @@
         
       </h1>
     
+
 <p>在設計畫布上按下滑鼠右鍵時，會出現右鍵選單，此選單會根據是否選擇Widget以及所選擇的不同Widget而改變選單內容，不同Widget提供的選單內容將在各個Widget的說明頁中描述，此頁專職描述所有右鍵選單的共同功能。</p>
-      <h2 id="未選擇任何widget時">
+      <h2 id="未選擇任何元件時">
         
         
-          <a href="#未選擇任何widget時" class="anchor-heading" aria-labelledby="未選擇任何widget時"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 未選擇任何Widget時
+          <a href="#未選擇任何元件時" class="anchor-heading" aria-labelledby="未選擇任何元件時"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 未選擇任何元件時
         
         
       </h2>
@@ -316,18 +315,18 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">復原:</td>
+      <td style="text-align: left">復原</td>
       <td style="text-align: left">復原回上一個動作，選單會一併顯示復原的動作名稱</td>
       <td style="text-align: left">Ctrl+Z</td>
     </tr>
     <tr>
-      <td style="text-align: left">重作:</td>
+      <td style="text-align: left">重作</td>
       <td style="text-align: left">當可以重坐上一個動作時，選單會致能，可以重做上一個動作</td>
       <td style="text-align: left">Ctrl+Y</td>
     </tr>
     <tr>
       <td style="text-align: left">貼上</td>
-      <td style="text-align: left">從剪貼簿貼上，目前支援Widget貼上，圖片貼上，以及SVG貼上功能</td>
+      <td style="text-align: left">從剪貼簿貼上，目前支援元件貼上，圖片貼上，以及SVG貼上功能</td>
       <td style="text-align: left">Ctrl+V</td>
     </tr>
     <tr>
@@ -369,15 +368,15 @@
     </tr>
     <tr>
       <td style="text-align: left">尺寸符合編輯區大小</td>
-      <td style="text-align: left">將畫布尺寸調整為目前編輯區的尺寸，即扣除左邊Widget Panel以及右邊Property Panel，下方Page List之後的所有空間</td>
+      <td style="text-align: left">將畫布尺寸調整為目前編輯區的尺寸，即扣除左邊工作面板(Widget Panel)以及右邊屬性面板(Property Panel)和下方頁面清單(Page List)之後的所有空間</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h2 id="選擇一個或是多個widget時">
+      <h2 id="選擇一個或是多個元件時">
         
         
-          <a href="#選擇一個或是多個widget時" class="anchor-heading" aria-labelledby="選擇一個或是多個widget時"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 選擇一個或是多個Widget時
+          <a href="#選擇一個或是多個元件時" class="anchor-heading" aria-labelledby="選擇一個或是多個元件時"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 選擇一個或是多個元件時
         
         
       </h2>
@@ -391,7 +390,7 @@
       </h3>
     
 
-<p>選擇單機或是多個Widget時，可以調整所選Widgets在頁面上的圖層順序，藉由帶透明度元件的不同圖層安排，Ubique Panel可以顯示豐富多樣的視覺效果。</p>
+<p>選擇單一或是多個元件時，可以調整所選元件在頁面上的圖層順序，藉由帶透明度元件的不同圖層安排，Ubique Panel 可以顯示豐富多樣的視覺效果。</p>
 
 <div class="table-wrapper"><table class="table_properties">
   <thead>
@@ -433,7 +432,7 @@
       </h3>
     
 
-<p>功能隨選擇的元件改變，詳件個元件說明。</p>
+<p>功能隨選擇的元件改變，詳見各個元件的屬性說明。</p>
       <h3 id="連結頁面">
         
         
@@ -443,7 +442,7 @@
       </h3>
     
 
-<p>選擇匯出的網頁件，按下此元件時是否要切換到其他頁面，若設定連接，則匯出的網頁可以做HMI換頁動作，適合在HMI開發過程中做展示說明。
+<p>選擇匯出的網頁件，按下此元件時是否要切換到其他頁面，若設定連接，則匯出的網頁可以做 HMI 換頁動作，適合在 HMI 開發過程中做展示說明。
 可連結的頁面名稱會顯示在子功能表中被選擇。</p>
       <h3 id="鎖定">
         
@@ -454,7 +453,7 @@
       </h3>
     
 
-<p>勾選此選項，可以固定此Widget的座標位置以及尺寸，並避免此widget被滑鼠點選，以免失誤移動或是改變其位置。</p>
+<p>勾選此選項，可以固定此元件的座標位置以及尺寸，避免此元件被滑鼠點選造成失誤移動或是改變其位置。</p>
       <h3 id="建立群駔">
         
         
@@ -464,7 +463,7 @@
       </h3>
     
 
-<p>當選擇多個Widget時，可以用這個選項將他們建立成一個群組，方便移動，調整尺寸，收入私有收藏等。</p>
+<p>當選擇多個元件時，可以用這個選項將他們建立成一個群組，方便移動，調整尺寸，收入私有收藏等。</p>
 
 <p>Shortcut: Ctrl+G</p>
       <h3 id="解散群組">
@@ -488,7 +487,7 @@
       </h3>
     
 
-<p>刪除選擇的Widget</p>
+<p>刪除選擇的元件</p>
 
 <p>Shortcut: Delete</p>
       <h3 id="將選擇加入私有收藏">
@@ -500,7 +499,7 @@
       </h3>
     
 
-<p>此選項可以將所選擇的Widget或是群組加入私有收藏，方便日後使用，詳情請見<a href="/zh-tw/3.3.0/my_collections/">私有收藏</a>。</p>
+<p>此選項可以將所選擇的Widget或是群組加入私有收藏，方便日後使用，詳情請見 <a href="/zh-tw/3.3.0/my_collections/">私有收藏</a>。</p>
       <h3 id="剪下">
         
         
@@ -534,7 +533,7 @@
       </h3>
     
 
-<p>貼上於剪貼簿上的元件，有些元件若多次貼上，其貼上位置以及尺寸會相同因此重疊，使用這需重新調整Widget位置。</p>
+<p>貼上於剪貼簿上的元件，有些元件若多次貼上，其貼上位置以及尺寸會相同因此重疊，使用這需重新調整元件位置。</p>
 
 <p>Shortcut: Ctrl+V</p>
       <h3 id="匯出選取部分含背景作為png圖檔">
@@ -545,6 +544,7 @@
         
       </h3>
     
+
 <p>將所選Widget或是群組匯出成PNG圖片，此功能會出現檔案對話盒讓使用者指定儲存檔名。
 此選項會連同所選的元件的背景一併匯出。</p>
 
@@ -559,6 +559,7 @@
         
       </h3>
     
+
 <p>將所選Widget或是群組匯出成PNG圖片，此功能會出現檔案對話盒讓使用者指定儲存檔名。
 此選項不會匯出背景。</p>
 
@@ -594,10 +595,6 @@
             
               <li>
                 <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/center_editor/">Center Editor</a>
-              </li>
-            
-              <li>
-                <a href="/zh-tw/3.3.0/widget_properties/on_context_menu/n-patch/">N-Patch</a>
               </li>
             
           </ul>
