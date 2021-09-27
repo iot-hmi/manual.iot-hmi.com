@@ -344,11 +344,11 @@
 
 <p>暫存器觀念的引入，可將ADE內，資料的取得和存儲的使用區分開來，並利用簡單的暫存器綁定，達到修改或是顯示暫存器內容的功能。</p>
 
-<p>舉例來說，使用者可以在ADE設定將 Ubique Panel 的I/O Configuration Page將ADC1這個I/O Widget的輸入值綁定到r_ADC_IN1這個暫存器上(也可以換成使用者自訂暫存器)</p>
+<p>舉例來說，使用者可以在ADE設定將 Ubique Panel 的I/O Configuration Page將ADC1這個I/O元件的輸入值綁定到r_ADC_IN1這個暫存器上(也可以換成使用者自訂暫存器)</p>
 
-<p>ADC1 Widget會自動定時讀取Ubique Panel上ADC1類比輸入的值，並且更新在r_ADC_IN1</p>
+<p>ADC1元件會自動定時讀取Ubique Panel上ADC1類比輸入的值，並且更新在r_ADC_IN1暫存器</p>
 
-<p>使用者可拖入一個Circular Progress Bar,將Value Binding Register設定為r_ADC_IN1,並將Maxinum Data Value以及Mininum Data Value設定成適當的值(這個例子是4095以及0，因為Ubique Panel ADC1解析度為12bits)，如此Circular Progress Bar就可以即時顯示ADC1的輸入數值了。</p>
+<p>使用者可拖入一個圓形進度條,將綁定數值暫存器設定為r_ADC_IN1，並將最小資料值以及最大資料值設定成適當的值(這個例子是0以及4095，因為Ubique Panel ADC1解析度為12 bits)，如此圓形進度條就可以即時顯示ADC1的輸入數值了。</p>
 
 <p>設定如下圖所示:</p>
 
@@ -356,15 +356,21 @@
 
 <p><img src="/zh-tw/3.3.0/imgs/file71.png" alt="" /></p>
 
-<p>關於ADE上暫存器使用請參考暫存器選擇器以及暫存器操作相關章節。</p>
+<p>關於ADE上暫存器使用請參考 <a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">暫存器選擇器</a> 以及 <a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">暫存器操作</a> 相關章節。</p>
 
 <p>在ADE Blockly程式中亦可以使用以及設定暫存器，說明如下:</p>
 
 <p>在Blockly Editor視窗中，選擇Register Tab，出現如下圖顯示，第一個積木為設定暫存器，其他積木為使用暫存器積木。所有既有暫存器皆會被列出。</p>
 
-<p>設定暫存器: 使用設定暫存器積木，可以選定暫存器，並在其後連接設定值。設定值的型別需要與暫存器型別一致。此外若此暫存器已經綁定元件，則改變暫存器的值會立即影響元件的顯示，並在下一次螢幕更新時改變顯示。
-使用暫存器:暫存器積木可以用在數值運算式，邏輯運算式以及字串運算積木。
+<ul>
+  <li>
+    <p>設定暫存器 : 使用設定暫存器積木，可以選定暫存器，並在其後連接設定值。設定值的型別需要與暫存器型別一致。此外若此暫存器已經綁定元件，則改變暫存器的值會立即影響元件的顯示，並在下一次螢幕更新時改變顯示。</p>
+  </li>
+  <li>
+    <p>使用暫存器 : 暫存器積木可以用在數值運算式，邏輯運算式以及字串運算積木。
 此外，暫存器也支援事件驅動程式撰寫方式，當暫存器數值變化時，執行設定的程式。</p>
+  </li>
+</ul>
 
 <p>使用者可使用系統元件庫中的暫存器監視器來監視暫存器的變化，若有任何輸入元件、I/O或者使用者撰寫的Blockly程式修改暫存器的值，皆會觸發暫存器監視器，使用者附掛的Blockly程式就會被執行。</p>
 
