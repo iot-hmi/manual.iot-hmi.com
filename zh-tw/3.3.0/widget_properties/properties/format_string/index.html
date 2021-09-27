@@ -281,10 +281,10 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="format-string">
+          <h1 id="格式化字串">
         
         
-          <a href="#format-string" class="anchor-heading" aria-labelledby="format-string"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Format String
+          <a href="#格式化字串" class="anchor-heading" aria-labelledby="格式化字串"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 格式化字串
         
         
       </h1>
@@ -292,124 +292,125 @@
 
 <p>使用python的格式化字串，把字串中的變數變成變數值</p>
 
-<p>可通過 { }和: 取代%</p>
+<p>可通過 { } 和 : 取代 %</p>
 
 <div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th style="text-align: left">格式</th>
+      <th style="text-align: left">描述</th>
+      <th style="text-align: left">數字</th>
+      <th style="text-align: left">輸出</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td>格式</td>
-      <td>描述</td>
-      <td>數字</td>
-      <td>輸出</td>
+      <td style="text-align: left">{:d}</td>
+      <td style="text-align: left">10進位整數</td>
+      <td style="text-align: left">200</td>
+      <td style="text-align: left">200</td>
     </tr>
     <tr>
-      <td>{:d}</td>
-      <td>10進位整數</td>
-      <td>200</td>
-      <td>200</td>
+      <td style="text-align: left">{:x}</td>
+      <td style="text-align: left">16進位整數，小寫</td>
+      <td style="text-align: left">200</td>
+      <td style="text-align: left">c8</td>
     </tr>
     <tr>
-      <td>{:x}</td>
-      <td>16進位整數，小寫</td>
-      <td>200</td>
-      <td>c8</td>
+      <td style="text-align: left">{:X}</td>
+      <td style="text-align: left">16進位整數，大寫</td>
+      <td style="text-align: left">200</td>
+      <td style="text-align: left">C8</td>
     </tr>
     <tr>
-      <td>{:X}</td>
-      <td>16進位整數，大寫</td>
-      <td>200</td>
-      <td>C8</td>
+      <td style="text-align: left">{:&gt;10d}</td>
+      <td style="text-align: left">寬度為10，向右對齊</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">2</td>
     </tr>
     <tr>
-      <td>{:&gt;10d}</td>
-      <td>寬度為10，向右對齊</td>
-      <td>2</td>
-      <td>2</td>
+      <td style="text-align: left">{:&lt;10d}</td>
+      <td style="text-align: left">寬度為10，向左對齊</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">2</td>
     </tr>
     <tr>
-      <td>{:&lt;10d}</td>
-      <td>寬度為10，向左對齊</td>
-      <td>2</td>
-      <td>2</td>
+      <td style="text-align: left">{:^10d}</td>
+      <td style="text-align: left">寬度為10，置中對齊</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">2</td>
     </tr>
     <tr>
-      <td>{:^10d}</td>
-      <td>寬度為10，置中對齊</td>
-      <td>2</td>
-      <td>2</td>
+      <td style="text-align: left">{:0&gt;2d} {:02}</td>
+      <td style="text-align: left">寬度為2，位數不夠左邊補0</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">05</td>
     </tr>
     <tr>
-      <td>{:0&gt;2d} {:02}</td>
-      <td>寬度為2，位數不夠左邊補0</td>
-      <td>5</td>
-      <td>05</td>
+      <td style="text-align: left">{:x&gt;2d}</td>
+      <td style="text-align: left">寬度為2，位數不夠左邊補x</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">x5</td>
     </tr>
     <tr>
-      <td>{:x&gt;2d}</td>
-      <td>寬度為2，位數不夠左邊補x</td>
-      <td>5</td>
-      <td>x5</td>
+      <td style="text-align: left">{:x&lt;2d}</td>
+      <td style="text-align: left">寬度為2，位數不夠右邊補x</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">5x</td>
     </tr>
     <tr>
-      <td>{:x&lt;2d}</td>
-      <td>寬度為2，位數不夠右邊補x</td>
-      <td>5</td>
-      <td>5x</td>
+      <td style="text-align: left">{:f}</td>
+      <td style="text-align: left">浮點數</td>
+      <td style="text-align: left">3.1415926</td>
+      <td style="text-align: left">3.1415926</td>
     </tr>
     <tr>
-      <td>{:f}</td>
-      <td>浮點數</td>
-      <td>3.1415926</td>
-      <td>3.1415926</td>
+      <td style="text-align: left">{:.0f}</td>
+      <td style="text-align: left">不帶小數</td>
+      <td style="text-align: left">3.1415926</td>
+      <td style="text-align: left">3</td>
     </tr>
     <tr>
-      <td>{:.0f}</td>
-      <td>不帶小數</td>
-      <td>3.1415926</td>
-      <td>3</td>
+      <td style="text-align: left">{:.2f}</td>
+      <td style="text-align: left">保留小數點後兩位</td>
+      <td style="text-align: left">3.1415926</td>
+      <td style="text-align: left">3.14</td>
     </tr>
     <tr>
-      <td>{:.2f}</td>
-      <td>保留小數點後兩位</td>
-      <td>3.1415926</td>
-      <td>3.14</td>
+      <td style="text-align: left">{:+.2f}</td>
+      <td style="text-align: left">帶正負號，保留小數點後兩位</td>
+      <td style="text-align: left">3.1415926</td>
+      <td style="text-align: left">+3.14</td>
     </tr>
     <tr>
-      <td>{:+.2f}</td>
-      <td>帶正負號，保留小數點後兩位</td>
-      <td>3.1415926</td>
-      <td>+3.14</td>
+      <td style="text-align: left">{:,}</td>
+      <td style="text-align: left">以逗號分格數字，每3位一逗號</td>
+      <td style="text-align: left">1000000</td>
+      <td style="text-align: left">1,000,000</td>
     </tr>
     <tr>
-      <td>{:,}</td>
-      <td>以逗號分格數字，每3位一逗號</td>
-      <td>1000000</td>
-      <td>1,000,000</td>
+      <td style="text-align: left">{:.0%}</td>
+      <td style="text-align: left">百分比</td>
+      <td style="text-align: left">0.33333</td>
+      <td style="text-align: left">33%</td>
     </tr>
     <tr>
-      <td>{:.0%}</td>
-      <td>百分比</td>
-      <td>0.33333</td>
-      <td>33%</td>
+      <td style="text-align: left">{:.2%}</td>
+      <td style="text-align: left">百分比，小數點後兩位</td>
+      <td style="text-align: left">0.33333</td>
+      <td style="text-align: left">33.33%</td>
     </tr>
     <tr>
-      <td>{:.2%}</td>
-      <td>百分比，小數點後兩位</td>
-      <td>0.33333</td>
-      <td>33.33%</td>
-    </tr>
-    <tr>
-      <td>{:s}</td>
-      <td>利用str()轉換成字串</td>
-      <td>‘hello’</td>
-      <td>hello</td>
+      <td style="text-align: left">{:s}</td>
+      <td style="text-align: left">利用str()轉換成字串</td>
+      <td style="text-align: left">‘hello’</td>
+      <td style="text-align: left">hello</td>
     </tr>
   </tbody>
 </table></div>
 
-<p>詳情參考:</p>
-
-<p><a href="https://docs.python.org/2/library/stdtypes.html#string-formatting-operations">https://docs.python.org/2/library/stdtypes.html#string-formatting-operations</a></p>
+<p>詳情參考:
+<a href="https://docs.python.org/2/library/stdtypes.html#string-formatting-operations">https://docs.python.org/2/library/stdtypes.html#string-formatting-operations</a></p>
 
         
 
