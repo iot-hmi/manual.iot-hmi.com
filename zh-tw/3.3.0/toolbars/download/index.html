@@ -320,9 +320,9 @@
 
 <p><img src="/zh-tw/3.3.0/imgs/file25.png" alt="圖2-9 啟動模擬器按鈕" /></p>
 
-<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與Ubique Panel上一致(色差可能發生於使用者使用的螢幕以及Ubique Panel之間，其色域規格以Ubique Panel規格書定義為準)。</p>
+<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者使用的螢幕以及 Ubique Panel 之間，其色域規格以 Ubique Panel 規格書定義為準)。</p>
 
-<p>模擬器無法於個人電腦模擬 Ubique Panel 上的I/O, PWM, ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。</p>
+<p>模擬器無法於個人電腦模擬 Ubique Panel 上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。</p>
       <h2 id="啟動屏通訊程式">
         
         
@@ -331,7 +331,7 @@
         
       </h2>
     
-<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與Ubique Panel或是模擬器進行通訊</p>
+<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
 
@@ -339,9 +339,9 @@
 
 <p><img src="/zh-tw/3.3.0/imgs/file27.png" alt="圖2-11 Messenger視窗" /></p>
 
-<p>在這視窗中，使用者可以透過個人電腦的COM Port，連結Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值, 模擬由外部MCU透過UART傳遞數值給Ubique Panel。</p>
+<p>在這視窗中，使用者可以透過個人電腦的 COM Port，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值, 模擬由外部MCU透過 UART 傳遞數值給 Ubique Panel。</p>
 
-<p>以下詳細說明與模擬器以及Ubique Panel通訊方法:</p>
+<p>以下詳細說明與模擬器以及 Ubique Panel 通訊方法:</p>
       <h3 id="利用屏通訊程式和模擬器通訊">
         
         
@@ -353,7 +353,7 @@
 
 <ul>
   <li>
-    <p>首先用ADE開啟一個既有設計</p>
+    <p>首先用 ADE 開啟一個既有設計</p>
 
     <p>確認IOConfig頁面UART為啟動且UART鮑率正確且暫存器已選取</p>
 
@@ -377,7 +377,7 @@
         <p>點擊連接，連接成功會看到彈出信息框顯示成功</p>
       </li>
       <li>
-        <p>點擊連接確認，Messenger會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
+        <p>點擊連接確認，屏通訊程式會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
       </li>
       <li>
         <p>連接正常，接收確認資訊ack</p>
@@ -409,7 +409,7 @@
     <p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
   </li>
   <li>
-    <p>之後利用USB to TTL模組連接控制板RX TX GND與ADE所在電腦的USB</p>
+    <p>之後利用USB to TTL模組連接控制板RX、TX、GND與ADE所在電腦的USB</p>
   </li>
   <li>
     <p>連接完成後打開屏通訊程式視窗</p>
@@ -432,7 +432,7 @@
     </ol>
   </li>
   <li>
-    <p>接下來即可在Ubique Panel上看到相對應的顯示</p>
+    <p>接下來即可在 Ubique Panel 上看到相對應的顯示</p>
 
     <p><img src="/zh-tw/3.3.0/imgs/file33.png" alt="" /></p>
   </li>
@@ -449,7 +449,7 @@
 
 <ul>
   <li>
-    <p>首先，利用ADE準備兩個設計，一個負責傳送數值，一個負責接收數值</p>
+    <p>首先，利用 ADE 準備兩個設計，一個負責傳送數值，一個負責接收數值</p>
   </li>
   <li>
     <p>將負責傳送數值的設計利用模擬器打開，負責接收數值的設計下載至博橡科技控制板</p>
@@ -468,7 +468,7 @@
     </ol>
   </li>
   <li>
-    <p>接下來可以在Ubique Panel上看到相對應的顯示</p>
+    <p>接下來可以在 Ubique Panel 上看到相對應的顯示</p>
 
     <p><img src="/zh-tw/3.3.0/imgs/file35.png" alt="" /></p>
   </li>
@@ -491,7 +491,7 @@
     <p><img src="/zh-tw/3.3.0/imgs/file37.png" alt="圖2-17 Ubique Panel通訊UART接法" /></p>
   </li>
   <li>
-    <p>其次，準備兩個ADE Project，一個負責送一個負責接，並確認兩個Project欲溝通的暫存器id是否相同。將負責送的Project暫存器勾選<strong>自動通訊上傳</strong>，表示作為傳送方。</p>
+    <p>其次，準備兩個 ADE Project，一個負責送一個負責接，並確認兩個Project欲溝通的暫存器id是否相同。將負責送的Project暫存器勾選<strong>自動通訊上傳</strong>，表示作為傳送方。</p>
 
     <ul>
       <li>
@@ -514,10 +514,10 @@
     <p>再分別將兩個Project下載至控制板。打開電源即可開始通訊。</p>
   </li>
 </ul>
-      <h3 id="ubique-panel和-mcu-通訊">
+      <h3 id="ubique-panel-和-mcu-通訊">
         
         
-          <a href="#ubique-panel和-mcu-通訊" class="anchor-heading" aria-labelledby="ubique-panel和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel和 MCU 通訊
+          <a href="#ubique-panel-和-mcu-通訊" class="anchor-heading" aria-labelledby="ubique-panel-和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel 和 MCU 通訊
         
         
       </h3>
@@ -525,19 +525,119 @@
 
 <ul>
   <li>
-    <p>首先，準備一個ADE Project並且設好暫存器。再參考博橡的通訊協定寫出Arduino程式，將資料透過通訊傳給指定ID的暫存器。</p>
-
-    <p>以下是UART通訊協定</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file42.png" alt="圖2-18 UART通訊協定" /></p>
+    <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博橡通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
   </li>
   <li>
     <p>其次，連接博橡控制板與Arduino控制板的RX和TX</p>
+
+    <p><img src="/zh-tw/3.3.0/imgs/file42.png" alt="" /></p>
   </li>
   <li>
     <p>將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。</p>
   </li>
 </ul>
+      <h3 id="博橡uart通訊協定">
+        
+        
+          <a href="#博橡uart通訊協定" class="anchor-heading" aria-labelledby="博橡uart通訊協定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博橡UART通訊協定<a name="iot-protocol"></a>
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>
+    <p>Command Format</p>
+
+    <div class="table-wrapper"><table>
+      <thead>
+        <tr>
+          <th style="text-align: left">Command</th>
+          <th style="text-align: left">Lead Byte</th>
+          <th style="text-align: left">Type Byte</th>
+          <th style="text-align: left">Register ID Low Byte</th>
+          <th style="text-align: left">Register ID High Byte</th>
+          <th style="text-align: left">Tailing Bytes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: left">Set Register</td>
+          <td style="text-align: left">0x11</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">Data Payload</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Get Register</td>
+          <td style="text-align: left">0x11</td>
+          <td style="text-align: left">0x01</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">N/A</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </li>
+  <li>
+    <p>Data Payload Format</p>
+
+    <div class="table-wrapper"><table>
+      <thead>
+        <tr>
+          <th style="text-align: left">Payload Type</th>
+          <th style="text-align: left">ID Byte</th>
+          <th style="text-align: left">Length Low Byte</th>
+          <th style="text-align: left">Length High Byte</th>
+          <th style="text-align: left">Tailing Bytes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: left">Boolean</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">0x01</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">String</td>
+          <td style="text-align: left">0x01</td>
+          <td style="text-align: left">0x01~0xFF</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Integer</td>
+          <td style="text-align: left">0x02</td>
+          <td style="text-align: left">0x01/02/04/08</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Unsigned Integer</td>
+          <td style="text-align: left">0x03</td>
+          <td style="text-align: left">0x01/02/04/08</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Floating Point</td>
+          <td style="text-align: left">0x04</td>
+          <td style="text-align: left">0x04/08</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </li>
+  <li>
+    <p>Data Bytes are of the Little-Endian Format</p>
+  </li>
+</ul>
+
+<p>博橡Arduino Library可參考<a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino">IOT Binary Protocol</a></p>
 
         
 
