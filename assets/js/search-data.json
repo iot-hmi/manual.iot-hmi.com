@@ -121,7 +121,7 @@
   },"20": {
     "doc": "Export",
     "title": "匯出設計到Ubique Panel",
-    "content": "將HMI設定下載到系統板。 . | 連接控制板 : 使用前請先使用USB纜線連接 Ubique Panel 控制板與PC，ADE 在下載時會自動辨識連接中的控制板，但 ADE 不支援同時連接多個控制板，請確保一次只連接一個控制板。 . 若需要確認插入 USB 時，ADE 是否順利偵測到控制板，可由系統選單開啟設定對話盒，並切換到安裝與更新頁，於重新取得控制版資訊按鈕後方，會顯示連線中的控制版資訊，如下圖: . 如果無法取得控制版資訊，或是沒有任何控制板連接，則會顯示下圖: . 若先啟動此頁後再用 USB 纜線連接控制板的話，可以按下重新取得控制版資訊紐，以取得最新控制版資訊。詳請請參考設設定對話盒 . | 匯出樣板 : 此匯出類型目前只提供 Ubique Panel 匯出樣板。 . | 匯出選項 : 此匯出功能提供以下匯出選項: . | 匯出目標 : . | 啟動 IOT 模擬器 : 點選此設定，ADE 會啟動 TFT 模擬器，並將HMI設計傳遞過去。選用此功能無需連接Ubique Panel 控制板，TFT 模擬器會出現在電腦螢幕上，使用者可以直接操作驗證設計的正確性。此模擬器無法模擬I/O操作。 . | 下載到屏 : 選取此功能，並用USB覽線連接Ubique Panel 控制板，會開始匯出以及下載，下載過程會以警度對話盒表示，並顯示相關訊息。若一切正常，則錯誤個數為0，下載後會顯示下載成功，並提示使用者關閉下載視窗。若下載失敗，下載視窗會繼續顯示，供使用者檢視錯誤訊息，錯誤會於訊息窗中以紅色文字顯示。如下圖例: . 錯誤個數不為0時，ADE不會將設計下載到 Ubique Panel，也不會啟動 TFT 模擬器。 . | 匯出設計到檔案 : 此功能為客服目的，當使用者使用 ADE 設計 HMI 遇到問題時，可以將設計匯出成檔案，並發送給博橡科技客服協助除錯。 . | . | . | . ",
+    "content": "將HMI設定下載到系統板。 . | 連接控制板 : 使用前請先使用USB纜線連接 Ubique Panel 控制板與PC，ADE 在下載時會自動辨識連接中的控制板，但 ADE 不支援同時連接多個控制板，請確保一次只連接一個控制板。 . 若需要確認插入 USB 時，ADE 是否順利偵測到控制板，可由系統選單開啟設定對話盒，並切換到安裝與更新頁，於重新取得控制版資訊按鈕後方，會顯示連線中的控制版資訊，如下圖: . 如果無法取得控制版資訊，或是沒有任何控制板連接，則會顯示下圖: . 若先啟動此頁後再用 USB 纜線連接控制板的話，可以按下重新取得控制版資訊鈕，以取得最新控制版資訊。詳請請參考設設定對話盒 . | 匯出樣板 : 此匯出類型目前只提供 Ubique Panel 匯出樣板。 . | 匯出選項 : 此匯出功能提供以下匯出選項: . | 匯出目標 : . | 啟動 IOT 模擬器 : 點選此設定，ADE 會啟動 TFT 模擬器，並將HMI設計傳遞過去。選用此功能無需連接Ubique Panel 控制板，TFT 模擬器會出現在電腦螢幕上，使用者可以直接操作驗證設計的正確性。此模擬器無法模擬I/O操作。 . | 下載到屏 : 選取此功能，並用USB覽線連接Ubique Panel 控制板，會開始匯出以及下載，下載過程會以警度對話盒表示，並顯示相關訊息。若一切正常，則錯誤個數為0，下載後會顯示下載成功，並提示使用者關閉下載視窗。若下載失敗，下載視窗會繼續顯示，供使用者檢視錯誤訊息，錯誤會於訊息窗中以紅色文字顯示。如下圖例: . 錯誤個數不為0時，ADE不會將設計下載到 Ubique Panel，也不會啟動 TFT 模擬器。 . | 匯出設計到檔案 : 此功能為客服目的，當使用者使用 ADE 設計 HMI 遇到問題時，可以將設計匯出成檔案，並發送給博橡科技客服協助除錯。 . | . | . | . ",
     "url": "/zh-tw/3.3.0/system_menu/export/#%E5%8C%AF%E5%87%BA%E8%A8%AD%E8%A8%88%E5%88%B0ubique-panel",
     "relUrl": "/zh-tw/3.3.0/system_menu/export/#匯出設計到ubique-panel"
   },"21": {
@@ -277,7 +277,7 @@
   },"46": {
     "doc": "ZOOMING",
     "title": "縮放工具",
-    "content": "縮放工具的三個控制按鍵，如下圖所示: . 左邊是縮小 (Zoom Out), 右邊是放大 (Zoom In)，中間是回到初始設定的大小。 . ",
+    "content": "縮放工具的三個控制按鍵，如下圖所示: . 左邊是縮小 (Zoom Out)，右邊是放大 (Zoom In)，中間是回到初始設定的大小。 . ",
     "url": "/zh-tw/3.3.0/toolbars/zooming/#%E7%B8%AE%E6%94%BE%E5%B7%A5%E5%85%B7",
     "relUrl": "/zh-tw/3.3.0/toolbars/zooming/#縮放工具"
   },"47": {
@@ -565,7 +565,7 @@
   },"94": {
     "doc": "Font Selector",
     "title": "字型選擇器",
-    "content": ". 設定屬性文字的字型樣式、字體大小、粗細、斜體及行距 . 由字型下拉式選單, 字體數字編輯器，粗體下拉式選單，斜體按鈕，以及行距數字編輯器組成，用來設定文字樣式。 . ",
+    "content": ". 設定屬性文字的字型樣式、字體大小、粗細、斜體及行高 . 由字型下拉式選單、字型大小編輯器、粗體下拉式選單、斜體按鈕以及行高編輯器組成，用來設定文字樣式。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/font_selector/#%E5%AD%97%E5%9E%8B%E9%81%B8%E6%93%87%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/font_selector/#字型選擇器"
   },"95": {
@@ -702,10 +702,10 @@
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/visibility_control/"
   },"117": {
     "doc": "Blending Selector",
-    "title": "混合模式選擇器",
+    "title": "顏色混合模式選擇器",
     "content": ". | 正常 : 將每一個像素編輯或繪製成結果色彩，這是預設模式 . | 色彩增值 : 以混合色彩增值基本色彩。結果色彩永遠是較暗的顏色。以黑色增值任何顏色都會產生黑色，但是以白色增值任何顏色，不會改變原來的顏色。 . | 濾色 : 將混合色彩和基本色彩的倒數相乘。結果色彩永遠是較亮的顏色。使用黑色濾色不會改變原來的顏色，使用白色濾色則會產生白色。 . | 疊加 : 根據基本色彩，增值或以濾色篩選顏色。圖樣或顏色會覆蓋現有的像素，但同時會保留基本色彩的亮部和陰影。基本色彩並不會被取代，它會與混合色彩混合，反映原始色彩的明暗。 . | 變暗 : 選取基本或混合色彩 (兩者中較暗的那一個) 做為結果色彩。比混合色彩亮的像素會被取代，比混合色彩暗的像素不會改變。 . | 變亮 : 選取基本或混合色彩 (兩者中較亮的那一個) 做為結果色彩。比混合色彩暗的像素會被取代，比混合色彩亮的像素不會改變。 . | 加亮顏色 : 透過減少兩者間的對比，讓基本色彩變亮以反映出混合色彩。與黑色混合不會產生任何改變。 . | 加深顏色 : 讓基本色彩變暗，以增加對比的方式反映出混合色彩。與白色混合不會產生改變。 . | 實光 : 根據混合色彩，增值或以濾色篩選顏色。這個效果類似於在影像上照射刺眼的聚光燈。如果混合色彩 (光源) 比 50% 灰階亮，影像就會像以濾色篩選過一般變亮。這對於增加影像中的亮部很有幫助。如果混合色彩比 50% 灰階暗，影像就會像增值過一般變暗。這對於增加影像中的陰影很有幫助。使用純黑色或純白色繪畫，會產生純黑色或純白色。 . | 柔光 : 根據混合色彩，讓顏色變暗或變亮。這個效果類似在影像上照射擴散的聚光燈。如果混合色彩 (光源) 比 50% 灰階亮，影像就會像加亮過一般變亮，如果漸變顏色比 50% 的灰色深，那麼影像會暗化，就像是色彩加深。使用純黑或純白繪畫，會產生很清楚的較暗或較亮區域，但不會得到純黑或純白的結果。 . | 差異化 : 根據基本色彩和混合色彩兩者中亮度值較大的來決定從基本色彩中減去混合色彩，或從混合色彩中減去基本色彩。與白色混合會反轉基本色彩值，與黑色混合不會產生任何改變。 . | 排除 : 所建立的效果與「差異化」模式類似，但對比效果較低。與白色混合會反轉基本色彩值，與黑色混合不會產生任何改變。 . | 色相 : 所建立的結果色彩具有基本色彩的明度和飽和度，以及混合色彩的色相。 . | 飽和度 : 所建立的結果色彩具有基本色彩的明度和色相，以及混合色彩的飽和度。在沒有飽和度 (飽和度為 0，即為灰色) 的區域中，以這個模式繪畫不會造成任何改變。 . | 顏色 : 所建立的結果色彩具有基本色彩的明度，以及混合色彩的色相和飽和度。這會保留影像中的灰階，因此可以用來為單色影像著色，以及調整彩色影像的濃淡。 . | 明度 : 所建立的結果色彩具有基本色彩的色相和飽和度，以及混合色彩的明度。這個模式建立「顏色」模式的負片效果。 . | . ",
-    "url": "/zh-tw/3.3.0/widget_properties/properties/blending_selector/#%E6%B7%B7%E5%90%88%E6%A8%A1%E5%BC%8F%E9%81%B8%E6%93%87%E5%99%A8",
-    "relUrl": "/zh-tw/3.3.0/widget_properties/properties/blending_selector/#混合模式選擇器"
+    "url": "/zh-tw/3.3.0/widget_properties/properties/blending_selector/#%E9%A1%8F%E8%89%B2%E6%B7%B7%E5%90%88%E6%A8%A1%E5%BC%8F%E9%81%B8%E6%93%87%E5%99%A8",
+    "relUrl": "/zh-tw/3.3.0/widget_properties/properties/blending_selector/#顏色混合模式選擇器"
   },"118": {
     "doc": "Blending Selector",
     "title": "Blending Selector",
@@ -912,10 +912,10 @@
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/liquid_column_editor/"
   },"152": {
     "doc": "Knob Size Handler",
-    "title": "滑紐輔助調節器",
+    "title": "滑鈕輔助調節器",
     "content": "利用拖曳箭頭調整旋鈕圖片的位置大小以及比例 . 利用拖曳兩側輔助圖示調整旋鈕的開始位置以及結束位置。 . 旋鈕中線對應到兩側輔助圖示 . ⮜旋鈕起始結束示意圖 . ",
-    "url": "/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/#%E6%BB%91%E7%B4%90%E8%BC%94%E5%8A%A9%E8%AA%BF%E7%AF%80%E5%99%A8",
-    "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/#滑紐輔助調節器"
+    "url": "/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/#%E6%BB%91%E9%88%95%E8%BC%94%E5%8A%A9%E8%AA%BF%E7%AF%80%E5%99%A8",
+    "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_editor/knob_editor/#滑鈕輔助調節器"
   },"153": {
     "doc": "Knob Size Handler",
     "title": "Knob Size Handler",
@@ -1069,7 +1069,7 @@
   },"178": {
     "doc": "Slider Switch",
     "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整遮罩的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/#元件上編輯器"
   },"179": {
@@ -1081,7 +1081,7 @@
   },"180": {
     "doc": "Slider Switch",
     "title": "Slider Switch",
-    "content": ". 滑動開關既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。 . 狀態可以由使用者觸摸按鈕來改變，或是藉由其他元件或是程式改變繫結的暫存器內容來改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。 . 按鈕的不同按鈕狀態可以對應到不同的顯示圖像以及文字。 . 開關按紐時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . ",
+    "content": ". 滑動開關既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。 . 狀態可以由使用者觸摸按鈕來改變，或是藉由其他元件或是程式改變繫結的暫存器內容來改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。 . 按鈕的不同按鈕狀態可以對應到不同的顯示圖像以及文字。 . 開關按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/slider_switch/"
   },"181": {
@@ -1099,7 +1099,7 @@
   },"183": {
     "doc": "Click Button",
     "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整遮罩的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/click_button/#元件上編輯器"
   },"184": {
@@ -1129,7 +1129,7 @@
   },"188": {
     "doc": "Press/Release Button",
     "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整遮罩的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/pressrelease_button/#元件上編輯器"
   },"189": {
@@ -1159,7 +1159,7 @@
   },"193": {
     "doc": "Momentary Push Button",
     "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整遮罩的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/momentary_push_button/#元件上編輯器"
   },"194": {
@@ -1189,7 +1189,7 @@
   },"198": {
     "doc": "Generic Push Button",
     "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 如果Mask Shape選擇Rectangle則會出現此箭頭功用為調整遮罩的圓角半徑 | Mask Editor | . ",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整遮罩大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整遮罩的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_push_button/#元件上編輯器"
   },"199": {
@@ -1501,7 +1501,7 @@
   },"250": {
     "doc": "Generic Progress Bar",
     "title": "元件屬性",
-    "content": "通用型進度條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 最小資料值，對應到進度條開始 | Number Editor | . | 最大資料值 | 最大資料值，對應到進度條結束 | Number Editor | . | 綁定數值暫存器 | 如果綁定的暫存器內容等於最小資料值，Generic Progress Bar顯示在開始位置如果綁定的暫存器內容等於最大資料值，Generic Progress Bar顯示在結束位置 | Register Selector | . | 預覽段落狀態 | 選擇要預覽的段落狀態 | Dropdown List | . 進度條風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定進度條的主要顏色 | Color Selector | . | 漸變顏色 | 設定進度條的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定進度條的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定進度條的圓角半徑 | Number Editor | . | 邊框顏色 | 設定進度條邊框的顏色 | Color Selector | . | 邊框寬度 | 設定進度條邊框的寬度 | Number Editor | . | 陰影顏色 | 設定進度條陰影的顏色 | Color Selector | . | 陰影寬度 | 設定進度條陰影的寬度 | Number Editor | . 段落2風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用段落 2 | 決定是否要顯示第二段落 | Checkbox | . | 段落開始數值 | 設定第二段落開始數值，當綁定的暫存器內容等於此數值時，顯示第二段落與其設定 必須小於第三段落開始數值 | Number Editor | . | 主要顏色 | 設定第二段落的主要顏色 | Color Selector | . | 漸變顏色 | 設定第二段落的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定第二段落的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定第二段落的圓角半徑 | Number Editor | . | 邊框顏色 | 設定第二段落邊框的顏色 | Color Selector | . | 邊框寬度 | 設定第二段落邊框的寬度 | Number Editor | . | 陰影顏色 | 設定第二段落陰影的顏色 | Color Selector | . | 陰影寬度 | 設定第二段落陰影的寬度 | Number Editor | . 段落3風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用段落 3 | 決定是否要顯示第三段落 | Checkbox | . | 段落開始數值 | 設定第三段落開始數值，當綁定的暫存器內容等於此數值時，顯示第三段落與其設定 | Number Editor | . | 主要顏色 | 設定第三段落的主要顏色 | Color Selector | . | 漸變顏色 | 設定第三段落的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定第三段落的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定第三段落的圓角半徑 | Number Editor | . | 邊框顏色 | 設定第三段落邊框的顏色 | Color Selector | . | 邊框寬度 | 設定第三段落邊框的寬度 | Number Editor | . | 陰影顏色 | 設定第三段落陰影的顏色 | Color Selector | . | 陰影寬度 | 設定第三段落陰影的寬度 | Number Editor | . 滑紐風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用滑紐 | 決定是否要顯示使用滑鈕，可以藉由滑鈕改變暫存器的值 | Checkbox | . | 主要顏色 | 設定滑鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定滑鈕的漸變顏色 | Color Selector | . | 滑紐不透明度 % | 設定滑鈕的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定滑鈕的圓角半徑 | Number Editor | . | 邊框顏色 | 設定滑鈕邊框的顏色 | Color Selector | . | 邊框寬度 | 設定滑鈕邊框的寬度 | Number Editor | . | 陰影顏色 | 設定滑鈕陰影的顏色 | Color Selector | . | 陰影寬度 | 設定滑鈕陰影的寬度 | Number Editor | . 進度條邊距設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 進度條和背景的上下邊距 | 調整進度條和背景的上下邊距，最大最小值隨Widget高度而改變 | Number Editor | . | 進度條和背景的左右邊距 | 調整進度條和背景的左右邊距，最大最小值隨Widget寬度而改變 | Number Editor | . 進度條背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定進度條背景的主要顏色 | Color Selector | . | 漸變顏色 | 設定進度條背景的漸變顏色 | Color Selector | . | 背景不透明度 % | 設定進度條背景的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定進度條背景的圓角半徑 | Number Editor | . | 邊框顏色 | 設定進度條背景邊框的顏色 | Color Selector | . | 邊框寬度 | 設定進度條背景邊框的寬度 | Number Editor | . | 陰影顏色 | 設定進度條背景陰影的顏色 | Color Selector | . | 陰影寬度 | 設定進度條背景陰影的寬度 | Number Editor | . 背景邊距設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 背景和元件的上下邊距 | 調整背景和Widget外框的上下邊距，最大最小值隨Widget高度而改變 | Number Editor | . | 背景和元件的左右邊距 | 調整背景和Widget外框的左右邊距，最大最小值隨Widget寬度而改變 | Number Editor | . ",
+    "content": "通用型進度條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 最小資料值，對應到進度條開始 | Number Editor | . | 最大資料值 | 最大資料值，對應到進度條結束 | Number Editor | . | 綁定數值暫存器 | 如果綁定的暫存器內容等於最小資料值，Generic Progress Bar顯示在開始位置如果綁定的暫存器內容等於最大資料值，Generic Progress Bar顯示在結束位置 | Register Selector | . | 預覽段落狀態 | 選擇要預覽的段落狀態 | Dropdown List | . 進度條風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定進度條的主要顏色 | Color Selector | . | 漸變顏色 | 設定進度條的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定進度條的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定進度條的圓角半徑 | Number Editor | . | 邊框顏色 | 設定進度條邊框的顏色 | Color Selector | . | 邊框寬度 | 設定進度條邊框的寬度 | Number Editor | . | 陰影顏色 | 設定進度條陰影的顏色 | Color Selector | . | 陰影寬度 | 設定進度條陰影的寬度 | Number Editor | . 段落2風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用段落 2 | 決定是否要顯示第二段落 | Checkbox | . | 段落開始數值 | 設定第二段落開始數值，當綁定的暫存器內容等於此數值時，顯示第二段落與其設定 必須小於第三段落開始數值 | Number Editor | . | 主要顏色 | 設定第二段落的主要顏色 | Color Selector | . | 漸變顏色 | 設定第二段落的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定第二段落的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定第二段落的圓角半徑 | Number Editor | . | 邊框顏色 | 設定第二段落邊框的顏色 | Color Selector | . | 邊框寬度 | 設定第二段落邊框的寬度 | Number Editor | . | 陰影顏色 | 設定第二段落陰影的顏色 | Color Selector | . | 陰影寬度 | 設定第二段落陰影的寬度 | Number Editor | . 段落3風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用段落 3 | 決定是否要顯示第三段落 | Checkbox | . | 段落開始數值 | 設定第三段落開始數值，當綁定的暫存器內容等於此數值時，顯示第三段落與其設定 | Number Editor | . | 主要顏色 | 設定第三段落的主要顏色 | Color Selector | . | 漸變顏色 | 設定第三段落的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定第三段落的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定第三段落的圓角半徑 | Number Editor | . | 邊框顏色 | 設定第三段落邊框的顏色 | Color Selector | . | 邊框寬度 | 設定第三段落邊框的寬度 | Number Editor | . | 陰影顏色 | 設定第三段落陰影的顏色 | Color Selector | . | 陰影寬度 | 設定第三段落陰影的寬度 | Number Editor | . 滑鈕風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用滑鈕 | 決定是否要顯示使用滑鈕，可以藉由滑鈕改變暫存器的值 | Checkbox | . | 主要顏色 | 設定滑鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定滑鈕的漸變顏色 | Color Selector | . | 滑鈕不透明度 % | 設定滑鈕的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定滑鈕的圓角半徑 | Number Editor | . | 邊框顏色 | 設定滑鈕邊框的顏色 | Color Selector | . | 邊框寬度 | 設定滑鈕邊框的寬度 | Number Editor | . | 陰影顏色 | 設定滑鈕陰影的顏色 | Color Selector | . | 陰影寬度 | 設定滑鈕陰影的寬度 | Number Editor | . 進度條邊距設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 進度條和背景的上下邊距 | 調整進度條和背景的上下邊距，最大最小值隨Widget高度而改變 | Number Editor | . | 進度條和背景的左右邊距 | 調整進度條和背景的左右邊距，最大最小值隨Widget寬度而改變 | Number Editor | . 進度條背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定進度條背景的主要顏色 | Color Selector | . | 漸變顏色 | 設定進度條背景的漸變顏色 | Color Selector | . | 背景不透明度 % | 設定進度條背景的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定進度條背景的圓角半徑 | Number Editor | . | 邊框顏色 | 設定進度條背景邊框的顏色 | Color Selector | . | 邊框寬度 | 設定進度條背景邊框的寬度 | Number Editor | . | 陰影顏色 | 設定進度條背景陰影的顏色 | Color Selector | . | 陰影寬度 | 設定進度條背景陰影的寬度 | Number Editor | . 背景邊距設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 背景和元件的上下邊距 | 調整背景和Widget外框的上下邊距，最大最小值隨Widget高度而改變 | Number Editor | . | 背景和元件的左右邊距 | 調整背景和Widget外框的左右邊距，最大最小值隨Widget寬度而改變 | Number Editor | . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/#元件屬性"
   },"251": {
@@ -1513,7 +1513,7 @@
   },"252": {
     "doc": "Generic Progress Bar",
     "title": "Generic Progress Bar",
-    "content": ". 通用型進度條可作為輸出以及輸入元件，將Knob開啟時進度條為輸入元件，否則則為輸出元件。 . 通用型進度條可以有橫式以及直式兩種，視長寬的尺寸自行調整。此外通用型進度條可以調整背景、進度條和Knob的邊框、顏色、透明度以及圓角半徑等風格屬性。 . 當需要使用大量進度條時，此元件為兼顧美觀，效能與資源的最佳選擇。 . ",
+    "content": ". 通用型進度條可作為輸出以及輸入元件，將滑鈕開啟時進度條為輸入元件，否則則為輸出元件。 . 通用型進度條可以有橫式以及直式兩種，視長寬的尺寸自行調整。此外通用型進度條可以調整背景、進度條和滑鈕的邊框、顏色、透明度以及圓角半徑等風格屬性。 . 當需要使用大量進度條時，此元件為兼顧美觀，效能與資源的最佳選擇。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/generic_progress_bar/"
   },"253": {
@@ -1543,7 +1543,7 @@
   },"257": {
     "doc": "Horizontal Slider",
     "title": "Horizontal Slider",
-    "content": ". 水平條狀調節器可作為Output以及輸入元件，將Knob開啟時進度條為輸入元件，否則則為輸出元件。 . 水平條狀調節器的背景、進度條、進度條底色和Knob等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
+    "content": ". 水平條狀調節器可作為Output以及輸入元件，將滑鈕開啟時進度條為輸入元件，否則則為輸出元件。 . 水平條狀調節器的背景、進度條、進度條底色和滑鈕等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/horizontal_slider/"
   },"258": {
@@ -1567,7 +1567,7 @@
   },"261": {
     "doc": "Vertical Slider",
     "title": "Vertical Slider",
-    "content": ". 垂直條狀調節器可作為Output以及輸入元件，將Knob開啟時進度條為輸入元件，否則則為輸出元件。 . 垂直條狀調節器的背景、進度條、進度條底色和Knob等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
+    "content": ". 垂直條狀調節器可作為Output以及輸入元件，將滑鈕開啟時進度條為輸入元件，否則則為輸出元件。 . 垂直條狀調節器的背景、進度條、進度條底色和滑鈕等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
     "url": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/",
     "relUrl": "/zh-tw/3.3.0/widgets/standard_widget_library/vertical_slider/"
   },"262": {
