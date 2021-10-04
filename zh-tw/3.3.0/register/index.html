@@ -301,11 +301,17 @@
   </li>
 </ol>
 
-<p>然而輸入的值，可能需要被記錄，被Blockly程式運算，甚至是經過不同修改後才能反映到輸出端去，因此，抽象化出一個可以用來儲存使用者輸入，I/O輸入，通訊輸入，並提供程式運算，且能作為元件顯示數值，通訊輸出，或是I/O輸出的實體，即可滿足這些要求。</p>
+<p>然而輸入的值，可能需要被記錄，被Blockly程式運算，甚至是經過不同修改後才能反映到輸出端去，因此，抽象化出一個可以用來儲存使用者輸入，I/O輸入，通訊輸入，並提供程式運算，且能作為元件顯示數值，通訊輸出，或是I/O輸出的實體，即可滿足這些要求。在ADE中，這個實體叫做<strong>暫存器(Register)</strong>，它的功能可以被想像成是高階語言中的全域變數，或是PLC內部的X,Y,D,M等暫存器，每個暫存器擁有名稱，編號(ID)，資料型別等屬性，可以用來儲存對應的資料。</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file67.png" alt="" /></p>
-
-<p>在ADE中，這個實體叫做暫存器(Register)，它的功能可以被想像成是高階語言中的全域變數，或是PLC內部的X,Y,D,M等暫存器，每個暫存器擁有名稱，編號(ID)，資料型別等屬性，可以用來儲存對應的資料。</p>
+      <h2 id="暫存器介紹">
+        
+        
+          <a href="#暫存器介紹" class="anchor-heading" aria-labelledby="暫存器介紹"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器介紹
+        
+        
+      </h2>
+    
 
 <p>暫存器分為三種:</p>
 
@@ -353,6 +359,14 @@
 <p><img src="/zh-tw/3.3.0/imgs/file70.png" alt="" /></p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file71.png" alt="" /></p>
+      <h2 id="暫存器運用">
+        
+        
+          <a href="#暫存器運用" class="anchor-heading" aria-labelledby="暫存器運用"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器運用
+        
+        
+      </h2>
+    
 
 <p>關於ADE上暫存器使用請參考 <a href="/zh-tw/3.3.0/widget_properties/properties/register_selector/">暫存器選擇器</a> 以及 <a href="/zh-tw/3.3.0/widget_properties/properties/register_operation_setting/">暫存器操作</a> 相關章節。</p>
 
