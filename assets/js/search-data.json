@@ -41,32 +41,32 @@
     "url": "/en/3.3.0/install_and_launch_ade/install/",
     "relUrl": "/en/3.3.0/install_and_launch_ade/install/"
   },"7": {
-    "doc": "啟動 ADE",
+    "doc": "Launch ADE",
     "title": "第一次使用",
     "content": "安裝完成後，下面圖示 ADE 的圖形會出現在使用者的 Windows 桌面: . 可以透過雙擊此圖示開始執行ADE，或者透過Windows搜尋服務搜尋Acorn Development Environment開啟ADE。 . 一進入ADE，您就可看到下面的畫面: . 點擊頁面左方圖形元件庫喚出工具面板，再點擊頁面中間新設計喚出文件樣板 . 進入此畫面表示您的 ADE 安裝成功，順利執行。 . ",
     "url": "/en/3.3.0/install_and_launch_ade/launch_ade/#%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8",
     "relUrl": "/en/3.3.0/install_and_launch_ade/launch_ade/#第一次使用"
   },"8": {
-    "doc": "啟動 ADE",
+    "doc": "Launch ADE",
     "title": "檢查版本",
     "content": "如何檢查 ADE 版本: . 滑鼠點擊左上角之選單圖示，顯示主功能表 . 點選關於…，出現關於ADE的視窗，顯示版本及版權聲明還有發行公告 . ",
     "url": "/en/3.3.0/install_and_launch_ade/launch_ade/#%E6%AA%A2%E6%9F%A5%E7%89%88%E6%9C%AC",
     "relUrl": "/en/3.3.0/install_and_launch_ade/launch_ade/#檢查版本"
   },"9": {
-    "doc": "啟動 ADE",
-    "title": "啟動 ADE",
+    "doc": "Launch ADE",
+    "title": "Launch ADE",
     "content": " ",
     "url": "/en/3.3.0/install_and_launch_ade/launch_ade/",
     "relUrl": "/en/3.3.0/install_and_launch_ade/launch_ade/"
   },"10": {
-    "doc": "開始新設計",
+    "doc": "Start a New Design",
     "title": "開啟新設計",
     "content": "當 ADE 安裝完成，並確認版本無誤後，使用者可以開始新設計。 . 第一次開啟 ADE 時，主畫面中央會顯示新設計畫面，如下圖: . 新設計畫面提供使用者選擇目標產品，依照螢幕尺寸、解析度和觸控形式分類。使用者根據目標產品進行挑選，點擊後會開啟對應的設計頁樣板，樣板包括一個空白頁以及該產品的I/O設定頁面，使用者可以在空白頁開始 HMI 設計。 . 若非第一次開啟 ADE，則開始主畫面會停留在最近設計頁面。 . 最近設計頁面會記錄20個最近使用過的檔案，方便使用者快速點擊開啟最近工作的頁面。 . 最近設計頁面以及新設計頁面皆可以使用畫面右上角的格狀顯示，以及清單顯示鈕切換不同的排列效果，清單顯示效果如下圖所示: . 不管在清單顯示模式或是格狀顯示模式，使用者皆可以使用設計文件圖示卡片右上角的刪除按鈕，來移除最近使用紀錄，如下圖所示: . 使用者也可以使用設計文件圖示卡片右下角的釘選鈕，確保該檔案的最近使用紀錄被釘選，不會被其他設計檔案擠出最近使用紀錄清單。如下圖所示: . ",
     "url": "/en/3.3.0/install_and_launch_ade/start_a_new_design/#%E9%96%8B%E5%95%9F%E6%96%B0%E8%A8%AD%E8%A8%88",
     "relUrl": "/en/3.3.0/install_and_launch_ade/start_a_new_design/#開啟新設計"
   },"11": {
-    "doc": "開始新設計",
-    "title": "開始新設計",
+    "doc": "Start a New Design",
+    "title": "Start a New Design",
     "content": " ",
     "url": "/en/3.3.0/install_and_launch_ade/start_a_new_design/",
     "relUrl": "/en/3.3.0/install_and_launch_ade/start_a_new_design/"
