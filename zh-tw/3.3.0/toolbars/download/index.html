@@ -320,37 +320,32 @@
 
 <p><img src="/zh-tw/3.3.0/imgs/file25.png" alt="圖2-9 啟動模擬器按鈕" /></p>
 
-<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者使用的螢幕以及 Ubique Panel 之間，其色域規格以 Ubique Panel 規格書定義為準)。</p>
+<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者螢幕以及 Ubique Panel的規格差異)。</p>
 
 <p>模擬器無法於個人電腦模擬 Ubique Panel 上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。</p>
-      <h2 id="啟動屏通訊程式">
+      <h2 id="啟動屏通訊程式messenger">
         
         
-          <a href="#啟動屏通訊程式" class="anchor-heading" aria-labelledby="啟動屏通訊程式"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 啟動屏通訊程式
+          <a href="#啟動屏通訊程式messenger" class="anchor-heading" aria-labelledby="啟動屏通訊程式messenger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 啟動屏通訊程式(Messenger)
         
         
       </h2>
     
-<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
+<p>最右邊的按鍵啟動屏通訊程式(Messenger)(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
 
-<p>如果打開對外通訊的屏通訊程式，會出現以下視窗：</p>
+<p>如果打開對外通訊的屏通訊程式(Messenger)，會出現以下視窗：</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file27.png" alt="圖2-11 Messenger視窗" /></p>
 
-<p>在這視窗中，使用者可以透過個人電腦的 COM Port，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
+<p>在這視窗中，使用者可以透過個人電腦的COM Port或網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
+
+<p>通訊分為兩種方法：一種為透過網路Socket，另一種為序列埠</p>
+
+<p>如果透過網路Socket，則需要設定IP位址和通訊埠；如果透過序列埠則需要設定鮑率</p>
 
 <ul>
-  <li>
-    <p>Socket：輸入IP位址和通訊埠</p>
-  </li>
-  <li>
-    <p>Serial Port：</p>
-  </li>
-  <li>
-    <p>Baudrate：</p>
-  </li>
   <li>
     <p>Command Type：選擇Set Register，設定暫存器內容；或者Get Register，取得暫存器內容</p>
   </li>
@@ -366,15 +361,16 @@
   <li>
     <p>Data：設定資料，Set Register時有效</p>
   </li>
+  <li>
+    <p>Ack Test：確認連接是否正常</p>
+  </li>
 </ul>
 
-<p><strong>使用者可以使用 Ack Test 確認連接是否正常</strong></p>
-
 <p>以下詳細說明與模擬器以及 Ubique Panel 通訊方法：</p>
-      <h3 id="利用屏通訊程式和模擬器通訊">
+      <h3 id="利用屏通訊程式messenger和模擬器通訊">
         
         
-          <a href="#利用屏通訊程式和模擬器通訊" class="anchor-heading" aria-labelledby="利用屏通訊程式和模擬器通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 利用屏通訊程式和模擬器通訊
+          <a href="#利用屏通訊程式messenger和模擬器通訊" class="anchor-heading" aria-labelledby="利用屏通訊程式messenger和模擬器通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 利用屏通訊程式(Messenger)和模擬器通訊
         
         
       </h3>
@@ -394,7 +390,7 @@
     <p><img src="/zh-tw/3.3.0/imgs/file29.png" alt="圖2-13 暫存器編輯視窗" /></p>
   </li>
   <li>
-    <p>打開屏通訊程式視窗與模擬器，進行以下操作</p>
+    <p>打開屏通訊程式(Messenger)視窗與模擬器，進行以下操作</p>
 
     <p><img src="/zh-tw/3.3.0/imgs/file30.png" alt="圖2-14 Messenger和模擬器通訊" /></p>
 
@@ -406,7 +402,7 @@
         <p>點擊連接，連接成功會看到彈出信息框顯示成功</p>
       </li>
       <li>
-        <p>點擊連接確認，屏通訊程式會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
+        <p>點擊連接確認，屏通訊程式(Messenger)會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
       </li>
       <li>
         <p>連接正常，接收確認資訊ack</p>
@@ -424,10 +420,10 @@
     <p><img src="/zh-tw/3.3.0/imgs/file31.png" alt="圖2-15 模擬器顯示通訊結果" /></p>
   </li>
 </ul>
-      <h3 id="屏通訊程式與ubique-panel通訊">
+      <h3 id="屏通訊程式messenger與ubique-panel通訊">
         
         
-          <a href="#屏通訊程式與ubique-panel通訊" class="anchor-heading" aria-labelledby="屏通訊程式與ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式與Ubique Panel通訊
+          <a href="#屏通訊程式messenger與ubique-panel通訊" class="anchor-heading" aria-labelledby="屏通訊程式messenger與ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式(Messenger)與Ubique Panel通訊
         
         
       </h3>
@@ -438,16 +434,16 @@
     <p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
   </li>
   <li>
-    <p>之後利用USB to TTL模組連接控制板RX、TX、GND與ADE所在電腦的USB線</p>
+    <p>之後利用電腦UART(eg.USB to TTL模組)連接控制板的TX、RX、GND</p>
   </li>
   <li>
-    <p>連接完成後打開屏通訊程式視窗</p>
+    <p>連接完成後打開屏通訊程式(Messenger)視窗</p>
 
     <p><img src="/zh-tw/3.3.0/imgs/file32.png" alt="" /></p>
 
     <ol>
       <li>
-        <p>設定Serial Port，利用<strong>Scan</strong>掃描更新串口，選擇正確的串口並設定鮑率</p>
+        <p>設定Serial Port，利用<strong>Scan</strong>掃描更新序列埠，選擇正確的序列埠並設定鮑率</p>
       </li>
       <li>
         <p>點擊<strong>Ack Test</strong>確認連接</p>
@@ -466,83 +462,6 @@
     <p><img src="/zh-tw/3.3.0/imgs/file33.png" alt="" /></p>
   </li>
 </ul>
-      <h3 id="模擬器與ubique-panel-通訊">
-        
-        
-          <a href="#模擬器與ubique-panel-通訊" class="anchor-heading" aria-labelledby="模擬器與ubique-panel-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 模擬器與Ubique Panel 通訊
-        
-        
-      </h3>
-    
-<p><em>目的為快速測試設計運作是正常</em></p>
-
-<ul>
-  <li>
-    <p>首先，利用 ADE 準備兩個設計，一個負責傳送數值，一個負責接收數值</p>
-  </li>
-  <li>
-    <p>將負責傳送數值的設計利用模擬器打開，負責接收數值的設計下載至博橡科技控制板</p>
-
-    <p><strong>※注意!!確保兩個設計欲溝通的暫存器ID相同，且傳送方要勾選<em>自動通訊上傳</em></strong></p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file34.png" alt="" /></p>
-
-    <ol>
-      <li>
-        <p>設定Serial Port，選擇正確的串口並且設定好鮑率</p>
-      </li>
-      <li>
-        <p>利用元件改變暫存器內容，再透過UART傳送至博橡控制板</p>
-      </li>
-    </ol>
-  </li>
-  <li>
-    <p>接下來可以在 Ubique Panel 上看到相對應的顯示</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file35.png" alt="" /></p>
-  </li>
-</ul>
-      <h3 id="ubique-panel和ubique-panel通訊">
-        
-        
-          <a href="#ubique-panel和ubique-panel通訊" class="anchor-heading" aria-labelledby="ubique-panel和ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel和Ubique Panel通訊
-        
-        
-      </h3>
-    
-
-<ul>
-  <li>
-    <p>首先，使用杜邦線將兩塊控制板的RX和TX互接，接法如下圖所示</p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file36.png" alt="圖2-16 Ubique Panel UART位置示意圖" /></p>
-
-    <p><img src="/zh-tw/3.3.0/imgs/file37.png" alt="圖2-17 Ubique Panel通訊UART接法" /></p>
-  </li>
-  <li>
-    <p>其次，準備兩個 ADE Project，一個負責送一個負責接，並確認兩個Project欲溝通的暫存器id是否相同。將負責送的Project暫存器勾選<strong>自動通訊上傳</strong>，表示作為傳送方。</p>
-
-    <ul>
-      <li>
-        <p>專案一，利用進度條改變暫存器內容 以傳送資料，相關設定如下圖：</p>
-
-        <p><img src="/zh-tw/3.3.0/imgs/file38.png" alt="" /></p>
-
-        <p><img src="/zh-tw/3.3.0/imgs/file39.png" alt="" /></p>
-      </li>
-      <li>
-        <p>專案二， 使用圓規和捲動文本顯示接收到的資料，相關設定如下圖：</p>
-
-        <p><img src="/zh-tw/3.3.0/imgs/file40.png" alt="" /></p>
-
-        <p><img src="/zh-tw/3.3.0/imgs/file41.pngs" alt="" /></p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p>再分別將兩個Project下載至控制板。打開電源即可開始通訊。</p>
-  </li>
-</ul>
       <h3 id="ubique-panel-和-mcu-通訊">
         
         
@@ -557,7 +476,7 @@
     <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博橡通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
   </li>
   <li>
-    <p>其次，連接博橡控制板與Arduino控制板的RX和TX</p>
+    <p>其次，連接博橡控制板與Arduino控制板的TX、RX和GND</p>
 
     <p><img src="/zh-tw/3.3.0/imgs/file42.png" alt="" /></p>
   </li>

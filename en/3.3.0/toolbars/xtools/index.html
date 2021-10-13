@@ -307,13 +307,29 @@
 
 <p>在暫存器編輯視窗中，會列出整個 HMI 設計的專案中所有用到的系統暫存器，包含 ADE 內建的暫存器。使用者也可以自訂暫存器，自訂的暫存器會排列在系統暫存器之後。暫存器的使用是 ADE 重要的觀念，我們會有專章說明解釋暫存器綁定(Register Binding)的觀念和做法，詳請參考<a href="/en/3.3.0/register/">暫存器</a>。</p>
 
-<p>勾選<strong>自動通訊上傳</strong>即可將暫存器內容透過UART進行通訊</p>
+<p>勾選<strong>自動通訊上傳</strong>則在執行時期若此暫存器內容有變化，會透過<a href="/en/3.3.0/toolbars/download/index.html#iot-protocol">博橡通訊協定</a>將暫存器內容利用UART與另一個系統(eg. Arduino)進行通訊</p>
 
-<ul>
-  <li>UART通訊必須為兩個相同序號的暫存器才有效</li>
-</ul>
+<p><em>執行時期：在TFT模擬器或在Ubique Panel上執行</em></p>
 
 <p>點選驗證鈕可以開啟Blockly編輯器，對暫存器內容進行驗證</p>
+
+<p>以下為驗證的範例：</p>
+
+<p>當暫存器內容有變化，驗證input_value是否符合 <em>寫入暫存器的內容長度必須大於等於四</em> 的驗證，若符合驗證函式則<strong>return valid</strong>，否則<strong>return invalid</strong></p>
+
+<ul>
+  <li>
+    <p>input_value：準備要寫入暫存器的內容</p>
+  </li>
+  <li>
+    <p>return valid：將input_value寫入暫存器</p>
+  </li>
+  <li>
+    <p>return invalid：維持暫存器舊值</p>
+  </li>
+</ul>
+
+<p><strong>如果使用者沒有return valid或return invalid，暫存器值的變化沒有定義，在ADE 3.3.0版本沒有return會視為valid，以後ADE版本如果有變化可能會更改</strong></p>
 
 <p><em>寫入暫存器的內容長度必須大於等於四，否則不予以寫入</em></p>
 
@@ -352,6 +368,8 @@
 <p><img src="/en/3.3.0/imgs/file49.png" alt="圖2-25 系統就緒後執行函數編輯器啟動鈕" /></p>
 
 <p>按下後Blockly編輯器(Blockly Editor)便會打開，在此編輯器可以編輯系統就緒後執行的函數</p>
+
+<p>在載入第一頁畫面前，系統就緒後執行函數就會被執行</p>
 
         
 
