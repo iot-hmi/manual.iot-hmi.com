@@ -1546,4 +1546,8 @@ figure.video_container_educational iframe { position: absolute; top: 0; left: 0;
 
 img.img_icon { width: 1.5em; height: 1.5em; transform: translateY(15%); }
 
+p.for_img_larger a { background: none; }
+
+p.for_img_larger a:hover { background: none; }
+
 /*# sourceMappingURL=main-light.css.map */

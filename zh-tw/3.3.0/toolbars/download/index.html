@@ -331,7 +331,7 @@
         
       </h2>
     
-<p>最右邊的按鍵啟動屏通訊程式(Messenger)(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
+<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
 
 <p><img src="/zh-tw/3.3.0/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
 
@@ -339,7 +339,7 @@
 
 <p><img src="/zh-tw/3.3.0/imgs/file27.png" alt="圖2-11 Messenger視窗" /></p>
 
-<p>在這視窗中，使用者可以透過個人電腦的COM Port或網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
+<p>在這視窗中，使用者可以透過個人電腦的序列埠或網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
 
 <p>通訊分為兩種方法：一種為透過網路Socket，另一種為序列埠</p>
 
@@ -362,7 +362,7 @@
     <p>Data：設定資料，Set Register時有效</p>
   </li>
   <li>
-    <p>Ack Test：確認連接是否正常</p>
+    <p>Ack Test：確認連接是否正常，詳情參考<a href="#ack-test">Ack Test</a></p>
   </li>
 </ul>
 
@@ -443,7 +443,7 @@
 
     <ol>
       <li>
-        <p>設定Serial Port，利用<strong>Scan</strong>掃描更新序列埠，選擇正確的序列埠並設定鮑率</p>
+        <p>設定序列埠，利用<strong>Scan</strong>掃描更新序列埠，選擇正確的序列埠並設定鮑率</p>
       </li>
       <li>
         <p>點擊<strong>Ack Test</strong>確認連接</p>
@@ -452,7 +452,7 @@
         <p>連接正常，接收到ack訊息</p>
       </li>
       <li>
-        <p>設定並傳送通訊指令</p>
+        <p>設定並傳送通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
       </li>
     </ol>
   </li>
@@ -586,6 +586,42 @@
 </ul>
 
 <p>博橡Arduino Library可參考<a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino" target="_blank">IOT Binary Protocol</a></p>
+      <h3 id="ack-test">
+        
+        
+          <a href="#ack-test" class="anchor-heading" aria-labelledby="ack-test"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ack Test<a name="ack-test"></a>
+        
+        
+      </h3>
+    
+<p>確認連線是否正常，點擊<strong>Ack Test</strong>，系統會自動送出<strong>16</strong>，收到<strong>ack</strong>則表示連線正常，沒有收到<strong>ack</strong>則表示連線失敗</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file269.png" alt="Ack" /></p>
+
+<ul>
+  <li>
+    <p>使用網路Socket</p>
+
+    <p>連線失敗建議檢查IP位址與通訊埠是否正確，是否有點擊<strong>Connect</strong>進行連線</p>
+
+    <p>如果連線成功會看到<strong>Connect is OK</strong>的提示訊息，點擊確定後在屏通訊程式(Messenger)的網路Socket處會看到<strong>Connected</strong>的字樣</p>
+
+    <p><img src="/zh-tw/3.3.0/imgs/file265.png" alt="連線成功" /></p>
+
+    <p><img src="/zh-tw/3.3.0/imgs/file267.png" alt="Connected" /></p>
+
+    <p>如果連線失敗會看到<strong>Connect is FAILED</strong>的提示訊息，點擊確定後在屏通訊程式(Messenger)的網路Socket處會看到<strong>No Connection</strong>的字樣</p>
+
+    <p><img src="/zh-tw/3.3.0/imgs/file266.png" alt="連線失敗" /></p>
+
+    <p><img src="/zh-tw/3.3.0/imgs/file268.png" alt="No Connection" /></p>
+  </li>
+  <li>
+    <p>使用序列埠</p>
+
+    <p>連線失敗建議檢查序列埠與鮑率是否正確，是否有點擊<strong>Set</strong>進行連線</p>
+  </li>
+</ul>
 
         
 
