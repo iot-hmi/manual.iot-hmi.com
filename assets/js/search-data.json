@@ -991,7 +991,7 @@
   },"165": {
     "doc": "Rich Text Editor",
     "title": "多文本",
-    "content": ". 允許元件就地編輯，輸入多行文字及符號，可選是不同字型，風格，尺寸及顏色。 . 利用Shift+Enter換行 . ",
+    "content": ". 允許元件就地編輯，輸入多行文字及符號，可顯示不同字型、風格、尺寸及顏色。 . 利用Shift+Enter換行 . ",
     "url": "/en/3.3.0/widget_properties/on_widget_editor/rich_text_editor/#%E5%A4%9A%E6%96%87%E6%9C%AC",
     "relUrl": "/en/3.3.0/widget_properties/on_widget_editor/rich_text_editor/#多文本"
   },"166": {
@@ -1009,7 +1009,7 @@
   },"168": {
     "doc": "Reset Editor",
     "title": "重置編輯器",
-    "content": ". | 重置為原始大小 : 將元件重置回圖片的原始大小 . | 依寬度重置比例 : 將元件長寬比例根據寬度重置 . | 依高度重置比例 : 將元件寬度比例根據高度重置 . | . ",
+    "content": ". | 重置為原始大小 : 將元件重置回原始大小 . | 依寬度重置比例 : 將元件長寬比例根據寬度重置 . | 依高度重置比例 : 將元件寬度比例根據高度重置 . | . ",
     "url": "/en/3.3.0/widget_properties/on_context_menu/reset_editor/#%E9%87%8D%E7%BD%AE%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/en/3.3.0/widget_properties/on_context_menu/reset_editor/#重置編輯器"
   },"169": {
@@ -2677,7 +2677,7 @@
   },"446": {
     "doc": "多文本",
     "title": "多文本",
-    "content": ". 允許元件就地編輯，輸入多行文字及符號，可選是不同字型，風格，尺寸及顏色。 . 利用Shift+Enter換行 . ",
+    "content": ". 允許元件就地編輯，輸入多行文字及符號，可顯示不同字型、風格、尺寸及顏色。 . 利用Shift+Enter換行 . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_editor/rich_text_editor/"
   },"447": {
@@ -2689,7 +2689,7 @@
   },"448": {
     "doc": "重置編輯器",
     "title": "重置編輯器",
-    "content": ". | 重置為原始大小：將元件重置回圖片的原始大小 . | 依寬度重置比例：將元件長寬比例根據寬度重置 . | 依高度重置比例：將元件寬度比例根據高度重置 . | . ",
+    "content": ". | 重置為原始大小：將元件重置回原始大小 . | 依寬度重置比例：將元件長寬比例根據寬度重置 . | 依高度重置比例：將元件寬度比例根據高度重置 . | . ",
     "url": "/zh-tw/3.3.0/widget_properties/on_context_menu/reset_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_context_menu/reset_editor/"
   },"449": {
