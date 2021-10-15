@@ -362,17 +362,28 @@
 
 <p>暫存器觀念的引入，可將ADE內，資料的取得和儲存的使用區分開來，並利用簡單的暫存器綁定，達到修改或是顯示暫存器內容的功能。</p>
 
-<p>舉例來說，使用者可以在ADE設定將 Ubique Panel 的I/O Configuration頁面將ADC1這個I/O元件的輸入值綁定到r_ADC_IN1這個暫存器上(也可以換成使用者自訂暫存器)</p>
+<p>暫存器的綁定與操作可以參考以下範例：</p>
 
-<p>ADC1元件會自動定時讀取 Ubique Panel 上ADC1類比輸入的值，並且更新在r_ADC_IN1暫存器</p>
+<p><img src="/zh-tw/3.3.0/imgs/file275.png" alt="" /></p>
 
-<p>使用者可拖入一個圓形進度條，將綁定數值暫存器設定為r_ADC_IN1，並將最小資料值以及最大資料值設定成適當的值(這個例子是0以及4095，因為Ubique Panel ADC1解析度為12 bits)，如此圓形進度條就可以即時顯示ADC1的輸入數值了。</p>
+<p>首先，綁定暫存器<strong>num</strong>到➕按鍵的事件，設定遞增數值，因此當按鍵被按下時，綁定的暫存器數值會遞增</p>
 
-<p>設定如下圖所示：</p>
+<p><img src="/zh-tw/3.3.0/imgs/file271.png" alt="遞增按鍵" /></p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file70.png" alt="" /></p>
+<p>其次，綁定暫存器<strong>num</strong>到➖按鍵的事件，設定遞減數值，因此當按鍵被按下時，綁定的暫存器數值會遞減</p>
 
-<p><img src="/zh-tw/3.3.0/imgs/file71.png" alt="" /></p>
+<p><img src="/zh-tw/3.3.0/imgs/file272.png" alt="遞減按鍵" /></p>
+
+<p>第三，綁定暫存器<strong>num</strong>到<strong>歸零</strong>按鍵的事件，設定數值0，因此當按鍵被按下時，綁定的暫存器數值會被設定為0</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file273.png" alt="歸零按鍵" /></p>
+
+<p>使用者可以拖入進度條和捲動文本，將綁定暫存器值設為<strong>num</strong>，並將進度條最小資料值以及最大資料值設定成適當的值，這樣進度條和捲動文本就會即時顯示暫存暫存器的數值。</p>
+
+<p><img src="/zh-tw/3.3.0/imgs/file270.png" alt="進度條" />
+<img src="/zh-tw/3.3.0/imgs/file274.png" alt="捲動文本" /></p>
+
+<p>由範例可以看出，一個暫存器，一個暫存器的數值會被輸入元件影響，並且可由輸出元件顯示。</p>
       <h2 id="暫存器運用">
         
         
