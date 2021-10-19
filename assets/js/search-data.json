@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Introduction",
     "title": "介紹",
-    "content": "博橡科技開發之 ADE (Acorn Development Environment)是針對人機介面 (Human-Machine Interface, HMI) 設計、驗證、佈署所研發的一個開發平台。功能完整，並提供大量且視覺效果精緻的元件。ADE 可以讓使用者從 HMI 設計、模擬、系統驗證、量產都在同一個開發環境完成。搭配博橡科技 Ubique Panel 產品，可快速完成開發、驗證以及佈署之循環，加速產品上市時間。 使用者僅需要一台執行 Windows10 64bit 的電腦，當設計完成後，僅需要一條隨處可見的USB線，即可下載到博橡科技的 Ubique Panel ，完成您的專案。 . 這份文件會對 ADE 功能做詳細介紹，請與博橡科技網頁之 教育影片 搭配學習，體會次世代 HMI 開發工具的威力。 . ",
+    "content": "博橡科技開發之 ADE (Acorn Development Environment)是針對人機介面 (Human-Machine Interface, HMI) 設計、驗證、佈署所研發的一個開發平台。功能完整，並提供大量且視覺效果精緻的元件。ADE 可以讓使用者從 HMI 設計、模擬、系統驗證、量產都在同一個開發環境完成。搭配博橡科技 Ubique Panel 產品，可快速完成開發、驗證以及佈署之循環，加速產品上市時間。 使用者僅需要一台執行 Windows10 64bit 的電腦，當設計完成後，僅需要一條隨處可見的USB線，即可下載到博橡科技的 Ubique Panel ，完成專案。 . 這份文件會對 ADE 功能做詳細介紹，請與博橡科技網頁之 教育影片 搭配學習，體會次世代 HMI 開發工具的威力。 . ",
     "url": "/en/3.3.0/#%E4%BB%8B%E7%B4%B9",
     "relUrl": "/en/3.3.0/#介紹"
   },"1": {
@@ -43,7 +43,7 @@
   },"7": {
     "doc": "Launch ADE",
     "title": "第一次使用",
-    "content": "安裝完成後，下面圖示 ADE 的圖形會出現在使用者的 Windows 桌面: . 可以透過雙擊此圖示開始執行ADE，或者透過Windows搜尋服務搜尋Acorn Development Environment開啟ADE。 . 一進入ADE，您就可看到下面的畫面: . 點擊頁面左方圖形元件庫喚出工具面板，再點擊頁面中間新設計喚出文件樣板 . 進入此畫面表示您的 ADE 安裝成功，順利執行。 . ",
+    "content": "安裝完成後，下面圖示 ADE 的圖形會出現在使用者的 Windows 桌面: . 可以透過雙擊此圖示開始執行ADE，或者透過Windows搜尋服務搜尋Acorn Development Environment開啟ADE。 . 一進入ADE，可以看到下面的畫面: . 進入此畫面表示 ADE 安裝成功，順利執行。 . 點擊頁面左上角的選單圖示 喚出系統選單，選擇Select Language可以切換語言 . ",
     "url": "/en/3.3.0/install_and_launch_ade/launch_ade/#%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8",
     "relUrl": "/en/3.3.0/install_and_launch_ade/launch_ade/#第一次使用"
   },"8": {
@@ -2011,7 +2011,7 @@
   },"335": {
     "doc": "介紹",
     "title": "介紹",
-    "content": "博橡科技開發之 ADE (Acorn Development Environment)是針對人機介面 (Human-Machine Interface, HMI) 設計、驗證、佈署所研發的一個開發平台。功能完整，並提供大量且視覺效果精緻的元件。ADE 可以讓使用者從 HMI 設計、模擬、系統驗證、量產都在同一個開發環境完成。搭配博橡科技 Ubique Panel 產品，可快速完成開發、驗證以及佈署之循環，加速產品上市時間。 使用者僅需要一台執行 Windows10 64bit 的電腦，當設計完成後，僅需要一條隨處可見的USB線，即可下載到博橡科技的 Ubique Panel ，完成您的專案。 . 這份文件會對 ADE 功能做詳細介紹，請與博橡科技網頁之 教育影片 搭配學習，體會次世代 HMI 開發工具的威力。 . ",
+    "content": "博橡科技開發之 ADE (Acorn Development Environment)是針對人機介面 (Human-Machine Interface, HMI) 設計、驗證、佈署所研發的一個開發平台。功能完整，並提供大量且視覺效果精緻的元件。ADE 可以讓使用者從 HMI 設計、模擬、系統驗證、量產都在同一個開發環境完成。搭配博橡科技 Ubique Panel 產品，可快速完成開發、驗證以及佈署之循環，加速產品上市時間。 使用者僅需要一台執行 Windows10 64bit 的電腦，當設計完成後，僅需要一條隨處可見的USB線，即可下載到博橡科技的 Ubique Panel ，完成專案。 . 這份文件會對 ADE 功能做詳細介紹，請與博橡科技網頁之 教育影片 搭配學習，體會次世代 HMI 開發工具的威力。 . ",
     "url": "/zh-tw/3.3.0/",
     "relUrl": "/zh-tw/3.3.0/"
   },"336": {
@@ -2047,7 +2047,7 @@
   },"341": {
     "doc": "啟動 ADE",
     "title": "第一次使用",
-    "content": "安裝完成後，下面圖示 ADE 的圖形會出現在使用者的 Windows 桌面： . 可以透過雙擊此圖示開始執行ADE，或者透過Windows搜尋服務搜尋Acorn Development Environment開啟ADE。 . 一進入ADE，您就可看到下面的畫面： . 點擊頁面左方圖形元件庫喚出工具面板，再點擊頁面中間新設計喚出文件樣板 . 進入此畫面表示您的 ADE 安裝成功，順利執行。 . ",
+    "content": "安裝完成後，下面圖示 ADE 的圖形會出現在使用者的 Windows 桌面： . 可以透過雙擊此圖示開始執行ADE，或者透過Windows搜尋服務搜尋Acorn Development Environment開啟ADE。 . 一進入ADE，可以看到下面的畫面： . 進入此畫面表示 ADE 安裝成功，順利執行。 . 點擊頁面左上角的選單圖示 喚出系統選單，選擇Select Language可以切換語言 . ",
     "url": "/zh-tw/3.3.0/install_and_launch_ade/launch_ade/#%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8",
     "relUrl": "/zh-tw/3.3.0/install_and_launch_ade/launch_ade/#第一次使用"
   },"342": {
