@@ -1540,6 +1540,10 @@ table.table_properties td:nth-child(2) { width: 40vw; }
 
 table.table_properties td:nth-child(3) { width: 20vw; }
 
+table.table_properties th { background-color: #F2F2F2; }
+
+table.table_properties tr:nth-child(even) td { background-color: #F2F2F2; }
+
 div.video_container { position: relative; width: 80%; height: 0; padding-bottom: 45%; min-width: 512px; min-height: 280px; }
 
 figure.video_container_educational iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

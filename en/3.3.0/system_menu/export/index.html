@@ -131,6 +131,8 @@
                     <a href="/en/3.3.0/widget_properties/properties/messagebox_selector/" class="nav-list-link">MessageBox Selector</a>
                   </li><li class="nav-list-item ">
                     <a href="/en/3.3.0/widget_properties/properties/filearray_table_dialog/" class="nav-list-link">FileArray Table Dialog</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.3.0/widget_properties/properties/event_setting/" class="nav-list-link">Event Setting</a>
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.3.0/widget_properties/on_widget_editor/" class="nav-list-link">On Widget Editor</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/en/3.3.0/widget_properties/on_widget_edditor/mask_editor/" class="nav-list-link">Mask Editor</a>
                   </li><li class="nav-list-item ">
@@ -287,42 +289,56 @@
       </h1>
     
 
-<p>點選匯出會啟動匯出對話盒，如下圖:</p>
+<p>點選匯出會啟動匯出對話盒，如下圖：</p>
 
 <p><img src="/en/3.3.0/imgs/file1002.png" alt="匯出對話盒" /></p>
 
 <p>對話盒左方為選擇匯出頁面，使用者可勾選以決定此次匯出要包含哪些頁面，若欲啟動I/O功能，則I/O頁面一定要點選匯出。若使用者的匯出的頁面包含了跳轉到未匯出頁面的設定，則將在執行期發生錯誤，頁面無法正常顯示。</p>
+      <h3 id="匯出類型">
+        
+        
+          <a href="#匯出類型" class="anchor-heading" aria-labelledby="匯出類型"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出類型
+        
+        
+      </h3>
+    
 
-<ul>
-  <li><strong>匯出類型</strong></li>
-</ul>
-
-<p>匯出對話盒右上方第一個下拉列表為匯出類型，本版 ADE 提供以下匯出功能，如圖:</p>
+<p>匯出對話盒右上方第一個下拉列表為匯出類型，本版 ADE 提供以下匯出功能，如圖：</p>
 
 <p><img src="/en/3.3.0/imgs/file1003.png" alt="匯出類型" /></p>
 
-<p>匯出類型如下，將於後文分項說明:</p>
-
-<ol>
-  <li>將 HMI 設計匯出到 Ubique Panel 或是啟動模擬器。</li>
-  <li>匯出 PDF 檔案。</li>
-  <li>列印，同列印功能，輸出到印表機。</li>
-  <li>匯出HTML網頁格式，使用瀏覽器觀看。</li>
-</ol>
-
 <ul>
-  <li><strong>匯出樣板</strong></li>
+  <li>
+    <p><strong>匯出類型如下，將於後文分項說明：</strong></p>
+
+    <ol>
+      <li>將 HMI 設計匯出到 Ubique Panel 或是啟動模擬器。</li>
+      <li>匯出 PDF 檔案。</li>
+      <li>列印，同列印功能，輸出到印表機。</li>
+      <li>匯出HTML網頁格式，使用瀏覽器觀看。</li>
+    </ol>
+  </li>
 </ul>
+      <h3 id="匯出樣板">
+        
+        
+          <a href="#匯出樣板" class="anchor-heading" aria-labelledby="匯出樣板"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板
+        
+        
+      </h3>
+    
 
 <p>第二個下拉列表為匯出樣板，每種匯出類型可以有一種或是多種匯出樣板，將於後文分項說明。</p>
-
-<ul>
-  <li><strong>匯出選項</strong></li>
-</ul>
+      <h3 id="匯出選項">
+        
+        
+          <a href="#匯出選項" class="anchor-heading" aria-labelledby="匯出選項"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項
+        
+        
+      </h3>
+    
 
 <p>匯出選項可以是下拉列表，勾選框等不同介面形式，不同匯出類型以及匯出樣板會有不同的匯出選項，將於後文分項說明。</p>
-
-<p>以下分別說明各個匯出種類及其相應功能:</p>
       <h2 id="匯出設計到ubique-panel">
         
         
@@ -333,46 +349,58 @@
     
 
 <p>將HMI設定下載到系統板。</p>
+      <h3 id="連接控制板">
+        
+        
+          <a href="#連接控制板" class="anchor-heading" aria-labelledby="連接控制板"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 連接控制板
+        
+        
+      </h3>
+    
+<p>使用前請先使用USB線連接 Ubique Panel 控制板與PC，ADE 在下載時會自動辨識連接中的控制板，但 ADE 不支援同時連接多個控制板，請確保一次只連接一個控制板。若需要確認插入USB線時，ADE 是否順利偵測到控制板，可由系統選單開啟設定對話盒，並切換到安裝與更新頁，於重新取得控制版資訊按鈕後方，會顯示連線中的控制版資訊，如下圖：</p>
+
+<p><img src="/en/3.3.0/imgs/file1005.png" alt="連線中的控制版資訊" /></p>
+
+<p>如果無法取得控制版資訊，或是沒有任何控制板連接，則會顯示下圖：</p>
+
+<p><img src="/en/3.3.0/imgs/file1004.png" alt="連線中的控制版資訊" /></p>
+
+<p>若先啟動此頁後再用USB線連接控制板的話，可以按下重新取得控制版資訊鈕，以取得最新控制版資訊。詳請請參考<a href="/en/3.3.0/system_menu/setting/">設定對話盒</a></p>
+      <h3 id="匯出樣板-1">
+        
+        
+          <a href="#匯出樣板-1" class="anchor-heading" aria-labelledby="匯出樣板-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板
+        
+        
+      </h3>
+    
+<p>此匯出類型目前只提供 Ubique Panel 匯出樣板。</p>
+      <h3 id="匯出選項-1">
+        
+        
+          <a href="#匯出選項-1" class="anchor-heading" aria-labelledby="匯出選項-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項
+        
+        
+      </h3>
+    
 
 <ul>
   <li>
-    <p><strong>連接控制板</strong> : 使用前請先使用USB線連接 Ubique Panel 控制板與PC，ADE 在下載時會自動辨識連接中的控制板，但 ADE 不支援同時連接多個控制板，請確保一次只連接一個控制板。</p>
-
-    <p>若需要確認插入USB線時，ADE 是否順利偵測到控制板，可由系統選單開啟設定對話盒，並切換到安裝與更新頁，於重新取得控制版資訊按鈕後方，會顯示連線中的控制版資訊，如下圖:</p>
-
-    <p><img src="/en/3.3.0/imgs/file1005.png" alt="連線中的控制版資訊" /></p>
-
-    <p>如果無法取得控制版資訊，或是沒有任何控制板連接，則會顯示下圖:</p>
-
-    <p><img src="/en/3.3.0/imgs/file1004.png" alt="連線中的控制版資訊" /></p>
-
-    <p>若先啟動此頁後再用USB線連接控制板的話，可以按下重新取得控制版資訊鈕，以取得最新控制版資訊。詳請請參考<a href="/en/3.3.0/system_menu/setting/">設定對話盒</a></p>
-  </li>
-  <li>
-    <p><strong>匯出樣板</strong> : 此匯出類型目前只提供 Ubique Panel 匯出樣板。</p>
-  </li>
-  <li>
-    <p><strong>匯出選項</strong> : 此匯出功能提供以下匯出選項:</p>
+    <p><strong>匯出目標</strong>：</p>
 
     <ol>
       <li>
-        <p>匯出目標 :</p>
+        <p>啟動 TFT 模擬器：點選此設定，ADE 會啟動 TFT 模擬器，並將HMI設計傳遞過去。選用此功能無需連接Ubique Panel 控制板，TFT 模擬器會出現在電腦螢幕上，使用者可以直接操作驗證設計的正確性。此模擬器無法模擬I/O操作。</p>
+      </li>
+      <li>
+        <p>下載到屏：選取此功能，並用USB線連接Ubique Panel 控制板，會開始匯出以及下載，下載過程會以進度對話盒表示，並顯示相關訊息。若一切正常，則錯誤個數為0，下載視窗會顯示下載成功，並提示使用者關閉下載視窗。若下載失敗，下載視窗會繼續顯示，供使用者檢視錯誤訊息，錯誤會於訊息窗中以紅色文字顯示。如下圖例：</p>
 
-        <ul>
-          <li>
-            <p>啟動 TFT 模擬器 : 點選此設定，ADE 會啟動 TFT 模擬器，並將HMI設計傳遞過去。選用此功能無需連接Ubique Panel 控制板，TFT 模擬器會出現在電腦螢幕上，使用者可以直接操作驗證設計的正確性。此模擬器無法模擬I/O操作。</p>
-          </li>
-          <li>
-            <p>下載到屏 : 選取此功能，並用USB線連接Ubique Panel 控制板，會開始匯出以及下載，下載過程會以進度對話盒表示，並顯示相關訊息。若一切正常，則錯誤個數為0，下載視窗會顯示下載成功，並提示使用者關閉下載視窗。若下載失敗，下載視窗會繼續顯示，供使用者檢視錯誤訊息，錯誤會於訊息窗中以紅色文字顯示。如下圖例:</p>
+        <p><img src="/en/3.3.0/imgs/file1006.png" alt="正在匯出對話盒" /></p>
 
-            <p><img src="/en/3.3.0/imgs/file1006.png" alt="正在匯出對話盒" /></p>
-
-            <p>錯誤個數不為0時，ADE不會將設計下載到 Ubique Panel，也不會啟動 TFT 模擬器。</p>
-          </li>
-          <li>
-            <p>匯出設計到檔案 : 此功能為客服目的，當使用者使用 ADE 設計 HMI 遇到問題時，可以將設計匯出成檔案，並發送給博橡科技客服協助除錯。</p>
-          </li>
-        </ul>
+        <p>錯誤個數不為0時，ADE不會將設計下載到 Ubique Panel，也不會啟動 TFT 模擬器。</p>
+      </li>
+      <li>
+        <p>匯出設計到檔案：此功能為客服目的，當使用者使用 ADE 設計 HMI 遇到問題時，可以將設計匯出成檔案，並發送給博橡科技客服協助除錯。</p>
       </li>
     </ol>
   </li>
@@ -387,58 +415,65 @@
     
 
 <p>將設計頁轉換成 PDF 檔案匯出。</p>
+      <h3 id="匯出樣板-2">
+        
+        
+          <a href="#匯出樣板-2" class="anchor-heading" aria-labelledby="匯出樣板-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
+        
+        
+      </h3>
+    
 
 <ul>
   <li>
-    <p><strong>匯出樣板</strong> :</p>
-
-    <ol>
-      <li>
-        <p>廣告匯出樣板 : 匯出 HMI 設計頁。</p>
-      </li>
-      <li>
-        <p>預設匯出樣板 : 匯出 HMI 設計頁面以及頁面說明。</p>
-      </li>
-    </ol>
+    <p><strong>廣告匯出樣板</strong>：匯出 HMI 設計頁。</p>
   </li>
   <li>
-    <p><strong>匯出選項</strong> :</p>
+    <p><strong>預設匯出樣板</strong>：匯出 HMI 設計頁面以及頁面說明。</p>
+  </li>
+</ul>
+      <h3 id="匯出選項-2">
+        
+        
+          <a href="#匯出選項-2" class="anchor-heading" aria-labelledby="匯出選項-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項：
+        
+        
+      </h3>
+    
 
-    <ol>
-      <li>
-        <p>影像格式 : 選擇以向量圖形，或是像素圖形的方式匯出 HMI，大部分使用者嵌入的圖形或是元件，會被以像素圖形的方式匯出。</p>
-      </li>
-      <li>
-        <p>紙張尺寸 : 選擇A3、 A4、 A5、 Letter Legal以及Tabloid等常用尺寸。</p>
-      </li>
-      <li>
-        <p>紙張方向 : 選擇輸出紙張方向為直印或是橫印。</p>
-      </li>
-      <li>
-        <p>行 : 選擇一頁 PDF 要一行設計頁或是兩行。</p>
-      </li>
-      <li>
-        <p>列 : 選擇一頁 PDF 要一列設計頁或是兩列。</p>
-      </li>
-      <li>
-        <p>背景 : 選擇匯出 PDF 檔案的背景顏色以及透明度。</p>
-      </li>
-      <li>
-        <p>頁面邊界 : 當選擇預設 PDF 樣板時，可選擇頁面邊界，選項有: 無、正常、較大。</p>
-      </li>
-      <li>
-        <p>列印標題 : 當選擇預設 PDF 樣板時，可選擇是否要列印標題。</p>
-      </li>
-      <li>
-        <p>頁首頁尾 : 當選擇預設 PDF 樣板時，可選擇是否要列印頁首以及頁尾。</p>
-      </li>
-      <li>
-        <p>列印頁面說明 : 當選擇預設 PDF 樣板時，可選擇是否要列印頁面說明。</p>
-      </li>
-      <li>
-        <p>列印邊框 : 當選擇預設 PDF 樣板時，可選擇是否要列印邊框。</p>
-      </li>
-    </ol>
+<ul>
+  <li>
+    <p><strong>影像格式</strong>：選擇以向量圖形，或是像素圖形的方式匯出 HMI，大部分使用者嵌入的圖形或是元件，會被以像素圖形的方式匯出。</p>
+  </li>
+  <li>
+    <p><strong>紙張尺寸</strong>：選擇A3、 A4、 A5、 Letter Legal以及Tabloid等常用尺寸。</p>
+  </li>
+  <li>
+    <p><strong>紙張方向</strong>：選擇輸出紙張方向為直印或是橫印。</p>
+  </li>
+  <li>
+    <p><strong>行</strong>：選擇一頁 PDF 要一行設計頁或是兩行。</p>
+  </li>
+  <li>
+    <p><strong>列</strong>：選擇一頁 PDF 要一列設計頁或是兩列。</p>
+  </li>
+  <li>
+    <p><strong>背景</strong>：選擇匯出 PDF 檔案的背景顏色以及透明度。</p>
+  </li>
+  <li>
+    <p><strong>頁面邊界</strong>：當選擇預設 PDF 樣板時，可選擇頁面邊界，選項有：無、正常、較大。</p>
+  </li>
+  <li>
+    <p><strong>列印標題</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印標題。</p>
+  </li>
+  <li>
+    <p><strong>頁首頁尾</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印頁首以及頁尾。</p>
+  </li>
+  <li>
+    <p><strong>列印頁面說明</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印頁面說明。</p>
+  </li>
+  <li>
+    <p><strong>列印邊框</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印邊框。</p>
   </li>
 </ul>
 
@@ -463,19 +498,21 @@
     
 
 <p>匯出 HTML 網頁格式。</p>
+      <h3 id="匯出樣板-3">
+        
+        
+          <a href="#匯出樣板-3" class="anchor-heading" aria-labelledby="匯出樣板-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
+        
+        
+      </h3>
+    
 
 <ul>
   <li>
-    <p><strong>匯出樣板</strong> :</p>
-
-    <ol>
-      <li>
-        <p>預設網頁樣板 : 輸出一頁HTML檔案</p>
-      </li>
-      <li>
-        <p>可點擊的設計頁原形網頁 : 輸出帶目錄頁的可點擊HTML頁面。</p>
-      </li>
-    </ol>
+    <p><strong>預設網頁樣板</strong>：輸出一頁HTML檔案</p>
+  </li>
+  <li>
+    <p><strong>可點擊的設計頁原形網頁</strong>：輸出帶目錄頁的可點擊HTML頁面。</p>
   </li>
 </ul>
 
