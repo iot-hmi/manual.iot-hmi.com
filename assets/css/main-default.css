@@ -1554,4 +1554,8 @@ p.for_img_larger a { background: none; }
 
 p.for_img_larger a:hover { background: none; }
 
+div.note_container { border: 0.1em gray solid; font-size: 0.9em; color: gray; }
+
+div.note_container img { width: 1.5em; height: 1.5em; transform: translateY(15%); }
+
 /*# sourceMappingURL=main-default.css.map */
