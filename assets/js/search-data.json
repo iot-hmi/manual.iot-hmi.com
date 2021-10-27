@@ -583,7 +583,7 @@
   },"97": {
     "doc": "Color Selector",
     "title": "顏色選擇器",
-    "content": "設定和編輯色彩。 . 分為色票和色相環兩種，使用者可選取既有顏色，也可以自行輸入色碼值。 . 設定圓形刻度盤和圓形儀表刻度的漸變顏色與臨界顏色，並設定臨界顏色開始位置。 . ",
+    "content": "設定和編輯色彩。 . 分為顏色表和色輪兩種，使用者可選取既有顏色，也可以自行輸入色碼值。 使用者可以新增自訂顏色，並利用右鍵選單進行刪除。 . 設定圓形刻度盤和圓形儀表刻度的漸變顏色與臨界顏色，並設定臨界顏色開始位置。 . ",
     "url": "/en/3.3.0/widget_properties/properties/color_selector/#%E9%A1%8F%E8%89%B2%E9%81%B8%E6%93%87%E5%99%A8",
     "relUrl": "/en/3.3.0/widget_properties/properties/color_selector/#顏色選擇器"
   },"98": {
@@ -619,7 +619,7 @@
   },"103": {
     "doc": "Register Selector",
     "title": "暫存器選擇器",
-    "content": ". 選擇要綁定的暫存器。 . ",
+    "content": ". 選擇要綁定的暫存器。 系統會列出所有暫存器，並由序號大到小進行排列。 . ",
     "url": "/en/3.3.0/widget_properties/properties/register_selector/#%E6%9A%AB%E5%AD%98%E5%99%A8%E9%81%B8%E6%93%87%E5%99%A8",
     "relUrl": "/en/3.3.0/widget_properties/properties/register_selector/#暫存器選擇器"
   },"104": {
@@ -2437,7 +2437,7 @@
   },"406": {
     "doc": "顏色選擇器",
     "title": "顏色選擇器",
-    "content": "設定和編輯色彩。 . 分為色票和色相環兩種，使用者可選取既有顏色，也可以自行輸入色碼值。 . 設定圓形刻度盤和圓形儀表刻度的漸變顏色與臨界顏色，並設定臨界顏色開始位置。 . ",
+    "content": "設定和編輯色彩。 . 分為顏色表和色輪兩種，使用者可選取既有顏色，也可以自行輸入色碼值。 使用者可以新增自訂顏色，並利用右鍵選單進行刪除。 . 設定圓形刻度盤和圓形儀表刻度的漸變顏色與臨界顏色，並設定臨界顏色開始位置。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/color_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/color_selector/"
   },"407": {
@@ -2455,7 +2455,7 @@
   },"409": {
     "doc": "暫存器選擇器",
     "title": "暫存器選擇器",
-    "content": ". 選擇要綁定的暫存器。 . ",
+    "content": ". 選擇要綁定的暫存器。 系統會列出所有暫存器，並由序號大到小進行排列。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/register_selector/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/register_selector/"
   },"410": {
