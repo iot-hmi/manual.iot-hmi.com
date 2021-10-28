@@ -280,65 +280,65 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="匯出設計">
+          <h1 id="export">
         
         
-          <a href="#匯出設計" class="anchor-heading" aria-labelledby="匯出設計"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出設計
+          <a href="#export" class="anchor-heading" aria-labelledby="export"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Export
         
         
       </h1>
     
 
-<p>點選匯出會啟動匯出對話盒，如下圖：</p>
+<p>Once Export is selected, a pop-up dialog window will appear:</p>
 
 <p><img src="/en/3.3.0/imgs/file1002.png" alt="匯出對話盒" /></p>
 
-<p>對話盒左方為選擇匯出頁面，使用者可勾選以決定此次匯出要包含哪些頁面，若欲啟動I/O功能，則I/O頁面一定要點選匯出。若使用者的匯出的頁面包含了跳轉到未匯出頁面的設定，則將在執行期發生錯誤，頁面無法正常顯示。</p>
-      <h3 id="匯出類型">
+<p>On the left hand side, users can decide which pages to export by clicking the check box of each page. If users want to enable the I/O functions, the “io” page must be exported. Keep in mind that all the target pages that are the desination of a page transition must be exported otherwise the HMI design will malfunction.</p>
+      <h3 id="output-type">
         
         
-          <a href="#匯出類型" class="anchor-heading" aria-labelledby="匯出類型"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出類型
+          <a href="#output-type" class="anchor-heading" aria-labelledby="output-type"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Output Type
         
         
       </h3>
     
 
-<p>匯出對話盒右上方第一個下拉列表為匯出類型，本版 ADE 提供以下匯出功能，如圖：</p>
+<p>At the top-right conner of the dialog window, there is a pull-down menu that allows users to specify the output type for exporting. ADE supports the following output type:</p>
 
 <p><img src="/en/3.3.0/imgs/file1003.png" alt="匯出類型" /></p>
 
 <ul>
   <li>
-    <p><strong>匯出類型如下，將於後文分項說明：</strong></p>
+    <p><strong>Exporting output type:</strong></p>
 
     <ol>
-      <li>將 HMI 設計匯出到 Ubique Panel 或是啟動模擬器。</li>
-      <li>匯出 PDF 檔案。</li>
-      <li>列印，同列印功能，輸出到印表機。</li>
-      <li>匯出HTML網頁格式，使用瀏覽器觀看。</li>
+      <li>Export HMI design to Ubique Panel or start the simulator.</li>
+      <li>Export to a PDF file.</li>
+      <li>Printing, exporting to a printer.</li>
+      <li>Exporting to a web page in HTML format to be viewed by a browser.</li>
     </ol>
   </li>
 </ul>
-      <h3 id="匯出樣板">
+      <h3 id="template">
         
         
-          <a href="#匯出樣板" class="anchor-heading" aria-labelledby="匯出樣板"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板
-        
-        
-      </h3>
-    
-
-<p>第二個下拉列表為匯出樣板，每種匯出類型可以有一種或是多種匯出樣板，將於後文分項說明。</p>
-      <h3 id="匯出選項">
-        
-        
-          <a href="#匯出選項" class="anchor-heading" aria-labelledby="匯出選項"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項
+          <a href="#template" class="anchor-heading" aria-labelledby="template"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Template
         
         
       </h3>
     
 
-<p>匯出選項可以是下拉列表，勾選框等不同介面形式，不同匯出類型以及匯出樣板會有不同的匯出選項，將於後文分項說明。</p>
+<p>The second pull-down menu is the exporting template selection. Each output type has one or more output templates. These templates will be explained in details latter.</p>
+      <h3 id="options">
+        
+        
+          <a href="#options" class="anchor-heading" aria-labelledby="options"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Options
+        
+        
+      </h3>
+    
+
+<p>The third pull-down menu offers option selection. Differet output types have different options. These options will be explained in details latter.</p>
       <h2 id="匯出設計到ubique-panel">
         
         
@@ -371,19 +371,19 @@
         註解：若先啟動此頁後再用USB線連接控制板的話，可以按下重新取得控制版資訊鈕，以取得最新控制版資訊。詳請請參考<a href="/en/3.3.0/system_menu/setting/" alt="">設定對話盒</a>
     </span>
 </div>
-      <h3 id="匯出樣板-1">
+      <h3 id="匯出樣板">
         
         
-          <a href="#匯出樣板-1" class="anchor-heading" aria-labelledby="匯出樣板-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板
+          <a href="#匯出樣板" class="anchor-heading" aria-labelledby="匯出樣板"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板
         
         
       </h3>
     
 <p>此匯出類型目前只提供 Ubique Panel 匯出樣板。</p>
-      <h3 id="匯出選項-1">
+      <h3 id="匯出選項">
         
         
-          <a href="#匯出選項-1" class="anchor-heading" aria-labelledby="匯出選項-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項
+          <a href="#匯出選項" class="anchor-heading" aria-labelledby="匯出選項"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項
         
         
       </h3>
@@ -420,10 +420,10 @@
     
 
 <p>將設計頁轉換成 PDF 檔案匯出。</p>
-      <h3 id="匯出樣板-2">
+      <h3 id="匯出樣板-1">
         
         
-          <a href="#匯出樣板-2" class="anchor-heading" aria-labelledby="匯出樣板-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
+          <a href="#匯出樣板-1" class="anchor-heading" aria-labelledby="匯出樣板-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
         
         
       </h3>
@@ -437,10 +437,10 @@
     <p><strong>預設匯出樣板</strong>：匯出 HMI 設計頁面以及頁面說明。</p>
   </li>
 </ul>
-      <h3 id="匯出選項-2">
+      <h3 id="匯出選項-1">
         
         
-          <a href="#匯出選項-2" class="anchor-heading" aria-labelledby="匯出選項-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項：
+          <a href="#匯出選項-1" class="anchor-heading" aria-labelledby="匯出選項-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項：
         
         
       </h3>
@@ -503,10 +503,10 @@
     
 
 <p>匯出 HTML 網頁格式。</p>
-      <h3 id="匯出樣板-3">
+      <h3 id="匯出樣板-2">
         
         
-          <a href="#匯出樣板-3" class="anchor-heading" aria-labelledby="匯出樣板-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
+          <a href="#匯出樣板-2" class="anchor-heading" aria-labelledby="匯出樣板-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
         
         
       </h3>
