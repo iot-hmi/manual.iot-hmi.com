@@ -679,7 +679,7 @@
   },"113": {
     "doc": "Image Collection Management",
     "title": "影像收集管理",
-    "content": ". 開啟影像收集管理對話框，一次載入多張圖片，並且可以自行設定圖片順序。 . ",
+    "content": ". 開啟影像收集管理對話框，一次載入多個影像，並且可以利用拖曳影像自行設定順序。 . ",
     "url": "/en/3.3.0/widget_properties/properties/image_collection_management/#%E5%BD%B1%E5%83%8F%E6%94%B6%E9%9B%86%E7%AE%A1%E7%90%86",
     "relUrl": "/en/3.3.0/widget_properties/properties/image_collection_management/#影像收集管理"
   },"114": {
@@ -2503,7 +2503,7 @@
   },"417": {
     "doc": "影像收集管理",
     "title": "影像收集管理",
-    "content": ". 開啟影像收集管理對話框，一次載入多張圖片，並且可以自行設定圖片順序。 . ",
+    "content": ". 開啟影像收集管理對話框，一次載入多個影像，並且可以利用拖曳影像自行設定順序。 . ",
     "url": "/zh-tw/3.3.0/widget_properties/properties/image_collection_management/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/properties/image_collection_management/"
   },"418": {
