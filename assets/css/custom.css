@@ -1,5 +1,9 @@
-* {
-    font-size: 18px;
+html {
+    font-size: 18px !important;
+}
+
+html * {
+    font-size: 0.9rem;
 }
 
 .side-bar {
@@ -16,6 +20,17 @@
     margin-top: 1rem !important;
     margin-bottom: 1.5rem !important;
 }
+
+.main-content h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.main-content h3 {
+    font-size: 1rem !important;
+    margin-bottom: 0.75rem !important;
+}
+
 
 table.table_properties td:nth-child(1) {
     width: 10vw;
@@ -59,8 +74,8 @@ figure.video_container_educational iframe {
 }
 
 img.img_icon {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.5rem;
+    height: 1.5rem;
     transform: translateY(15%);
 }
 
@@ -73,14 +88,17 @@ p.for_img_larger a:hover {
 }
 
 div.note_container {
-    border: 0.1em gray solid;
-    font-size: 0.9em;
+    border: 0.1rem gray solid;
+    margin-bottom: 2rem;
     color: gray;
 }
 
 div.note_container img{
-    width: 1.5em;
-    height: 1.5em;
-    transform: translateY(15%);
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
 }
 
+div.note_container span{
+    vertical-align: middle;
+}
