@@ -871,7 +871,7 @@
   },"145": {
     "doc": "Mask Editor",
     "title": "模板底色編輯器",
-    "content": "利用拖曳箭頭改變模板底色大小 . 利用拖曳箭頭改變模板底色圓角半徑，可將模板底色從矩形變成橢圓 . 註解：如果模板底色形狀為橢圓則無效 . 利用拖曳綠點改變橢圓大小與位置 . 利用拖曳綠點改變前景圖片的大小與位置 . ",
+    "content": "利用拖曳箭頭改變模板底色大小 . 利用拖曳箭頭改變模板底色圓角半徑，可將模板底色從矩形變成橢圓 . 註解：如果模板底色形狀為橢圓則無效 ",
     "url": "/en/3.3.0/widget_properties/on_widget_edditor/mask_editor/#%E6%A8%A1%E6%9D%BF%E5%BA%95%E8%89%B2%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/en/3.3.0/widget_properties/on_widget_edditor/mask_editor/#模板底色編輯器"
   },"146": {
@@ -2623,7 +2623,7 @@
   },"437": {
     "doc": "模板底色編輯器",
     "title": "模板底色編輯器",
-    "content": "利用拖曳箭頭改變模板底色大小 . 利用拖曳箭頭改變模板底色圓角半徑，可將模板底色從矩形變成橢圓 . 註解：如果模板底色形狀為橢圓則無效 . 利用拖曳綠點改變橢圓大小與位置 . 利用拖曳綠點改變前景圖片的大小與位置 . ",
+    "content": "利用拖曳箭頭改變模板底色大小 . 利用拖曳箭頭改變模板底色圓角半徑，可將模板底色從矩形變成橢圓 . 註解：如果模板底色形狀為橢圓則無效 ",
     "url": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/mask_editor/",
     "relUrl": "/zh-tw/3.3.0/widget_properties/on_widget_edditor/mask_editor/"
   },"438": {
