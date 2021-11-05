@@ -108,46 +108,46 @@
     "relUrl": "/en/3.3.0/system_menu/export/"
   },"18": {
     "doc": "Export",
-    "title": "匯出設計到Ubique Panel",
-    "content": "將HMI設定下載到系統板。 . 連接控制板 . 使用前請先使用USB線連接 Ubique Panel 控制板與PC，ADE 在下載時會自動辨識連接中的控制板，但 ADE 不支援同時連接多個控制板，請確保一次只連接一個控制板。若需要確認插入USB線時，ADE 是否順利偵測到控制板，可由系統選單開啟設定對話盒，並切換到安裝與更新頁，於重新取得控制版資訊按鈕後方，會顯示連線中的控制版資訊，如下圖： . 如果無法取得控制版資訊，或是沒有任何控制板連接，則會顯示下圖： . 註解：若先啟動此頁後再用USB線連接控制板的話，可以按下重新取得控制版資訊鈕，以取得最新控制版資訊。詳請請參考設定對話盒 匯出樣板 . 此匯出類型目前只提供 Ubique Panel 匯出樣板。 . 匯出選項 . | 匯出目標： . | 啟動 TFT 模擬器：點選此設定，ADE 會啟動 TFT 模擬器，並將HMI設計傳遞過去。選用此功能無需連接Ubique Panel 控制板，TFT 模擬器會出現在電腦螢幕上，使用者可以直接操作驗證設計的正確性。此模擬器無法模擬I/O操作。 . | 下載到屏：選取此功能，並用USB線連接Ubique Panel 控制板，會開始匯出以及下載，下載過程會以進度對話盒表示，並顯示相關訊息。若一切正常，則錯誤個數為0，下載視窗會顯示下載成功，並提示使用者關閉下載視窗。若下載失敗，下載視窗會繼續顯示，供使用者檢視錯誤訊息，錯誤會於訊息窗中以紅色文字顯示。如下圖例： . 錯誤個數不為0時，ADE不會將設計下載到 Ubique Panel，也不會啟動 TFT 模擬器。 . | 匯出設計到檔案：此功能為客服目的，當使用者使用 ADE 設計 HMI 遇到問題時，可以將設計匯出成檔案，並發送給博橡科技客服協助除錯。 . | . | . ",
-    "url": "/en/3.3.0/system_menu/export/#%E5%8C%AF%E5%87%BA%E8%A8%AD%E8%A8%88%E5%88%B0ubique-panel",
-    "relUrl": "/en/3.3.0/system_menu/export/#匯出設計到ubique-panel"
+    "title": "Exporting to Ubique Panel",
+    "content": "This exporting option downloads the HMI design from ADE to Ubique Panel. Connecting to the control board . Please connect the control board of Ubique Panel to the PC running ADE via a USB cable. ADE automatically recgonizes the connected control board. ADE does NOT support downloading to multiple boards simultaneously. Please make sure that your PC only connects to one single Ubique Panel’s control borad. If users would like to make sure that the Ubique Panel control board is connected to the PC propoerly, they can use Settings in System Menu to open up the following dialog box and select Installation and Update tab. Behind Get Board Information button, the connected control board’s information is shown: . If no control board information available or no board connected, the following message is shown: . Note: If this dialog box is opened before establishing USB connection with the Ubique Panel control board, please click Get Board Information button again for retrieving the board information. Please refer to Settings Template . Only Ubique Panel template is supported for exporting. Options . | Destination： . | Launch Simulation: If selected, ADE will launch the built-in simulator and export the HMI design to the simulator. Keep in mind that running the built-in simulator does not require the connection to the Ubique Panel control board. The simulator shows up on the screen and users can directly verify their HMI design. However, this built-in simulator can NOT simulate the I/O functions. | Download: If this option is selected and the Ubique Panel control board is connected via a USB cable, then the downloading will commence. The progress and the related messages are shown in “Exporting documents” dialog box. If everything works fine, the number of errors is zero and the dialog box will notify that the downloading is successfuuly done and prompt users to close this dialog box. If the downloading fails, the error messages, displayed in red, shows up in the dialog box for users to review: . If the error number is not zero, the HMI design is not downloaded to the Ubique Panel. Neither does ADE launch the built-in simulator. | Save to File: This function is for technical support. When users runs into issues in using ADE, they can export their HMI to a file by using this option and send the saved file to our technical support team for debugging. | . | . ",
+    "url": "/en/3.3.0/system_menu/export/#exporting-to-ubique-panel",
+    "relUrl": "/en/3.3.0/system_menu/export/#exporting-to-ubique-panel"
   },"19": {
     "doc": "Export",
-    "title": "匯出PDF",
-    "content": "將設計頁轉換成 PDF 檔案匯出。 . 匯出樣板： . | 廣告匯出樣板：匯出 HMI 設計頁。 . | 預設匯出樣板：匯出 HMI 設計頁面以及頁面說明。 . | . 匯出選項： . | 影像格式：選擇以向量圖形，或是像素圖形的方式匯出 HMI，大部分使用者嵌入的圖形或是元件，會被以像素圖形的方式匯出。 . | 紙張尺寸：選擇A3、 A4、 A5、 Letter Legal以及Tabloid等常用尺寸。 . | 紙張方向：選擇輸出紙張方向為直印或是橫印。 . | 行：選擇一頁 PDF 要一行設計頁或是兩行。 . | 列：選擇一頁 PDF 要一列設計頁或是兩列。 . | 背景：選擇匯出 PDF 檔案的背景顏色以及透明度。 . | 頁面邊界：當選擇預設 PDF 樣板時，可選擇頁面邊界，選項有：無、正常、較大。 . | 列印標題：當選擇預設 PDF 樣板時，可選擇是否要列印標題。 . | 頁首頁尾：當選擇預設 PDF 樣板時，可選擇是否要列印頁首以及頁尾。 . | 列印頁面說明：當選擇預設 PDF 樣板時，可選擇是否要列印頁面說明。 . | 列印邊框：當選擇預設 PDF 樣板時，可選擇是否要列印邊框。 . | . 匯出時會啟動檔案選擇對話盒，供使用者選擇輸出 PDF 檔案的名稱以及位置。若有同名檔案存在，則會提示是否覆蓋。但若是該檔案正被其他 PDF 瀏覽程式讀取，該檔案會被鎖定，而導致匯出失敗，此時只要關閉 PDF 瀏覽程式，再匯出一次即可解決。 . ",
-    "url": "/en/3.3.0/system_menu/export/#%E5%8C%AF%E5%87%BApdf",
-    "relUrl": "/en/3.3.0/system_menu/export/#匯出pdf"
+    "title": "Exporting to PDF",
+    "content": "This output type exports the HMI design to a PDF-formated file. Template： . | Brochure Export Tempate: Export HMI design pages only. | Default Export Template：Export HMI design pages along with the page note. | . Option: . | Image Format：Both scalable/vector and bitmap/rasterized formats are supported for exporting HMI designs. In most cases, images inserted by the users will be exported in the bitmap/rasterized format. | Page size：Support A3, A4, A5, Letter, Legae and Tabloid format. | Orientation：Portrait or Landscape. | Column：Select one or two columns per page. | Row：Select one or two rows per page. | Backgroud：Set the background color and opacity for the exported PDF page. | Margin： Set the margin for the exported PDF page. Three options are available: None, Normal, and Large. | With Title：Select if the title is needed or not. | With header/footer：Turn on or off the header and footer. | With notes：Turn on or off the not. | Draw borders: Choose if border is drawn on the PDF exported pages. | . Before exporting, the file selection dialog box will appear allowing users to set the exported PDF file’s name and directory. If the file name alreay exists, the dialog box will ask if the existed file should be replaced or not. If this file is being viewed by other PDF reader, then it is locked and cannot be replaced. As a result, the exporting will fail. You can solve this problem by closing all the PDF readers that access this file and then re-export the HMI design. ",
+    "url": "/en/3.3.0/system_menu/export/#exporting-to-pdf",
+    "relUrl": "/en/3.3.0/system_menu/export/#exporting-to-pdf"
   },"20": {
     "doc": "Export",
-    "title": "列印",
-    "content": "匯出列印格式功能與匯出PDF功能相同。只是輸出目標為印表機。詳見匯出PDF。 . ",
-    "url": "/en/3.3.0/system_menu/export/#%E5%88%97%E5%8D%B0",
-    "relUrl": "/en/3.3.0/system_menu/export/#列印"
+    "title": "Printing Format",
+    "content": "This output type share the same functionality as that of PDF except that this function output the HMI design directly to the printer. Please refer 匯出PDF. ",
+    "url": "/en/3.3.0/system_menu/export/#printing-format",
+    "relUrl": "/en/3.3.0/system_menu/export/#printing-format"
   },"21": {
     "doc": "Export",
-    "title": "網頁格式",
-    "content": "匯出 HTML 網頁格式。 . 匯出樣板： . | 預設網頁樣板：輸出一頁HTML檔案 . | 可點擊的設計頁原形網頁：輸出帶目錄頁的可點擊HTML頁面。 . | . 匯出時開啟開啟檔案對話盒，讓使用者選擇匯出目錄，該目錄的內容會被清空，並寫入匯出資料。匯出後點選匯出目錄下的index.html，即可用瀏覽器開啟。 . ",
-    "url": "/en/3.3.0/system_menu/export/#%E7%B6%B2%E9%A0%81%E6%A0%BC%E5%BC%8F",
-    "relUrl": "/en/3.3.0/system_menu/export/#網頁格式"
+    "title": "Web Page",
+    "content": "Exporting HMI design to HTML formated web page. Template: . | Default HTML Template: Exporting HMI design to a signle-paged web pate. | Clickable Prototype HTML Template：Exporting HMI to a web page with hyper links. | . The file selection dialog box appears prior to exporting for allowing users to select the exporting directory. The directory contents will be cleared completely and the exporting file will be written into this directory. After exporting, please click index.html for viewing your HMI design in a web browser. ",
+    "url": "/en/3.3.0/system_menu/export/#web-page",
+    "relUrl": "/en/3.3.0/system_menu/export/#web-page"
   },"22": {
     "doc": "Setting",
-    "title": "設定",
+    "title": "Settings",
     "content": " ",
-    "url": "/en/3.3.0/system_menu/setting/#%E8%A8%AD%E5%AE%9A",
-    "relUrl": "/en/3.3.0/system_menu/setting/#設定"
+    "url": "/en/3.3.0/system_menu/setting/#settings",
+    "relUrl": "/en/3.3.0/system_menu/setting/#settings"
   },"23": {
     "doc": "Setting",
-    "title": "一般",
-    "content": "一般的選單裡，有下列的選單: . 使用者介面 . | 文字尺寸比例 : 設定 ADE 使用者介面顯示文字的比例，ADE整體使用者介面會根據這個比例自動調整。 . | 使用緊緻排版 : 設定 ADE 採用緊密排版顯示模式。 . | . ADE . | 從主螢幕開啟 : 設定 ADE 在主要的螢幕上開始。若不勾選，ADE會從副螢幕開啟。 . | 畫面擷取延時 : 設定ADE匯出時等待繪製圖形的時間，如果發生HMI圖形不完整的情形，建議把這個值調到100以上。 . | 設計樣板刷新延時 : 設定刷新樣板時的延遲，初始值為1000，如果使用者使用效能較差之舊型電腦來執行 ADE，建議把這個值調到2000以上。 . | . 畫布設定 . | 顯示格點 : 選擇設計 HMI 時是否在畫面上顯示網格，若選擇顯示網格則可以設定尺寸以及樣式。 . | 物件對齊格點 : 在拖入元件時主動對準網格。 . | 物件對齊物件 : 拉入元件時畫面會出現對齊線幫助使用者對齊之前已經放入的元件。 . | . 編輯設定 . | 於同一處剪貼 : 設定後，在複製或剪下元件時，ADE會記錄元件當時的座標，並在貼上元件時，調整元件位置至已記錄的座標。 . | 啟動復原/重作功能 : 設定復原和取消復原最大深度，上限是99層。 . | . ",
-    "url": "/en/3.3.0/system_menu/setting/#%E4%B8%80%E8%88%AC",
-    "relUrl": "/en/3.3.0/system_menu/setting/#一般"
+    "title": "General",
+    "content": "In this tab, the following settings are available: . User Interface . | Use Compact Layout: Set ADE to the compact layout format. | . ADE . | Start from Primary Monitor: If selected, ADE will launch from the primary screen; otherwise, ADE will launch from the secondary screen. | Capture Delay: This sets the waiting time for rasterizing the HMI design. If the exported image is not complete or accurate, please set this value above 100. | Document Template Refreshing Time: This sets the template refreshing delay time. The default value is 1000. If users are using computers of older model for running ADE, it is highly recommended to set this value to be above 2000. | . Canvas . | Show Grid: If selected, the grids will be shown on the HMI design canvas and grid size and sytle can be set. | Sanp Objects to Grid: When widgets are dragged into the HMI design, they are placed and aligned on the grids. | Snap Objects to Objects: When widgets are dragged into the HMI design, they are aligned with those widgets that have been placed in the HMI design. | . Edit . | Cut and Paste at the Same Place: Once selected, during a copy-and-paster operation, ADE will record the coordinates of the widget that are cut or copied. Once the widgets are pasted, the widgets will be placed on the recorded coordinates. | Enable Undo/Redo: This sets the number of levels that allows “undo”. The maximum level is 99. | . ",
+    "url": "/en/3.3.0/system_menu/setting/#general",
+    "relUrl": "/en/3.3.0/system_menu/setting/#general"
   },"24": {
     "doc": "Setting",
-    "title": "安裝與更新",
-    "content": "安裝與更新的選單裡，有下列的選單: . | 重新取得控制版資訊 : 此按鈕可以取得USB連線中的控制板資訊，該資訊可以用來確認控制板是否正常連接。 | . 內建設計樣板 . | 重新安裝內建設計樣板 : 重新載入博橡科技 Ubique Panel 產品，通常使用於更新 ADE 之後，想要確定新的文件樣版時使用。 | . 韌體更新 . | 瀏覽韌體檔案… : 更新 Ubique Panel 控制板上的韌體。 . 注意韌體更新需要: . | 取得更新的韌體檔案 : 會隨 ADE 更新版附贈，或是從博橡科技網頁單獨下載。 . | 使用USB線與 Ubique Panel 控制板連接。 . | . | . 舊載入器更新 . | 瀏覽載入器檔案… : 更新 Ubique Panel 控制板上的 BootLoader。 . 注意 Bootloader 更新需要: . | 取得更新的 Bootloader 檔案 : 請聯繫support@iot-hmi.com取得。 . | 使用USB線與 Ubique Panel 控制板連接。 . | . | . 與電腦同步Ubique屏上時鐘 . | 執行同步 : 設定 Ubique Panel 控制板上的時間與執行 ADE 的電腦系統時間同步。 | . 回復Ubique屏之出廠設定 . | 執行回復 : 是強制讓 Ubique Panel 控制板回到出廠時的設定。此選項會清除 Ubique Panel 上所有圖資以及使用者儲存之資料。 | . 註解：除了重新安裝內建設計樣板，其餘功能皆需使用USB線與 Ubique Panel 控制板連接。 ",
-    "url": "/en/3.3.0/system_menu/setting/#%E5%AE%89%E8%A3%9D%E8%88%87%E6%9B%B4%E6%96%B0",
-    "relUrl": "/en/3.3.0/system_menu/setting/#安裝與更新"
+    "title": "Installation and Update",
+    "content": "Users can see the following buttons: . | Connected Board Information: This button can gather the information of the board connected via a USB cable to this computer. The gathered information can help verify if the board is connected properly. | . Default Document Template . | Reinstall Default Document Templates: Reloading the Ubique Panel product line. This button can be used after ADE is updated to a newer version and ensure that the new document templates are in use. | . Firmware Update . | Select Firmware Binary and Update…: Update the firmware in the Ubique Panel’s control board. The prerequisite of firmware update: . | The latest firmware: The firmware might be avaiable along with the lastest version of ADE or can be downloaded from our website. | Please connect to the Ubique Panel’s control board with a USB cable. | . | . Update Older Loader . | Select Loader Binary and Update…: Select the loader for the Ubique Panel and update the loader. Attention for the Bootloader update requirement: . | How to receive the updated Bootloader file: Please contactt support@iot-hmi.com. | Please connect to the Ubique Panel’s control board with a USB cable. | . | . Sync IOT Ubique Panel’s date/time with those of PC . | Execute: Updating the date/time of the Ubique Panel’s control board with the information from the PC running ADE. | . Factory Reset for IOT Ubique Panel . | Execute: Forcing the connected Ubique Panel to reset to the factory settings. This option will clear up all the user’s stored data or images in the Ubique Panel. | . Note: Other thanReintall Default Document Templates, all other functions require a USB connection to the Ubique Panel control board. ",
+    "url": "/en/3.3.0/system_menu/setting/#installation-and-update",
+    "relUrl": "/en/3.3.0/system_menu/setting/#installation-and-update"
   },"25": {
     "doc": "Setting",
     "title": "Setting",

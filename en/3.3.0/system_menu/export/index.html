@@ -340,51 +340,52 @@
     
 
 <p>The third pull-down menu offers option selection. Differet output types have different options. These options will be explained in details latter.</p>
-      <h2 id="匯出設計到ubique-panel">
+      <h2 id="exporting-to-ubique-panel">
         
         
-          <a href="#匯出設計到ubique-panel" class="anchor-heading" aria-labelledby="匯出設計到ubique-panel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出設計到Ubique Panel
+          <a href="#exporting-to-ubique-panel" class="anchor-heading" aria-labelledby="exporting-to-ubique-panel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Exporting to Ubique Panel
         
         
       </h2>
     
 
-<p>將HMI設定下載到系統板。</p>
-      <h3 id="連接控制板">
+<p>This exporting option downloads the HMI design from ADE to Ubique Panel.</p>
+      <h3 id="connecting-to-the-control-board">
         
         
-          <a href="#連接控制板" class="anchor-heading" aria-labelledby="連接控制板"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 連接控制板
+          <a href="#connecting-to-the-control-board" class="anchor-heading" aria-labelledby="connecting-to-the-control-board"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Connecting to the control board
         
         
       </h3>
     
-<p>使用前請先使用USB線連接 Ubique Panel 控制板與PC，ADE 在下載時會自動辨識連接中的控制板，但 ADE 不支援同時連接多個控制板，請確保一次只連接一個控制板。若需要確認插入USB線時，ADE 是否順利偵測到控制板，可由系統選單開啟設定對話盒，並切換到安裝與更新頁，於重新取得控制版資訊按鈕後方，會顯示連線中的控制版資訊，如下圖：</p>
+<p>Please connect the control board of Ubique Panel to the PC running ADE via a USB cable. ADE automatically recgonizes the connected control board. ADE does NOT support downloading to multiple boards simultaneously. Please make sure that your PC only connects to one single Ubique Panel’s control borad. If users would like to make sure that the Ubique Panel control board is connected to the PC propoerly, they can use Settings in System Menu to open up the following dialog box and select Installation and Update tab. Behind Get Board Information button, the connected control board’s information is shown:</p>
 
 <p><img src="/en/3.3.0/imgs/file1005.png" alt="連線中的控制版資訊" /></p>
 
-<p>如果無法取得控制版資訊，或是沒有任何控制板連接，則會顯示下圖：</p>
+<p>If no control board information available or no board connected, the following message is shown:</p>
 
 <p><img src="/en/3.3.0/imgs/file1004.png" alt="連線中的控制版資訊" /></p>
 
 <div class="note_container">
     <img src="/en/3.3.0/imgs/file277.png" alt="" />
     <span>
-        註解：若先啟動此頁後再用USB線連接控制板的話，可以按下重新取得控制版資訊鈕，以取得最新控制版資訊。詳請請參考<a href="/en/3.3.0/system_menu/setting/" alt="">設定對話盒</a>
+        Note: If this dialog box is opened before establishing USB connection with the Ubique Panel control board, please click Get Board Information button again for retrieving the board information. Please refer to 
+        <a href="/en/3.3.0/system_menu/setting/" alt="">Settings</a>
     </span>
 </div>
-      <h3 id="匯出樣板">
+      <h3 id="template-1">
         
         
-          <a href="#匯出樣板" class="anchor-heading" aria-labelledby="匯出樣板"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板
+          <a href="#template-1" class="anchor-heading" aria-labelledby="template-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Template
         
         
       </h3>
     
-<p>此匯出類型目前只提供 Ubique Panel 匯出樣板。</p>
-      <h3 id="匯出選項">
+<p>Only Ubique Panel template is supported for exporting.</p>
+      <h3 id="options-1">
         
         
-          <a href="#匯出選項" class="anchor-heading" aria-labelledby="匯出選項"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項
+          <a href="#options-1" class="anchor-heading" aria-labelledby="options-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Options
         
         
       </h3>
@@ -392,39 +393,39 @@
 
 <ul>
   <li>
-    <p><strong>匯出目標</strong>：</p>
+    <p><strong>Destination</strong>：</p>
 
     <ol>
       <li>
-        <p>啟動 TFT 模擬器：點選此設定，ADE 會啟動 TFT 模擬器，並將HMI設計傳遞過去。選用此功能無需連接Ubique Panel 控制板，TFT 模擬器會出現在電腦螢幕上，使用者可以直接操作驗證設計的正確性。此模擬器無法模擬I/O操作。</p>
+        <p>Launch Simulation: If selected, ADE will launch the built-in simulator and export the HMI design to the simulator. Keep in mind that running the built-in simulator does not require the connection to the Ubique Panel control board. The simulator shows up on the screen and users can directly verify their HMI design. However, this built-in simulator can NOT simulate the I/O functions.</p>
       </li>
       <li>
-        <p>下載到屏：選取此功能，並用USB線連接Ubique Panel 控制板，會開始匯出以及下載，下載過程會以進度對話盒表示，並顯示相關訊息。若一切正常，則錯誤個數為0，下載視窗會顯示下載成功，並提示使用者關閉下載視窗。若下載失敗，下載視窗會繼續顯示，供使用者檢視錯誤訊息，錯誤會於訊息窗中以紅色文字顯示。如下圖例：</p>
+        <p>Download: If this option is selected and the Ubique Panel control board is connected via a USB cable, then the downloading will commence. The progress and the related messages are shown in “Exporting documents” dialog box. If everything works fine, the number of errors is zero and the dialog box will notify that the downloading is successfuuly done and prompt users to close this dialog box. If the downloading fails, the error messages, displayed in red, shows up in the dialog box for users to review:</p>
 
         <p><img src="/en/3.3.0/imgs/file1006.png" alt="正在匯出對話盒" /></p>
 
-        <p>錯誤個數不為0時，ADE不會將設計下載到 Ubique Panel，也不會啟動 TFT 模擬器。</p>
+        <p>If the error number is not zero, the HMI design is not downloaded to the Ubique Panel. Neither does ADE launch the built-in simulator.</p>
       </li>
       <li>
-        <p>匯出設計到檔案：此功能為客服目的，當使用者使用 ADE 設計 HMI 遇到問題時，可以將設計匯出成檔案，並發送給博橡科技客服協助除錯。</p>
+        <p>Save to File: This function is for technical support. When users runs into issues in using ADE, they can export their HMI to a file by using this option and send the saved file to our technical support team for debugging.</p>
       </li>
     </ol>
   </li>
 </ul>
-      <h2 id="匯出pdf">
+      <h2 id="exporting-to-pdf">
         
         
-          <a href="#匯出pdf" class="anchor-heading" aria-labelledby="匯出pdf"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出PDF<a name="exportPDF"></a>
+          <a href="#exporting-to-pdf" class="anchor-heading" aria-labelledby="exporting-to-pdf"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Exporting to PDF<a name="exportPDF"></a>
         
         
       </h2>
     
 
-<p>將設計頁轉換成 PDF 檔案匯出。</p>
-      <h3 id="匯出樣板-1">
+<p>This output type exports the HMI design to a PDF-formated file.</p>
+      <h3 id="template-2">
         
         
-          <a href="#匯出樣板-1" class="anchor-heading" aria-labelledby="匯出樣板-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
+          <a href="#template-2" class="anchor-heading" aria-labelledby="template-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Template：
         
         
       </h3>
@@ -432,16 +433,16 @@
 
 <ul>
   <li>
-    <p><strong>廣告匯出樣板</strong>：匯出 HMI 設計頁。</p>
+    <p><strong>Brochure Export Tempate</strong>: Export HMI design pages only.</p>
   </li>
   <li>
-    <p><strong>預設匯出樣板</strong>：匯出 HMI 設計頁面以及頁面說明。</p>
+    <p><strong>Default Export Template</strong>：Export HMI design pages along with the page note.</p>
   </li>
 </ul>
-      <h3 id="匯出選項-1">
+      <h3 id="option">
         
         
-          <a href="#匯出選項-1" class="anchor-heading" aria-labelledby="匯出選項-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出選項：
+          <a href="#option" class="anchor-heading" aria-labelledby="option"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Option:
         
         
       </h3>
@@ -449,65 +450,65 @@
 
 <ul>
   <li>
-    <p><strong>影像格式</strong>：選擇以向量圖形，或是像素圖形的方式匯出 HMI，大部分使用者嵌入的圖形或是元件，會被以像素圖形的方式匯出。</p>
+    <p><strong>Image Format</strong>：Both scalable/vector and bitmap/rasterized formats are supported for exporting HMI designs. In most cases, images inserted by the users will be exported in the bitmap/rasterized format.</p>
   </li>
   <li>
-    <p><strong>紙張尺寸</strong>：選擇A3、 A4、 A5、 Letter Legal以及Tabloid等常用尺寸。</p>
+    <p><strong>Page size</strong>：Support A3, A4, A5, Letter, Legae and Tabloid format.</p>
   </li>
   <li>
-    <p><strong>紙張方向</strong>：選擇輸出紙張方向為直印或是橫印。</p>
+    <p><strong>Orientation</strong>：Portrait or Landscape.</p>
   </li>
   <li>
-    <p><strong>行</strong>：選擇一頁 PDF 要一行設計頁或是兩行。</p>
+    <p><strong>Column</strong>：Select one or two columns per page.</p>
   </li>
   <li>
-    <p><strong>列</strong>：選擇一頁 PDF 要一列設計頁或是兩列。</p>
+    <p><strong>Row</strong>：Select one or two rows per page.</p>
   </li>
   <li>
-    <p><strong>背景</strong>：選擇匯出 PDF 檔案的背景顏色以及透明度。</p>
+    <p><strong>Backgroud</strong>：Set the background color and opacity for the exported PDF page.</p>
   </li>
   <li>
-    <p><strong>頁面邊界</strong>：當選擇預設 PDF 樣板時，可選擇頁面邊界，選項有：無、正常、較大。</p>
+    <p><strong>Margin</strong>： Set the margin for the exported PDF page. Three options are available: None, Normal, and Large.</p>
   </li>
   <li>
-    <p><strong>列印標題</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印標題。</p>
+    <p><strong>With Title</strong>：Select if the title is needed or not.</p>
   </li>
   <li>
-    <p><strong>頁首頁尾</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印頁首以及頁尾。</p>
+    <p><strong>With header/footer</strong>：Turn on or off the header and footer.</p>
   </li>
   <li>
-    <p><strong>列印頁面說明</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印頁面說明。</p>
+    <p><strong>With notes</strong>：Turn on or off the not.</p>
   </li>
   <li>
-    <p><strong>列印邊框</strong>：當選擇預設 PDF 樣板時，可選擇是否要列印邊框。</p>
+    <p><strong>Draw borders</strong>: Choose if border is drawn on the PDF exported pages.</p>
   </li>
 </ul>
 
-<p>匯出時會啟動檔案選擇對話盒，供使用者選擇輸出 PDF 檔案的名稱以及位置。若有同名檔案存在，則會提示是否覆蓋。但若是該檔案正被其他 PDF 瀏覽程式讀取，該檔案會被鎖定，而導致匯出失敗，此時只要關閉 PDF 瀏覽程式，再匯出一次即可解決。</p>
-      <h2 id="列印">
+<p>Before exporting, the file selection dialog box will appear allowing users to set the exported PDF file’s name and directory. If the file name alreay exists, the dialog box will ask if the existed file should be replaced or not. If this file is being viewed by other PDF reader, then it is locked and cannot be replaced. As a result, the exporting will fail. You can solve this problem by closing all the PDF readers that access this file and then re-export the HMI design.</p>
+      <h2 id="printing-format">
         
         
-          <a href="#列印" class="anchor-heading" aria-labelledby="列印"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 列印
-        
-        
-      </h2>
-    
-
-<p>匯出列印格式功能與匯出PDF功能相同。只是輸出目標為印表機。詳見<a href="#exportPDF">匯出PDF</a>。</p>
-      <h2 id="網頁格式">
-        
-        
-          <a href="#網頁格式" class="anchor-heading" aria-labelledby="網頁格式"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 網頁格式
+          <a href="#printing-format" class="anchor-heading" aria-labelledby="printing-format"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Printing Format
         
         
       </h2>
     
 
-<p>匯出 HTML 網頁格式。</p>
-      <h3 id="匯出樣板-2">
+<p>This output type share the same functionality as that of PDF except that this function output the HMI design directly to the printer. Please refer <a href="#exportPDF">匯出PDF</a>.</p>
+      <h2 id="web-page">
         
         
-          <a href="#匯出樣板-2" class="anchor-heading" aria-labelledby="匯出樣板-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 匯出樣板：
+          <a href="#web-page" class="anchor-heading" aria-labelledby="web-page"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Web Page
+        
+        
+      </h2>
+    
+
+<p>Exporting HMI design to HTML formated web page.</p>
+      <h3 id="template-3">
+        
+        
+          <a href="#template-3" class="anchor-heading" aria-labelledby="template-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Template:
         
         
       </h3>
@@ -515,14 +516,14 @@
 
 <ul>
   <li>
-    <p><strong>預設網頁樣板</strong>：輸出一頁HTML檔案</p>
+    <p><strong>Default HTML Template</strong>: Exporting HMI design to a signle-paged web pate.</p>
   </li>
   <li>
-    <p><strong>可點擊的設計頁原形網頁</strong>：輸出帶目錄頁的可點擊HTML頁面。</p>
+    <p><strong>Clickable Prototype HTML Template</strong>：Exporting HMI to a web page with hyper links.</p>
   </li>
 </ul>
 
-<p>匯出時開啟開啟檔案對話盒，讓使用者選擇匯出目錄，該目錄的內容會被清空，並寫入匯出資料。匯出後點選匯出目錄下的index.html，即可用瀏覽器開啟。</p>
+<p>The file selection dialog box appears prior to exporting for allowing users to select the exporting directory. The directory contents will be cleared completely and the exporting file will be written into this directory. After exporting, please click index.html for viewing your HMI design in a web browser.</p>
 
         
 
