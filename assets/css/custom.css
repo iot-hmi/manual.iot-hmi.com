@@ -79,6 +79,11 @@ img.img_icon {
     transform: translateY(15%);
 }
 
+img.widget_icon{
+    width: 6rem;
+    height: 6rem;
+}
+
 p.for_img_larger a {
     background: none;
 }
