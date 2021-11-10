@@ -281,99 +281,100 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="下載工具">
+          <h1 id="download">
         
         
-          <a href="#下載工具" class="anchor-heading" aria-labelledby="下載工具"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 下載工具
+          <a href="#download" class="anchor-heading" aria-labelledby="download"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> DOWNLOAD
         
         
       </h1>
     
-<p>下載工具的三個控制按鍵，如下圖所示:</p>
+<p>There are three buttons in this category:</p>
 
 <p><img src="/en/3.3.0/imgs/file22.png" alt="圖2-6 下載工具列" /></p>
-      <h2 id="下載到屏">
+      <h2 id="download-1">
         
         
-          <a href="#下載到屏" class="anchor-heading" aria-labelledby="下載到屏"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 下載到屏
+          <a href="#download-1" class="anchor-heading" aria-labelledby="download-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Download
         
         
       </h2>
     
-<p>最左邊的是下載到 Ubique Panel 控制板的按鍵:</p>
+<p>This button downloads the HMI design to Ubique Panel’s control board:</p>
 
 <p><img src="/en/3.3.0/imgs/file23.png" alt="圖2-7 下載鈕" /></p>
 
-<p>連接USB線並點擊按鍵即可將設計下載至控制板</p>
+<p>Please use a USB cable to connect to the control board and then press this button, the design can be  downloaded into the board.</p>
 
-<p>當下載成功時，ADE 會出現下面的彈出視窗:</p>
+<p>When download is successful, a pop-up window will show up:</p>
 
 <p><img src="/en/3.3.0/imgs/file24.png" alt="圖2-8 下載完成提示對話框" /></p>
 
-<p>這表示 HMI 設計已經成功下載到 Ubique Panel 的控制板上。下載時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。</p>
-      <h2 id="啟動模擬器">
+<p>This pop-up window informs the user that the HMI is successfully downloaded to Ubique Panel. The download time varies according to the sizes of the images. If any error occurs during the download process, the error message will be shown and the download will be stopped immediately.</p>
+      <h2 id="launch-simulator">
         
         
-          <a href="#啟動模擬器" class="anchor-heading" aria-labelledby="啟動模擬器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 啟動模擬器
+          <a href="#launch-simulator" class="anchor-heading" aria-labelledby="launch-simulator"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Launch Simulator
         
         
       </h2>
     
-<p>中間的按鍵是用來開啟內建的模擬器(Simulator):</p>
+<p>The middle button is to launch ADE’s built-in Simulator:</p>
 
 <p><img src="/en/3.3.0/imgs/file25.png" alt="圖2-9 啟動模擬器按鈕" /></p>
 
-<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者螢幕以及 Ubique Panel的規格差異)。</p>
+<p>The built-in simulator allows users to simulate their HMI design in ADE. In this simulator, users can use mouse to interact with the HMI design. This simulator supports What-You-See-Is-What-You-Get. The resolution of the simulator meets that of the target Ubique Panel. However, the color of HMI in the simulator can not be 100% the same as that of Ubique Panel.</p>
 
-<p>模擬器無法於個人電腦模擬 Ubique Panel 上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。</p>
-      <h2 id="啟動屏通訊程式messenger">
+<p>The built-in simulator cannot simulate the I/O functionalities like GPIO, PWM and ADC. On the other hand, the simulator supports the communcation protocol used by Ubique Panel.</p>
+      <h2 id="launch-messegner">
         
         
-          <a href="#啟動屏通訊程式messenger" class="anchor-heading" aria-labelledby="啟動屏通訊程式messenger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 啟動屏通訊程式(Messenger)
+          <a href="#launch-messegner" class="anchor-heading" aria-labelledby="launch-messegner"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Launch Messegner
         
         
       </h2>
     
-<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
+<p>The messenger 
+The messager can be used to communicated with the connected Ubique Panel or with the built-in simulator.</p>
 
 <p><img src="/en/3.3.0/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
 
-<p>如果打開對外通訊的屏通訊程式(Messenger)，會出現以下視窗:</p>
+<p>After Launch Messenger button is pressed, “IOT Messenger” dialog box will appear:</p>
 
 <p><img src="/en/3.3.0/imgs/file27.png" alt="圖2-11 Messenger視窗" /></p>
 
-<p>在這視窗中，使用者可以透過個人電腦的序列埠或是網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
+<p>In this dialog box, users can use PC’s serial port and network interface to connect to Ubique Panel or the built-in simulator. The communication protocol is based on IOT’s proprietary protocol and will be described in details later. The messenger emulates the communication between an external MCU and the Ubique Panel via a UART interface.</p>
 
-<p>通訊分為兩種方法：一種為透過網路Socket，另一種為序列埠</p>
+<p>Messenger offers two communication methods: Network Socket and Serial Port.</p>
 
-<p>如果透過網路Socket，則需要設定IP位址和通訊埠；如果透過序列埠則需要設定鮑率</p>
+<p>If Network Socket is selected, IP addfress, Port number must be set; if Serial Port is used, Baudrate must be set.</p>
 
 <ul>
   <li>
-    <p>Command Type：選擇Set Register，設定暫存器內容；或者Get Register，取得暫存器內容</p>
+    <p>Command Type: Set Register is to write a value to a register; Get Register is to read the content of a register.</p>
   </li>
   <li>
-    <p>Register ID：指定要進行操作的暫存器序號</p>
+    <p>Register ID: Set the ID of the reigster to which commands are performed.</p>
   </li>
   <li>
-    <p>Data Type：選擇要設定的資料型態，Set Register時有效</p>
+    <p>Data Type: Select the data type. This is valid only during Set Register operations.</p>
   </li>
   <li>
-    <p>Data Length：選擇要設定的資料長度，Set Register時有效</p>
+    <p>Data Length: Set the data length in bytes. This is valid only during Set Register operations.</p>
   </li>
   <li>
-    <p>Data：設定資料，Set Register時有效</p>
+    <p>Data: The data itself. This is valid only during Set Register operations.</p>
   </li>
   <li>
-    <p>Ack Test：確認連接是否正常，詳情參考<a href="#ack-test">Ack Test</a></p>
+    <p>Ack Test: Verifying the connection. Please refer to <a href="#ack-test">Ack Test</a>.</p>
   </li>
 </ul>
 
-<p>以下詳細說明與模擬器以及 Ubique Panel 通訊方法:</p>
-      <h3 id="利用屏通訊程式messenger和模擬器通訊">
+<p>The communication between the built-in simulator and Ubique Panel will be described in details:</p>
+      <h3 id="use-messenger-to-communicate-with-the-built-in-simulator">
         
         
-          <a href="#利用屏通訊程式messenger和模擬器通訊" class="anchor-heading" aria-labelledby="利用屏通訊程式messenger和模擬器通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 利用屏通訊程式(Messenger)和模擬器通訊
+          <a href="#use-messenger-to-communicate-with-the-built-in-simulator" class="anchor-heading" aria-labelledby="use-messenger-to-communicate-with-the-built-in-simulator"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Use Messenger to communicate with the built-in simulator
         
         
       </h3>
@@ -381,39 +382,39 @@
 
 <ul>
   <li>
-    <p>首先用 ADE 開啟一個既有設計</p>
+    <p>First, please open a design in ADE.</p>
 
-    <p>確認IOConfig頁面UART為啟動且UART鮑率正確且暫存器已選取</p>
+    <p>In IOConfig page, please make sure that UART is activated, Baudrate is accurate and UART Value Register is bound to a register.</p>
 
     <p><img src="/en/3.3.0/imgs/file28.png" alt="圖2-12 IOConfig頁面-UART設定" /></p>
   </li>
   <li>
-    <p>到暫存器編輯視窗找到欲進行通訊的暫存器並勾選<strong>自動通訊上傳</strong></p>
+    <p>In the Register Table, please check <strong>Sent to host</strong> for those registers that will be used for communication.</p>
 
     <p><img src="/en/3.3.0/imgs/file29.png" alt="圖2-13 暫存器編輯視窗" /></p>
   </li>
   <li>
-    <p>打開屏通訊程式(Messenger)視窗與模擬器，進行以下操作</p>
+    <p>Launch Messegner and perform the following operations:</p>
 
     <p><img src="/en/3.3.0/imgs/file30.png" alt="圖2-14 Messenger和模擬器通訊" /></p>
 
     <ol>
       <li>
-        <p>設定Socket</p>
+        <p>Set Socket</p>
       </li>
       <li>
-        <p>點擊連接，連接成功會看到彈出信息框顯示成功</p>
+        <p>Click Connect. If the connection is ready, a pop-up message box tells users if the connection is valid or not.</p>
       </li>
       <li>
-        <p>點擊連接確認，屏通訊程式(Messenger)會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
+        <p>Click Ack Test then Messeenger will send out a connection verification command. If the simulator receives the command successfully, then a ACK command is sent back to the messenger.</p>
       </li>
       <li>
-        <p>連接正常，接收確認資訊ack</p>
+        <p>If the connection is ready, ACK will be recevied by the messenger after sending a command.</p>
       </li>
       <li>
-        <p>通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
+        <p>For communication commands, please refer to <a href="#iot-protocol">博橡通訊協定</a> more more details.</p>
 
-        <p>選擇 Set Register 表示要寫入暫存器內容，並且設定暫存器序號以及要寫入的資料和型態，該暫存器ID以及資料型態必須與ADE設計專案內暫存器設定相符。</p>
+        <p>When Set Register is used, users have to enter the register ID and Data Type. The ID and the data type must match those of the registers set in ADE.</p>
       </li>
       <li>
         <p>模擬器接收通訊指令且模擬器上會依通訊指令修改對應暫存器數值，若該暫存器有對應的顯示元件則模擬器進行相對應的顯示</p>
@@ -423,10 +424,10 @@
     <p><img src="/en/3.3.0/imgs/file31.png" alt="圖2-15 模擬器顯示通訊結果" /></p>
   </li>
 </ul>
-      <h3 id="屏通訊程式messenger與ubique-panel通訊">
+      <h3 id="communication-between-messenger-and-ubique-panel">
         
         
-          <a href="#屏通訊程式messenger與ubique-panel通訊" class="anchor-heading" aria-labelledby="屏通訊程式messenger與ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式(Messenger)與Ubique Panel通訊
+          <a href="#communication-between-messenger-and-ubique-panel" class="anchor-heading" aria-labelledby="communication-between-messenger-and-ubique-panel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Communication between Messenger and Ubique Panel
         
         
       </h3>
@@ -434,22 +435,22 @@
 
 <ul>
   <li>
-    <p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
+    <p>Please download the HMI design to Ubique Panel.</p>
   </li>
   <li>
-    <p>之後利用電腦UART(eg.USB to TTL模組)連接控制板的TX、RX、GND</p>
+    <p>Please use a USB-to-UART cable to connect PC’s USB port with Ubiqu Panel’s UART.</p>
   </li>
   <li>
-    <p>連接完成後打開屏通訊程式(Messenger)視窗</p>
+    <p>Launch Messenger.</p>
 
     <p><img src="/en/3.3.0/imgs/file32.png" alt="" /></p>
 
     <ol>
       <li>
-        <p>設定序列埠，利用<strong>Scan</strong>掃描更新序列埠，選擇正確的序列埠並設定鮑率</p>
+        <p>Set the Serial Port. Users can use <strong>Scan</strong> for scanning the available serial ports. Then a correct baudrate must be set as well.</p>
       </li>
       <li>
-        <p>點擊<strong>Ack Test</strong>確認連接</p>
+        <p>Clik <strong>Ack Test</strong> for testing the connectivity.</p>
       </li>
       <li>
         <p>連接正常，接收到ack訊息</p>
