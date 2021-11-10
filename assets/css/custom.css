@@ -79,7 +79,7 @@ img.img_icon {
     transform: translateY(15%);
 }
 
-img.widget_icon{
+img.widget_icon {
     width: 6rem;
     height: 6rem;
 }
@@ -98,12 +98,16 @@ div.note_container {
     color: gray;
 }
 
-div.note_container img{
+div.note_container img {
     width: 1.5rem;
     height: 1.5rem;
     vertical-align: middle;
 }
 
-div.note_container span{
+div.note_container span {
     vertical-align: middle;
+}
+
+.lang_select {
+    font-size: 0.8rem;
 }
