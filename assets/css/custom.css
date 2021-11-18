@@ -6,15 +6,6 @@ html * {
     font-size: 0.9rem;
 }
 
-.side-bar {
-    width: auto;
-}
-
-.main {
-    margin-left: 264px;
-    max-width: 80vw;
-}
-
 .main-content h1 {
     font-size: 2rem !important;
     margin-top: 1rem !important;
@@ -110,4 +101,24 @@ div.note_container span {
 
 .lang_select {
     font-size: 0.8rem;
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width: 500px) {}
+
+@media (min-width: 800px) {}
+
+@media (min-width: 1064px) {}
+
+@media (min-width: 1400px) {
+
+    .side-bar {
+        width: auto;
+    }
+
+    .main {
+        margin-left: 264px;
+        max-width: 80vw;
+    }
 }
