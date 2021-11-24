@@ -2185,7 +2185,7 @@
   },"364": {
     "doc": "程式工具",
     "title": "暫存器編輯視窗",
-    "content": "最左邊是用來呼叫暫存器編輯視窗(Register Table)的按鍵： . 按下此按鍵之後，暫存器編輯視窗出現： . 在暫存器編輯視窗中，會列出整個 HMI 設計的專案中所有用到的系統暫存器，包含 ADE 內建的暫存器。使用者也可以自訂暫存器，自訂的暫存器會排列在系統暫存器之後。暫存器的使用是 ADE 重要的觀念，我們會有專章說明解釋暫存器綁定(Register Binding)的觀念和做法，詳請參考暫存器。 . 勾選自動通訊上傳則在執行時期若此暫存器內容有變化，會透過博橡通訊協定將暫存器內容利用UART與另一個系統(eg. Arduino)進行通訊 . 執行時期：在TFT模擬器或在Ubique Panel上執行 . 點選驗證鈕可以開啟Blockly編輯器，對暫存器內容進行驗證 . 以下為驗證的範例： . 當暫存器內容有變化，驗證input_value是否符合 寫入暫存器的內容長度必須大於等於四 的驗證，若符合驗證函式則return valid，否則return invalid . | input_value：準備要寫入暫存器的內容 . | return valid：將input_value寫入暫存器 . | return invalid：維持暫存器舊值 . | . 如果使用者沒有return valid或return invalid，暫存器值的變化沒有定義，在ADE 3.3.0版本沒有return會視為valid，定義可能會隨ADE版本而改變 . ",
+    "content": "最左邊是用來呼叫暫存器編輯視窗(Register Table)的按鍵： . 按下此按鍵之後，暫存器編輯視窗出現： . 在暫存器編輯視窗中，會列出整個 HMI 設計的專案中所有用到的系統暫存器，包含 ADE 內建的暫存器。使用者也可以自訂暫存器，自訂的暫存器會排列在系統暫存器之後。暫存器的使用是 ADE 重要的觀念，我們會有專章說明解釋暫存器綁定(Register Binding)的觀念和做法，詳請參考暫存器。 . 勾選自動通訊上傳則在執行時期若此暫存器內容有變化，會透過博橡通訊協定將暫存器內容利用UART與另一個系統(eg. Arduino)進行通訊 . 註解：執行時期指的是在TFT模擬器或在Ubique Panel上執行 點選驗證鈕可以開啟Blockly編輯器，對暫存器內容進行驗證 . 以下為驗證的範例： . 當暫存器內容有變化，驗證input_value是否符合 寫入暫存器的內容長度必須大於等於四 的驗證，若符合驗證函式則return valid，否則return invalid . | input_value：準備要寫入暫存器的內容 . | return valid：將input_value寫入暫存器 . | return invalid：維持暫存器舊值 . | . 如果使用者沒有return valid或return invalid，暫存器值的變化沒有定義，在ADE 3.3.0版本沒有return會視為valid，定義可能會隨ADE版本而改變 . ",
     "url": "/zh-tw/3.3.0/toolbars/xtools/#%E6%9A%AB%E5%AD%98%E5%99%A8%E7%B7%A8%E8%BC%AF%E8%A6%96%E7%AA%97",
     "relUrl": "/zh-tw/3.3.0/toolbars/xtools/#暫存器編輯視窗"
   },"365": {

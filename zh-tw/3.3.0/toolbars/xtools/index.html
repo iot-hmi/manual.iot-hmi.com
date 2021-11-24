@@ -312,13 +312,18 @@
 
 <p>勾選<strong>自動通訊上傳</strong>則在執行時期若此暫存器內容有變化，會透過<a href="/zh-tw/3.3.0/toolbars/download/index.html#iot-protocol">博橡通訊協定</a>將暫存器內容利用UART與另一個系統(eg. Arduino)進行通訊</p>
 
-<p><em>執行時期：在TFT模擬器或在Ubique Panel上執行</em></p>
+<div class="note_container">
+    <img src="/zh-tw/3.3.0/imgs/file277.png" alt="" />
+    <span>
+        註解：執行時期指的是在TFT模擬器或在Ubique Panel上執行
+    </span>
+</div>
 
 <p>點選驗證鈕可以開啟Blockly編輯器，對暫存器內容進行驗證</p>
 
 <p>以下為驗證的範例：</p>
 
-<p>當暫存器內容有變化，驗證input_value是否符合 <em>寫入暫存器的內容長度必須大於等於四</em> 的驗證，若符合驗證函式則<strong>return valid</strong>，否則<strong>return invalid</strong></p>
+<p>當暫存器內容有變化，驗證<strong>input_value</strong>是否符合 <em>寫入暫存器的內容長度必須大於等於四</em> 的驗證，若符合驗證函式則<strong>return valid</strong>，否則<strong>return invalid</strong></p>
 
 <ul>
   <li>
