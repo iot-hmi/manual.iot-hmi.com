@@ -281,98 +281,99 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="程式工具">
+          <h1 id="xtools">
         
         
-          <a href="#程式工具" class="anchor-heading" aria-labelledby="程式工具"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 程式工具
+          <a href="#xtools" class="anchor-heading" aria-labelledby="xtools"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> XTOOLS
         
         
       </h1>
     
-<p>程式工具的三個控制按鍵，如下圖所示:</p>
+<p>There are three buttons in XTOOLS:</p>
 
 <p><img src="/en/3.3.0/imgs/file43.png" alt="圖2-19 XTools工具列" /></p>
-      <h2 id="暫存器編輯視窗">
+      <h2 id="register-table-editor">
         
         
-          <a href="#暫存器編輯視窗" class="anchor-heading" aria-labelledby="暫存器編輯視窗"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器編輯視窗
+          <a href="#register-table-editor" class="anchor-heading" aria-labelledby="register-table-editor"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Register Table Editor
         
         
       </h2>
     
-<p>最左邊是用來呼叫暫存器編輯視窗(Register Table)的按鍵:</p>
+<p>The left-hand side button is to call out the register table editor:</p>
 
 <p><img src="/en/3.3.0/imgs/file44.png" alt="圖2-20 啟動暫存器編輯視窗" /></p>
 
-<p>按下此按鍵之後，暫存器編輯視窗出現:</p>
+<p>If clicked, the register table editor pops up:</p>
 
 <p><img src="/en/3.3.0/imgs/file45.png" alt="圖2-21 暫存器編輯視窗" /></p>
 
-<p>在暫存器編輯視窗中，會列出整個 HMI 設計的專案中所有用到的系統暫存器，包含 ADE 內建的暫存器。使用者也可以自訂暫存器，自訂的暫存器會排列在系統暫存器之後。暫存器的使用是 ADE 重要的觀念，我們會有專章說明解釋暫存器綁定(Register Binding)的觀念和做法，詳請參考<a href="/en/3.3.0/register/">暫存器</a>。</p>
+<p>In this register editor, all the regsiters used in this HMI project are shown. These registers include the built-in system registers, and user-defined registers. The user-defined registers are listed below the system registers. Regisers are critical in ADE. In order to use ADE to design HMIs, users must be familiar with the concept and usage of regiser binding. Please refer to 
+<a href="/en/3.3.0/register/">暫存器</a> for more details.</p>
 
-<p>勾選<strong>自動通訊上傳</strong>則在執行時期若此暫存器內容有變化，會透過<a href="/en/3.3.0/toolbars/download/index.html#iot-protocol">博橡通訊協定</a>將暫存器內容利用UART與另一個系統(eg. Arduino)進行通訊</p>
+<p>Any registerw with “Send to host” option checked, any change of this regiser’s value during the HMI execution triggers a communication via UART for sending this register’s updated value to an external system (eg. Arduino). The default communication protocol is described in <a href="/en/3.3.0/toolbars/download/index.html#iot-protocol">博橡通訊協定</a>.</p>
 
-<p><em>執行時期：在TFT模擬器或在Ubique Panel上執行</em></p>
+<p>Clicking <strong>Validation</strong> invokes Blockly editor.</p>
 
-<p>點選驗證鈕可以開啟Blockly編輯器，對暫存器內容進行驗證</p>
+<p>Clicking Validation button will pop up Blockly editor. We can use a Blockly program to vailidate the value of the register before updating the register. If the incoming value is validated, then the register is updated with that value. If the incoming value is rejected, the content of the register remains unchanged.</p>
 
-<p>以下為驗證的範例：</p>
+<p>A Validation example：</p>
 
-<p>當暫存器內容有變化，驗證input_value是否符合 <em>寫入暫存器的內容長度必須大於等於四</em> 的驗證，若符合驗證函式則<strong>return valid</strong>，否則<strong>return invalid</strong></p>
+<p>Whenever there is a change for the register’s content, the validation funciton, input_value, checks if the incoming change meets the requirement, the length of the value must be longer than or equal to 4. If the length meets the requirement, <strong>return valid</strong> is returned; otherwise, <strong>return invalid</strong> is returned.</p>
 
 <ul>
   <li>
-    <p>input_value：準備要寫入暫存器的內容</p>
+    <p>input_value: Values about to be written into a register</p>
   </li>
   <li>
-    <p>return valid：將input_value寫入暫存器</p>
+    <p>return valid: Write input_value into the register</p>
   </li>
   <li>
-    <p>return invalid：維持暫存器舊值</p>
+    <p>return invalid: The content of the register remains unchaged</p>
   </li>
 </ul>
 
-<p><strong>如果使用者沒有return valid或return invalid，暫存器值的變化沒有定義，在ADE 3.3.0版本沒有return會視為valid，定義可能會隨ADE版本而改變</strong></p>
-
-<p><em>寫入暫存器的內容長度必須大於等於四，否則不予以寫入</em></p>
+<p><strong>The length of the data must be larger than or equal to four; otherwise the data is rejected</strong></p>
 
 <p><img src="/en/3.3.0/imgs/file46.png" alt="圖2-22 暫存器內容驗證" /></p>
-      <h2 id="全域積木函數編輯視窗">
+      <h2 id="global-function-blockly-editor">
         
         
-          <a href="#全域積木函數編輯視窗" class="anchor-heading" aria-labelledby="全域積木函數編輯視窗"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 全域積木函數編輯視窗
+          <a href="#global-function-blockly-editor" class="anchor-heading" aria-labelledby="global-function-blockly-editor"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Global Function Blockly Editor
         
         
       </h2>
     
-<p>第二個是用來啟動系統全域函數積木編輯視窗的按鍵:</p>
+
+<p>The middle button of XTOOLS is to call out the Global Function Blockly Editor:</p>
 
 <p><img src="/en/3.3.0/imgs/file47.png" alt="圖2-23 全域Blockly Function編輯器啟動鈕" /></p>
 
-<p>按下後，全域函數Blockly編輯視窗(Blockly Editor)便會打開:</p>
+<p>The Editor window pops up after the button is pressed:</p>
 
 <p><img src="/en/3.3.0/imgs/file48.png" alt="圖2-24 Blockly編輯器" /></p>
 
-<p>在這個編輯視窗所編輯的 Blockly 程式是全域的(global)，也就是說在 HMI 設計中，每一個地方都可以看的到。這不同於個別元件的 Blockly 函式只能鎖在元件中。</p>
+<p>In this editor window, users can write Blockly programs that is valid globally in a HMI project. In other words, these Blockly programs are visible everywhere throughout the HMI project, unlike the individual widget’s Blockly function, which is only valid for the widget.</p>
 
-<p>Blockly 是一種視覺化程式設計語言，是一種開源的程式語言，使用者可以到下面的網站獲取更多相關資訊:</p>
+<p>Blockly is a visual programming language and it’s an open-source languae. Users can find more information in the following website:</p>
 
 <p><a href="https://developers.google.com/blockly" target="_blank">https://developers.google.com/blockly</a></p>
-      <h2 id="系統就緒回呼函數blockly編輯視窗">
+      <h2 id="system-ready-callback-function-blockly-editor">
         
         
-          <a href="#系統就緒回呼函數blockly編輯視窗" class="anchor-heading" aria-labelledby="系統就緒回呼函數blockly編輯視窗"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 系統就緒回呼函數Blockly編輯視窗
+          <a href="#system-ready-callback-function-blockly-editor" class="anchor-heading" aria-labelledby="system-ready-callback-function-blockly-editor"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> System Ready Callback Function Blockly Editor
         
         
       </h2>
     
-<p>第三個為開啟系統就緒後執行函數的編輯視窗的按鍵:</p>
+
+<p>The right hand-side button of XTOOLS is for System Ready Callback Function program editor:</p>
 
 <p><img src="/en/3.3.0/imgs/file49.png" alt="圖2-25 系統就緒後執行函數編輯器啟動鈕" /></p>
 
-<p>按下後Blockly編輯器(Blockly Editor)便會打開，在此編輯器可以編輯系統就緒後執行的函數</p>
+<p>Once users press this button, a Blockly Editor window pops up. Users can enter Blockly programs for the system ready callback purpose.</p>
 
-<p>在載入第一頁畫面前，系統就緒後執行函數就會被執行</p>
+<p>The system ready callback function is to be executed right away once the HMI system is ready after powering up.</p>
 
         
 

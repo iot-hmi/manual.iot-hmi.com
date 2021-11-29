@@ -453,23 +453,23 @@ The messager can be used to communicated with the connected Ubique Panel or with
         <p>Clik <strong>Ack Test</strong> for testing the connectivity.</p>
       </li>
       <li>
-        <p>連接正常，接收到ack訊息</p>
+        <p>If connection is normal, ack message is received.</p>
       </li>
       <li>
-        <p>設定並傳送通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
+        <p>Set up and send communication instructions. Please refer to <a href="#iot-protocol">博橡通訊協定</a> for more details.</p>
       </li>
     </ol>
   </li>
   <li>
-    <p>接下來即可在 Ubique Panel 上看到相對應的顯示</p>
+    <p>Then you can see the reaction in Ubique Panel.</p>
 
     <p><img src="/en/3.3.0/imgs/file33.png" alt="" /></p>
   </li>
 </ul>
-      <h3 id="ubique-panel-和-mcu-通訊">
+      <h3 id="communication-between-ubique-panel-and-mcu">
         
         
-          <a href="#ubique-panel-和-mcu-通訊" class="anchor-heading" aria-labelledby="ubique-panel-和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel 和 MCU 通訊
+          <a href="#communication-between-ubique-panel-and-mcu" class="anchor-heading" aria-labelledby="communication-between-ubique-panel-and-mcu"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Communication between Ubique Panel and MCU
         
         
       </h3>
@@ -477,21 +477,21 @@ The messager can be used to communicated with the connected Ubique Panel or with
 
 <ul>
   <li>
-    <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博橡通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
+    <p>First, please prepare an ADE project and set the registers up properly. Please refer to our communication protocol <a href="#iot-protocol">博橡通訊協定</a> for writing the Arduino code. Then the data can be sent to the registers with designated IDs.</p>
   </li>
   <li>
-    <p>其次，連接博橡控制板與Arduino控制板的TX、RX和GND</p>
+    <p>Then, connect IOT’s control board with Aurdino. Make sure you connect RX, TX and GND.</p>
 
     <p><img src="/en/3.3.0/imgs/file42.png" alt="" /></p>
   </li>
   <li>
-    <p>將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。</p>
+    <p>Please download ADE project to our control board and Arduino program to the Arduino board. Turn on the power, the commuication starts.</p>
   </li>
 </ul>
-      <h3 id="博橡uart通訊協定">
+      <h3 id="iots-uart-protocol-">
         
         
-          <a href="#博橡uart通訊協定" class="anchor-heading" aria-labelledby="博橡uart通訊協定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博橡UART通訊協定<a name="iot-protocol"></a>
+          <a href="#iots-uart-protocol-" class="anchor-heading" aria-labelledby="iots-uart-protocol-"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> IOT’s UART Protocol <a name="iot-protocol"></a>
         
         
       </h3>
@@ -589,7 +589,7 @@ The messager can be used to communicated with the connected Ubique Panel or with
   </li>
 </ul>
 
-<p>博橡Arduino Library可參考<a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino" target="_blank">IOT Binary Protocol</a></p>
+<p>For IOT’s Arduino Library, please refer to <a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino" target="_blank">IOT Binary Protocol</a> for more details.</p>
       <h3 id="ack-test">
         
         
@@ -598,32 +598,32 @@ The messager can be used to communicated with the connected Ubique Panel or with
         
       </h3>
     
-<p>確認連線是否正常，點擊<strong>Ack Test</strong>，系統會自動送出<strong>16</strong>，收到<strong>ack</strong>則表示連線正常，沒有收到<strong>ack</strong>則表示連線失敗</p>
+<p>In order to ensure that the connection is established properly, users can click <strong>Ack Test</strong>. Once clicked, the system will send out <strong>16</strong>. If <strong>ack</strong> is received, the the connection is in order; otherwise, the connection is not established yet.</p>
 
 <p><img src="/en/3.3.0/imgs/file269.png" alt="Ack" /></p>
 
 <ul>
   <li>
-    <p>使用網路Socket</p>
+    <p>Use Network Socket</p>
 
-    <p>連線失敗建議檢查IP位址與通訊埠是否正確，是否有點擊<strong>Connect</strong>進行連線</p>
+    <p>If connection fails, it is recommended to check the IP address and the port number are correctly assigned. Once assigned, users need to click <strong>Connect</strong> to establish connection.</p>
 
-    <p>如果連線成功會看到<strong>Connect is OK</strong>的提示訊息，點擊確定後在屏通訊程式(Messenger)的網路Socket處會看到<strong>Connected</strong>的字樣</p>
+    <p>If the connection is established property, <strong>Connection is OK</strong> message is prompted. Aferward, <strong>Connected</strong> is shown at the right-hand side of the Socket command row.</p>
 
     <p><img src="/en/3.3.0/imgs/file265.png" alt="連線成功" /></p>
 
     <p><img src="/en/3.3.0/imgs/file267.png" alt="Connected" /></p>
 
-    <p>如果連線失敗會看到<strong>Connect is FAILED</strong>的提示訊息，點擊確定後在屏通訊程式(Messenger)的網路Socket處會看到<strong>No Connection</strong>的字樣</p>
+    <p>If connection is not established, <strong>Connection FAILED</strong> message is prompted. Afterward, <strong>No Connection</strong> is show at the right-hand side of the Socket command row.</p>
 
     <p><img src="/en/3.3.0/imgs/file266.png" alt="連線失敗" /></p>
 
     <p><img src="/en/3.3.0/imgs/file268.png" alt="No Connection" /></p>
   </li>
   <li>
-    <p>使用序列埠</p>
+    <p>Use Serial Port</p>
 
-    <p>連線失敗建議檢查序列埠與鮑率是否正確，是否有點擊<strong>Set</strong>進行連線</p>
+    <p>If the connection is not established, please check the serial port assignment and baudrate setting. Then press <strong>Set</strong> for establishing connection.</p>
   </li>
 </ul>
 
