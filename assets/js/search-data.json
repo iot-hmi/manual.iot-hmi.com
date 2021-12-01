@@ -385,15 +385,15 @@
   },"64": {
     "doc": "Common Page",
     "title": "Common Pages",
-    "content": "HMI設計可以允許多個頁面，在ADE中可以設計多個頁面，再透過按鈕等元件在執行期切換。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解通用頁面 . | 教育影片 . | . 在工作區域下方的頁面清單可以看到所有頁面的縮圖 . | 搜尋過濾 : 當頁面太多時，點選搜尋過濾可節省搜尋頁面的時間 . | 新增頁面 : 點選新增頁面進行設定，新增頁面設定頁如下圖 . | 頁面名稱 : 設定頁面名稱，名稱不得重複 . | 頁面尺寸 : 設定頁面大小，可以利用慣用頁面大小清單選擇也可以自行輸入 . | 背景 : 設定背景採用方式，可選擇用背景顏色、透明背景或者將其他頁面作為背景 . 選擇背景顏色需要設定背景的主要顏色與漸層顏色 . | . | 收合鈕 : 收合/顯示頁面清單 . 於頁面縮圖上點擊右鍵，可以對頁面進行一些操作，操作如下 . | 複製此頁 : 複製此頁的頁面屬性與頁面內容作為新頁面 . | 刪除此頁 : 將此頁面以及頁面內容刪除，如果有頁碼選擇器使用到此頁面需注意 . | 移向左方 : 將此頁面的縮圖往左移 . | 移向右方 : 將此頁面的縮圖往右移 . | 前往 : 選擇要作為當前頁面的頁碼 . | 匯出此頁面作為PNG圖檔… : 將此頁面匯出成為PNG圖檔 . | 複製頁面作為點陣圖至剪貼簿 : 複製此頁面作為點陣圖至剪貼簿 . | 編輯頁面說明… : 編輯頁面說明，當匯出成PDF或者HTML檔時，會作為註解寫於頁面下方 . | 編輯頁面屬性 : 編輯頁面屬性，像是頁面名稱、頁面大小以及背景 . | . ",
+    "content": "In any HMI design, multiple common pages are allowed. Users can design HMI with multiple common pages in ADE and use bottom widget to switch pages. Users can watch our educational videos to know more about common pages. | Educational Video . | . Below the design panel, users can see thumbnails of all the common pages. | Filter: Filter can be used to search pages. | Add Page: For adding a new page, please clik this button. A pop-up dialog window shows up: . | Page Name: Please specify a page name. The page name must be unique. | Page Size: Specify the size of the page in terms of resolution. Users can specify the size or choose the size from the existing products. | Background: Setting up the background. Users can choose a color for the background or choose a transparent background. Furthermore, users can select another page to serve as the background. If users choose background color, they can select the main color and gradient color as well. | . | Minimize/Maximize Button: Minimizing or maxmizing the page selection window. On any thumbnail, right click the mouse, an operation manu shows up: . | Duplicate: Duplicate this page including designs and attributes to a new page. | Delete: Delete this page. Watch out for any reference to this page. | Move Left: Move this thumbnail to the left. | Move Right: Move this thumnail to the right. | Go to: Go to the selected page for the design panel. | Export Page as PNG…: Export this page as a PNG file. | Copy Page Bitmap: Copy this page as a Bitmap file to the paste repository. 複製此頁面作為點陣圖至剪貼簿 . | Edit Page Note…: Edit user note for this page. When the HMI design is exported under PDF or HTML format, the note is placed at the bottom of each page. | Properties: Edit the properties for this page. The properties include page name, page size and background. | . ",
     "url": "/en/3.3.0/page/common_page/#common-pages",
     "relUrl": "/en/3.3.0/page/common_page/#common-pages"
   },"65": {
     "doc": "Common Page",
-    "title": "頁面管理",
-    "content": "ADE 利用system_page暫存器內容決定目前所顯示的頁面 . 將system_page初始值設定為新增頁面的名稱，可以改變開始畫面 . ",
-    "url": "/en/3.3.0/page/common_page/#%E9%A0%81%E9%9D%A2%E7%AE%A1%E7%90%86",
-    "relUrl": "/en/3.3.0/page/common_page/#頁面管理"
+    "title": "Page Management",
+    "content": "ADE uses system_page registers to decide which page to display. User can chnage the system_page value to switch pages. ",
+    "url": "/en/3.3.0/page/common_page/#page-management",
+    "relUrl": "/en/3.3.0/page/common_page/#page-management"
   },"66": {
     "doc": "Common Page",
     "title": "Common Page",
@@ -402,52 +402,52 @@
     "relUrl": "/en/3.3.0/page/common_page/"
   },"67": {
     "doc": "Special Page",
-    "title": "特殊頁面",
-    "content": "開啟新設計時，設計樣板會帶入兩個頁面，其中一個是空白頁，可以讓使用者開始HMI設計，第二的頁面是I/O Configuration頁面，提供使用者規劃GPIO，PWM，背光等功能。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解特殊頁面 . | 教育影片 . | . I/O Configuration 頁面如下圖: . 此頁面包含幾種元件 : 數位輸入/輸出、脈衝寬度調變/輸入擷取、類比輸入、UART、背光、即時時鐘、商標圖像 . ",
-    "url": "/en/3.3.0/page/special_page/#%E7%89%B9%E6%AE%8A%E9%A0%81%E9%9D%A2",
-    "relUrl": "/en/3.3.0/page/special_page/#特殊頁面"
+    "title": "Speical Page",
+    "content": "When users open a new deisgn, two pages by default show up. One is a blank page for HMI design and the other page is the I/O Configuration page, which allows users to configure I/O functionalities such as GPIO, PWM and ADC. To learn more about this I/O configuration page, users can watch our educational video: . | Educational Video . | . I/O Configuration page: . In this page, several I/O functions can be set: GPIO, PWM, Input Capture, ADC, UART, Backlight Control, RTC and Logo. ",
+    "url": "/en/3.3.0/page/special_page/#speical-page",
+    "relUrl": "/en/3.3.0/page/special_page/#speical-page"
   },"68": {
     "doc": "Special Page",
-    "title": "數位輸入/輸出",
-    "content": "數位輸入/輸出元件 : 以GPIO開始，加上一個數字代表I/O Pin編號(詳見 Ubique Panel Datasheet )，並以底線連接 IN 或是 OUT 表示該I/O點為輸入或是輸出。 . 元件左邊的圓點表示該I/O是否被致能。 . 不同的設計樣板可能啟動不同的I/O，詳情見各產品Datasheet。 . 數位輸入/輸出元件的設定以及使用方式詳見 數位輸入/輸出元件 . ",
-    "url": "/en/3.3.0/page/special_page/#%E6%95%B8%E4%BD%8D%E8%BC%B8%E5%85%A5%E8%BC%B8%E5%87%BA",
-    "relUrl": "/en/3.3.0/page/special_page/#數位輸入輸出"
+    "title": "GPIO",
+    "content": "Digital Input/Output Pins: The name starts with GPIO with a serial number attached (Ubique Panel Datasheet ), then an underline is added along with IN or OUT for specifying input or ouput pin. The red dot on the left-hand size of the pin flags if this pin is activated or not. Different products have different I/O pin assignments or function. Please refer to the product’s datasheet for more details. For instructions on how to setup GPIO, please refer to 數位輸入/輸出元件. ",
+    "url": "/en/3.3.0/page/special_page/#gpio",
+    "relUrl": "/en/3.3.0/page/special_page/#gpio"
   },"69": {
     "doc": "Special Page",
-    "title": "脈衝寬度調變/輸入擷取",
-    "content": "脈衝寬度調變/輸入擷取元件 : 以IOPWM開頭，加上一個數字代表PWM Pin編號(詳見 Ubique Panel Datasheet )，用以設定PWM輸出的各種參數。 . 作為輸入擷取元件時，用以計算一定時間內輸入的脈波次數，此元件以與PWM元件命名方法相同，末尾加上 _IC . 元件左邊的圓點表示該PWM是否被致能。 . 脈衝寬度調變/輸入擷取元件的設定以及使用方式詳見 脈衝寬度調變/輸入擷取 . ",
-    "url": "/en/3.3.0/page/special_page/#%E8%84%88%E8%A1%9D%E5%AF%AC%E5%BA%A6%E8%AA%BF%E8%AE%8A%E8%BC%B8%E5%85%A5%E6%93%B7%E5%8F%96",
-    "relUrl": "/en/3.3.0/page/special_page/#脈衝寬度調變輸入擷取"
+    "title": "PWM/Input Capture",
+    "content": "PWM/Input Capture Pin: The name starts with IPOWM with a serial number (詳見 Ubique Panel Datasheet ). Input Capture counts the number of input pulses within a time frame. When a pin is assigned to be Input Caputre, “_IC” is added as the suffix. The red dot on the left-hand side flags if this pin is activated or not. For more details regarding PWM/Input Capture mode, please refer to 脈衝寬度調變/輸入擷取 for more details. ",
+    "url": "/en/3.3.0/page/special_page/#pwminput-capture",
+    "relUrl": "/en/3.3.0/page/special_page/#pwminput-capture"
   },"70": {
     "doc": "Special Page",
-    "title": "類比輸入",
-    "content": "類比輸入元件 : 用以讀取類比輸入值，以ADC開頭，加上數字代表ADC Pin編號(詳見 Ubique Panel Datasheet )，末尾再加上 _IN。 . 元件左邊的圓點表示該ADC是否被致能。 . 類比輸入元件的設定以及使用方式詳見 類比輸入 . ",
-    "url": "/en/3.3.0/page/special_page/#%E9%A1%9E%E6%AF%94%E8%BC%B8%E5%85%A5",
-    "relUrl": "/en/3.3.0/page/special_page/#類比輸入"
+    "title": "ADC",
+    "content": "ADC Pin: The name starts with ADC with a serial number and “_IN” is added as the suffix. (詳見 Ubique Panel Datasheet ) . The red dot on the left-hand side flags if this pin is activated or not. For more details regarding ADC, please refer to 類比輸入 for more details. ",
+    "url": "/en/3.3.0/page/special_page/#adc",
+    "relUrl": "/en/3.3.0/page/special_page/#adc"
   },"71": {
     "doc": "Special Page",
     "title": "UART",
-    "content": "UART元件 : 用來設定UART通訊組態，關於UART連接Pin以及通訊協定請參閱 Ubique Panel Datasheet . 元件左邊的圓點表示該UART是否被致能，通訊功能是預設啟動的。 . UART元件的設定以及使用詳見 UART元件 . ",
+    "content": "UART: It is used for communication. For the pin assignment and the communication protocl, please refer to Ubique Panel Datasheet for more details. The red dot on the left-hand side flags if this UART is activated or not. The UART is on by default. For more details regarding this UART interface, please refer to UART元件 for more details. ",
     "url": "/en/3.3.0/page/special_page/#uart",
     "relUrl": "/en/3.3.0/page/special_page/#uart"
   },"72": {
     "doc": "Special Page",
-    "title": "背光",
-    "content": "背光元件 : 用於調整螢幕背光亮度以及螢幕休眠功能。 . 背光元件的設定以及使用詳見 背光元件 . ",
-    "url": "/en/3.3.0/page/special_page/#%E8%83%8C%E5%85%89",
-    "relUrl": "/en/3.3.0/page/special_page/#背光"
+    "title": "BackLight",
+    "content": "BackLight: This is to control the brightness of the LCM backlight and the screen sleep mode funtion. For more dettails regarding BackLight, please refer to 背光元件. ",
+    "url": "/en/3.3.0/page/special_page/#backlight",
+    "relUrl": "/en/3.3.0/page/special_page/#backlight"
   },"73": {
     "doc": "Special Page",
-    "title": "即時時鐘",
-    "content": "即時時鐘元件 : 用以啟動系統時鐘功能。 . 即時時鐘元件的設定以及使用詳見即時時鐘元件 . ",
-    "url": "/en/3.3.0/page/special_page/#%E5%8D%B3%E6%99%82%E6%99%82%E9%90%98",
-    "relUrl": "/en/3.3.0/page/special_page/#即時時鐘"
+    "title": "RTC",
+    "content": "RTC: Activating the RTC (Real Time Clock) function. For more details regarding RTC, please refer to即時時鐘元件. ",
+    "url": "/en/3.3.0/page/special_page/#rtc",
+    "relUrl": "/en/3.3.0/page/special_page/#rtc"
   },"74": {
     "doc": "Special Page",
-    "title": "商標圖像",
-    "content": "商標圖像元件顯示如圖示 . 提供使用者自訂開機Logo顯示功能以及顯示時間。 . 商標圖像元件的設定以及使用詳見 商標圖像元件 . ",
-    "url": "/en/3.3.0/page/special_page/#%E5%95%86%E6%A8%99%E5%9C%96%E5%83%8F",
-    "relUrl": "/en/3.3.0/page/special_page/#商標圖像"
+    "title": "Logo",
+    "content": "The Logo widget: . This widget allows users to add their own logo for display right after powering on. The display time can be set in this widget as well. For more details regarding Logo, please refer to 商標圖像元件. ",
+    "url": "/en/3.3.0/page/special_page/#logo",
+    "relUrl": "/en/3.3.0/page/special_page/#logo"
   },"75": {
     "doc": "Special Page",
     "title": "Special Page",

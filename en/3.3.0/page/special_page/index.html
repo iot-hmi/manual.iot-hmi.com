@@ -281,22 +281,22 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="特殊頁面">
+          <h1 id="speical-page">
         
         
-          <a href="#特殊頁面" class="anchor-heading" aria-labelledby="特殊頁面"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 特殊頁面
+          <a href="#speical-page" class="anchor-heading" aria-labelledby="speical-page"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Speical Page
         
         
       </h1>
     
 
-<p>開啟新設計時，設計樣板會帶入兩個頁面，其中一個是空白頁，可以讓使用者開始HMI設計，第二的頁面是I/O Configuration頁面，提供使用者規劃GPIO，PWM，背光等功能。</p>
+<p>When users open a new deisgn, two pages by default show up. One is a blank page for HMI design and the other page is the I/O Configuration page, which allows users to configure I/O functionalities such as GPIO, PWM and ADC.</p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解特殊頁面</p>
+<p>To learn more about this I/O configuration page, users can watch our educational video:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -306,56 +306,57 @@
   </li>
 </ul>
 
-<p>I/O Configuration 頁面如下圖:
+<p>I/O Configuration page:
 <img src="/en/3.3.0/imgs/file252.png" alt="I/O Configuration頁面" /></p>
 
-<p>此頁面包含幾種元件 : 數位輸入/輸出、脈衝寬度調變/輸入擷取、類比輸入、UART、背光、即時時鐘、商標圖像</p>
-      <h2 id="數位輸入輸出">
+<p>In this page, several I/O functions can be set: GPIO, PWM, Input Capture, ADC, UART, Backlight Control, RTC and Logo.</p>
+      <h2 id="gpio">
         
         
-          <a href="#數位輸入輸出" class="anchor-heading" aria-labelledby="數位輸入輸出"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 數位輸入/輸出
-        
-        
-      </h2>
-    
-
-<p>數位輸入/輸出元件 : 以GPIO開始，加上一個數字代表I/O Pin編號(詳見 <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> )，並以底線連接 IN 或是 OUT 表示該I/O點為輸入或是輸出。</p>
-
-<p>元件左邊的圓點表示該I/O是否被致能。</p>
-
-<p>不同的設計樣板可能啟動不同的I/O，詳情見各產品Datasheet。</p>
-
-<p><strong>數位輸入/輸出元件的設定以及使用方式詳見 <a href="/en/3.3.0/widgets/system_widget_library/gpio/">數位輸入/輸出元件</a></strong></p>
-      <h2 id="脈衝寬度調變輸入擷取">
-        
-        
-          <a href="#脈衝寬度調變輸入擷取" class="anchor-heading" aria-labelledby="脈衝寬度調變輸入擷取"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 脈衝寬度調變/輸入擷取
+          <a href="#gpio" class="anchor-heading" aria-labelledby="gpio"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> GPIO
         
         
       </h2>
     
 
-<p>脈衝寬度調變/輸入擷取元件 : 以IOPWM開頭，加上一個數字代表PWM Pin編號(詳見 <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> )，用以設定PWM輸出的各種參數。</p>
+<p>Digital Input/Output Pins: The name starts with GPIO with a serial number attached (<a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> ), then an underline is added along with IN or OUT for specifying input or ouput pin.</p>
 
-<p>作為輸入擷取元件時，用以計算一定時間內輸入的脈波次數，此元件以與PWM元件命名方法相同，末尾加上 _IC</p>
+<p>The red dot on the left-hand size of the pin flags if this pin is activated or not.</p>
 
-<p>元件左邊的圓點表示該PWM是否被致能。</p>
+<p>Different products have different I/O pin assignments or function. Please refer to the product’s datasheet for more details.</p>
 
-<p><strong>脈衝寬度調變/輸入擷取元件的設定以及使用方式詳見 <a href="/en/3.3.0/widgets/system_widget_library/pwm/">脈衝寬度調變/輸入擷取</a></strong></p>
-      <h2 id="類比輸入">
+<p><strong>For instructions on how to setup GPIO, please refer to <a href="/en/3.3.0/widgets/system_widget_library/gpio/">數位輸入/輸出元件</a>.</strong></p>
+      <h2 id="pwminput-capture">
         
         
-          <a href="#類比輸入" class="anchor-heading" aria-labelledby="類比輸入"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 類比輸入
+          <a href="#pwminput-capture" class="anchor-heading" aria-labelledby="pwminput-capture"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> PWM/Input Capture
         
         
       </h2>
     
 
-<p>類比輸入元件 : 用以讀取類比輸入值，以ADC開頭，加上數字代表ADC Pin編號(詳見 <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> )，末尾再加上 _IN。</p>
+<p>PWM/Input Capture Pin: The name starts with IPOWM with a serial number (詳見 <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> ).</p>
 
-<p>元件左邊的圓點表示該ADC是否被致能。</p>
+<p>Input Capture counts the number of input pulses within a time frame. When a pin is assigned to be Input Caputre, “_IC” is added as the suffix.</p>
 
-<p><strong>類比輸入元件的設定以及使用方式詳見 <a href="/en/3.3.0/widgets/system_widget_library/adc/">類比輸入</a></strong></p>
+<p>The red dot on the left-hand side flags if this pin is activated or not.</p>
+
+<p><strong>For more details regarding PWM/Input Capture mode, please refer to <a href="/en/3.3.0/widgets/system_widget_library/pwm/">脈衝寬度調變/輸入擷取</a> for more details.</strong></p>
+      <h2 id="adc">
+        
+        
+          <a href="#adc" class="anchor-heading" aria-labelledby="adc"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ADC
+        
+        
+      </h2>
+    
+
+<p>ADC Pin: The name starts with ADC with a serial number and “_IN” is added as the suffix.
+(詳見 <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> )</p>
+
+<p>The red dot on the left-hand side flags if this pin is activated or not.</p>
+
+<p><strong>For more details regarding ADC, please refer to <a href="/en/3.3.0/widgets/system_widget_library/adc/">類比輸入</a> for more details.</strong></p>
       <h2 id="uart">
         
         
@@ -365,51 +366,51 @@
       </h2>
     
 
-<p>UART元件 : 用來設定UART通訊組態，關於UART連接Pin以及通訊協定請參閱 <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a></p>
+<p>UART: It is used for communication. For the pin assignment and the communication protocl, please refer to <a href="https://drive.google.com/file/d/1ZZW5oO5H7dy3NM4_OvmWpxKEVT1lCA7r/view" target="_blank">Ubique Panel Datasheet</a> for more details.</p>
 
-<p>元件左邊的圓點表示該UART是否被致能，通訊功能是預設啟動的。</p>
+<p>The red dot on the left-hand side flags if this UART is activated or not. The UART is on by default.</p>
 
-<p><strong>UART元件的設定以及使用詳見 <a href="/en/3.3.0/widgets/system_widget_library/uart/">UART元件</a></strong></p>
-      <h2 id="背光">
+<p><strong>For more details regarding this UART interface, please refer to <a href="/en/3.3.0/widgets/system_widget_library/uart/">UART元件</a> for more details.</strong></p>
+      <h2 id="backlight">
         
         
-          <a href="#背光" class="anchor-heading" aria-labelledby="背光"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 背光
+          <a href="#backlight" class="anchor-heading" aria-labelledby="backlight"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> BackLight
         
         
       </h2>
     
 
-<p>背光元件 : 用於調整螢幕背光亮度以及螢幕休眠功能。</p>
+<p>BackLight: This is to control the brightness of the LCM backlight and the screen sleep mode funtion.</p>
 
-<p><strong>背光元件的設定以及使用詳見 <a href="/en/3.3.0/widgets/system_widget_library/backlight/">背光元件</a></strong></p>
-      <h2 id="即時時鐘">
+<p><strong>For more dettails regarding BackLight, please refer to <a href="/en/3.3.0/widgets/system_widget_library/backlight/">背光元件</a>.</strong></p>
+      <h2 id="rtc">
         
         
-          <a href="#即時時鐘" class="anchor-heading" aria-labelledby="即時時鐘"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 即時時鐘
+          <a href="#rtc" class="anchor-heading" aria-labelledby="rtc"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> RTC
         
         
       </h2>
     
 
-<p>即時時鐘元件 : 用以啟動系統時鐘功能。</p>
+<p>RTC: Activating the RTC (Real Time Clock) function.</p>
 
-<p><strong>即時時鐘元件的設定以及使用詳見<a href="/en/3.3.0/widgets/system_widget_library/rtc/">即時時鐘元件</a></strong></p>
-      <h2 id="商標圖像">
+<p><strong>For more details regarding RTC, please refer to<a href="/en/3.3.0/widgets/system_widget_library/rtc/">即時時鐘元件</a>.</strong></p>
+      <h2 id="logo">
         
         
-          <a href="#商標圖像" class="anchor-heading" aria-labelledby="商標圖像"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 商標圖像
+          <a href="#logo" class="anchor-heading" aria-labelledby="logo"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Logo
         
         
       </h2>
     
 
-<p>商標圖像元件顯示如圖示</p>
+<p>The Logo widget:</p>
 
 <p><img src="/en/3.3.0/imgs/file253.png" alt="Logo" /></p>
 
-<p>提供使用者自訂開機Logo顯示功能以及顯示時間。</p>
+<p>This widget allows users to add their own logo for display right after powering on. The display time can be set in this widget as well.</p>
 
-<p><strong>商標圖像元件的設定以及使用詳見 <a href="/en/3.3.0/widgets/system_widget_library/logo/">商標圖像元件</a></strong></p>
+<p><strong>For more details regarding Logo, please refer to <a href="/en/3.3.0/widgets/system_widget_library/logo/">商標圖像元件</a>.</strong></p>
 
         
 
