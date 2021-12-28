@@ -273,46 +273,46 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="暫存器">
+          <h1 id="registers">
         
         
-          <a href="#暫存器" class="anchor-heading" aria-labelledby="暫存器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器
+          <a href="#registers" class="anchor-heading" aria-labelledby="registers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Registers
         
         
       </h1>
     
 
-<p>暫存器是 ADE HMI 設計中用來儲存輸出入資料，控制元件狀態和與使用者互動的重要工具， 本章將詳細描述ADE中暫存器的使用方法</p>
+<p>In ADE, registers are used to store input/output data and control widgets. This chapter is to describe how to use registers in ADE.</p>
 
-<p>ADE的元件，以運作方式分類的話，大致可以分為:</p>
+<p>We can categorize ADE’s widgets in three groups:</p>
 
 <ol>
   <li>
-    <p><strong>輸入元件</strong> :</p>
+    <p><strong>Input Widgets</strong>:</p>
 
-    <p>從使用者或是外界(I/O，通訊)輸入資料的輸入元件，譬如各種按鈕，觸控區域，數位輸入和即時時鐘等。</p>
+    <p>These widgets allows inputs from users or communication interfaces. Widgets such as various Buttons, Touch Area or RTC are in this category.</p>
   </li>
   <li>
-    <p><strong>輸出元件</strong> :</p>
+    <p><strong>Output Widgets</strong>:</p>
 
-    <p>反映數值，或是對外輸出資料者，譬如圓形進度條，影像清單， 數位輸出，脈衝寬度調變和聲音等。</p>
+    <p>These widgets present data in HMI or output data via communication interfaces. Widgets such as Gauge, Progress Bar or Image List are in this category.</p>
   </li>
   <li>
-    <p><strong>輸入&amp;輸出元件</strong>:</p>
+    <p><strong>Input&amp;Output Widgets</strong>:</p>
 
-    <p>同時具備輸入以及輸出特性，可以接受使用者輸入，並且輸出反映的數值的，譬如帶滑鈕的可輸入條狀調節器，以及可以提供使用者輸入的旋轉影像等。</p>
+    <p>These widgets have the attributes of both Input Widgets and Output Widgets. Widgets such as prograss bars with knobs are examples.</p>
   </li>
 </ol>
 
-<p>然而輸入的值，可能需要被記錄，被Blockly程式運算，甚至是經過不同修改後才能反映到輸出端去，因此，抽象化出一個可以用來儲存使用者輸入，I/O輸入，通訊輸入，並提供程式運算，且能作為元件顯示數值，通訊輸出，或是I/O輸出的實體，即可滿足這些要求。在ADE中，這個實體叫做<strong>暫存器(Register)</strong>，它的功能可以被想像成是高階語言中的全域變數，或是PLC內部的X,Y,D,M等暫存器，每個暫存器擁有名稱，編號(ID)，資料型別等屬性，可以用來儲存對應的資料。</p>
+<p>Any input value for HMI can be stored, modified by widget setting, or manipulated by a Blockly function. Thus, a place holder is required to store the input value. This place holder is called <strong>Registers</strong>. You can image registers as global variables in any high level programming language or X, Y, D, M registers in PLCs. Every register in HMI has a unique name and ID for identification. Registers has the data type attribute for ensuring the right data format is adopted.</p>
 
 <p><img src="/en/3.3.0/imgs/file67.png" alt="" /></p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解暫存器</p>
+<p>Users who would like to learn more about Registers and how to use them, please take a look at our educational video:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -321,108 +321,105 @@
   </div>
   </li>
 </ul>
-      <h2 id="暫存器介紹">
+      <h2 id="registers-1">
         
         
-          <a href="#暫存器介紹" class="anchor-heading" aria-labelledby="暫存器介紹"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器介紹
+          <a href="#registers-1" class="anchor-heading" aria-labelledby="registers-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Registers
         
         
       </h2>
     
 
-<p>暫存器分為三種:</p>
+<p>There are three types of registers in ADE:</p>
 
 <ol>
   <li>
-    <p><strong>系統預設暫存器</strong> :</p>
+    <p><strong>System-Defined Registers</strong>:</p>
 
-    <p>譬如用來提供換頁功能的system_page，屬於這類暫存器，任何使用這程式，將頁面名稱寫入這個暫存器，系統立即跳到該頁。</p>
+    <p>System-Defined Registers are pre-defined in ADE enabling users to perform system-level functions such as changing pages.</p>
   </li>
   <li>
-    <p><strong>產品樣板預設暫存器</strong>:</p>
+    <p><strong>Product-Specific Registers</strong>:</p>
 
-    <p>不同的產品，會搭配不同的I/O組態，每個IO會對應一個或是多個暫存器，這些暫存器在開啟設計文件樣版時會被加入設計中並自動綁定I/O元件，使用者不需設定與修改，即可直接使用。</p>
+    <p>Different IOT products have a different set of I/O. As a result, the Product-Specific Registers are required to reflect the product difference. These registers are pre-defined, too.</p>
   </li>
   <li>
-    <p><strong>使用者定義暫存器</strong>:</p>
+    <p><strong>User-Defined Registers</strong>:</p>
 
-    <p>使用者可以自訂任一多暫存器，用來記錄各種數值或是狀態，其使用方式就像高階語言中的全域變數一般。</p>
+    <p>As the namme suggests, these registers are created by users. Users are allowed to delete these registers.</p>
   </li>
 </ol>
 
-<p>在程式工具的暫存器編輯視窗中，使用者可以自行建立暫存器，如下圖所示:</p>
+<p>In Register Table, users can create User-Defined Registers:</p>
 
-<p>暫存器對話窗同時顯示暫存器的序號、名稱、描述、型別、初始值、是否為系統暫存器、當此暫存器值改變時是否自動通訊等，也可以利用Blockly編輯器驗證暫存器內容。若此暫存器無人使用，則按垃圾桶圖示即可刪除。</p>
+<p>When creating a new register, users are asked to enter the Name, Description, Type, and Initial Value before hand. When “Sent to host” is checked, any value change on this register, the value is sent via the pre-defined communication protocl. The “Validation” attribute allows users to modify the regiser’s value via a Blockly function. All the user-defined registers are deletable.</p>
 
-<p>ADE會自動指定序號給暫存器，使用者可以藉由拖曳暫存器改變序號的順序。</p>
+<p>ADE automatically assign an ID to a newly-created register. Users can drag the register around in the Register Table to change the ID number.</p>
 
 <p><img src="/en/3.3.0/imgs/file68.png" alt="" />
 <img src="/en/3.3.0/imgs/file69.png" alt="" /></p>
 
-<p>當輸入元件要保存資料，只要在ADE指定要將資料儲存進去的暫存器即可。</p>
+<p>When users want to store a value from an Input Widget, users can accomplish this simply by binding a register to this widget. On the other hand, when users to display a stored value, they can bind a register to an Output Widget for such purpose.</p>
 
-<p>當輸出元件要顯示資料，只要在ADE指定要取出資料來顯示的暫存器即可。</p>
-
-<p>暫存器觀念的引入，可將ADE內，資料的取得和儲存的使用區分開來，並利用簡單的暫存器綁定，達到修改或是顯示暫存器內容的功能。</p>
-
-<p>暫存器的綁定與操作可以參考以下範例：</p>
+<p>Users can learn how to bind and operate registers from the following example:</p>
 
 <p><img src="/en/3.3.0/imgs/file275.png" alt="" /></p>
 
-<p>首先，綁定暫存器<strong>num</strong>到➕按鍵的事件，設定遞增數值，因此當按鍵被按下時，綁定的暫存器數值會遞增</p>
+<p>First, bind register <strong>num</strong> to + push button event and set the increasement amount. Once this push busson is pressed, the value of the bound register is increased by such amount.</p>
 
 <p><img src="/en/3.3.0/imgs/file271.png" alt="遞增按鍵" /></p>
 
-<p>其次，綁定暫存器<strong>num</strong>到➖按鍵的事件，設定遞減數值，因此當按鍵被按下時，綁定的暫存器數值會遞減</p>
+<p>Next, bind register <strong>num</strong> to - push button event and set the decrement amount. Once this push button is pressed, the value of the bound register is decreased by such amount.</p>
 
 <p><img src="/en/3.3.0/imgs/file272.png" alt="遞減按鍵" /></p>
 
-<p>第三，綁定暫存器<strong>num</strong>到<strong>歸零</strong>按鍵的事件，設定數值0，因此當按鍵被按下時，綁定的暫存器數值會被設定為0</p>
+<p>Bind register <strong>num</strong> to <strong>Set 0</strong> push button’s event and set the value of register <strong>num</strong> to zero once this push button is pressed.</p>
 
 <p><img src="/en/3.3.0/imgs/file273.png" alt="歸零按鍵" /></p>
 
-<p>使用者可以拖入進度條和捲動文本，將綁定暫存器值設為<strong>num</strong>，並將進度條最小資料值以及最大資料值設定成適當的值，這樣進度條和捲動文本就會即時顯示暫存暫存器的數值。</p>
+<p>To complete this HMI project, a Progress Bar and a Scrolling Label are then dragged and dropped into the design panel. These two widgets are also bound with register <strong>num</strong>. The maximum and minimum values of the progress bar is set to the desired values. The Scrolling Label is to show the value of register <strong>num</strong>.</p>
 
 <p><img src="/en/3.3.0/imgs/file270.png" alt="進度條" />
 <img src="/en/3.3.0/imgs/file274.png" alt="捲動文本" /></p>
 
-<p>由範例可以看出，一個暫存器，一個暫存器的數值會被輸入元件影響，並且可由輸出元件顯示。</p>
-      <h2 id="暫存器運用">
+<p>From the above example, we learn that a register’s value can be altered by input widgets and can be shown by output widgets.</p>
+      <h2 id="how-to-use-registers">
         
         
-          <a href="#暫存器運用" class="anchor-heading" aria-labelledby="暫存器運用"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 暫存器運用
+          <a href="#how-to-use-registers" class="anchor-heading" aria-labelledby="how-to-use-registers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to use registers
         
         
       </h2>
     
 
-<p>關於ADE上暫存器使用請參考 <a href="/en/3.3.0/widget_properties/properties/register_selector/">暫存器選擇器</a> 以及 <a href="/en/3.3.0/widget_properties/properties/register_operation_setting/">暫存器操作</a> 相關章節。</p>
+<p>For how to use registers in ADE, please refer to [Register Tabel Editor] (/en/3.3.0/widget_properties/properties/register_selector/) and <a href="/en/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation</a>.</p>
 
-<p>在ADE Blockly程式中亦可以使用以及設定暫存器，說明如下:</p>
+<p>Registers can be manipulated by the built-in Blockly viusal programming langague:</p>
 
-<p>在Blockly編輯視窗中，選擇Register標籤，出現如下圖顯示，第一個積木為設定暫存器，其他積木為使用暫存器積木。所有既有暫存器皆會被列出。</p>
+<p>In any ADE’s Blockly Editor, choose Register Tag, the following pop-up menu will show. The first block is the function to set register. Other blocks represent all the registers defined in ADE.</p>
 
 <ul>
   <li>
-    <p>設定暫存器 : 使用設定暫存器積木，可以選定暫存器，並在其後連接設定值。設定值的型別需要與暫存器型別一致。此外若此暫存器已經綁定元件，則改變暫存器的值會立即影響元件的顯示，並在下一次螢幕更新時改變顯示。</p>
+    <p>Set Register: Set Register Block is to set the value of a register. First, users can select which register to be set. Following this block, a value block can be attached. The assigned value’s type must meet the type definition of the regsiter. If this register is bound with an output widget, the change of the register’s value will be reflected next time when the screen refreshes.</p>
   </li>
   <li>
-    <p>使用暫存器 : 暫存器積木可以用在數值運算式，邏輯運算式以及字串運算積木。
-此外，暫存器也支援事件驅動程式撰寫方式，當暫存器數值變化時，執行設定的程式。</p>
+    <p>Register Usage: Register blocks are be used in math, logic or string operation blocks.</p>
   </li>
 </ul>
 
-<p>使用者可使用系統元件庫中的暫存器監視器來監視暫存器的變化，若有任何輸入元件、I/O或者使用者撰寫的Blockly程式修改暫存器的值，皆會觸發暫存器監視器，使用者附掛的Blockly程式就會被執行。</p>
+<p>In addition, registers can be used for triggering events. Any change of the register value triggers an execution of pre-specified program.</p>
 
-<p>點選Register標籤會看到既有的所有暫存器，以及設定暫存器的積木</p>
+<p>Users can use a system widget called Register Observer for monitoring any change of a register. If the value of a register is modified by an input widget, I/O pins or a Blockly function, the Register Observer is triggered. Then the bound behavior program, a Blockly program, is called and executes.</p>
+
+<p>Click Register tab, all Register blocks and Register Setting block are shown.</p>
 
 <p><img src="/en/3.3.0/imgs/file72.png" alt="" /></p>
 
-<p>設定暫存器，選擇要進行設定的暫存器，並將數值指派給它</p>
+<p>For Register Setting block, users can choose which register to set and then assgin a value to this register.</p>
 
 <p><img src="/en/3.3.0/imgs/file73.png" alt="" /></p>
 
-<p>使用暫存器，取得暫存器內容，可用於數值運算等</p>
+<p>How to use register, how to get the register’s content and use it in a math operation:</p>
 
 <p><img src="/en/3.3.0/imgs/file74.png" alt="" /></p>
 

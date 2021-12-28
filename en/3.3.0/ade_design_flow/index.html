@@ -273,80 +273,78 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="hmi設計流程">
+          <h1 id="hmi-design-flow">
         
         
-          <a href="#hmi設計流程" class="anchor-heading" aria-labelledby="hmi設計流程"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> HMI設計流程
+          <a href="#hmi-design-flow" class="anchor-heading" aria-labelledby="hmi-design-flow"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> HMI Design Flow
         
         
       </h1>
     
 
-<p>一般產品開發皆包含設計驗證部署等不同階段，且不斷地迭代循環，若不同步驟需要不同的工具的話，使用者必須在不同工具間切換，並熟悉不同工具的操作方式與流程，容易造成使用者疲於奔命。博橡科技有鑑於此，特將設計、驗證、部署整合在同一整合型開發工具——ADE，使用者只須熟悉ADE一個工具即可完成產品開發，可以節省使用者的時間、金錢(無須額外購買昂貴的MCU開發工具)，且可以增加工程人員的產出。</p>
+<p>A HMI design has to go through several phases. These phases include graphic design, control board design, firmware development, software development, and deployment. Most likely, people of different function work on their individual development tool. This HMI design mothodology has been the norm even though it is time consuming and incurrs a high cost. Immense Oak Technologies (IOT) develops ADE to have all HMI development activities from design, programming, simulation, verification and deployment in one signle tool. With ADE, users do NOT need any third-party driver, loader, compiler or other tool chain to for developing a HMI. ADE can significantly cut the development time and cost.</p>
 
 <p><img src="/en/3.3.0/imgs/file263.png" alt="" /></p>
 
-<p>HMI設計流程皆可由ADE本身完成，不需任何第三方開發軟體，流程總共分三步驟：</p>
+<p>Developing an HMI in ADE involves the following phrases：</p>
 
 <ol>
   <li>
-    <p><strong>設計HMI</strong></p>
+    <p><strong>Design</strong></p>
   </li>
   <li>
-    <p><strong>驗證</strong></p>
+    <p><strong>Simulation</strong></p>
   </li>
   <li>
-    <p><strong>部署</strong></p>
+    <p><strong>Deployment</strong></p>
   </li>
 </ol>
-      <h2 id="設計hmi">
+      <h2 id="design">
         
         
-          <a href="#設計hmi" class="anchor-heading" aria-labelledby="設計hmi"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 設計HMI
+          <a href="#design" class="anchor-heading" aria-labelledby="design"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Design
         
         
       </h2>
     
 
-<p>ADE遵循所見及所得的原則，使用者藉由拖曳以及調整參數的形式，設計完成HMI。常用的動作及流程，如換頁、連結輸出/輸入腳位、通訊皆可由參數設定完成；若需做特殊運算或者流程動作，ADE根據低程式碼的原則，以事件驅動視覺化積木(Blockly)設計讓使用者完成所需流程及動作。</p>
+<p>ADE is a What-You-See-Is-What-You-Get (WYSIWYG). Users can design a HMI by dragging and dropping widget in the design panel. Frequently used functions such as switching pages, setting I/O, communications can be implemented by setting paramenters inside ADE. For advanced functions or control flow development, ADE offers a visaul programming language, Blockly, for such tasks.</p>
 
-<p>使用者的設計可以元件、元件群組，或者頁面為單位匯出、匯入，供日後不同專案共用，藉由此功能，使用者可以建立自己的HMI設計庫，當日後遇到新專案時可快速完成HMI設計。</p>
+<p>Users can export a widget, a group of widgets or an entire page for an HMI design. By doing so, users can build their own design element respository for future HMI designs. Obvisouly, ADE allows users to import a widget, a group of widgets or an entire page from the respository for speeding up their design process.</p>
 
-<p>ADE可將設計匯出成PDF、HTML格式提供HMI設計人員、美工人員、HMI使用者做溝通協調討論的依據。</p>
+<p>Furthermore, ADE can export HMI designs under PDF or HTML format for stakeholders’ comsumption. ADE supports these export formats to enhance the communcations among the HMI stakeholders.</p>
 
 <p><img src="/en/3.3.0/imgs/file264.png" alt="" /></p>
 
-<p>除此之外，產出的PDF或HTML可直接作為HMI使用手冊的骨架，可以節省美工人員截圖排版的時間成本。</p>
+<p>In addition, the PDF formated document can serve as the basis for the HMI’s user manual or datasheet.</p>
 
 <p><img src="/en/3.3.0/imgs/file64.png" alt="圖3-1 ADE設計畫面" /></p>
-      <h2 id="驗證">
+      <h2 id="simulation">
         
         
-          <a href="#驗證" class="anchor-heading" aria-labelledby="驗證"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 驗證
+          <a href="#simulation" class="anchor-heading" aria-labelledby="simulation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Simulation
         
         
       </h2>
     
 
-<p>在採購博橡產品之前，即可先藉由ADE以及模擬器，完整模擬HMI設計。</p>
-
-<p>藉由購買博橡科技的入門套件即可一鍵下載，展示完整HMI，達成驗證的流程。</p>
+<p>ADE has a built-in simulator that allows users to run simulation to test the HMI design. The simulator is avaiable to users regardless if users have purchased our products.</p>
 
 <p><img src="/en/3.3.0/imgs/file65.png" alt="圖3-2 Ubique Panel模擬器畫面" /></p>
-      <h2 id="部署">
+      <h2 id="deployment">
         
         
-          <a href="#部署" class="anchor-heading" aria-labelledby="部署"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 部署
+          <a href="#deployment" class="anchor-heading" aria-labelledby="deployment"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Deployment
         
         
       </h2>
     
 
-<p>把設計完的HMI透過USB線或者SD卡下載到博橡科技的Ubique Panel產品上。不需任何第三方的燒錄器、ICE等儀器。</p>
+<p>The final phrase of the HMI development is to deploy the design to our products. Users can use a USB cable connecting their PC (running our ADE) and our Ubique Panel for downloading the design from ADE. No third-party loader or ICE is needed.</p>
 
 <p><img src="/en/3.3.0/imgs/file66.png" alt="圖3-3 HMI佈署示意圖" /></p>
 
-<p>ADE是一個整合型工具，上述三個步驟，使用者可以任意切換迭代，而不需付出轉換電腦或開啟不同軟體的成本代價。</p>
+<p>ADE is a highly integrated development platform. This is the only tool needed for developing HMIs.</p>
 
         
 

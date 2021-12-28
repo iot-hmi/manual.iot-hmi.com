@@ -282,66 +282,66 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <h1 id="顏色混合模式選擇器">
+          <h1 id="blending-mode-selector">
         
         
-          <a href="#顏色混合模式選擇器" class="anchor-heading" aria-labelledby="顏色混合模式選擇器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 顏色混合模式選擇器
+          <a href="#blending-mode-selector" class="anchor-heading" aria-labelledby="blending-mode-selector"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Blending Mode Selector
         
         
       </h1>
     
-<p>設定文字顏色和背景圖片的顏色混合模式。</p>
+<p>Select the blending mode for the text color and the background color.</p>
 
 <p><img src="/en/3.3.0/imgs/file111.png" alt="圖5-30 混合模式選擇器" /></p>
 
 <ul>
   <li>
-    <p><strong>正常</strong> : 預設模式。與基礎顏色互不作用。</p>
+    <p><strong>Normal</strong>: The Defafult mode. There is no blending at all.</p>
   </li>
   <li>
-    <p><strong>色彩增值</strong> : 以混合色彩增值基本色彩。混合後的色彩較暗。</p>
+    <p><strong>Multiply</strong>: The blended color is the product of the text color multiplying the background color. The result color is darker.</p>
   </li>
   <li>
-    <p><strong>濾色</strong> : 將混合色彩和基本色彩的倒數相乘。混合後的色彩較亮。</p>
+    <p><strong>Screen</strong>: The blended color is the product of the inversed text color multiplying the inversed background color. The result color is lighter.</p>
   </li>
   <li>
-    <p><strong>疊加</strong> : 根據基本色彩，增值或以濾色篩選顏色。圖樣或顏色會覆蓋現有的像素，但同時會保留基本色彩的亮部和陰影。基本色彩並不會被取代，它會與混合色彩混合，反映原始色彩的明暗。</p>
+    <p><strong>Overlay</strong>: The blended color is text color to multiply or screen the background color depnding on the background color. The result color reflects the lightness or darkness of the background color.</p>
   </li>
   <li>
-    <p><strong>變暗</strong> : 選取基本或混合色彩 (兩者中較暗的那一個) 做為結果色彩。比混合色彩亮的像素會被取代，比混合色彩暗的像素不會改變。</p>
+    <p><strong>Darken</strong>: Choose a darker color between the text color and the background color as the blended color.</p>
   </li>
   <li>
-    <p><strong>變亮</strong> : 選取基本或混合色彩 (兩者中較亮的那一個) 做為結果色彩。比混合色彩暗的像素會被取代，比混合色彩亮的像素不會改變。</p>
+    <p><strong>Lighten</strong>: Chhose a lighter color between the text color and the background color as the blended color.</p>
   </li>
   <li>
-    <p><strong>加亮顏色</strong> : 透過減少兩者間的對比，讓基本色彩變亮以反映出混合色彩。</p>
+    <p><strong>Color-Dodge</strong>: The blended color is the result of decreasing contrast between the text color and the background color.</p>
   </li>
   <li>
-    <p><strong>加深顏色</strong> : 讓基本色彩變暗，以增加對比的方式反映出混合色彩。</p>
+    <p><strong>Color-Burn</strong>: The blended color is the result of increasing contrast between the text color andt the background color.</p>
   </li>
   <li>
-    <p><strong>實光</strong> : 根據混合色彩，增值或以濾色篩選顏色。這個效果類似於在影像上照射刺眼的聚光燈。</p>
+    <p><strong>Hard-Light</strong>: The blended color emulates shining a hash spotlight on text. This blending mode adds shadows to the text.</p>
   </li>
   <li>
-    <p><strong>柔光</strong> : 根據混合色彩，讓顏色變暗或變亮。這個效果類似在影像上照射擴散的聚光燈。</p>
+    <p><strong>Soft-Light</strong>: The blended color emulates shining a diffsed spotlight on text. This blending mode can make the text lighter or darker.</p>
   </li>
   <li>
-    <p><strong>差異化</strong> : 根據基本色彩和混合色彩兩者中亮度值較大的來決定從基本色彩中減去混合色彩，或從混合色彩中減去基本色彩。</p>
+    <p><strong>Difference</strong>: The blended color is the difference between the text color and the backgound color debpending on which has the a higher brightnesss value.</p>
   </li>
   <li>
-    <p><strong>排除</strong> : 所建立的效果與「差異化」模式類似，但對比效果較低。</p>
+    <p><strong>Exclusion</strong>: This blending mode is similar to Difference but with lower contrast.</p>
   </li>
   <li>
-    <p><strong>色相</strong> : 具有基本色彩的明度和飽和度，以及混合色彩的色相。</p>
+    <p><strong>Hue</strong>: The blended color has the luminace and saturation of the background color and the hue of the text color.</p>
   </li>
   <li>
-    <p><strong>飽和度</strong> : 具有基本色彩的明度和色相，以及混合色彩的飽和度。</p>
+    <p><strong>Saturation</strong>: The blended color has the luminance nad hue of the background color and the saturation of the text color.</p>
   </li>
   <li>
-    <p><strong>顏色</strong> : 具有基本色彩的明度，以及混合色彩的色相和飽和度。這會保留影像中的灰階。</p>
+    <p><strong>Color</strong>: The blended color has the lumninance of the background color and the hue and saturation of the text color.</p>
   </li>
   <li>
-    <p><strong>明度</strong> : 具有基本色彩的色相和飽和度，以及混合色彩的明度。</p>
+    <p><strong>Luminosity</strong>: The blended color has the hue and saturation of the background color and the luminance of the text color.</p>
   </li>
 </ul>
 
