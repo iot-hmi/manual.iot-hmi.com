@@ -75,6 +75,11 @@ img.widget_icon {
     height: 6rem;
 }
 
+p.for_img_larger {
+    width: 30%;
+    height: 30%
+}
+
 p.for_img_larger a {
     background: none;
 }
