@@ -1207,7 +1207,7 @@
   },"201": {
     "doc": "Date/Time Label",
     "title": "Right-Click Menu",
-    "content": "Font Size . | Property | Description | Operation | . | Font Size | Select the font size | Font Selector | . 文本捲動方式 . | Property | Description | Operation | . | Display Mode | Please refer to Label Display Mode for more details | Label Display Mode | . Alignment . | Property | Description | Operation | . | Alignment | Select the alignment for the text | Alignment Selector | . Widget-Specific Actions . | Property | Description | Operation | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
+    "content": "Font Size . | Property | Description | Operation | . | Font Size | Select the font size | Font Selector | . Display Mode . | Property | Description | Operation | . | Display Mode | Please refer to Label Display Mode for more details | Label Display Mode | . Alignment . | Property | Description | Operation | . | Alignment | Select the alignment for the text | Alignment Selector | . Widget-Specific Actions . | Property | Description | Operation | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
     "url": "/en/3.3.0/widgets/standard_widget_library/datetime_label/#right-click-menu",
     "relUrl": "/en/3.3.0/widgets/standard_widget_library/datetime_label/#right-click-menu"
   },"202": {
@@ -1218,92 +1218,92 @@
     "relUrl": "/en/3.3.0/widgets/standard_widget_library/datetime_label/"
   },"203": {
     "doc": "Image Label",
-    "title": "元件屬性",
-    "content": "影像文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定背景的顏色 | Color Selector | . | 漸變顏色 | 設定背景的漸變顏色 | Color Selector | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/image_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/#元件屬性"
+    "title": "Widget Property",
+    "content": "Image Label . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Shadow Setting . | Property | Description | Operation | . | Enable Shadow | Enable shadow | Checkbox | . Background Setting . | Property | Description | Operation | . | Main Color | Select the main color for the background | Color Selector | . | Gradient Color | Select the gradient color for the background | Color Selector | . Border Setting . | Property | Description | Operation | . | Border Color | Select the color for the border | Color Selector | . | Border Style | Select the line style for the border | Dropdown List | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/image_label/#widget-property",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/#widget-property"
   },"204": {
     "doc": "Image Label",
-    "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字，可利用Shift+Enter換行輸入 | RichText Editor | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/image_label/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/#元件上編輯器"
+    "title": "On-Widget Editor",
+    "content": "| Property | Description | Operation | . | | Double-click for entering text. Use Shift+Enter for inserting a new line | RichText Editor | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/image_label/#on-widget-editor",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/#on-widget-editor"
   },"205": {
     "doc": "Image Label",
-    "title": "右鍵選單",
-    "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/image_label/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Enable Shadow . | Property | Description | Operation | . | Enable Shadow | Enable Shadow | Checkbox | . Widget-Specific Actions . | Property | Description | Operation | . | Remove Border | Remove all borders and set the border line width to 0 |   | . | Make Squared | Choose a larger value between the width and height and use it to change the widget shape to a square |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/image_label/#right-click-menu",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/#right-click-menu"
   },"206": {
     "doc": "Image Label",
     "title": "Image Label",
-    "content": ". 影像文本為輸出元件。 . 目標是顯示Rich Text文本，並且支援多國語言以及使用者安裝字型。內容必須在ADE編輯時輸入，且在執行期間內容無法變動，適合用作展現文字風格的標題或是指示標示。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解影像文本 . | 教育影片 . | . ",
+    "content": ". Image Label is an output widget. The goal is to display text of Rich Text format and to support multi-languages. It can also display texts under user-installed fonts. The text must be edited in ADE and can not change during execution. This widget is suitable for elaborated signs and labels. An educational vidoe is availble to get users started: . | Educational Video . | . ",
     "url": "/en/3.3.0/widgets/standard_widget_library/image_label/",
     "relUrl": "/en/3.3.0/widgets/standard_widget_library/image_label/"
   },"207": {
     "doc": "Digits",
-    "title": "元件屬性",
-    "content": "七段顯示器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 七段顯示器格式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 總位數 | 設定顯示的總位數 | Number Editor | . | 小數位數 | 設定小數點後顯示的位數 | Number Editor | . | 有號數 | 是否顯示有號數字 | Checkbox | . | 是否顯示正號 | 設定如果為正數時是否顯示正號。使用有號數時有效 | Dropdown List | . | 文字顏色 | 設定文字的顏色 | Color Selector | . | 字型 | 設定文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 綁定數值暫存器 | 綁定暫存器顯示數字 | Register Selector | . | 預覽格式 | 隨機顯示數字預覽格式 | Checkbox | . 模擬七段顯示器顯示效果 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示不活躍片段 | 模擬七段顯示器未發光部分 | Checkbox | . | 顏色 | 設定未發光部分的顏色 | Color Selector | . 七段顯示器陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . | 陰影x座標 | 設定陰影x座標 | Number Editor | . | 陰影y座標 | 設定陰影y座標 | Number Editor | . | 陰影顏色 | 設定陰影顏色 | Color Selector | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用背景 | 是否要顯示背景顏色 | Checkbox | . | 背景顏色 | 設定背景顏色 | Color Selector | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/digits/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/digits/#元件屬性"
+    "title": "Widget Property",
+    "content": "Image Label . Digits . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Digit Format Setting . | Property | Description | Operation | . | Total Digits | Set the total number of digits | Number Editor | . | Fractional Digits | Set the number of digits behind the decimal point | Number Editor | . | Signed Value | Set the digits as a signed number | Checkbox | . | Show Positive Sign as: | Set to display the positive sign. If set to dispaly positive sign, this setting is valid when the number is set to be signed. | Dropdown List | . | Text Color | Select color for the digits | Color Selector | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Value Binding Register | Bind a register of which value is to display on this widget | Register Selector | . | Preview | Preview a random number | Checkbox | . Emulated 7 Segment Display Setting . | Property | Description | Operation | . | Visible Inactive Segment | Display the inactive segments | Checkbox | . | Color | Select a color for the inactive segments | Color Selector | . Digit Shadow Setting . | Property | Description | Operation | . | Enable Shadow | Enable Shadow | Checkbox | . | Shadow Dx | Set the x-coordinate value for the shadow | Number Editor | . | Shadow Dy | Set the y-coordinate value for the shadow | Number Editor | . | Shadow Color | Select the color for the shadow | Color Selector | . Background Setting . | Property | Description | Operation | . | Enable Background | Enable Background | Checkbox | . | Background Color | Select a color for the background | Color Selector | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/digits/#widget-property",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/digits/#widget-property"
   },"208": {
     "doc": "Digits",
-    "title": "右鍵選單",
-    "content": "有號數 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 有號數 | 是否顯示有號數字 | Checkbox | . 是否顯示正號 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 是否顯示正號 | 設定如果為正數時是否顯示正號。使用有號數時有效 | Dropdown List | . 預覽格式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 預覽格式 | 隨機顯示數字預覽格式 | Checkbox | . 顯示不活躍片段 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示不活躍片段 | 模擬七段顯示器未發光部分 | Checkbox | . 啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 啟用背景 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用背景 | 是否要顯示背景顏色 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/digits/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/digits/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Signed Value . | Property | Description | Operation | . | Signed Value | Set the displayed value to be signed | Checkbox | . Show Positive Sign as: . | Property | Description | Operation | . | Show Positive Sign as: | Set to display the positive sign. If set to dispaly positive sign, this setting is valid when the number is set to be signed. | Dropdown List | . Preview . | Property | Description | Operation | . | Preview | Preview a random number | Checkbox | . Visible Inactive Segment . | Property | Description | Operation | . | Visible Inactive Segment | Display the inactive segments | Checkbox | . Enable Shadow . | Property | Description | Operation | . | Enable Shadow | Enable Shadow | Checkbox | . Enable Background . | Property | Description | Operation | . | Enable Background | Enable Background | Checkbox | . Widget-Specific Actions . | Property | Description | Operation | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/digits/#right-click-menu",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/digits/#right-click-menu"
   },"209": {
     "doc": "Digits",
     "title": "Digits",
-    "content": ". 七段顯示器是一個輸出元件。 . 用以顯示特定位數帶正負號或是不帶正負號的整數或是小數。可以指定尺寸、字型、顏色、背景顏色以及陰影，適合用來做大尺寸數字，如時速、馬達轉速、溫度及溼度等。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解七段顯示器 . | 教育影片 . | . ",
+    "content": ". Digits is a output widet. It emulates the behavior of a seven-segment display. This widget is used to display signed numbers with digits behind the decimal points. This widget allows users to change the font size, the font style, the font color, and shadow. An educational vidoe is availble to get users started: . | Educational Video . | . ",
     "url": "/en/3.3.0/widgets/standard_widget_library/digits/",
     "relUrl": "/en/3.3.0/widgets/standard_widget_library/digits/"
   },"210": {
     "doc": "Circular Progress Bar",
-    "title": "元件屬性",
-    "content": "圓形進度條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 增長方向 | 進度條順時針或逆時針的增長 | Dropdown List | . | 反向 | 進度條順時針或逆時針的減少 | Dropdown List | . | 最小資料值 | 對應到圓弧開始角度的資料值，必須小於最大資料值 | Number Editor | . | 最大資料值 | 對應到圓弧結束角度的資料值，必須大於最小資料值 | Number Editor | . | 綁定數值暫存器 | 暫存器的內容是最小資料值的話，圓形進度條會顯示在開始角度，隨著暫存器數值增加，角度會隨著增加，直至暫存器是最大資料值時圓形進度條會顯示到最大角度 | Register Selector | . | 顯示方向指示 | 是否要顯示方向指示箭頭 | Checkbox | . | 圓心位置 | 設定圓心的座標 | Alignment Selector | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . 風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示前景圖片 | 是否要顯示前景圖片，如果前景圖片帶透明，則可以將進度條透出來顯示 | Checkbox | . | 載入前景圖片 | 從檔案系統選擇作為前景圖片 | File Open Dialog Box | . | 端點圓角化 | 是否要將進度條兩端終點圓弧化 | Checkbox | . | 開始角度 | 進度條圓弧開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 進度條圓弧長度(1-359) | Number Editor | . | 圓弧半徑 | 進度條半徑大小，最大值隨元件大小而變動 | Number Editor | . | 圓弧顏色 | 設定進度條顏色 | Color Selector | . | 圓弧寬度 | 設定進度條寬度(0-100) | Number Editor | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#元件屬性"
+    "title": "Widget Property",
+    "content": "Circular Progress Bar . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Behavior Setting . | Property | Description | Operation | . | Direction | Progression of the bar can be clockwise or counter-clockwise | Dropdown List | . | Revsered Scale | Progression of the bar is to going from max to min value | Dropdown List | . | Minimum Data Value | The minimum value for the circular progress bar to present. This value must be larger than the minimum value of the binding register. | Number Editor | . | Maximum Data Value | The maximum value for the circular progress bar to present. This value must be larger than the minimum value of the binding register. | Number Editor | . | Value Binding Register | Select a register of which value is to be shown by the progress bar. | Register Selector | . | Show Direction Guide | Show the progress bar’s direction arrow. This arrow is visible in the design panel only. | Checkbox | . | Center Location | Set the coordinate values for the center point | Alignment Selector | . | Alignment | Align the center location to the central point of this widget | Alignment Selector | . Style Setting . | Property | Description | Operation | . | Show Foreground Image | Enable the foreground image. If the image has opacity setting, then the progress bar is shown through the image. | Checkbox | . | Load Foreground Image | Load a image from the file system as the foreground | File Open Dialog Box | . | Rounded Endpoint | Check to make the end points of the progress bar rounded | Checkbox | . | Start Angle | Progres bar starting angle (0-359). Please refer to Number Editor for more details. | Number Editor | . | Arc Length | Progress bar length setting in degrees(1-359) | Number Editor | . | Arc Radius | Set the radius of the arc. The maximum value of the radius is determined by the size of the widget. | Number Editor | . | Arc Color | Select a color for the arc | Color Selector | . | Arc Width | Set the width of the arc (0-100) | Number Editor | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#widget-property",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#widget-property"
   },"211": {
     "doc": "Circular Progress Bar",
-    "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#元件上編輯器"
+    "title": "On-Widget Editor",
+    "content": "| Property | Description | Operation | . | | Adjust the center location | Center Editor | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#on-widget-editor",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#on-widget-editor"
   },"212": {
     "doc": "Circular Progress Bar",
-    "title": "右鍵選單",
-    "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 增長方向 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 增長方向 | 進度條順時針或逆時針的增長 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 編輯圖片 | 編輯前景圖片 | Image Editor Dialog Box | . | 載入前景圖片… | 從檔案系統選擇作為前景圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 貼上剪貼簿中的圖片作為前景圖片 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Move to Center . | Property | Description | Operation | . | Move to Center | Move the center of the progress bar circule to the centerl point of the widget | Center Editor | . Direction . | Property | Description | Operation | . | Direction | Set the progression direction to be clockwise or counter-clockwise | Center Editor | . Widget-Specific Actions . | Property | Description | Operation | . | Edit Image | Edit the foreground image | Image Editor Dialog Box | . | Load Foreground Image… | Load an image from the file sytem as the foreground | File Open Dialog Box | . | Paste from Clipboard | Paste an image from Clipboard as the foreground |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#right-click-menu",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/#right-click-menu"
   },"213": {
     "doc": "Circular Progress Bar",
     "title": "Circular Progress Bar",
-    "content": ". 圓形進度條為輸出元件。 . 藉由填充顏色顯示進度或是數值，可設定不同的填充方向以及填充角度與最小最大數值的對應，並且可以加上有鏤空區域的前景圖片，可以用來設計類似內有LED光源並隨數值變化亮滅的旋鈕，或是圓形碼表等圖示。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解圓形進度條 . | 教育影片 . | . ",
+    "content": ". Circular Progress Bar is an output widget. It used filling color to show progress or a value. The progression of the Circular Bar can be clockwise or counter-clockwise. The maximum and minimum values can be set. This widget mimic the behavior of the real-world circular progress bar with LED light sources. An educational vidoe is availble to get users started: . | Educational Video . | . ",
     "url": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/",
     "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_progress_bar/"
   },"214": {
     "doc": "Circular Meter",
-    "title": "元件屬性",
-    "content": "儀表 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 對應到圓弧開始角度的資料值，必須小於最大資料值 | Number Editor | . | 最大資料值 | 對應到圓弧結束角度的資料值，必須大於最小資料值 | Number Editor | . | 開始角度 | 進度條圓弧開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 進度條圓弧長度(1-359) | Number Editor | . | 綁定數值暫存器 | 暫存器的內容是最小資料值的話，儀表會顯示底色，隨著暫存器數值增加，會顯示活躍顏色，直至暫存器是最大資料值時儀表顏色會顯示全滿 | Register Selector | . 風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 未作動片段顏色 | 設定未作動片段的顏色 | Color Selector | . | 作動片段起始顏色 | 設定作動片段起始的主要顏色 | Color Selector | . | 作動片段結束顏色 | 設定作動片段結束的漸變顏色 | Color Selector | . | 刻度分格數 | 設定刻度的分格數 | Number Editor | . | 刻度寬度 | 設定刻度的寬度 | Number Editor | . | 刻度長度 | 設定刻度的長度 | Number Editor | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示輔助器 | 是否要顯示輔助抓取點 | Checkbox | . | 數值 | 將最小資料值與最大資料值對應圓弧角度和長度進行預覽顯示 | Number Editor | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#元件屬性"
+    "title": "Widget Property",
+    "content": "Circular Meter . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Behavior Setting . | Property | Description | Operation | . | Minimum Data Value | The minimum value for the circular progress bar to present. This value must be larger than the minimum value of the binding register. | Number Editor | . | Maximum Data Value | The maximum value for the circular progress bar to present. This value must be larger than the minimum value of the binding register. | Number Editor | . | Start Angle | Progres bar starting angle (0-359). Please refer to Number Editor for more details. | Number Editor | . | Arc Length | Progress bar length setting in degrees(1-359) | Number Editor | . | Value Binding Register | Select a register of which value is to be shown by the progress bar. When the value of this register is at minimum, the widget shows the inactive color. As the value increases, the active clor is shown. | Register Selector | . Style Setting . | Property | Description | Operation | . | Inactive Segment Color | Select a color for the invactive segment | Color Selector | . | Active Segment Start Color | Select a color as the major color for active segment | Color Selector | . | Active Segment End Color | Select a color as the higher end color for the active segment | Color Selector | . | Tick Granularity | Select a tick granularity | Number Editor | . | Tick Width | Set the tick width | Number Editor | . | Tick Length | Set the tick length | Number Editor | . Preview . | Property | Description | Operation | . | Show Protractor | Show the protractor | Checkbox | . | Value | Set the data value for previewing | Number Editor | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#widget-property",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#widget-property"
   },"215": {
     "doc": "Circular Meter",
-    "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#元件上編輯器"
+    "title": "On-Widget Editor",
+    "content": "| Property | Description | Operation | . | | Adjust the center location | Center Editor | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#on-widget-editor",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#on-widget-editor"
   },"216": {
     "doc": "Circular Meter",
-    "title": "右鍵選單",
-    "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Move to Center . | Property | Description | Operation | . | Move to Center | Move the center of the progress bar circule to the centerl point of the widget | Center Editor | . Widget-Specific Actions . | Property | Description | Operation | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
+    "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#right-click-menu",
+    "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/#right-click-menu"
   },"217": {
     "doc": "Circular Meter",
     "title": "Circular Meter",
-    "content": ". 儀表為輸出元件。 . 其功能類似圓形進度條，但是儀表左右顯示角度必須對稱，並且可以使用漸層顏色表達不同輸入資料大小，並有默認底色。適合用來作為數值高低不同時，帶警告或是指示訊息的儀表，譬如壓力表。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解儀表 . | 教育影片 . | . ",
+    "content": ". Circular Meter is an output widget. Its function is very similar to that of Circular Progress Bar. The scale of the widget must be symmetric. The scale comes with default colors and can use gradient color for presenting different segments. This widget can use to design a meter that shows a warning message at the high values such as a pressure meter. An educational vidoe is availble to get users started: . | Educational Video . | . ",
     "url": "/en/3.3.0/widgets/standard_widget_library/circular_meter/",
     "relUrl": "/en/3.3.0/widgets/standard_widget_library/circular_meter/"
   },"218": {
