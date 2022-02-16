@@ -75,17 +75,27 @@ img.widget_icon {
     height: 6rem;
 }
 
+p.for_img_mid {
+    width: 25%;
+    height: 25%
+}
+
+p.for_img_mid a {
+    background: none;
+}
+
+p.for_img_mid a:hover {
+    background: none;
+}
+
 p.for_img_larger {
-    width: 30%;
-    height: 30%
+    width: 25%;
+    height: 25%;
 }
 
-p.for_img_larger a {
-    background: none;
-}
-
-p.for_img_larger a:hover {
-    background: none;
+p.for_img_part {
+    width: 25%;
+    height: 25%;
 }
 
 div.note_container {
