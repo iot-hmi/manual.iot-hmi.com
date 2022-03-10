@@ -284,13 +284,13 @@
         
           <p><img src="/en/3.3.0/imgs/file229.png" alt="" class="widget_icon" /></p>
 
-<p>計時器可以週期性的觸發事件，並呼叫對應的Blockly程式，任何需要週期性檢查、讀取或是改變的資料，都可以用計時器來產生觸發事件</p>
+<p>Timer widget, as the name suggests, provides a system counter that counts a preset value. Once the counter expires, a Blockly callback function is called. Timer widget can be set to be periodical or one-time only depending on the users’ requirement.</p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解計時器</p>
+<p>An educational vidoe is availble to get users started:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -299,18 +299,18 @@
 </div>
   </li>
 </ul>
-      <h2 id="元件屬性">
+      <h2 id="widget-property">
         
         
-          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+          <a href="#widget-property" class="anchor-heading" aria-labelledby="widget-property"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget Property
         
         
       </h2>
     
-      <h3 id="計時器">
+      <h3 id="timer">
         
         
-          <a href="#計時器" class="anchor-heading" aria-labelledby="計時器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 計時器
+          <a href="#timer" class="anchor-heading" aria-labelledby="timer"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Timer
         
         
       </h3>
@@ -319,28 +319,28 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">元件名稱</td>
-      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left">Widget Name</td>
+      <td style="text-align: left">Widget displayed name</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">連結到教學影片</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video</td>
+      <td style="text-align: left">Link to IOT’s website for Educational Video</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="週期設定">
+      <h3 id="period-setting">
         
         
-          <a href="#週期設定" class="anchor-heading" aria-labelledby="週期設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 週期設定
+          <a href="#period-setting" class="anchor-heading" aria-labelledby="period-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Period Setting
         
         
       </h3>
@@ -349,33 +349,33 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">固定週期</td>
-      <td style="text-align: left">決定是否要使用固定計時器週期</td>
+      <td style="text-align: left">Fixed Timer Period</td>
+      <td style="text-align: left">Enable fixed time period</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">週期(ms)</td>
-      <td style="text-align: left">設定固定計時器週期(單位為毫秒)，使用固定週期有效</td>
+      <td style="text-align: left">Period in mis</td>
+      <td style="text-align: left">Set the period in ms. This function is valid only when Fixed Time Period is enabled.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">週期暫存器</td>
-      <td style="text-align: left">設定暫存器內容作為計時器週期，使用固定週期無效</td>
+      <td style="text-align: left">Period Register</td>
+      <td style="text-align: left">Select a register whose value is the period for this widget. This function is invalide when Fixed Time Period is enabled.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="計時器啟動設定">
+      <h3 id="timer-setting">
         
         
-          <a href="#計時器啟動設定" class="anchor-heading" aria-labelledby="計時器啟動設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 計時器啟動設定
+          <a href="#timer-setting" class="anchor-heading" aria-labelledby="timer-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Timer Setting
         
         
       </h3>
@@ -384,33 +384,33 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">隨電源啟動</td>
-      <td style="text-align: left">決定是否要開機就啟動計時器</td>
+      <td style="text-align: left">Enable on Power-On</td>
+      <td style="text-align: left">Enable this widget right after powering on</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">繫結動作暫存器</td>
-      <td style="text-align: left">設定暫存器觸發計時器，使用隨電源啟動無效</td>
+      <td style="text-align: left">Binding Trigger Register</td>
+      <td style="text-align: left">Bind a register for triggering this widget. This function is valid only when Enable on Power-On is disabled.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">只啟動一次計時器</td>
-      <td style="text-align: left">決定計時器是否只執行一次</td>
+      <td style="text-align: left">Oneshot Timer</td>
+      <td style="text-align: left">Set to run this timer once only</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="時間到行為">
+      <h3 id="time-up-behavior-setting">
         
         
-          <a href="#時間到行為" class="anchor-heading" aria-labelledby="時間到行為"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 時間到行為
+          <a href="#time-up-behavior-setting" class="anchor-heading" aria-labelledby="time-up-behavior-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Time-Up Behavior Setting
         
         
       </h3>
@@ -419,61 +419,61 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">是否切換換頁</td>
-      <td style="text-align: left">當計時器時間到時，根據選擇目標頁面的內容啟動換頁行為</td>
+      <td style="text-align: left">Enable Page Selector</td>
+      <td style="text-align: left">Clicking triggers to the target page</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">選擇目的頁面</td>
-      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector</td>
+      <td style="text-align: left">Select Target Page</td>
+      <td style="text-align: left">The target page selector</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/page_selector/">Page Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">是否更動暫存器</td>
-      <td style="text-align: left">當計時器時間到時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
+      <td style="text-align: left">Enable Register Operation</td>
+      <td style="text-align: left">Clicking triggers a register operation</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">繫結暫存器</td>
-      <td style="text-align: left">決定要改變的暫存器</td>
+      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">Select which register for the operation</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">運作模式</td>
-      <td style="text-align: left">當計時器時間到時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
+      <td style="text-align: left">Operation Mode</td>
+      <td style="text-align: left">Select which operation to be performed. Please refer to Register Operation Setting</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">是否啟動回呼函式</td>
-      <td style="text-align: left">當計時器時間到時，根據行為設計所設計的回呼函式進行操作</td>
+      <td style="text-align: left">Enable Callback Function</td>
+      <td style="text-align: left">Clicking tirggers a Blockly callback function</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">行為設計</td>
-      <td style="text-align: left">當計時器時間到時，此處設定的行為會執行，詳情參考Blockly Editor</td>
+      <td style="text-align: left">Behavior Prgramming</td>
+      <td style="text-align: left">Blockly Editor</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h2 id="右鍵選單">
+      <h2 id="right-click-menu">
         
         
-          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
+          <a href="#right-click-menu" class="anchor-heading" aria-labelledby="right-click-menu"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Right-Click Menu
         
         
       </h2>
     
-      <h3 id="固定週期">
+      <h3 id="fixed-timer-period">
         
         
-          <a href="#固定週期" class="anchor-heading" aria-labelledby="固定週期"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 固定週期
+          <a href="#fixed-timer-period" class="anchor-heading" aria-labelledby="fixed-timer-period"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Fixed Timer Period
         
         
       </h3>
@@ -482,23 +482,23 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">固定週期</td>
-      <td style="text-align: left">決定是否要使用固定計時器週期</td>
+      <td style="text-align: left">Fixed Timer Period</td>
+      <td style="text-align: left">Enable fixed time period</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="隨電源啟動">
+      <h3 id="enable-on-power-on">
         
         
-          <a href="#隨電源啟動" class="anchor-heading" aria-labelledby="隨電源啟動"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 隨電源啟動
+          <a href="#enable-on-power-on" class="anchor-heading" aria-labelledby="enable-on-power-on"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Enable on Power-On
         
         
       </h3>
@@ -507,23 +507,23 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">隨電源啟動</td>
-      <td style="text-align: left">決定是否要開機就啟動計時器</td>
+      <td style="text-align: left">nable on Power-On</td>
+      <td style="text-align: left">Enable this widget right after powering on</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="只啟動一次計時器">
+      <h3 id="oneshot-timer">
         
         
-          <a href="#只啟動一次計時器" class="anchor-heading" aria-labelledby="只啟動一次計時器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 只啟動一次計時器
+          <a href="#oneshot-timer" class="anchor-heading" aria-labelledby="oneshot-timer"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Oneshot Timer
         
         
       </h3>
@@ -532,40 +532,40 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">只啟動一次計時器</td>
-      <td style="text-align: left">決定計時器是否只執行一次</td>
+      <td style="text-align: left">Oneshot Timer</td>
+      <td style="text-align: left">Set to run this timer once only</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="元件子功能">
+      <h2 id="widget-specific-actions">
         
         
-          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+          <a href="#widget-specific-actions" class="anchor-heading" aria-labelledby="widget-specific-actions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget-Specific Actions
         
         
-      </h3>
+      </h2>
     
 
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">連接到教學影片…</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video…</td>
+      <td style="text-align: left">Connect to the education video and play it</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>

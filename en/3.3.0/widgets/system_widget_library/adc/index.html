@@ -282,15 +282,15 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <p>ADC元件用以設定類比輸入腳位的祖組態，以及繫結的暫存器。</p>
+          <p>ADC widget is to set Analog-to-Digital Conversion pin’s attributes and its binding register.</p>
 
-<p>所有類比輸入腳位，都能設定為GPIO使用。</p>
+<p>All ADC pin can be also set to be an GPIO pin.</p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解I/O元件</p>
+<p>An educational vidoe is availble to get users started:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -299,18 +299,18 @@
 </div>
   </li>
 </ul>
-      <h2 id="元件屬性">
+      <h2 id="widget-property">
         
         
-          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+          <a href="#widget-property" class="anchor-heading" aria-labelledby="widget-property"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget Property
         
         
       </h2>
     
-      <h3 id="io腳位名稱設定">
+      <h3 id="io-pin-name">
         
         
-          <a href="#io腳位名稱設定" class="anchor-heading" aria-labelledby="io腳位名稱設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O腳位名稱設定
+          <a href="#io-pin-name" class="anchor-heading" aria-labelledby="io-pin-name"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O Pin Name
         
         
       </h3>
@@ -319,28 +319,28 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">元件名稱</td>
-      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left">Widget Name</td>
+      <td style="text-align: left">Widget displayed name</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">連結到教學影片</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video</td>
+      <td style="text-align: left">Link to IOT’s website for Educational Video</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="io腳位腳位組態">
+      <h3 id="io-pin-configuration">
         
         
-          <a href="#io腳位腳位組態" class="anchor-heading" aria-labelledby="io腳位腳位組態"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O腳位腳位組態
+          <a href="#io-pin-configuration" class="anchor-heading" aria-labelledby="io-pin-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O Pin Configuration
         
         
       </h3>
@@ -349,25 +349,25 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要啟動此ADC腳位</td>
+      <td style="text-align: left">Enable</td>
+      <td style="text-align: left">Enable this ADC pin</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">繫結暫存器</td>
-      <td style="text-align: left">類比輸入腳位輸入數值的變化會自動反應在此暫存器中，預設輸入數值範圍為0-4095。</td>
+      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">If this pin is set to ADC, then the analog input via this pin will be converted to an digital value ranging from 0~4095. If this pin is set to GPIO, please refer to GPIO Pin.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">腳位功能</td>
-      <td style="text-align: left">選擇多功能腳位的功能，類比輸入以及數位輸出入，當選擇位輸出入功能功能時，屬性設定會轉變成GPIO，詳見<a href="/en/3.3.0/widgets/system_widget_library/gpio/">GPIO</a>，類比輸入為預設選擇</td>
+      <td style="text-align: left">Pin Operation</td>
+      <td style="text-align: left">Select this pin operation between ANALOG and GPIO. For ANALOG, this pin serves as a ADC pin. For GPIO, please refer to <a href="/en/3.3.0/widgets/system_widget_library/gpio/">GPIO</a> for more details.</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>

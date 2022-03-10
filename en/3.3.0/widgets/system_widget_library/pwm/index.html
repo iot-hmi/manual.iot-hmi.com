@@ -282,15 +282,15 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <p>PWM元件用以設定 Pulse-width modulation Pin的輸出屬性，以及繫結的暫存器。</p>
+          <p>PWM widget is to set Pulse-width modulation pin’s output attributes and its binding register.</p>
 
-<p>當使用Input Capture 時，則提供輸入方波計數功能</p>
+<p>When the pin is set to be Input Capture mode, Count Register and its assocaited attributes are set.</p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解I/O元件</p>
+<p>An educational vidoe is availble to get users started:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -299,18 +299,18 @@
 </div>
   </li>
 </ul>
-      <h2 id="元件屬性">
+      <h2 id="widget-property">
         
         
-          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+          <a href="#widget-property" class="anchor-heading" aria-labelledby="widget-property"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget Property
         
         
       </h2>
     
-      <h3 id="脈衝寬度調變輸入擷取名稱設定">
+      <h3 id="pwminput-capture-name">
         
         
-          <a href="#脈衝寬度調變輸入擷取名稱設定" class="anchor-heading" aria-labelledby="脈衝寬度調變輸入擷取名稱設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 脈衝寬度調變/輸入擷取名稱設定
+          <a href="#pwminput-capture-name" class="anchor-heading" aria-labelledby="pwminput-capture-name"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> PWM/Input Capture Name
         
         
       </h3>
@@ -319,28 +319,28 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">元件名稱</td>
-      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left">Widget Name</td>
+      <td style="text-align: left">Widget displayed name</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">連結到教學影片</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video</td>
+      <td style="text-align: left">Link to IOT’s website for Educational Video</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="脈衝寬度調變輸入擷取腳位組態">
+      <h3 id="io-pin-configuration">
         
         
-          <a href="#脈衝寬度調變輸入擷取腳位組態" class="anchor-heading" aria-labelledby="脈衝寬度調變輸入擷取腳位組態"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 脈衝寬度調變/輸入擷取腳位組態
+          <a href="#io-pin-configuration" class="anchor-heading" aria-labelledby="io-pin-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O Pin Configuration
         
         
       </h3>
@@ -349,55 +349,55 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要啟動此PWM腳位</td>
+      <td style="text-align: left">Enable</td>
+      <td style="text-align: left">Enable this I/O Pin</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">腳位功能</td>
-      <td style="text-align: left">選擇多功能腳位的功能，容許的功能有 脈衝寬度調變/數位輸出輸入/輸入擷取。所有多功能腳位都具備數位輸出入功能，當選擇位輸出入功能功能時，屬性設定會轉變成GPIO，詳見<a href="/en/3.3.0/widgets/system_widget_library/gpio/">GPIO</a>，選輸入擷時需要設定擷取模式，計數暫存器，以及經過時間暫存器。脈衝寬度調變為預設選擇</td>
+      <td style="text-align: left">Pin Operation</td>
+      <td style="text-align: left">Select a pin operation. For GPIO, please refer to <a href="/en/3.3.0/widgets/system_widget_library/gpio/">GPIO</a>. The other two operation modes are PWM and Input Capture</td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">脈衝寬度調變頻率</td>
-      <td style="text-align: left">選擇脈衝寬度調變功能時顯示。設定脈衝寬度調變頻率，容許值為1Hz到100000Hz</td>
+      <td style="text-align: left">PWM Frequency</td>
+      <td style="text-align: left">Select PWM frequency from 1Hz to 100000Hz</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">脈衝寬度調變繫結暫存器</td>
-      <td style="text-align: left">選擇脈衝寬度調變功能時顯示。PWM值繫結的暫存器，暫存器的值為輸出為高電位的百分比例，如脈衝寬度調變頻率設為100Hz，暫存器的值為50.0，表示輸出100Hz方波，每個方波有50%的時間高准位。使用者可藉由輸入元件，或是Blockly積木程式執行期改變繫結暫存器的值來改變輸出的高電位比例。</td>
+      <td style="text-align: left">PWM/IO Binding Register</td>
+      <td style="text-align: left">Select a binding register whose value serves as the duty cycle width percentage. For example, if the PWM frequency is set to 100Hz and the value of this register is set to 50. Then, this PWM outputs 100Hz pulse with 50% duty cycle. Users can use an input widget or Blockly function to change this binding register’s value, as a result, to change the duty cycle.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">輸入擷取模式</td>
-      <td style="text-align: left">選擇輸入擷取時顯示。 功能為選擇方波擷取觸發條件，容許值為 升緣觸發/降緣觸發/升降緣接觸發</td>
+      <td style="text-align: left">Capute Mode</td>
+      <td style="text-align: left">When this pin operation is set to Input Capture. The caputre mode can be set to Rising Edge, Falling Edge or Both.</td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">計數暫存器</td>
-      <td style="text-align: left">選擇輸入擷取時顯示。 選擇繫結暫存器，內容為自上次讀取後輸入的方波觸發數。</td>
+      <td style="text-align: left">Count Register</td>
+      <td style="text-align: left">In Input Caputure mode, this register counts how many events of Capture Mode occurs since last time Count Register is read</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">經過時間暫存器(ms)</td>
-      <td style="text-align: left">選擇輸入擷取時顯示。 選擇繫結暫存器，內容為自上次讀取後經過的時間，單位ms</td>
+      <td style="text-align: left">Elapsed Time(ms)</td>
+      <td style="text-align: left">In Input Caputre mode, this register holds the eplased time in ms since the last time the input capture mode related registers are read</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">使用回呼函示</td>
-      <td style="text-align: left">選擇輸入擷取時顯示。 選擇是否啟用回呼函數。</td>
+      <td style="text-align: left">Binding Script</td>
+      <td style="text-align: left">In Input Capture mode, if a Callback Blockly fuction is enabled.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">回呼函示</td>
-      <td style="text-align: left">選擇輸入擷取使用回呼函示時顯示，可撰寫Blockly回呼函示。於固定的時間間格內，若有輸入方波被計數，則此回呼函數會被呼叫，此時計數暫存器的內容為自上次讀取後輸入的方波觸發數，經過時間暫存器內容為自上次讀取後經過的時間，單位ms。每次回呼事件發生時，暫存器的內容會被更新</td>
+      <td style="text-align: left">Observed Behavior</td>
+      <td style="text-align: left">When the input capture mode is enabled and the binding script is enabled, whenever there is an input pulse and the pulse is counted, then this behavior callback function is called. At this time, the Count Register stores the number of pulses since last time it is read; whereas, the Eliapsed Time stores the duration in ms since last time this regisre is read. Once this callback function is called, both Count Register and Elasped Time are cleared.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
     </tr>
   </tbody>

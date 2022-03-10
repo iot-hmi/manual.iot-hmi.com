@@ -282,13 +282,13 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <p>GPIO元件用以設定I/O Pin的輸出入屬性，以及繫結的暫存器。</p>
+          <p>GPIO widget is to set I/O pin’s attributes, function and its binding register.</p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解I/O元件</p>
+<p>An educational vidoe is availble to get users started:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -297,18 +297,18 @@
 </div>
   </li>
 </ul>
-      <h2 id="元件屬性">
+      <h2 id="widget-property">
         
         
-          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+          <a href="#widget-property" class="anchor-heading" aria-labelledby="widget-property"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget Property
         
         
       </h2>
     
-      <h3 id="io腳位名稱設定">
+      <h3 id="io-pin-name">
         
         
-          <a href="#io腳位名稱設定" class="anchor-heading" aria-labelledby="io腳位名稱設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O腳位名稱設定
+          <a href="#io-pin-name" class="anchor-heading" aria-labelledby="io-pin-name"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O Pin Name
         
         
       </h3>
@@ -317,28 +317,28 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">元件名稱</td>
-      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left">Widget Name</td>
+      <td style="text-align: left">Widget displayed name</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">連結到教學影片</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video</td>
+      <td style="text-align: left">Link to IOT’s website for Educational Video</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="io-腳位處態設定">
+      <h3 id="io-pin-configuration">
         
         
-          <a href="#io-腳位處態設定" class="anchor-heading" aria-labelledby="io-腳位處態設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O 腳位處態設定
+          <a href="#io-pin-configuration" class="anchor-heading" aria-labelledby="io-pin-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O Pin Configuration
         
         
       </h3>
@@ -347,30 +347,30 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要啟動此I/O腳位</td>
+      <td style="text-align: left">Enable</td>
+      <td style="text-align: left">Enable this I/O Pin</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">繫結暫存器</td>
-      <td style="text-align: left">I/O Pin的值繫結的暫存器，當I/O設為輸出時，改變此暫存器的值會直接反應至Output Pin上，當設定為輸入腳位時，腳位准位發生變化時，新的準位執會被寫入此暫存器。容許值為True或者False</td>
+      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">When the I/O Pin is set to be an output pin, the value of this binding register is output to this pin. When this I/O Pin is set to be an input pin, the value of this pin is stored in this binding register. The value only allows True or False.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">輸出入模式</td>
-      <td style="text-align: left">選擇I/O Pin的輸出入模式，可以選擇的值有Digital Output/Digital Input/Digital Output PP(Push Pull)</td>
+      <td style="text-align: left">Input Output Mode</td>
+      <td style="text-align: left">Select a mode from Digital Output, Digital Input and Digital Output PP(Push Pull)</td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">輸入提升模式</td>
-      <td style="text-align: left">選擇I/O Pin作為輸入模式時的內建的準為提升方式，容許值為No Pull/Pull Up/Pull Down</td>
+      <td style="text-align: left">Input Pull Mode</td>
+      <td style="text-align: left">Select an input pull mode. The mode can be No Pull, Pull Up or Pull Down.</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>

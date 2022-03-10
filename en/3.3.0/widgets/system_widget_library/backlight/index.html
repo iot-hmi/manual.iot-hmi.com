@@ -282,19 +282,19 @@
       
       <div id="main-content" class="main-content" role="main">
         
-          <p>背光元件用來設定背光控制，背光驅動頻率，以及螢幕鎖定組態。</p>
-      <h2 id="元件屬性">
+          <p>Backlight widget is to control the brightness of the backlight and the backlight sleep mode.</p>
+      <h2 id="widget-property">
         
         
-          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+          <a href="#widget-property" class="anchor-heading" aria-labelledby="widget-property"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget Property
         
         
       </h2>
     
-      <h3 id="背光名稱設定">
+      <h3 id="io-pin-name">
         
         
-          <a href="#背光名稱設定" class="anchor-heading" aria-labelledby="背光名稱設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 背光名稱設定
+          <a href="#io-pin-name" class="anchor-heading" aria-labelledby="io-pin-name"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O Pin Name
         
         
       </h3>
@@ -303,28 +303,28 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">元件名稱</td>
-      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left">Widget Name</td>
+      <td style="text-align: left">Widget displayed name</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">連結到教學影片</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video</td>
+      <td style="text-align: left">Link to IOT’s website for Educational Video</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="背光腳位組態">
+      <h3 id="backlight-pin-configuration">
         
         
-          <a href="#背光腳位組態" class="anchor-heading" aria-labelledby="背光腳位組態"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 背光腳位組態
+          <a href="#backlight-pin-configuration" class="anchor-heading" aria-labelledby="backlight-pin-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Backlight Pin Configuration
         
         
       </h3>
@@ -333,38 +333,38 @@
 <div class="table-wrapper"><table>
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要啟動背光控制，若不啟動，將以100%亮度以及預設頻率驅動背光</td>
+      <td style="text-align: left">Enable</td>
+      <td style="text-align: left">Enable this backlight control pin. If not enabled, the backlight is set to be 100% brightness and default backlight PWM frequency.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">繫結暫存器</td>
-      <td style="text-align: left">選擇背光亮度百分比繫結暫存器，暫存器內容容許數值為0-100。</td>
+      <td style="text-align: left">Binding Register</td>
+      <td style="text-align: left">Select a binding register whose value (0-100) represents the brightness percentage of the backlight</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">自訂背光頻率致能</td>
-      <td style="text-align: left">勾選後可以開啟背光頻率設定選項</td>
+      <td style="text-align: left">Customized Backlight PWM Frequency</td>
+      <td style="text-align: left">Enable the customized backlight PWM frequency</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">背光頻率(Hz)</td>
-      <td style="text-align: left">勾選自訂背光頻率後顯示，選擇背光驅動PWM頻率值，容許數值為500Hz-100000Hz，每款LCD螢幕最佳驅動頻率不同，調整前請參閱LCD說明書</td>
+      <td style="text-align: left">Customized Backlight Freqency(Hz)</td>
+      <td style="text-align: left">Backlight PWM frequency from500Hz-100000Hz. Every LCM has its own optimized backlight frequency. Please refer to the LCM’s user manual for this technical detail.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="螢幕鎖定">
+      <h3 id="screen-lock">
         
         
-          <a href="#螢幕鎖定" class="anchor-heading" aria-labelledby="螢幕鎖定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 螢幕鎖定
+          <a href="#screen-lock" class="anchor-heading" aria-labelledby="screen-lock"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Screen Lock
         
         
       </h3>
@@ -373,30 +373,30 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動螢幕鎖定</td>
-      <td style="text-align: left">是否啟動螢幕鎖定功能，啟動後螢幕會根據繫結暫存器或是時間數值進行螢幕鎖定</td>
+      <td style="text-align: left">Enable Screen Lock</td>
+      <td style="text-align: left">Enable the screen lock function</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">是否繫結螢幕鎖定暫存器</td>
+      <td style="text-align: left">Binding Screen Lock Control Register</td>
       <td style="text-align: left">是否繫結螢幕鎖定暫存器，選擇是後螢幕的鎖定功能可由繫結暫存器內容控制</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">暫存器</td>
-      <td style="text-align: left">選擇細節螢幕鎖定暫存器時顯示，選擇螢幕鎖定暫存器。其內容為True時，螢幕鎖定的功能啟動</td>
+      <td style="text-align: left">Control Register</td>
+      <td style="text-align: left">When this control register’s value is True, then Screen Lock function is enabled.</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">時間(秒)</td>
-      <td style="text-align: left">設定螢幕鎖定前的閒置時間，當螢幕鎖定功能啟動時，觸控輸入閒置超過此時間後，螢幕會變暗，並進入鎖定狀態</td>
+      <td style="text-align: left">Time(s)</td>
+      <td style="text-align: left">Set the screen idle time in seconds before triggering Screen Lock function</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/number_editor/">Number Editor</a></td>
     </tr>
   </tbody>

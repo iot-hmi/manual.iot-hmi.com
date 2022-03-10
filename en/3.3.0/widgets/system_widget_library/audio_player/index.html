@@ -284,7 +284,8 @@
         
           <p><img src="/en/3.3.0/imgs/file230.png" alt="" class="widget_icon" /></p>
 
-<p>音樂播放器為輸出元件，功能為播放音樂，目前支援音樂格式為</p>
+<p>Audio Player is an output widget whose function is to play audio file. This support the following audio file:</p>
+
 <ul>
   <li>File Format：.wav</li>
   <li>Date：PCM</li>
@@ -293,13 +294,13 @@
   <li>Channel：1</li>
 </ul>
 
-<p>可指定多個音效檔，並於執行期根據繫結的暫存器，指定播放檔案的索引序號以及播放指令。</p>
+<p>Users can provide several audio files and use an index register to decide which file to play.</p>
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解音樂播放器</p>
+<p>An educational vidoe is availble to get users started:</p>
 
 <ul>
   <li>
-    <p>教育影片</p>
+    <p>Educational Video</p>
 
     <div class="video_container">
   <figure class="video_container_educational">
@@ -308,18 +309,18 @@
 </div>
   </li>
 </ul>
-      <h2 id="元件屬性">
+      <h2 id="widget-property">
         
         
-          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+          <a href="#widget-property" class="anchor-heading" aria-labelledby="widget-property"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget Property
         
         
       </h2>
     
-      <h3 id="音樂播放器">
+      <h3 id="audio-player">
         
         
-          <a href="#音樂播放器" class="anchor-heading" aria-labelledby="音樂播放器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 音樂播放器
+          <a href="#audio-player" class="anchor-heading" aria-labelledby="audio-player"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Audio Player
         
         
       </h3>
@@ -328,28 +329,28 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">元件名稱</td>
-      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left">Widget Name</td>
+      <td style="text-align: left">Widget displayed name</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/name/">Name</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">連結到教學影片</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video</td>
+      <td style="text-align: left">Link to IOT’s website for Educational Video</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="行為設定">
+      <h3 id="behavior-setting">
         
         
-          <a href="#行為設定" class="anchor-heading" aria-labelledby="行為設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 行為設定
+          <a href="#behavior-setting" class="anchor-heading" aria-labelledby="behavior-setting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Behavior Setting
         
         
       </h3>
@@ -358,46 +359,46 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要使用音樂播放器，如果沒有啟動則不能使用</td>
+      <td style="text-align: left">Enable</td>
+      <td style="text-align: left">Enable this widget</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">音效命令播放暫存器</td>
-      <td style="text-align: left">設定暫存器作為音樂播放器指令 <br />暫存器內容為 0 時表示停止播放<br />暫存器內容為 1 時表示開始播放<br />暫存器內容為 2 時表示暫停撥放<br />暫存器內容為 3 時表示恢復暫停<br /></td>
+      <td style="text-align: left">Player Command Register</td>
+      <td style="text-align: left">Select a comamnd register <br />Regiser value 0: Stop playing<br />Register Value 1: Start Playing<br />Register Value 2: Pause<br />Register value 3: Resume playing <br /></td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">音效序號暫存器</td>
-      <td style="text-align: left">設定暫存器內容作為音檔的索引</td>
+      <td style="text-align: left">Index Register</td>
+      <td style="text-align: left">Select a register whose value serves as the index to choose which audio file to play</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">匯入音效檔案</td>
-      <td style="text-align: left">詳情參考FileArray Table Dialog</td>
+      <td style="text-align: left">Import Audio File</td>
+      <td style="text-align: left">Please refer to FileArray Table Dialog</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/filearray_table_dialog/">FileArray Table Dialog</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h2 id="右鍵選單">
+      <h2 id="right-click-menu">
         
         
-          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
+          <a href="#right-click-menu" class="anchor-heading" aria-labelledby="right-click-menu"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Right-Click Menu
         
         
       </h2>
     
-      <h3 id="元件子功能">
+      <h3 id="enable">
         
         
-          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+          <a href="#enable" class="anchor-heading" aria-labelledby="enable"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Enable
         
         
       </h3>
@@ -406,40 +407,40 @@
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要使用音樂播放器，如果沒有啟動則不能使用</td>
+      <td style="text-align: left">Enable</td>
+      <td style="text-align: left">Enable this widget</td>
       <td style="text-align: left"><a href="/en/3.3.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
   </tbody>
 </table></div>
-      <h3 id="元件子功能-1">
+      <h2 id="widget-specific-actions">
         
         
-          <a href="#元件子功能-1" class="anchor-heading" aria-labelledby="元件子功能-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+          <a href="#widget-specific-actions" class="anchor-heading" aria-labelledby="widget-specific-actions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Widget-Specific Actions
         
         
-      </h3>
+      </h2>
     
 
 <div class="table-wrapper"><table class="table_properties">
   <thead>
     <tr>
-      <th style="text-align: left">屬性名稱</th>
-      <th style="text-align: left">屬性功能描述</th>
-      <th style="text-align: left">操作型態</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Operation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">連接到教學影片…</td>
-      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left">Link to Educational Video…</td>
+      <td style="text-align: left">Connect to the education video and play it</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
