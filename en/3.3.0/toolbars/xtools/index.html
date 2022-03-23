@@ -313,6 +313,8 @@
 
 <p>Any registerw with “Send to host” option checked, any change of this regiser’s value during the HMI execution triggers a communication via UART for sending this register’s updated value to an external system (eg. Arduino). The default communication protocol is described in <a href="/en/3.3.0/toolbars/download/index.html#iot-protocol">IOT Protocol</a>.</p>
 
+<p>Please note that “HMI execution” is referred to either running on Simulator or executing on Ubique Panel.</p>
+
 <p>Clicking <strong>Validation</strong> invokes Blockly editor.</p>
 
 <p>Clicking Validation button will pop up Blockly editor. We can use a Blockly program to vailidate the value of the register before updating the register. If the incoming value is validated, then the register is updated with that value. If the incoming value is rejected, the content of the register remains unchanged.</p>
