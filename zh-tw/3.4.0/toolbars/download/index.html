@@ -1,0 +1,659 @@
+
+
+<!DOCTYPE html><html lang="zh-tw"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>下載工具 - ADE Reference Manual</title>
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/assets/css/main-default.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+
+  
+
+  
+    <script type="text/javascript" src="/assets/js/vendor/lunr.js"></script>
+  
+  <script type="text/javascript" src="/assets/js/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="/" class="site-title lh-tight">
+  ADE Reference Manual
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        
+          
+          
+          
+          
+        
+          
+          
+          
+          
+        <div class="nav-category">
+          <select class="lang_select"><option value="/en/" >English</option><option value="/zh-tw/" selected>Traditional Chinese(繁體中文)</option></select>
+        </div>
+        <div class="nav-category">
+          <select class="ver_select"><option value="/zh-tw/3.4.0/" selected>3.4.0</option><option value="/zh-tw/3.3.0/" >3.3.0</option></select>
+        </div><ul class="nav-list"><li class="nav-list-item"><a href="/zh-tw/3.4.0/" class="nav-list-link">介紹</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/install_and_launch_ade/" class="nav-list-link">安裝和啟動ADE</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/install_and_launch_ade/install/" class="nav-list-link">安裝</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/install_and_launch_ade/launch_ade/" class="nav-list-link">啟動 ADE</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/install_and_launch_ade/start_a_new_design/" class="nav-list-link">開始新設計</a></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/main_screen_description/" class="nav-list-link">主畫面介紹</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/system_menu/" class="nav-list-link">系統選單</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/system_menu/export/" class="nav-list-link">匯出設計</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/system_menu/setting/" class="nav-list-link">設定</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/system_menu/tools/" class="nav-list-link">工具</a></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/font_management/" class="nav-list-link">字型管理</a></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/toolbars/" class="nav-list-link">工具列</a><ul class="nav-list "><li class="nav-list-item  active"><a href="/zh-tw/3.4.0/toolbars/download/" class="nav-list-link active">下載工具</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/xtools/" class="nav-list-link">程式工具</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/edit/" class="nav-list-link">編輯工具</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/zooming/" class="nav-list-link">縮放工具</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/alignment/" class="nav-list-link">對齊工具</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/same_sizes_and_spaces/" class="nav-list-link">尺寸與間隔工具</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/location/" class="nav-list-link">位置調整</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/toolbars/size/" class="nav-list-link">尺寸調整</a></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/ade_design_flow/" class="nav-list-link">HMI設計流程</a></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/register/" class="nav-list-link">暫存器</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/page/" class="nav-list-link">頁面</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/page/common_page/" class="nav-list-link">通用頁面</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/page/special_page/" class="nav-list-link">特殊頁面</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widget_properties/" class="nav-list-link">元件屬性</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/widget_properties/widget_property_editor/" class="nav-list-link">元件屬性編輯器</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widget_properties/properties/" class="nav-list-link">屬性</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/name/" class="nav-list-link">名稱</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/" class="nav-list-link">勾選框</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/drop_down_list/" class="nav-list-link">下拉式選單</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/plain_text/" class="nav-list-link">純文本</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/number_editor/" class="nav-list-link">數字編輯器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/font_selector/" class="nav-list-link">字型選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/color_selector/" class="nav-list-link">顏色選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/alignment_selector/" class="nav-list-link">排列選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/page_selector/" class="nav-list-link">頁碼選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/register_selector/" class="nav-list-link">暫存器選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/register_operation_setting/" class="nav-list-link">暫存器操作設定</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/blockly_editor/" class="nav-list-link">回呼函式編輯器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/image_collection_management/" class="nav-list-link">影像收集管理</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/visibility_control/" class="nav-list-link">顯示/隱藏控制</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/blending_selector/" class="nav-list-link">顏色混合模式選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/file_open_dialog_box/" class="nav-list-link">檔案開啟對話框</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/image_editor_dialog_box/" class="nav-list-link">影像編輯對話框</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/plaintextarray_table_dialog/" class="nav-list-link">文本陣列編輯對話框</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/format_string/" class="nav-list-link">格式化字串</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/label_display_mode/" class="nav-list-link">文本捲動方式</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/frame_selector/" class="nav-list-link">框線選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/input_data_selector/" class="nav-list-link">輸入板資料選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/messagebox_selector/" class="nav-list-link">信息框視窗模式選擇器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/filearray_table_dialog/" class="nav-list-link">檔案陣列編輯對話框</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/properties/event_setting/" class="nav-list-link">按鈕事件</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widget_properties/on_widget_editor/" class="nav-list-link">元件上編輯器</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/mask_editor/" class="nav-list-link">模板底色編輯器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/offset_editor/" class="nav-list-link">偏移量編輯器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/center_editor/" class="nav-list-link">中心點編輯器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/liquid_column_editor/" class="nav-list-link">水銀柱輔助調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_editor/knob_editor/" class="nav-list-link">滑鈕輔助調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link">毛細管輔助調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">刻度輔助調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">刻度圓弧半徑輔助調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">圖片大小調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">多文本</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widget_properties/on_context_menu/" class="nav-list-link">右鍵選單</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">重置編輯器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widget_properties/on_context_menu/center_editor/" class="nav-list-link">中心點編輯器</a>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/" class="nav-list-link">元件</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/widgets/collection/" class="nav-list-link">圖形元件庫</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/standard_widget_library/" class="nav-list-link">標準元件庫</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/slider_switch/" class="nav-list-link">滑動開關</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/click_button/" class="nav-list-link">無段按鍵</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/" class="nav-list-link">段位按鍵</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/" class="nav-list-link">單擊多狀態按鍵</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/" class="nav-list-link">多狀態按鍵開關</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/generic_latching_button/" class="nav-list-link">有段按鈕</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/generic_button/" class="nav-list-link">多功能按鈕</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/multiple_state_button/" class="nav-list-link">多狀態按鈕</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/image_list/" class="nav-list-link">影像清單</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/animation/" class="nav-list-link">動畫</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/" class="nav-list-link">捲動文本</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/datetime_label/" class="nav-list-link">日期/時間文本</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/image_label/" class="nav-list-link">影像文本</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/digits/" class="nav-list-link">七段顯示器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/circular_progress_bar/" class="nav-list-link">圓形進度條</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/circular_meter/" class="nav-list-link">儀表</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/generic_progress_bar/" class="nav-list-link">通用型進度條</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/horizontal_slider/" class="nav-list-link">水平條狀調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/vertical_slider/" class="nav-list-link">垂直條狀調節器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/touch_area/" class="nav-list-link">觸控區域</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/bitmap_image/" class="nav-list-link">靜態圖像</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/rotation_image/" class="nav-list-link">旋轉影像</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/data_chart/" class="nav-list-link">圖表</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/generic_gauge/" class="nav-list-link">通用型儀表</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/circular_scale/" class="nav-list-link">圓形刻度盤</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/circular_gauge/" class="nav-list-link">圓形儀表</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/led/" class="nav-list-link">發光二極體</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/palette/" class="nav-list-link">調色盤</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/system_widget_library/" class="nav-list-link">系統元件庫</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/retained_data/" class="nav-list-link">斷電後保存資料</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">彈出式輸入對話盒</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/popup_messagebox/" class="nav-list-link">彈出式訊息窗</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/register_observer/" class="nav-list-link">暫存器監視器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/timer/" class="nav-list-link">計時器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/audio_player/" class="nav-list-link">音樂播放器</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/gpio/" class="nav-list-link">GPIO</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/pwm/" class="nav-list-link">PWM</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/adc/" class="nav-list-link">ADC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/uart/" class="nav-list-link">UART</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/backlight/" class="nav-list-link">背光</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/rtc/" class="nav-list-link">即時時鐘</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/logo/" class="nav-list-link">商標圖像</a>
+                  </li></ul></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/widgets/edit_canvas/" class="nav-list-link">編輯工作區域</a></li><li class="nav-list-item "><a href="/zh-tw/3.4.0/widgets/iot_gallery_minimalist/" class="nav-list-link">極簡主義元件集合</a></li></ul></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/my_collections/" class="nav-list-link">私有圖形元件</a></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/widget_inspector/" class="nav-list-link">圖形元件列表</a></li><li class="nav-list-item"><a href="/zh-tw/3.4.0/shortcut_keys/" class="nav-list-link">快捷鍵</a></li></ul>
+
+          
+        
+      
+    </nav>
+    <footer class="site-footer">
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search ADE Reference Manual" aria-label="Search ADE Reference Manual" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="/zh-tw/3.4.0/toolbars/">工具列</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>下載工具</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 id="下載工具">
+        
+        
+          <a href="#下載工具" class="anchor-heading" aria-labelledby="下載工具"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 下載工具
+        
+        
+      </h1>
+    
+<p>下載工具的三個控制按鍵，如下圖所示：</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file22.png" alt="圖2-6 下載工具列" /></p>
+      <h2 id="下載到屏">
+        
+        
+          <a href="#下載到屏" class="anchor-heading" aria-labelledby="下載到屏"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 下載到屏
+        
+        
+      </h2>
+    
+<p>最左邊的是下載到 Ubique Panel 控制板的按鍵：</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file23.png" alt="圖2-7 下載鈕" /></p>
+
+<p>連接USB線並點擊按鍵即可將設計下載至控制板</p>
+
+<p>當下載成功時，ADE 會出現下面的彈出視窗：</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file24.png" alt="圖2-8 下載完成提示對話框" /></p>
+
+<p>這表示 HMI 設計已經成功下載到 Ubique Panel 的控制板上。下載時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。</p>
+      <h2 id="啟動模擬器">
+        
+        
+          <a href="#啟動模擬器" class="anchor-heading" aria-labelledby="啟動模擬器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 啟動模擬器
+        
+        
+      </h2>
+    
+<p>中間的按鍵是用來開啟內建的模擬器(Simulator)：</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file25.png" alt="圖2-9 啟動模擬器按鈕" /></p>
+
+<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者螢幕以及 Ubique Panel的規格差異)。</p>
+
+<p>模擬器無法於個人電腦模擬 Ubique Panel 上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。</p>
+      <h2 id="啟動屏通訊程式messenger">
+        
+        
+          <a href="#啟動屏通訊程式messenger" class="anchor-heading" aria-labelledby="啟動屏通訊程式messenger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 啟動屏通訊程式(Messenger)
+        
+        
+      </h2>
+    
+<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
+
+<p>如果打開對外通訊的屏通訊程式(Messenger)，會出現以下視窗：</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file27.png" alt="圖2-11 Messenger視窗" /></p>
+
+<p>在這視窗中，使用者可以透過個人電腦的序列埠或網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
+
+<p>通訊分為兩種方法：一種為透過網路Socket，另一種為序列埠</p>
+
+<p>如果透過網路Socket，則需要設定IP位址和通訊埠；如果透過序列埠則需要設定鮑率</p>
+
+<ul>
+  <li>
+    <p>Command Type：選擇Set Register，設定暫存器內容；或者Get Register，取得暫存器內容</p>
+  </li>
+  <li>
+    <p>Register ID：指定要進行操作的暫存器序號</p>
+  </li>
+  <li>
+    <p>Data Type：選擇要設定的資料型態，Set Register時有效</p>
+  </li>
+  <li>
+    <p>Data Length：選擇要設定的資料長度，Set Register時有效</p>
+  </li>
+  <li>
+    <p>Data：設定資料，Set Register時有效</p>
+  </li>
+  <li>
+    <p>Ack Test：確認連接是否正常，詳情參考<a href="#ack-test">Ack Test</a></p>
+  </li>
+</ul>
+
+<p>以下詳細說明與模擬器以及 Ubique Panel 通訊方法：</p>
+      <h3 id="利用屏通訊程式messenger和模擬器通訊">
+        
+        
+          <a href="#利用屏通訊程式messenger和模擬器通訊" class="anchor-heading" aria-labelledby="利用屏通訊程式messenger和模擬器通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 利用屏通訊程式(Messenger)和模擬器通訊
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>
+    <p>首先用 ADE 開啟一個既有設計</p>
+
+    <p>確認IOConfig頁面UART為啟動且UART鮑率正確且暫存器已選取</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file28.png" alt="圖2-12 IOConfig頁面-UART設定" /></p>
+  </li>
+  <li>
+    <p>到暫存器編輯視窗找到欲進行通訊的暫存器並勾選<strong>自動通訊上傳</strong></p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file29.png" alt="圖2-13 暫存器編輯視窗" /></p>
+  </li>
+  <li>
+    <p>打開屏通訊程式(Messenger)視窗與模擬器，進行以下操作</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file30.png" alt="圖2-14 Messenger和模擬器通訊" /></p>
+
+    <ol>
+      <li>
+        <p>設定Socket</p>
+      </li>
+      <li>
+        <p>點擊連接，連接成功會看到彈出信息框顯示成功</p>
+      </li>
+      <li>
+        <p>點擊連接確認，屏通訊程式(Messenger)會送出連接確認命令，若是模擬器端正常接收，則會回復連接確認命令。</p>
+      </li>
+      <li>
+        <p>連接正常，接收確認資訊ack</p>
+      </li>
+      <li>
+        <p>通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
+
+        <p>選擇 Set Register 表示要寫入暫存器內容，並且設定暫存器序號以及要寫入的資料和型態，該暫存器ID以及資料型態必須與ADE設計專案內暫存器設定相符。</p>
+      </li>
+      <li>
+        <p>模擬器接收通訊指令且模擬器上會依通訊指令修改對應暫存器數值，若該暫存器有對應的顯示元件則模擬器進行相對應的顯示</p>
+      </li>
+    </ol>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file31.png" alt="圖2-15 模擬器顯示通訊結果" /></p>
+  </li>
+</ul>
+      <h3 id="屏通訊程式messenger與ubique-panel通訊">
+        
+        
+          <a href="#屏通訊程式messenger與ubique-panel通訊" class="anchor-heading" aria-labelledby="屏通訊程式messenger與ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式(Messenger)與Ubique Panel通訊
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>
+    <p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
+  </li>
+  <li>
+    <p>之後利用電腦UART(eg.USB to TTL模組)連接控制板的TX、RX、GND</p>
+  </li>
+  <li>
+    <p>連接完成後打開屏通訊程式(Messenger)視窗</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file32.png" alt="" /></p>
+
+    <ol>
+      <li>
+        <p>設定序列埠，利用<strong>Scan</strong>掃描更新序列埠，選擇正確的序列埠並設定鮑率</p>
+      </li>
+      <li>
+        <p>點擊<strong>Ack Test</strong>確認連接</p>
+      </li>
+      <li>
+        <p>連接正常，接收到ack訊息</p>
+      </li>
+      <li>
+        <p>設定並傳送通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>接下來即可在 Ubique Panel 上看到相對應的顯示</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file33.png" alt="" /></p>
+  </li>
+</ul>
+      <h3 id="ubique-panel-和-mcu-通訊">
+        
+        
+          <a href="#ubique-panel-和-mcu-通訊" class="anchor-heading" aria-labelledby="ubique-panel-和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel 和 MCU 通訊
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>
+    <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博橡通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
+  </li>
+  <li>
+    <p>其次，連接博橡控制板與Arduino控制板的TX、RX和GND</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file42.png" alt="" /></p>
+  </li>
+  <li>
+    <p>將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。</p>
+  </li>
+</ul>
+      <h3 id="博橡uart通訊協定">
+        
+        
+          <a href="#博橡uart通訊協定" class="anchor-heading" aria-labelledby="博橡uart通訊協定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博橡UART通訊協定<a name="iot-protocol"></a>
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>
+    <p>Command Format</p>
+
+    <div class="table-wrapper"><table>
+      <thead>
+        <tr>
+          <th style="text-align: left">Command</th>
+          <th style="text-align: left">Lead Byte</th>
+          <th style="text-align: left">Type Byte</th>
+          <th style="text-align: left">Register ID Low Byte</th>
+          <th style="text-align: left">Register ID High Byte</th>
+          <th style="text-align: left">Tailing Bytes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: left">Set Register</td>
+          <td style="text-align: left">0x11</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">Data Payload</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Get Register</td>
+          <td style="text-align: left">0x11</td>
+          <td style="text-align: left">0x01</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">N/A</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </li>
+  <li>
+    <p>Data Payload Format</p>
+
+    <div class="table-wrapper"><table>
+      <thead>
+        <tr>
+          <th style="text-align: left">Payload Type</th>
+          <th style="text-align: left">ID Byte</th>
+          <th style="text-align: left">Length Low Byte</th>
+          <th style="text-align: left">Length High Byte</th>
+          <th style="text-align: left">Tailing Bytes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: left">Boolean</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">0x01</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">String</td>
+          <td style="text-align: left">0x01</td>
+          <td style="text-align: left">0x01~0xFF</td>
+          <td style="text-align: left">0x00~0xFF</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Integer</td>
+          <td style="text-align: left">0x02</td>
+          <td style="text-align: left">0x01/02/04/08</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Unsigned Integer</td>
+          <td style="text-align: left">0x03</td>
+          <td style="text-align: left">0x01/02/04/08</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Floating Point</td>
+          <td style="text-align: left">0x04</td>
+          <td style="text-align: left">0x04/08</td>
+          <td style="text-align: left">0x00</td>
+          <td style="text-align: left">Data Bytes</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </li>
+  <li>
+    <p>Data Bytes are of the Little-Endian Format</p>
+  </li>
+</ul>
+
+<p>博橡Arduino Library可參考<a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino" target="_blank">IOT Binary Protocol</a></p>
+      <h3 id="ack-test">
+        
+        
+          <a href="#ack-test" class="anchor-heading" aria-labelledby="ack-test"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ack Test<a name="ack-test"></a>
+        
+        
+      </h3>
+    
+<p>確認連線是否正常，點擊<strong>Ack Test</strong>，系統會自動送出<strong>16</strong>，收到<strong>ack</strong>則表示連線正常，沒有收到<strong>ack</strong>則表示連線失敗</p>
+
+<p><img src="/zh-tw/3.4.0/imgs/file269.png" alt="Ack" /></p>
+
+<ul>
+  <li>
+    <p>使用網路Socket</p>
+
+    <p>連線失敗建議檢查IP位址與通訊埠是否正確，是否有點擊<strong>Connect</strong>進行連線</p>
+
+    <p>如果連線成功會看到<strong>Connect is OK</strong>的提示訊息，點擊確定後在屏通訊程式(Messenger)的網路Socket處會看到<strong>Connected</strong>的字樣</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file265.png" alt="連線成功" /></p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file267.png" alt="Connected" /></p>
+
+    <p>如果連線失敗會看到<strong>Connect is FAILED</strong>的提示訊息，點擊確定後在屏通訊程式(Messenger)的網路Socket處會看到<strong>No Connection</strong>的字樣</p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file266.png" alt="連線失敗" /></p>
+
+    <p><img src="/zh-tw/3.4.0/imgs/file268.png" alt="No Connection" /></p>
+  </li>
+  <li>
+    <p>使用序列埠</p>
+
+    <p>連線失敗建議檢查序列埠與鮑率是否正確，是否有點擊<strong>Set</strong>進行連線</p>
+  </li>
+</ul>
+
+        
+
+        
+
+        
+        
+          <hr>
+          <footer>
+            
+              <p><a href="#top" id="back-to-top">Back to top</a></p>
+            
+
+            <p class="text-small text-grey-dk-100 mb-0"></p>
+
+            
+          </footer>
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
+

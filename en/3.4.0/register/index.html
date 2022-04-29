@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Register - ADE Reference Manual</title>
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/assets/css/main-default.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+
+  
+
+  
+    <script type="text/javascript" src="/assets/js/vendor/lunr.js"></script>
+  
+  <script type="text/javascript" src="/assets/js/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="/" class="site-title lh-tight">
+  ADE Reference Manual
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        
+          
+          
+          
+          
+        <div class="nav-category">
+          <select class="lang_select"><option value="/en/" selected>English</option><option value="/zh-tw/" >Traditional Chinese(繁體中文)</option></select>
+        </div>
+        <div class="nav-category">
+          <select class="ver_select"><option value="/en/3.4.0/" selected>3.4.0</option><option value="/en/3.3.0/" >3.3.0</option></select>
+        </div><ul class="nav-list"><li class="nav-list-item"><a href="/en/3.4.0/" class="nav-list-link">Introduction</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/install_and_launch_ade/" class="nav-list-link">Install and Launch ADE</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/install_and_launch_ade/install/" class="nav-list-link">Install</a></li><li class="nav-list-item "><a href="/en/3.4.0/install_and_launch_ade/launch_ade/" class="nav-list-link">Launch ADE</a></li><li class="nav-list-item "><a href="/en/3.4.0/install_and_launch_ade/start_a_new_design/" class="nav-list-link">Start a New Design</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/main_screen_description/" class="nav-list-link">Main Screen Description</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/system_menu/" class="nav-list-link">System Menu</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/system_menu/export/" class="nav-list-link">Export</a></li><li class="nav-list-item "><a href="/en/3.4.0/system_menu/setting/" class="nav-list-link">Setting</a></li><li class="nav-list-item "><a href="/en/3.4.0/system_menu/tools/" class="nav-list-link">Tools</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/font_management/" class="nav-list-link">Fonts Management</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/toolbars/" class="nav-list-link">Toolbars</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/toolbars/download/" class="nav-list-link">Download</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/xtools/" class="nav-list-link">XTools</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/edit/" class="nav-list-link">EDIT</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/zooming/" class="nav-list-link">ZOOMING</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/alignment/" class="nav-list-link">ALIGNMENT</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/same_sizes_and_spaces/" class="nav-list-link">SAME SIZES & SPACES</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/location/" class="nav-list-link">LOCATION</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/size/" class="nav-list-link">SIZE</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/ade_design_flow/" class="nav-list-link">HMI Design Flow</a></li><li class="nav-list-item active"><a href="/en/3.4.0/register/" class="nav-list-link active">Register</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/page/" class="nav-list-link">Page</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/page/common_page/" class="nav-list-link">Common Page</a></li><li class="nav-list-item "><a href="/en/3.4.0/page/special_page/" class="nav-list-link">Special Page</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/" class="nav-list-link">Widget Properties</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/widget_properties/widget_property_editor/" class="nav-list-link">Widget Property Editor</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/properties/" class="nav-list-link">Properties</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/name/" class="nav-list-link">Name</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/checkbox/" class="nav-list-link">Checkbox</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/drop_down_list/" class="nav-list-link">Drop down list</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/plain_text/" class="nav-list-link">Plain Text</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/number_editor/" class="nav-list-link">Number Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/font_selector/" class="nav-list-link">Font Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/color_selector/" class="nav-list-link">Color Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/alignment_selector/" class="nav-list-link">Alignment Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/page_selector/" class="nav-list-link">Page Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/register_selector/" class="nav-list-link">Register Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/register_operation_setting/" class="nav-list-link">Register Operation Setting</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/blockly_editor/" class="nav-list-link">Blockly Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/image_collection_management/" class="nav-list-link">Image Collection Management</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/visibility_control/" class="nav-list-link">Visibility Control</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/blending_selector/" class="nav-list-link">Blending Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/file_open_dialog_box/" class="nav-list-link">File Open Dialog Box</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/image_editor_dialog_box/" class="nav-list-link">Image Editor Dialog Box</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/plaintextarray_table_dialog/" class="nav-list-link">PlainTextArray Table Dialog</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/format_string/" class="nav-list-link">Format String</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/label_display_mode/" class="nav-list-link">Label Display Mode</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/frame_selector/" class="nav-list-link">Frame Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/input_data_selector/" class="nav-list-link">Input Data Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/messagebox_selector/" class="nav-list-link">MessageBox Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/filearray_table_dialog/" class="nav-list-link">FileArray Table Dialog</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/event_setting/" class="nav-list-link">Event Setting</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/on_widget_editor/" class="nav-list-link">On Widget Editor</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/mask_editor/" class="nav-list-link">Mask Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/offset_editor/" class="nav-list-link">Offset Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/center_editor/" class="nav-list-link">Center Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/liquid_column_editor/" class="nav-list-link">Liquid Column Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_editor/knob_editor/" class="nav-list-link">Knob Size Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link">Bore Boundary Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Tick Boundary Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Tick Diameter Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Size Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/on_context_menu/" class="nav-list-link">On Context Menu</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">Reset Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_context_menu/center_editor/" class="nav-list-link">Center Editor</a>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/" class="nav-list-link">Widgets</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/widgets/collection/" class="nav-list-link">Collection</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/standard_widget_library/" class="nav-list-link">Standard Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/slider_switch/" class="nav-list-link">Slider Switch</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/click_button/" class="nav-list-link">Click Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/pressrelease_button/" class="nav-list-link">Press/Release Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/momentary_push_button/" class="nav-list-link">Momentary Push Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_push_button/" class="nav-list-link">Generic Push Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_latching_button/" class="nav-list-link">Generic Latching Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_button/" class="nav-list-link">Generic Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/multiple_state_button/" class="nav-list-link">Multiple State Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/image_list/" class="nav-list-link">Image List </a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/animation/" class="nav-list-link">Animation</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/scrolling_label/" class="nav-list-link">Scrolling Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/datetime_label/" class="nav-list-link">Date/Time Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/image_label/" class="nav-list-link">Image Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/digits/" class="nav-list-link">Digits</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_progress_bar/" class="nav-list-link">Circular Progress Bar</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_meter/" class="nav-list-link">Circular Meter</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_progress_bar/" class="nav-list-link">Generic Progress Bar</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/horizontal_slider/" class="nav-list-link">Horizontal Slider</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/vertical_slider/" class="nav-list-link">Vertical Slider</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/touch_area/" class="nav-list-link">Touch Area</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/bitmap_image/" class="nav-list-link">Bitmap Image</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/rotation_image/" class="nav-list-link">Rotation Image</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/data_chart/" class="nav-list-link">Data Chart</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_gauge/" class="nav-list-link">Generic Gauge</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_scale/" class="nav-list-link">Circular Scale</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_gauge/" class="nav-list-link">Circular Gauge</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/led/" class="nav-list-link">LED</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/palette/" class="nav-list-link">Palette</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/system_widget_library/" class="nav-list-link">System Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/retained_data/" class="nav-list-link">Retained Data</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">Popup InputPad</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/popup_messagebox/" class="nav-list-link">Popup MessageBox</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/register_observer/" class="nav-list-link">Register Observer</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/timer/" class="nav-list-link">Timer</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/audio_player/" class="nav-list-link">Audio Player</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/gpio/" class="nav-list-link">GPIO</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/pwm/" class="nav-list-link">PWM</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/adc/" class="nav-list-link">ADC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/uart/" class="nav-list-link">UART</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/backlight/" class="nav-list-link">Backlight</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
+                  </li></ul></li><li class="nav-list-item "><a href="/en/3.4.0/widgets/edit_canvas/" class="nav-list-link">Edit Canvas</a></li><li class="nav-list-item "><a href="/en/3.4.0/widgets/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/en/3.4.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/en/3.4.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li></ul>
+
+          
+        
+          
+          
+          
+          
+        
+      
+    </nav>
+    <footer class="site-footer">
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search ADE Reference Manual" aria-label="Search ADE Reference Manual" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 id="registers">
+        
+        
+          <a href="#registers" class="anchor-heading" aria-labelledby="registers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Registers
+        
+        
+      </h1>
+    
+
+<p>In ADE, registers are used to store input/output data and control widgets. This chapter is to describe how to use registers in ADE.</p>
+
+<p>We can categorize ADE’s widgets in three groups:</p>
+
+<ol>
+  <li>
+    <p><strong>Input Widgets</strong>:</p>
+
+    <p>These widgets allows inputs from users or communication interfaces. Widgets such as various Buttons, Touch Area or RTC are in this category.</p>
+  </li>
+  <li>
+    <p><strong>Output Widgets</strong>:</p>
+
+    <p>These widgets present data in HMI or output data via communication interfaces. Widgets such as Gauge, Progress Bar or Image List are in this category.</p>
+  </li>
+  <li>
+    <p><strong>Input&amp;Output Widgets</strong>:</p>
+
+    <p>These widgets have the attributes of both Input Widgets and Output Widgets. Widgets such as prograss bars with knobs are examples.</p>
+  </li>
+</ol>
+
+<p>Any input value for HMI can be stored, modified by widget setting, or manipulated by a Blockly function. Thus, a place holder is required to store the input value. This place holder is called <strong>Registers</strong>. You can image registers as global variables in any high level programming language or X, Y, D, M registers in PLCs. Every register in HMI has a unique name and ID for identification. Registers has the data type attribute for ensuring the right data format is adopted.</p>
+
+<p><img src="/en/3.4.0/imgs/file67.png" alt="" /></p>
+
+<p>Users who would like to learn more about Registers and how to use them, please take a look at our educational video:</p>
+
+<ul>
+  <li>
+    <p>Educational Video</p>
+
+    <div class="video_container">
+  <figure class="video_container_educational">
+      <iframe src="https://www.youtube.com/embed/W7Wvsn0YSX8" frameborder="0" allowfullscreen="true"> </iframe>
+  </figure>
+  </div>
+  </li>
+</ul>
+      <h2 id="registers-1">
+        
+        
+          <a href="#registers-1" class="anchor-heading" aria-labelledby="registers-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Registers
+        
+        
+      </h2>
+    
+
+<p>There are three types of registers in ADE:</p>
+
+<ol>
+  <li>
+    <p><strong>System-Defined Registers</strong>:</p>
+
+    <p>System-Defined Registers are pre-defined in ADE enabling users to perform system-level functions such as changing pages.</p>
+  </li>
+  <li>
+    <p><strong>Product-Specific Registers</strong>:</p>
+
+    <p>Different IOT products have a different set of I/O. As a result, the Product-Specific Registers are required to reflect the product difference. These registers are pre-defined, too.</p>
+  </li>
+  <li>
+    <p><strong>User-Defined Registers</strong>:</p>
+
+    <p>As the namme suggests, these registers are created by users. Users are allowed to delete these registers.</p>
+  </li>
+</ol>
+
+<p>In Register Table, users can create User-Defined Registers:</p>
+
+<p>When creating a new register, users are asked to enter the Name, Description, Type, and Initial Value before hand. When “Sent to host” is checked, any value change on this register, the value is sent via the pre-defined communication protocl. The “Validation” attribute allows users to modify the regiser’s value via a Blockly function. All the user-defined registers are deletable.</p>
+
+<p>ADE automatically assign an ID to a newly-created register. Users can drag the register around in the Register Table to change the ID number.</p>
+
+<p><img src="/en/3.4.0/imgs/file68.png" alt="" />
+<img src="/en/3.4.0/imgs/file69.png" alt="" /></p>
+
+<p>When users want to store a value from an Input Widget, users can accomplish this simply by binding a register to this widget. On the other hand, when users to display a stored value, they can bind a register to an Output Widget for such purpose.</p>
+
+<p>Users can learn how to bind and operate registers from the following example:</p>
+
+<p><img src="/en/3.4.0/imgs/file275.png" alt="" /></p>
+
+<p>First, bind register <strong>num</strong> to + push button event and set the increasement amount. Once this push busson is pressed, the value of the bound register is increased by such amount.</p>
+
+<p><img src="/en/3.4.0/imgs/file271.png" alt="遞增按鍵" /></p>
+
+<p>Next, bind register <strong>num</strong> to - push button event and set the decrement amount. Once this push button is pressed, the value of the bound register is decreased by such amount.</p>
+
+<p><img src="/en/3.4.0/imgs/file272.png" alt="遞減按鍵" /></p>
+
+<p>Bind register <strong>num</strong> to <strong>Set 0</strong> push button’s event and set the value of register <strong>num</strong> to zero once this push button is pressed.</p>
+
+<p><img src="/en/3.4.0/imgs/file273.png" alt="歸零按鍵" /></p>
+
+<p>To complete this HMI project, a Progress Bar and a Scrolling Label are then dragged and dropped into the design panel. These two widgets are also bound with register <strong>num</strong>. The maximum and minimum values of the progress bar is set to the desired values. The Scrolling Label is to show the value of register <strong>num</strong>.</p>
+
+<p><img src="/en/3.4.0/imgs/file270.png" alt="進度條" />
+<img src="/en/3.4.0/imgs/file274.png" alt="捲動文本" /></p>
+
+<p>From the above example, we learn that a register’s value can be altered by input widgets and can be shown by output widgets.</p>
+      <h2 id="how-to-use-registers">
+        
+        
+          <a href="#how-to-use-registers" class="anchor-heading" aria-labelledby="how-to-use-registers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to use registers
+        
+        
+      </h2>
+    
+
+<p>For how to use registers in ADE, please refer to <a href="/en/3.4.0/widget_properties/properties/register_selector/">Register Tabel Editor</a> and <a href="/en/3.4.0/widget_properties/properties/register_operation_setting/">Register Operation</a>.</p>
+
+<p>Registers can be manipulated by the built-in Blockly viusal programming langague:</p>
+
+<p>In any ADE’s Blockly Editor, choose Register Tag, the following pop-up menu will show. The first block is the function to set register. Other blocks represent all the registers defined in ADE.</p>
+
+<ul>
+  <li>
+    <p>Set Register: Set Register Block is to set the value of a register. First, users can select which register to be set. Following this block, a value block can be attached. The assigned value’s type must meet the type definition of the regsiter. If this register is bound with an output widget, the change of the register’s value will be reflected next time when the screen refreshes.</p>
+  </li>
+  <li>
+    <p>Register Usage: Register blocks are be used in math, logic or string operation blocks.</p>
+  </li>
+</ul>
+
+<p>In addition, registers can be used for triggering events. Any change of the register value triggers an execution of pre-specified program.</p>
+
+<p>Users can use a system widget called Register Observer for monitoring any change of a register. If the value of a register is modified by an input widget, I/O pins or a Blockly function, the Register Observer is triggered. Then the bound behavior program, a Blockly program, is called and executes.</p>
+
+<p>Click Register tab, all Register blocks and Register Setting block are shown.</p>
+
+<p><img src="/en/3.4.0/imgs/file72.png" alt="" /></p>
+
+<p>For Register Setting block, users can choose which register to set and then assgin a value to this register.</p>
+
+<p><img src="/en/3.4.0/imgs/file73.png" alt="" /></p>
+
+<p>How to use register, how to get the register’s content and use it in a math operation:</p>
+
+<p><img src="/en/3.4.0/imgs/file74.png" alt="" /></p>
+
+        
+
+        
+
+        
+        
+          <hr>
+          <footer>
+            
+              <p><a href="#top" id="back-to-top">Back to top</a></p>
+            
+
+            <p class="text-small text-grey-dk-100 mb-0"></p>
+
+            
+          </footer>
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
+
