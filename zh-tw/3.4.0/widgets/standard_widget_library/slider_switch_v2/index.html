@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <title>GPIO - ADE Reference Manual</title>
+  <title>滑動開關 - ADE Reference Manual</title>
 
 
 
@@ -163,10 +163,10 @@
                     <a href="/zh-tw/3.4.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">重置編輯器</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widget_properties/on_context_menu/center_editor/" class="nav-list-link">中心點編輯器</a>
-                  </li></ul></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/" class="nav-list-link">元件</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/widgets/collection/" class="nav-list-link">圖形元件庫</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/standard_widget_library/" class="nav-list-link">標準元件庫</a><ul class="nav-list"><li class="nav-list-item ">
+                  </li></ul></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/" class="nav-list-link">元件</a><ul class="nav-list "><li class="nav-list-item "><a href="/zh-tw/3.4.0/widgets/collection/" class="nav-list-link">圖形元件庫</a></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/standard_widget_library/" class="nav-list-link">標準元件庫</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/standard_widget_library/slider_switch/" class="nav-list-link">滑動開關</a>
-                  </li><li class="nav-list-item ">
-                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/slider_switch_v2/" class="nav-list-link">滑動開關</a>
+                  </li><li class="nav-list-item  active">
+                    <a href="/zh-tw/3.4.0/widgets/standard_widget_library/slider_switch_v2/" class="nav-list-link active">滑動開關</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/standard_widget_library/click_button/" class="nav-list-link">無段按鍵</a>
                   </li><li class="nav-list-item ">
@@ -221,7 +221,7 @@
                     <a href="/zh-tw/3.4.0/widgets/standard_widget_library/led/" class="nav-list-link">發光二極體</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/standard_widget_library/palette/" class="nav-list-link">調色盤</a>
-                  </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/system_widget_library/" class="nav-list-link">系統元件庫</a><ul class="nav-list"><li class="nav-list-item ">
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/zh-tw/3.4.0/widgets/system_widget_library/" class="nav-list-link">系統元件庫</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/system_widget_library/retained_data/" class="nav-list-link">斷電後保存資料</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">彈出式輸入對話盒</a>
@@ -233,8 +233,8 @@
                     <a href="/zh-tw/3.4.0/widgets/system_widget_library/timer/" class="nav-list-link">計時器</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/system_widget_library/audio_player/" class="nav-list-link">音樂播放器</a>
-                  </li><li class="nav-list-item  active">
-                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/gpio/" class="nav-list-link active">GPIO</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/zh-tw/3.4.0/widgets/system_widget_library/gpio/" class="nav-list-link">GPIO</a>
                   </li><li class="nav-list-item ">
                     <a href="/zh-tw/3.4.0/widgets/system_widget_library/pwm/" class="nav-list-link">PWM</a>
                   </li><li class="nav-list-item ">
@@ -275,18 +275,29 @@
             <ol class="breadcrumb-nav-list">
               
                 <li class="breadcrumb-nav-list-item"><a href="/zh-tw/3.4.0/widgets/">元件</a></li>
-                <li class="breadcrumb-nav-list-item"><a href="/zh-tw/3.4.0/widgets/system_widget_library/">系統元件庫</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="/zh-tw/3.4.0/widgets/standard_widget_library/">標準元件庫</a></li>
               
-              <li class="breadcrumb-nav-list-item"><span>GPIO</span></li>
+              <li class="breadcrumb-nav-list-item"><span>滑動開關</span></li>
             </ol>
           </nav>
         
       
       <div id="main-content" class="main-content" role="main">
         
-          <p>GPIO元件用以設定I/O Pin的輸出入屬性，以及繫結的暫存器。</p>
+          <h1 id="滑動開關">
+        
+        
+          <a href="#滑動開關" class="anchor-heading" aria-labelledby="滑動開關"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 滑動開關
+        
+        
+      </h1>
+    
 
-<p>如欲快速入門，可以觀看博橡教育影片，幫助了解I/O元件</p>
+<p><img src="/zh-tw/3.4.0/imgs/file149.png" alt="" class="widget_icon" /></p>
+
+<p>滑動開關既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。狀態可以由使用者觸摸按鈕改變，或是藉由其他元件、程式改變繫結的暫存器內容以改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。按鈕的不同按鈕狀態可以對應到不同的顯示圖像以及文字。開關按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。</p>
+
+<p>如欲快速入門，可以觀看博橡教育影片，幫助了解滑動開關：</p>
 
 <ul>
   <li>
@@ -294,7 +305,7 @@
 
     <div class="video_container">
   <figure class="video_container_educational">
-    <iframe src="https://www.youtube.com/embed/-d_JHDLb_RY" frameborder="0" allowfullscreen="true"> </iframe>
+    <iframe src="https://www.youtube.com/embed/ZdUlQdXj5vk" frameborder="0" allowfullscreen="true"> </iframe>
   </figure>
 </div>
   </li>
@@ -307,10 +318,10 @@
         
       </h2>
     
-      <h3 id="io腳位名稱設定">
+      <h3 id="滑動開關-1">
         
         
-          <a href="#io腳位名稱設定" class="anchor-heading" aria-labelledby="io腳位名稱設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O腳位名稱設定
+          <a href="#滑動開關-1" class="anchor-heading" aria-labelledby="滑動開關-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 滑動開關
         
         
       </h3>
@@ -337,10 +348,10 @@
     </tr>
   </tbody>
 </table></div>
-      <h3 id="io-腳位處態設定">
+      <h3 id="顯示隱藏控制">
         
         
-          <a href="#io-腳位處態設定" class="anchor-heading" aria-labelledby="io-腳位處態設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> I/O 腳位處態設定
+          <a href="#顯示隱藏控制" class="anchor-heading" aria-labelledby="顯示隱藏控制"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 顯示/隱藏控制
         
         
       </h3>
@@ -356,23 +367,516 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">啟動</td>
-      <td style="text-align: left">決定是否要啟動此I/O腳位</td>
+      <td style="text-align: left">繫結顯示/隱藏</td>
+      <td style="text-align: left">決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件</td>
       <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">繫結暫存器</td>
-      <td style="text-align: left">I/O Pin的值繫結的暫存器，當I/O設為輸出時，改變此暫存器的值會直接反應至Output Pin上，當設定為輸入腳位時，腳位准位發生變化時，新的準位執會被寫入此暫存器。容許值為True或者False</td>
+      <td style="text-align: left">選擇顯示/隱藏</td>
+      <td style="text-align: left">透過改變暫存器值決定顯示或不顯示元件</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="模板底色形狀設定">
+        
+        
+          <a href="#模板底色形狀設定" class="anchor-heading" aria-labelledby="模板底色形狀設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 模板底色形狀設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">底色形狀</td>
+      <td style="text-align: left">決定底色形狀，分為橢圓及矩形</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">元件狀態</td>
+      <td style="text-align: left">選擇要預覽的狀態</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="off狀態文字設定">
+        
+        
+          <a href="#off狀態文字設定" class="anchor-heading" aria-labelledby="off狀態文字設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OFF狀態文字設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">顯示文字</td>
+      <td style="text-align: left">決定開關為關時是否要顯示文字</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字鏤空</td>
+      <td style="text-align: left">決定開關為關時是否文字鏤空</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字內容</td>
+      <td style="text-align: left">顯示開關為關時的文字內容</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/plain_text/">Plain Text</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">字型</td>
+      <td style="text-align: left">設定開關為關時文字的字型樣式、字體大小、粗細、斜體及行距</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/font_selector/">Font Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字顏色</td>
+      <td style="text-align: left">設定開關為關時文字的顯示顏色</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">對齊方式</td>
+      <td style="text-align: left">設定開關為關時文字的對齊方式</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/alignment_selector/">Alignment Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">圖層混合模式</td>
+      <td style="text-align: left">決定開關為關時文字的顏色與背景圖片的混色，詳情參考Blending Selector<br />文字為模板底色時此功能無效</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/blending_selector/">Blending Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">模板底色</td>
+      <td style="text-align: left">設定開關為關時的模板底色</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="on狀態文字設定">
+        
+        
+          <a href="#on狀態文字設定" class="anchor-heading" aria-labelledby="on狀態文字設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ON狀態文字設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">顯示文字</td>
+      <td style="text-align: left">決定開關為開時是否要顯示文字</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字鏤空</td>
+      <td style="text-align: left">決定開關為開時是否文字鏤空</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字內容</td>
+      <td style="text-align: left">顯示開關為開時的文字內容</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/plain_text/">Plain Text</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">字型</td>
+      <td style="text-align: left">設定開關為開時文字的字型樣式、字體大小、粗細、斜體及行距</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/font_selector/">Font Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字顏色</td>
+      <td style="text-align: left">設定開關為開時文字的顯示顏色</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">對齊方式</td>
+      <td style="text-align: left">設定開關為開時文字的對齊方式</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/alignment_selector/">Alignment Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">圖層混合模式</td>
+      <td style="text-align: left">決定開關為開時文字的顏色與背景圖片的混色，詳情參考Blending Selector<br />文字為模板底色時此功能無效</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/blending_selector/">Blending Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">模板底色</td>
+      <td style="text-align: left">設定開關為開時的模板底色</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="按鈕關閉事件設定">
+        
+        
+          <a href="#按鈕關閉事件設定" class="anchor-heading" aria-labelledby="按鈕關閉事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 按鈕關閉事件設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">選擇目標頁面</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/page_selector/">Page Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">綁定暫存器</td>
+      <td style="text-align: left">決定要改變的暫存器</td>
       <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">輸出入模式</td>
-      <td style="text-align: left">選擇I/O Pin的輸出入模式，可以選擇的值有Digital Output/Digital Input/Digital Output PP(Push Pull)</td>
+      <td style="text-align: left">操作模式</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">行為設計</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="按鈕開啟事件設定">
+        
+        
+          <a href="#按鈕開啟事件設定" class="anchor-heading" aria-labelledby="按鈕開啟事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 按鈕開啟事件設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">選擇目標頁面</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/page_selector/">Page Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">綁定暫存器</td>
+      <td style="text-align: left">決定要改變的暫存器</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">操作模式</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">行為設計</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="綁定狀態暫存器">
+        
+        
+          <a href="#綁定狀態暫存器" class="anchor-heading" aria-labelledby="綁定狀態暫存器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 綁定狀態暫存器
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用狀態綁定暫存器</td>
+      <td style="text-align: left">決定是否要將狀態綁定暫存器</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">綁定暫存器</td>
+      <td style="text-align: left">狀態綁定的暫存器，藉由改變暫存器值變換元件狀態</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="off狀態圖片操作">
+        
+        
+          <a href="#off狀態圖片操作" class="anchor-heading" aria-labelledby="off狀態圖片操作"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OFF狀態圖片操作
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">載入圖片</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯圖片</td>
+      <td style="text-align: left">編輯元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="on狀態圖片操作">
+        
+        
+          <a href="#on狀態圖片操作" class="anchor-heading" aria-labelledby="on狀態圖片操作"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ON狀態圖片操作
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">載入圖片</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯圖片</td>
+      <td style="text-align: left">編輯元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="預覽">
+        
+        
+          <a href="#預覽" class="anchor-heading" aria-labelledby="預覽"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 預覽
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">按鈕按下動畫</td>
+      <td style="text-align: left">預覽元件點擊效果</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="元件上編輯器">
+        
+        
+          <a href="#元件上編輯器" class="anchor-heading" aria-labelledby="元件上編輯器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件上編輯器
+        
+        
+      </h2>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><img src="/zh-tw/3.4.0/imgs/file150.png" alt="" /></td>
+      <td style="text-align: left">調整模板底色大小</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/mask_editor/">Mask Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><img src="/zh-tw/3.4.0/imgs/file151.png" alt="" /></td>
+      <td style="text-align: left">調整文字的x軸與y軸偏移量<br />文字水平垂直置中時無法調整</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/offset_editor/">Offset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><img src="/zh-tw/3.4.0/imgs/file152.png" alt="" /></td>
+      <td style="text-align: left">調整模板底色的圓角半徑<br />底色形狀選擇橢圓形時無法調整</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/on_widget_edditor/mask_editor/">Mask Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="右鍵選單">
+        
+        
+          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
+        
+        
+      </h2>
+    
+      <h3 id="元件子功能">
+        
+        
+          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">載入OFF狀態圖片…</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">載入ON狀態圖片…</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯OFF狀態圖片…</td>
+      <td style="text-align: left">編輯元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯ON狀態圖片…</td>
+      <td style="text-align: left">編輯元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上OFF狀態圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片</td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">輸入提升模式</td>
-      <td style="text-align: left">選擇I/O Pin作為輸入模式時的內建的準為提升方式，容許值為No Pull/Pull Up/Pull Down</td>
+      <td style="text-align: left">貼上ON狀態圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">重置為原始大小</td>
+      <td style="text-align: left">將元件重置為原始大小</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/on_context_menu/reset_editor/">Reset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">依寬度重置比例</td>
+      <td style="text-align: left">依元件寬度將元件高度與寬度比例重置</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/on_context_menu/reset_editor/">Reset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">依高度重置比例</td>
+      <td style="text-align: left">依元件高度將元件高度與寬度比例重置</td>
+      <td style="text-align: left"><a href="/zh-tw/3.4.0/widget_properties/on_context_menu/reset_editor/">Reset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">預覽按鈕按下動畫</td>
+      <td style="text-align: left">預覽元件點擊效果</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">連接到教學影片…</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
