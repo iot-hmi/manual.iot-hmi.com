@@ -1032,7 +1032,7 @@ $(document).ready(function () {
     console.log("ade:", sURL.Param['ade']);
     console.log("ver:", sURL.Param['ver']);
     let redirect_entry = entries.find(function (element) {
-      return element['id'] == sURL.Param['id' ] && element['ver'] == sURL.Param['ver'] && element['ade'] == sURL.Param['ade'] && element['ver'] == sURL.Param['ver'];
+      return element['id'] == sURL.Param['id' ] && element['ver'] == sURL.Param['ver'] && element['ade'] == sURL.Param['ade'] && element['lang'] == sURL.Param['lang'];
     });
     console.log("redirect_entry:", redirect_entry);
     if(redirect_entry && redirect_entry.url) {
