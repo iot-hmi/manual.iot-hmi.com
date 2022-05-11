@@ -2900,98 +2900,98 @@
     "doc": "Click Button",
     "title": "Widget Property",
     "content": "Click Button . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Stencil Negative Setting . | Property | Description | Operation | . | Shape | Choose the stencil shape | Dropdown List | . | State | Select the preview state | Dropdown List | . Released State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Pressed State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Click Event Setting . | Property | Description | Operation | . | Enable Page Selector | Clicking triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Clicking triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting | Register Operation Setting | . | Enable Callback Function | Clicking tirggers a Blockly callback function | Checkbox | . | Behavior Prgramming | Blockly Editor | Blockly Editor | . Released State Image Operation . | Property | Description | Operation | . | Load Image | Load the Released State image from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Pressed State Image Operation . | Property | Description | Operation | . | Load Image | Load the Pressed State image from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Preview . | Property | Description | Operation | . | Animate | The widget automatically goes through two states. |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/click_button/#widget-property",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button/#widget-property"
+    "url": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/#widget-property",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/#widget-property"
   },"484": {
     "doc": "Click Button",
     "title": "On-Widget Editor",
     "content": "| Property | Description | Operation | . | | Adjust Stencil size | Mask Editor | . | | Adjust text’s X and Y coordinates If text is set to aligned to the center, then this function is invalid. | Offset Editor | . | | Adjust stencil’s radius If stencil is set to an oval shape, this function is invalid. | Mask Editor | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/click_button/#on-widget-editor",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button/#on-widget-editor"
+    "url": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/#on-widget-editor",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/#on-widget-editor"
   },"485": {
     "doc": "Click Button",
     "title": "Right-Click Menu",
     "content": "Widget-Specific Actions . | Property | Description | Operation | . | Load Released Image… | Load an image file for Released State from the file system | File Open Dialog Box | . | Load Pressed Image… | Load an image file for Pressed State from the file system | File Open Dialog Box | . | Edit Released Image… | Edit the image for Released State | Image Editor Dialog Box | . | Edit Pressed Image… | Edit the image for Pressed State | Image Editor Dialog Box | . | Paste Released Image | Paste an image from the clipboard for Released State |   | . | Paste Pressed Image | Paste an image from the clipboard for Pressed State |   | . | Reset to Origianl Size | Reset the widget’s size to the default value | Reset Editor | . | Reset Ratio by Width | Reset the widget’s aspect ratio based on the width | Reset Editor | . | Reset Raito by Height | Reset the widget’s aspect ratio based on the height | Reset Editor | . | Preview Press Animation | Preview the widget action when pressed |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/click_button/#right-click-menu",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button/#right-click-menu"
+    "url": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/#right-click-menu",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/#right-click-menu"
   },"486": {
     "doc": "Click Button",
     "title": "Click Button",
     "content": ". Click Button is an input widget. It does not have any retained state. Instead, it has the click event that can be set/programmed to the desired behavior. | Educational Video . | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/click_button/",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button/"
+    "url": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/click_button_v2/"
   },"487": {
     "doc": "Press/Release Button",
     "title": "Widget Property",
     "content": "Press/Release Button . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Stencil Negative Setting . | Property | Description | Operation | . | Shape | Choose the stencil shape | Dropdown List | . | State | Select the preview state | Dropdown List | . Released State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the Released State text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Pressed State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the Pressed State text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Pressing Event Setting . | Property | Description | Operation | . | Enable Page Selector | Pressing triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Pressing triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting | Register Operation Setting | . | Enable Callback Function | Pressing tirggers a Blockly callback function | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Releasing Event Setting . | Property | Description | Operation | . | Enable Page Selector | Releasing triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Releasing triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting | Register Operation Setting | . | Enable Callback Function | Releasing tirggers a Blockly callback function | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Released State Imagae Operation . | Property | Description | Operation | . | Load Image | Load the Released State mage from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Pressed State Image Operation . | Property | Description | Operation | . | Load Image | Load the Pressed State image from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Preview . | Property | Description | Operation | . | Animate | The widget automatically goes through two states. |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/#widget-property",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/#widget-property"
+    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#widget-property",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#widget-property"
   },"488": {
     "doc": "Press/Release Button",
     "title": "On-Widget Editor",
     "content": "| Property | Description | Operation | . | | Adjust Stencil size | Mask Editor | . | | Adjust text’s X and Y coordinates If text is set to aligned to the center, then this function is invalid. | Offset Editor | . | | Adjust stencil’s radius If stencil is set to an oval shape, this function is invalid. | Mask Editor | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/#on-widget-editor",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/#on-widget-editor"
+    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#on-widget-editor",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#on-widget-editor"
   },"489": {
     "doc": "Press/Release Button",
     "title": "Right-Click Menu",
     "content": "Widget-Specific Actions . | Property | Description | Operation | . | Load Released State Image… | Load an image file for Released State from the file system | File Open Dialog Box | . | Load Pressed State Image… | Load an image file for Pressed State from the file system | File Open Dialog Box | . | Edit Released State Image… | Edit the image for Released State | Image Editor Dialog Box | . | Edit Pressed State Image… | Edit the image for Pressed State | Image Editor Dialog Box | . | Paste Released State Image | Paste an image from the clipboard for Released State |   | . | Paste Pressed State Image | Paste an image from the clipboard for Pressed State |   | . | Reset to Origianl Size | Reset the widget’s size to the default value | Reset Editor | . | Reset Ratio by Width | Reset the widget’s aspect ratio based on the width | Reset Editor | . | Reset Raito by Height | Reset the widget’s aspect ratio based on the height | Reset Editor | . | Preview Press Animation | Preview the widget action when pressed |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/#right-click-menu",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/#right-click-menu"
+    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#right-click-menu",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#right-click-menu"
   },"490": {
     "doc": "Press/Release Button",
     "title": "Press/Release Button",
     "content": ". Press/Release Button is an input widget. It does not have any retained state. Instead, it has two states: Pressed and Released. In these two states, users can set/program behaviors, texts and images. | Educational Video . | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button/"
+    "url": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/"
   },"491": {
     "doc": "Momentary Push Button",
     "title": "Widget Property",
     "content": "Moentary Push Button . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Stencil Negative Setting . | Property | Description | Operation | . | Shape | Choose the stencil shape | Dropdown List | . | State | Select the preview state | Dropdown List | . Released State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Pressed State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Continuous Pressing Event . | Property | Description | Operation | . | Enable Page Selector | Clicking triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Clicking triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting | Register Operation Setting | . | Enable Callback Function | Clicking tirggers a Blockly callback function | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Releasing Event Setting . | Property | Description | Operation | . | Enable Page Selector | Clicking triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Clicking triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting | Register Operation Setting | . | Enable Callback Function | Clicking tirggers a Blockly callback function | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Released State Image Operations . | Property | Description | Operation | . | Load Image | Load the Released State image from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Pressed State Image Operations . | Property | Description | Operation | . | Load Image | Load the Released State image from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Preview . | Property | Description | Operation | . | Animate | The widget automatically goes through two states. |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/#widget-property",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/#widget-property"
+    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#widget-property",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#widget-property"
   },"492": {
     "doc": "Momentary Push Button",
     "title": "On-Widget Editor",
     "content": "| Property | Description | Operation | . | | Adjust Stencil size | Mask Editor | . | | Adjust text’s X and Y coordinates If text is set to aligned to the center, then this function is invalid. | Offset Editor | . | | Adjust stencil’s radius If stencil is set to an oval shape, this function is invalid. | Mask Editor | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/#on-widget-editor",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/#on-widget-editor"
+    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#on-widget-editor",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#on-widget-editor"
   },"493": {
     "doc": "Momentary Push Button",
     "title": "Right-Click Menu",
     "content": "Widget-Specific Actions . | Property | Description | Operation | . | Load Released Image… | Load an image file for Released State from the file system | File Open Dialog Box | . | Load Pressed Image… | Load an image file for Pressed State from the file system | File Open Dialog Box | . | Edit Released Image… | Edit the image for Released State | Image Editor Dialog Box | . | Edit Pressed Image… | Edit the image for Pressed State | Image Editor Dialog Box | . | Paste Released Image | Paste an image from the clipboard for Released State |   | . | Paste Pressed Image | Paste an image from the clipboard for Pressed State |   | . | Reset to Origianl Size | Reset the widget’s size to the default value | Reset Editor | . | Reset Ratio by Width | Reset the widget’s aspect ratio based on the width | Reset Editor | . | Reset Raito by Height | Reset the widget’s aspect ratio based on the height | Reset Editor | . | Preview Press Animation | Preview the widget action when pressed |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/#right-click-menu",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/#right-click-menu"
+    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#right-click-menu",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#right-click-menu"
   },"494": {
     "doc": "Momentary Push Button",
     "title": "Momentary Push Button",
     "content": ". Momentary Push Button is an input widget that does not have any retained sttate. It can detect the continuous pressing state and released state. It allows users to change the image or set behavnior for these two states. The threshold for the continuous pressing is to press this button for longer than 1.5 seconds and this threshold is not programmable. An educational vidoe is availble to get users started: . | Educational Video . | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button/"
+    "url": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/"
   },"495": {
     "doc": "Generic Push Button",
     "title": "Widget Property",
     "content": "Generic PUsh Button . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Stencil Negative Setting . | Property | Description | Operation | . | Shape | Choose the stencil shape | Dropdown List | . | State | Select the preview state | Dropdown List | . Released State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Pressed State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Click Event Setting . | Property | Description | Operation | . | Enable Page Selector | Clicking triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Clicking triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting | Register Operation Setting | . | Enable Callback Function | Clicking tirggers a Blockly callback function | Checkbox | . | Behavior Prgramming | Blockly Editor | Blockly Editor | . Pressed State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Released State Text Setting . | Property | Description | Operation | . | Display Text | Select whether to display the off-state text | Checkbox | . | Enable Text Stencil | Select whether to apply stencil to the text | Checkbox | . | Text | Enter the off-state text to be displayed | Plain Text | . | Font | Select text typeface, font size, style and line space | Font Selector | . | Text Color | Select the text color | Color Selector | . | Alignment | Select alignment | Alignment Selector | . | Blending Mode | Select the color blending mode for the text and the background. Please refere to Blending Selector If Stencil is enabled, the blending mode is invalid. | Blending Selector | . | Stencil Negative Color | Select the stencil negative color. | Color Selector | . Short Click Event Setting . | Property | Description | Operation | . | Enable Page Selector | Fast clicking (less than 1 second) triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Fast clicking (less than 1 second) triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting. | Register Operation Setting | . | Enable Callback Function | Fast clicking (less than 1 second) triggers a Blockly callback funtion | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Continous Pressing Event . | Property | Description | Operation | . | Enable Page Selector | Continous pressing (longer than 1.5 seconds) triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Continous pressing (longer than 1.5 seconds) triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting. | Register Operation Setting | . | Enable Callback Function | Continous pressing (longer than 1.5 seconds) triggers a Blockly callback funtion | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Repeated Continous Pressing Event . | Property | Description | Operation | . | Enable Page Selector | Continous pressing (longer than 1.5 seconds) repeatedly triggers to the target page | Checkbox | . | Select Target Page | The target page selector | Page Selector | . | Enable Register Operation | Continous pressing (longer than 1.5 seconds) repeatedly triggers a register operation | Checkbox | . | Binding Register | Select which register for the operation | Register Selector | . | Operation Mode | Select which operation to be performed. Please refer to Register Operation Setting. | Register Operation Setting | . | Enable Callback Function | Continous pressing (longer than 1.5 seconds) repeatedly triggers a Blockly callback funtion | Checkbox | . | Behavior Programming | Blockly Editor | Blockly Editor | . Released State Imagae Operation . | Property | Description | Operation | . | Load Image | Load the Released State mage from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Pressed State Image Operation . | Property | Description | Operation | . | Load Image | Load the Pressed State image from the file system | File Open Dialog Box | . | Edit Image | Edit the loaded image | Image Editor Dialog Box | . | Paste Image | Paste image from the clipboard |   | . Preview . | Property | Description | Operation | . | Animate | The widget automatically goes through two states. |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/#widget-property",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/#widget-property"
+    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#widget-property",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#widget-property"
   },"496": {
     "doc": "Generic Push Button",
     "title": "On-Widget Editor",
     "content": "| Property | Description | Operation | . | | Adjust Stencil size | Mask Editor | . | | Adjust text’s X and Y coordinates If text is set to aligned to the center, then this function is invalid. | Offset Editor | . | | Adjust stencil’s radius If stencil is set to an oval shape, this function is invalid. | Mask Editor | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/#on-widget-editor",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/#on-widget-editor"
+    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#on-widget-editor",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#on-widget-editor"
   },"497": {
     "doc": "Generic Push Button",
     "title": "Right-Click Menu",
     "content": "Widget-Specific Actions . | Property | Description | Operation | . | Load Released State Image… | Load an image file for Released State from the file system | File Open Dialog Box | . | Load Pressed State Image… | Load an image file for Pressed State from the file system | File Open Dialog Box | . | Edit Released State Image… | Edit the image for Released State | Image Editor Dialog Box | . | Edit Pressed State Image… | Edit the image for Pressed State | Image Editor Dialog Box | . | Paste Released State Image | Paste an image from the clipboard for Released State |   | . | Paste Pressed State Image | Paste an image from the clipboard for Pressed State |   | . | Reset to Origianl Size | Reset the widget’s size to the default value | Reset Editor | . | Reset Ratio by Width | Reset the widget’s aspect ratio based on the width | Reset Editor | . | Reset Raito by Height | Reset the widget’s aspect ratio based on the height | Reset Editor | . | Preview Press Animation | Preview the widget action when pressed |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/#right-click-menu",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/#right-click-menu"
+    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#right-click-menu",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#right-click-menu"
   },"498": {
     "doc": "Generic Push Button",
     "title": "Generic Push Button",
     "content": ". Generic Push Button is an input widget. It does not have any retained internal state. It offers a complete range of functionality that users can find in other momentary button widgets. An educational vidoe is availble to get users started: . | Educational Video . | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button/"
+    "url": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/"
   },"499": {
     "doc": "Generic Latching Button",
     "title": "Widget Property",
@@ -3098,20 +3098,20 @@
     "doc": "Scrolling Label",
     "title": "Widget Property",
     "content": "Scrolling Label . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Binding Register . | Property | Description | Operation | . | Register as index | Decide whether to select a register as the index | Checkbox | . | Contex/Index Register | Select a register to be the index register | Register Selector | . Text Array . | Property | Description | Operation | . | Content | Please refer to PlainTextArray Table Dialog for more details | PlainTextArray Table Dialog | . Setting . | Property | Description | Operation | . | Use Format String | Use Python-compliant format string | Checkbox | . | Format String | Please refer to Format String for more details | Format String | . | Font Size | Set the font size | Font Selector | . | Text Color | Select the text color | Color Selector | . | Opacity % | Select the text opacity (0-100%) | Number Editor | . | Show Background | Decide whether to show the background | Checkbox | . | Background Main Color | Select the color for the background | Color Selector | . | Background Grad Color | Select the gradient color for the background | Color Selector | . | Background Opaciy % | Select the opacty (0-100%) for the background | Number Editor | . | Display Mode | Please refer to Label Display Mode for more details | Label Display Mode | . | Scrolling Speed px/s | Select the scolling speed (5-50 px/sec) | Number Editor | . | Alignment | Select the alignment for the text | Alignment Selector | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/scrolling_label/#widget-property",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/scrolling_label/#widget-property"
+    "url": "/en/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#widget-property",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#widget-property"
   },"517": {
     "doc": "Scrolling Label",
     "title": "Right-Click Menu",
     "content": "Font Size . | Property | Description | Operation | . | Font Size | Select the font size | Font Selector | . Display Mode . | Property | Description | Operation | . | Display Mode | Please refer to Label Display Mode for more details | Label Display Mode | . Alignment . | Property | Description | Operation | . | Alignment | Select the alignment for the text | Alignment Selector | . Widget-Specific Actions . | Property | Description | Operation | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/scrolling_label/#right-click-menu",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/scrolling_label/#right-click-menu"
+    "url": "/en/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#right-click-menu",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#right-click-menu"
   },"518": {
     "doc": "Scrolling Label",
     "title": "Scrolling Label",
     "content": ". Scrolling Label is an output widget. It is used to display English text and supports scolling functions. This widget uses only our built-in English fonts, therefore, it is efficent and resource-thrifty. This widget is suitable for displaying changing messages such as error messages. An educational vidoe is availble to get users started: . | Educational Video . | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/scrolling_label/",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/scrolling_label/"
+    "url": "/en/3.4.0/widgets/standard_widget_library/scrolling_label_v2/",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/scrolling_label_v2/"
   },"519": {
     "doc": "Date/Time Label",
     "title": "Widget Property",
@@ -3134,26 +3134,26 @@
     "doc": "Image Label",
     "title": "Widget Property",
     "content": "Image Label . | Property | Description | Operation | . | Widget Name | Widget displayed name | Name | . | Link to Educational Video | Link to IOT’s website for Educational Video |   | . Visibility Control . | Property | Description | Operation | . | Binding Hidden Control Register | Select a binding register to control the visibility of this widget | Checkbox | . | Hidden Control Register | Choose a binding regsiter | Register Selector | . Shadow Setting . | Property | Description | Operation | . | Enable Shadow | Enable shadow | Checkbox | . Background Setting . | Property | Description | Operation | . | Main Color | Select the main color for the background | Color Selector | . | Gradient Color | Select the gradient color for the background | Color Selector | . Border Setting . | Property | Description | Operation | . | Border Color | Select the color for the border | Color Selector | . | Border Style | Select the line style for the border | Dropdown List | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/image_label/#widget-property",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label/#widget-property"
+    "url": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/#widget-property",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/#widget-property"
   },"523": {
     "doc": "Image Label",
     "title": "On-Widget Editor",
     "content": "| Property | Description | Operation | . | | Double-click for entering text. Use Shift+Enter for inserting a new line | RichText Editor | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/image_label/#on-widget-editor",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label/#on-widget-editor"
+    "url": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/#on-widget-editor",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/#on-widget-editor"
   },"524": {
     "doc": "Image Label",
     "title": "Right-Click Menu",
     "content": "Enable Shadow . | Property | Description | Operation | . | Enable Shadow | Enable Shadow | Checkbox | . Widget-Specific Actions . | Property | Description | Operation | . | Remove Border | Remove all borders and set the border line width to 0 |   | . | Make Squared | Choose a larger value between the width and height and use it to change the widget shape to a square |   | . | Link to Educational Video… | Connect to the education video and play it |   | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/image_label/#right-click-menu",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label/#right-click-menu"
+    "url": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/#right-click-menu",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/#right-click-menu"
   },"525": {
     "doc": "Image Label",
     "title": "Image Label",
     "content": ". Image Label is an output widget. The goal is to display text of Rich Text format and to support multi-languages. It can also display texts under user-installed fonts. The text must be edited in ADE and can not change during execution. This widget is suitable for elaborated signs and labels. An educational vidoe is availble to get users started: . | Educational Video . | . ",
-    "url": "/en/3.4.0/widgets/standard_widget_library/image_label/",
-    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label/"
+    "url": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/",
+    "relUrl": "/en/3.4.0/widgets/standard_widget_library/image_label_v2/"
   },"526": {
     "doc": "Digits",
     "title": "Widget Property",
@@ -6230,98 +6230,98 @@
     "doc": "無段按鍵",
     "title": "元件屬性",
     "content": "無段按鍵 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 模板底色形狀設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 底色形狀 | 決定底色形狀，分為橢圓及矩形 | Dropdown List | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定放開按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示放開按鈕時的文字內容 | Plain Text | . | 字型 | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定放開按鈕時的模板底色 | Color Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定按著按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示按著按鈕時的文字內容 | Plain Text | . | 字型 | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定按著按鈕時的模板底色 | Color Selector | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件釋放狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件釋放狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件釋放狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件按下狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件按下狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件按下狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/#元件屬性"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/#元件屬性"
   },"1039": {
     "doc": "無段按鍵",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整模板底色大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整模板底色的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/#元件上編輯器"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/#元件上編輯器"
   },"1040": {
     "doc": "無段按鍵",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/#右鍵選單"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/#右鍵選單"
   },"1041": {
     "doc": "無段按鍵",
     "title": "無段按鍵",
     "content": ". 無段按鍵是一個輸入元件，主要作為一個無內部狀態的按鈕，按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 點擊無段按鍵時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解無段按鍵 . | 教育影片 . | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button/"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/click_button_v2/"
   },"1042": {
     "doc": "段位按鍵",
     "title": "元件屬性",
     "content": "段位按鍵 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 模板底色形狀設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 底色形狀 | 決定底色形狀，分為橢圓及矩形 | Dropdown List | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定放開按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示放開按鈕時的文字內容 | Plain Text | . | 字型 | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定放開按鈕時的模板底色 | Color Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定按著按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示按著按鈕時的文字內容 | Plain Text | . | 字型 | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定按著按鈕時的模板底色 | Color Selector | . 按下事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被按著時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/#元件屬性"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#元件屬性"
   },"1043": {
     "doc": "段位按鍵",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整模板底色大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整模板底色的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/#元件上編輯器"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#元件上編輯器"
   },"1044": {
     "doc": "段位按鍵",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/#右鍵選單"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/#右鍵選單"
   },"1045": {
     "doc": "段位按鍵",
     "title": "段位按鍵",
     "content": ". 段位按鍵是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 段位按鍵可以對應到不同的顯示圖像以及文字。 . 按鈕按下、釋放時皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可以控制按下與釋放時做不同的動作。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解段位按鍵 . | 教育影片 . | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button/"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/"
   },"1046": {
     "doc": "單擊多狀態按鍵",
     "title": "元件屬性",
     "content": "單擊多狀態按鍵 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 模板底色形狀設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 底色形狀 | 決定底色形狀，分為橢圓及矩形 | Dropdown List | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定放開按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示放開按鈕時的文字內容 | Plain Text | . | 字型 | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定放開按鈕時的模板底色 | Color Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定按著按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示按著按鈕時的文字內容 | Plain Text | . | 字型 | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定按著按鈕時的模板底色 | Color Selector | . 長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/#元件屬性"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#元件屬性"
   },"1047": {
     "doc": "單擊多狀態按鍵",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整模板底色大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整模板底色的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/#元件上編輯器"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#元件上編輯器"
   },"1048": {
     "doc": "單擊多狀態按鍵",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/#右鍵選單"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/#右鍵選單"
   },"1049": {
     "doc": "單擊多狀態按鍵",
     "title": "單擊多狀態按鍵",
     "content": ". 單擊多狀態按鍵是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 可以偵測使用者長按行為，長按以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 單擊多狀態按鍵被長按(按下超過1.5秒)或釋放時會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解單擊多狀態按鍵 . | 教育影片 . | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button/"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/"
   },"1050": {
     "doc": "多狀態按鍵開關",
     "title": "元件屬性",
     "content": "多狀態按鍵開關 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 模板底色形狀設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 底色形狀 | 決定底色形狀，分為橢圓及矩形 | Dropdown List | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定放開按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示放開按鈕時的文字內容 | Plain Text | . | 字型 | 設定放開按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定放開按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定放開按鈕時的模板底色 | Color Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 文字鏤空 | 決定按著按鈕時是否文字鏤空 | Checkbox | . | 文字內容 | 顯示按著按鈕時的文字內容 | Plain Text | . | 字型 | 設定按著按鈕時文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定按著按鈕時文字的顯示顏色 | Color Selector | . | 對齊方式 | 設定按著按鈕時文字的對齊方式 | Alignment Selector | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . | 模板底色 | 設定按著按鈕時的模板底色 | Color Selector | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 按下事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被按著時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 快速點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被快速點擊(小於1秒)時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被快速點擊(小於1秒)時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被快速點擊(小於1秒)時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 循環長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被循環長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被循環長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被循環長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/#元件屬性"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#元件屬性"
   },"1051": {
     "doc": "多狀態按鍵開關",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整模板底色大小 | Mask Editor | . | | 調整文字的x軸與y軸偏移量文字水平垂直置中時無法調整 | Offset Editor | . | | 調整模板底色的圓角半徑底色形狀選擇橢圓形時無法調整 | Mask Editor | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/#元件上編輯器"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#元件上編輯器"
   },"1052": {
     "doc": "多狀態按鍵開關",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/#右鍵選單"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/#右鍵選單"
   },"1053": {
     "doc": "多狀態按鍵開關",
     "title": "多狀態按鍵開關",
     "content": ". 多狀態按鍵開關是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 多狀態按鍵開關提供所有按鈕能觸發的事件，包括點擊、按下、釋放、快速點擊、長按和循環長按等動作，所有動作皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可精細控制不同的觸發做不同的動作。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解多狀態按鍵開關 . | 教育影片 . | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button/"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/generic_push_button_v2/"
   },"1054": {
     "doc": "有段按鈕",
     "title": "元件屬性",
@@ -6428,20 +6428,20 @@
     "doc": "捲動文本",
     "title": "元件屬性",
     "content": "捲動文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 暫存器設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . 文本陣列設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . 設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用格式化字串 | 是否要使用python格式化字串 | Checkbox | . | 格式化字串 | 詳情參考Format String | Format String | . | 字型大小 | 設定字型大小 | Font Selector | . | 文字顏色 | 設定文字顏色 | Color Selector | . | 不透明度 % | 設定文字不透明度(0-100%) | Number Editor | . | 顯示背景顏色 | 是否要顯示背景顏色 | Checkbox | . | 背景主要顏色 | 設定背景主要顏色 | Color Selector | . | 背景漸變顏色 | 設定背景漸變顏色 | Color Selector | . | 背景不透明度 % | 設定背景不透明度(0-100%) | Number Editor | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . | 捲動速度 像素/秒 | 設定文本捲動速度(5-50 px/sec) | Number Editor | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/#元件屬性"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#元件屬性"
   },"1072": {
     "doc": "捲動文本",
     "title": "右鍵選單",
     "content": "字型大小 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 字型大小 | 設定字型大小 | Font Selector | . 文本捲動方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . 對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/#右鍵選單"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label_v2/#右鍵選單"
   },"1073": {
     "doc": "捲動文本",
     "title": "捲動文本",
     "content": ". 捲動文本為輸出元件。 . 使用內建字型顯示英文，並且支援捲動功能。由於使用內建字型，因此效率高，占用資源少，適合顯示變動的訊息，譬如錯誤訊息等。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解捲動文本 . | 教育影片 . | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label/"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label_v2/",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/scrolling_label_v2/"
   },"1074": {
     "doc": "日期/時間文本",
     "title": "元件屬性",
@@ -6464,26 +6464,26 @@
     "doc": "影像文本",
     "title": "元件屬性",
     "content": "影像文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到教學影片 | 連結至博橡教育影片 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定背景的顏色 | Color Selector | . | 漸變顏色 | 設定背景的漸變顏色 | Color Selector | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/#元件屬性"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/#元件屬性"
   },"1078": {
     "doc": "影像文本",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字，可利用Shift+Enter換行輸入 | RichText Editor | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/#元件上編輯器"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/#元件上編輯器"
   },"1079": {
     "doc": "影像文本",
     "title": "右鍵選單",
     "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 連接到教學影片… | 連結至博橡教育影片 |   | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/#右鍵選單"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/#右鍵選單"
   },"1080": {
     "doc": "影像文本",
     "title": "影像文本",
     "content": ". 影像文本為輸出元件。 . 目標是顯示Rich Text文本，並且支援多國語言以及使用者安裝字型。內容必須在ADE編輯時輸入，且在執行期間內容無法變動，適合用作展現文字風格的標題或是指示標示。 . 如欲快速入門，可以觀看博橡教育影片，幫助了解影像文本 . | 教育影片 . | . ",
-    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/",
-    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label/"
+    "url": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/",
+    "relUrl": "/zh-tw/3.4.0/widgets/standard_widget_library/image_label_v2/"
   },"1081": {
     "doc": "七段顯示器",
     "title": "元件屬性",
