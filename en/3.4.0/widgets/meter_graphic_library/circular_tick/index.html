@@ -1,0 +1,939 @@
+
+
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Circular Tick - ADE Reference Manual</title>
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/assets/css/main-default.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+
+  
+
+  
+    <script type="text/javascript" src="/assets/js/vendor/lunr.js"></script>
+  
+  <script type="text/javascript" src="/assets/js/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="/" class="site-title lh-tight">
+  ADE Reference Manual
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        
+          
+          
+          
+          
+        <div class="nav-category">
+          <select class="lang_select"><option value="/en/" selected>English</option><option value="/zh-tw/" >Traditional Chinese(繁體中文)</option></select>
+        </div>
+        <div class="nav-category">
+          <select class="ver_select"><option value="/en/3.4.0/" selected>3.4.0</option><option value="/en/3.3.0/" >3.3.0</option></select>
+        </div><ul class="nav-list"><li class="nav-list-item"><a href="/en/3.4.0/" class="nav-list-link">Introduction</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/install_and_launch_ade/" class="nav-list-link">Install and Launch ADE</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/install_and_launch_ade/install/" class="nav-list-link">Install</a></li><li class="nav-list-item "><a href="/en/3.4.0/install_and_launch_ade/launch_ade/" class="nav-list-link">Launch ADE</a></li><li class="nav-list-item "><a href="/en/3.4.0/install_and_launch_ade/start_a_new_design/" class="nav-list-link">Start a New Design</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/main_screen_description/" class="nav-list-link">Main Screen Description</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/system_menu/" class="nav-list-link">System Menu</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/system_menu/export/" class="nav-list-link">Export</a></li><li class="nav-list-item "><a href="/en/3.4.0/system_menu/setting/" class="nav-list-link">Setting</a></li><li class="nav-list-item "><a href="/en/3.4.0/system_menu/tools/" class="nav-list-link">Tools</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/font_management/" class="nav-list-link">Fonts Management</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/toolbars/" class="nav-list-link">Toolbars</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/toolbars/download/" class="nav-list-link">Download</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/xtools/" class="nav-list-link">XTools</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/edit/" class="nav-list-link">EDIT</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/zooming/" class="nav-list-link">ZOOMING</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/alignment/" class="nav-list-link">ALIGNMENT</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/same_sizes_and_spaces/" class="nav-list-link">SAME SIZES & SPACES</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/location/" class="nav-list-link">LOCATION</a></li><li class="nav-list-item "><a href="/en/3.4.0/toolbars/size/" class="nav-list-link">SIZE</a></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/ade_design_flow/" class="nav-list-link">HMI Design Flow</a></li><li class="nav-list-item"><a href="/en/3.4.0/register/" class="nav-list-link">Register</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/page/" class="nav-list-link">Page</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/page/common_page/" class="nav-list-link">Common Page</a></li><li class="nav-list-item "><a href="/en/3.4.0/page/special_page/" class="nav-list-link">Special Page</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/" class="nav-list-link">Widget Properties</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/widget_properties/widget_property_editor/" class="nav-list-link">Widget Property Editor</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/properties/" class="nav-list-link">Properties</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/name/" class="nav-list-link">Name</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/checkbox/" class="nav-list-link">Checkbox</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/drop_down_list/" class="nav-list-link">Drop down list</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/plain_text/" class="nav-list-link">Plain Text</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/number_editor/" class="nav-list-link">Number Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/font_selector/" class="nav-list-link">Font Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/color_selector/" class="nav-list-link">Color Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/alignment_selector/" class="nav-list-link">Alignment Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/page_selector/" class="nav-list-link">Page Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/register_selector/" class="nav-list-link">Register Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/register_operation_setting/" class="nav-list-link">Register Operation Setting</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/blockly_editor/" class="nav-list-link">Blockly Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/image_collection_management/" class="nav-list-link">Image Collection Management</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/visibility_control/" class="nav-list-link">Visibility Control</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/blending_selector/" class="nav-list-link">Blending Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/file_open_dialog_box/" class="nav-list-link">File Open Dialog Box</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/image_editor_dialog_box/" class="nav-list-link">Image Editor Dialog Box</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/plaintextarray_table_dialog/" class="nav-list-link">PlainTextArray Table Dialog</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/format_string/" class="nav-list-link">Format String</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/label_display_mode/" class="nav-list-link">Label Display Mode</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/frame_selector/" class="nav-list-link">Frame Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/input_data_selector/" class="nav-list-link">Input Data Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/messagebox_selector/" class="nav-list-link">MessageBox Selector</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/filearray_table_dialog/" class="nav-list-link">FileArray Table Dialog</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/properties/event_setting/" class="nav-list-link">Event Setting</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/on_widget_editor/" class="nav-list-link">On Widget Editor</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/mask_editor/" class="nav-list-link">Mask Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/offset_editor/" class="nav-list-link">Offset Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/center_editor/" class="nav-list-link">Center Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/liquid_column_editor/" class="nav-list-link">Liquid Column Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_editor/knob_editor/" class="nav-list-link">Knob Size Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/bore_editor/" class="nav-list-link">Bore Boundary Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/scale_editor/" class="nav-list-link">Tick Boundary Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/label_editor/" class="nav-list-link">Tick Diameter Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_edditor/image_editor/" class="nav-list-link">Image Size Handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widget_properties/on_context_menu/" class="nav-list-link">On Context Menu</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">Reset Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widget_properties/on_context_menu/center_editor/" class="nav-list-link">Center Editor</a>
+                  </li></ul></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/" class="nav-list-link">Widgets</a><ul class="nav-list "><li class="nav-list-item "><a href="/en/3.4.0/widgets/collection/" class="nav-list-link">Collection</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/standard_widget_library/" class="nav-list-link">Standard Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/slider_switch_v2/" class="nav-list-link">Slider Switch</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/click_button_v2/" class="nav-list-link">Click Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/pressrelease_button_v2/" class="nav-list-link">Press/Release Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/momentary_push_button_v2/" class="nav-list-link">Momentary Push Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_push_button_v2/" class="nav-list-link">Generic Push Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_latching_button/" class="nav-list-link">Generic Latching Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_button/" class="nav-list-link">Generic Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/multiple_state_button/" class="nav-list-link">Multiple State Button</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/image_list/" class="nav-list-link">Image List </a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/animation/" class="nav-list-link">Animation</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/scrolling_label/" class="nav-list-link">Scrolling Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/datetime_label/" class="nav-list-link">Date/Time Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/image_label_v2/" class="nav-list-link">Image Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/digits/" class="nav-list-link">Digits</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_progress_bar/" class="nav-list-link">Circular Progress Bar</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_meter/" class="nav-list-link">Circular Meter</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_progress_bar/" class="nav-list-link">Generic Progress Bar</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/horizontal_slider/" class="nav-list-link">Horizontal Slider</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/vertical_slider/" class="nav-list-link">Vertical Slider</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/touch_area/" class="nav-list-link">Touch Area</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/bitmap_image/" class="nav-list-link">Bitmap Image</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/rotation_image/" class="nav-list-link">Rotation Image</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/data_chart/" class="nav-list-link">Data Chart</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/generic_gauge/" class="nav-list-link">Generic Gauge</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_scale/" class="nav-list-link">Circular Scale</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/circular_gauge/" class="nav-list-link">Circular Gauge</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/led/" class="nav-list-link">LED</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/palette/" class="nav-list-link">Palette</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/standard_widget_library/flexible_label/" class="nav-list-link">Flexible Label</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/system_widget_library/" class="nav-list-link">System Widget Library</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/retained_data/" class="nav-list-link">Retained Data</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/popup_inputpad/" class="nav-list-link">Popup InputPad</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/popup_messagebox/" class="nav-list-link">Popup MessageBox</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/register_observer/" class="nav-list-link">Register Observer</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/timer/" class="nav-list-link">Timer</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/audio_player/" class="nav-list-link">Audio Player</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/gpio/" class="nav-list-link">GPIO</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/pwm/" class="nav-list-link">PWM</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/adc/" class="nav-list-link">ADC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/uart/" class="nav-list-link">UART</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/backlight/" class="nav-list-link">Backlight</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/rtc/" class="nav-list-link">RTC</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/system_widget_library/logo/" class="nav-list-link">Logo</a>
+                  </li></ul></li><li class="nav-list-item "><a href="/en/3.4.0/widgets/edit_canvas/" class="nav-list-link">Edit Canvas</a></li><li class="nav-list-item "><a href="/en/3.4.0/widgets/iot_gallery_minimalist/" class="nav-list-link">IOT Gallery Minimalist</a></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.0/widgets/meter_graphic_library/" class="nav-list-link">Meter Graphic Library</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/image_label_v2/" class="nav-list-link">V2 Image Label</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/gradient_graphic/" class="nav-list-link">Gradient Graphic</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/bitmap_image/" class="nav-list-link">Bitmap Image</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/vertical_number_scale/" class="nav-list-link">Vertical Number Scale</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/horizontal_number_scale/" class="nav-list-link">Horizontal Number Scale</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/circular_number_scale/" class="nav-list-link">Circular Number Scale</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/gradient_rectangle_grid/" class="nav-list-link">Gradient Rectangle Grid</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/vertical_tick/" class="nav-list-link">Vertical Tick</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/horizontal_tick/" class="nav-list-link">Horizontal Tick</a>
+                  </li><li class="nav-list-item  active">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/circular_tick/" class="nav-list-link active">Circular Tick</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/variant_radius_pie/" class="nav-list-link">Variant Radius Pie</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.0/widgets/meter_graphic_library/circle_text/" class="nav-list-link">Circle Text</a>
+                  </li></ul></li></ul></li><li class="nav-list-item"><a href="/en/3.4.0/my_collections/" class="nav-list-link">My Collections</a></li><li class="nav-list-item"><a href="/en/3.4.0/widget_inspector/" class="nav-list-link">Widget Inspector</a></li><li class="nav-list-item"><a href="/en/3.4.0/shortcut_keys/" class="nav-list-link">Shortcut Keys</a></li></ul>
+
+          
+        
+          
+          
+          
+          
+        
+      
+    </nav>
+    <footer class="site-footer">
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search ADE Reference Manual" aria-label="Search ADE Reference Manual" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="/en/3.4.0/widgets/">Widgets</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="/en/3.4.0/widgets/meter_graphic_library/">Meter Graphic Library</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Circular Tick</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 id="circular-tick">
+        
+        
+          <a href="#circular-tick" class="anchor-heading" aria-labelledby="circular-tick"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Circular Tick
+        
+        
+      </h1>
+    
+
+<p><img src="/en/3.4.0/imgs/file289.png" alt="" class="widget_icon" /></p>
+
+<p>滑動開關既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。狀態可以由使用者觸摸按鈕改變，或是藉由其他元件、程式改變繫結的暫存器內容以改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。按鈕的不同按鈕狀態可以對應到不同的顯示圖像以及文字。開關按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。</p>
+
+<p>如欲快速入門，可以觀看博橡教育影片，幫助了解滑動開關：</p>
+
+<ul>
+  <li>
+    <p>教育影片</p>
+
+    <div class="video_container">
+  <figure class="video_container_educational">
+    <iframe src="https://www.youtube.com/embed/ZdUlQdXj5vk" frameborder="0" allowfullscreen="true"> </iframe>
+  </figure>
+</div>
+  </li>
+</ul>
+      <h2 id="元件屬性">
+        
+        
+          <a href="#元件屬性" class="anchor-heading" aria-labelledby="元件屬性"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件屬性
+        
+        
+      </h2>
+    
+      <h3 id="circular-tick-1">
+        
+        
+          <a href="#circular-tick-1" class="anchor-heading" aria-labelledby="circular-tick-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Circular Tick
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">元件名稱</td>
+      <td style="text-align: left">元件實體名稱</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/name/">Name</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">連結到教學影片</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="顯示隱藏控制">
+        
+        
+          <a href="#顯示隱藏控制" class="anchor-heading" aria-labelledby="顯示隱藏控制"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 顯示/隱藏控制
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">繫結顯示/隱藏</td>
+      <td style="text-align: left">決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">選擇顯示/隱藏</td>
+      <td style="text-align: left">透過改變暫存器值決定顯示或不顯示元件</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="模板底色形狀設定">
+        
+        
+          <a href="#模板底色形狀設定" class="anchor-heading" aria-labelledby="模板底色形狀設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 模板底色形狀設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">底色形狀</td>
+      <td style="text-align: left">決定底色形狀，分為橢圓及矩形</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">元件狀態</td>
+      <td style="text-align: left">選擇要預覽的狀態</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/drop_down_list/">Dropdown List</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="off狀態文字設定">
+        
+        
+          <a href="#off狀態文字設定" class="anchor-heading" aria-labelledby="off狀態文字設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OFF狀態文字設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">顯示文字</td>
+      <td style="text-align: left">決定開關為關時是否要顯示文字</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字鏤空</td>
+      <td style="text-align: left">決定開關為關時是否文字鏤空</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字內容</td>
+      <td style="text-align: left">顯示開關為關時的文字內容</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/plain_text/">Plain Text</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">字型</td>
+      <td style="text-align: left">設定開關為關時文字的字型樣式、字體大小、粗細、斜體及行距</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/font_selector/">Font Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字顏色</td>
+      <td style="text-align: left">設定開關為關時文字的顯示顏色</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">對齊方式</td>
+      <td style="text-align: left">設定開關為關時文字的對齊方式</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/alignment_selector/">Alignment Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">圖層混合模式</td>
+      <td style="text-align: left">決定開關為關時文字的顏色與背景圖片的混色，詳情參考Blending Selector<br />文字為模板底色時此功能無效</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/blending_selector/">Blending Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">模板底色</td>
+      <td style="text-align: left">設定開關為關時的模板底色</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="on狀態文字設定">
+        
+        
+          <a href="#on狀態文字設定" class="anchor-heading" aria-labelledby="on狀態文字設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ON狀態文字設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">顯示文字</td>
+      <td style="text-align: left">決定開關為開時是否要顯示文字</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字鏤空</td>
+      <td style="text-align: left">決定開關為開時是否文字鏤空</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字內容</td>
+      <td style="text-align: left">顯示開關為開時的文字內容</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/plain_text/">Plain Text</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">字型</td>
+      <td style="text-align: left">設定開關為開時文字的字型樣式、字體大小、粗細、斜體及行距</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/font_selector/">Font Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">文字顏色</td>
+      <td style="text-align: left">設定開關為開時文字的顯示顏色</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">對齊方式</td>
+      <td style="text-align: left">設定開關為開時文字的對齊方式</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/alignment_selector/">Alignment Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">圖層混合模式</td>
+      <td style="text-align: left">決定開關為開時文字的顏色與背景圖片的混色，詳情參考Blending Selector<br />文字為模板底色時此功能無效</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/blending_selector/">Blending Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">模板底色</td>
+      <td style="text-align: left">設定開關為開時的模板底色</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/color_selector/">Color Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="按鈕關閉事件設定">
+        
+        
+          <a href="#按鈕關閉事件設定" class="anchor-heading" aria-labelledby="按鈕關閉事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 按鈕關閉事件設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">選擇目標頁面</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/page_selector/">Page Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">綁定暫存器</td>
+      <td style="text-align: left">決定要改變的暫存器</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">操作模式</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">行為設計</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="按鈕開啟事件設定">
+        
+        
+          <a href="#按鈕開啟事件設定" class="anchor-heading" aria-labelledby="按鈕開啟事件設定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 按鈕開啟事件設定
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用頁面選擇器</td>
+      <td style="text-align: left">當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">選擇目標頁面</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/page_selector/">Page Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用暫存器操作</td>
+      <td style="text-align: left">當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">綁定暫存器</td>
+      <td style="text-align: left">決定要改變的暫存器</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">操作模式</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/register_operation_setting/">Register Operation Setting</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啟用回呼函式</td>
+      <td style="text-align: left">當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">行為設計</td>
+      <td style="text-align: left">當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/blockly_editor/">Blockly Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="綁定狀態暫存器">
+        
+        
+          <a href="#綁定狀態暫存器" class="anchor-heading" aria-labelledby="綁定狀態暫存器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 綁定狀態暫存器
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">啟用狀態綁定暫存器</td>
+      <td style="text-align: left">決定是否要將狀態綁定暫存器</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/checkbox/">Checkbox</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">綁定暫存器</td>
+      <td style="text-align: left">狀態綁定的暫存器，藉由改變暫存器值變換元件狀態</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/register_selector/">Register Selector</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="off狀態圖片操作">
+        
+        
+          <a href="#off狀態圖片操作" class="anchor-heading" aria-labelledby="off狀態圖片操作"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OFF狀態圖片操作
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">載入圖片</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯圖片</td>
+      <td style="text-align: left">編輯元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="on狀態圖片操作">
+        
+        
+          <a href="#on狀態圖片操作" class="anchor-heading" aria-labelledby="on狀態圖片操作"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ON狀態圖片操作
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">載入圖片</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯圖片</td>
+      <td style="text-align: left">編輯元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h3 id="預覽">
+        
+        
+          <a href="#預覽" class="anchor-heading" aria-labelledby="預覽"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 預覽
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">按鈕按下動畫</td>
+      <td style="text-align: left">預覽元件點擊效果</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="元件上編輯器">
+        
+        
+          <a href="#元件上編輯器" class="anchor-heading" aria-labelledby="元件上編輯器"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件上編輯器
+        
+        
+      </h2>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><img src="/en/3.4.0/imgs/file150.png" alt="" /></td>
+      <td style="text-align: left">調整模板底色大小</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/on_widget_edditor/mask_editor/">Mask Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><img src="/en/3.4.0/imgs/file151.png" alt="" /></td>
+      <td style="text-align: left">調整文字的x軸與y軸偏移量<br />文字水平垂直置中時無法調整</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/on_widget_edditor/offset_editor/">Offset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><img src="/en/3.4.0/imgs/file152.png" alt="" /></td>
+      <td style="text-align: left">調整模板底色的圓角半徑<br />底色形狀選擇橢圓形時無法調整</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/on_widget_edditor/mask_editor/">Mask Editor</a></td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="右鍵選單">
+        
+        
+          <a href="#右鍵選單" class="anchor-heading" aria-labelledby="右鍵選單"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 右鍵選單
+        
+        
+      </h2>
+    
+      <h3 id="元件子功能">
+        
+        
+          <a href="#元件子功能" class="anchor-heading" aria-labelledby="元件子功能"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 元件子功能
+        
+        
+      </h3>
+    
+
+<div class="table-wrapper"><table class="table_properties">
+  <thead>
+    <tr>
+      <th style="text-align: left">屬性名稱</th>
+      <th style="text-align: left">屬性功能描述</th>
+      <th style="text-align: left">操作型態</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">載入OFF狀態圖片…</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">載入ON狀態圖片…</td>
+      <td style="text-align: left">從檔案系統選擇作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/file_open_dialog_box/">File Open Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯OFF狀態圖片…</td>
+      <td style="text-align: left">編輯元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">編輯ON狀態圖片…</td>
+      <td style="text-align: left">編輯元件 ON 狀態的圖片</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/properties/image_editor_dialog_box/">Image Editor Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上OFF狀態圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">貼上ON狀態圖片</td>
+      <td style="text-align: left">貼上剪貼簿中的圖片作為元件 ON 狀態的圖片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">重置為原始大小</td>
+      <td style="text-align: left">將元件重置為原始大小</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/on_context_menu/reset_editor/">Reset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">依寬度重置比例</td>
+      <td style="text-align: left">依元件寬度將元件高度與寬度比例重置</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/on_context_menu/reset_editor/">Reset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">依高度重置比例</td>
+      <td style="text-align: left">依元件高度將元件高度與寬度比例重置</td>
+      <td style="text-align: left"><a href="/en/3.4.0/widget_properties/on_context_menu/reset_editor/">Reset Editor</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">預覽按鈕按下動畫</td>
+      <td style="text-align: left">預覽元件點擊效果</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">連接到教學影片…</td>
+      <td style="text-align: left">連結至博橡教育影片</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table></div>
+
+        
+
+        
+
+        
+        
+          <hr>
+          <footer>
+            
+              <p><a href="#top" id="back-to-top">Back to top</a></p>
+            
+
+            <p class="text-small text-grey-dk-100 mb-0"></p>
+
+            
+          </footer>
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
+
