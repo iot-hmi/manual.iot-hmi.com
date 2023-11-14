@@ -439,7 +439,7 @@
         <p>連接正常，接收確認資訊ack</p>
       </li>
       <li>
-        <p>通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
+        <p>通訊指令，詳情參考<a href="#iot-protocol">博象通訊協定</a></p>
 
         <p>選擇 Set Register 表示要寫入暫存器內容，並且設定暫存器序號以及要寫入的資料和型態，該暫存器ID以及資料型態必須與ADE設計專案內暫存器設定相符。</p>
       </li>
@@ -462,7 +462,7 @@
 
 <ul>
   <li>
-    <p>首先利用ADE將既有的設計下載至博橡科技控制板上</p>
+    <p>首先利用ADE將既有的設計下載至博象科技控制板上</p>
   </li>
   <li>
     <p>之後利用電腦UART(eg.USB to TTL模組)連接控制板的TX、RX、GND</p>
@@ -483,7 +483,7 @@
         <p>連接正常，接收到ack訊息</p>
       </li>
       <li>
-        <p>設定並傳送通訊指令，詳情參考<a href="#iot-protocol">博橡通訊協定</a></p>
+        <p>設定並傳送通訊指令，詳情參考<a href="#iot-protocol">博象通訊協定</a></p>
       </li>
     </ol>
   </li>
@@ -504,10 +504,10 @@
 
 <ul>
   <li>
-    <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博橡通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
+    <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博象通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
   </li>
   <li>
-    <p>其次，連接博橡控制板與Arduino控制板的TX、RX和GND</p>
+    <p>其次，連接博象控制板與Arduino控制板的TX、RX和GND</p>
 
     <p><img src="/zh-tw/3.4.1/imgs/file42.png" alt="" /></p>
   </li>
@@ -515,10 +515,10 @@
     <p>將ADE Project與Arduino程式分別下載至兩個控制板，打開電源即可開始通訊。</p>
   </li>
 </ul>
-      <h3 id="博橡uart通訊協定">
+      <h3 id="博象uart通訊協定">
         
         
-          <a href="#博橡uart通訊協定" class="anchor-heading" aria-labelledby="博橡uart通訊協定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博橡UART通訊協定<a name="iot-protocol"></a>
+          <a href="#博象uart通訊協定" class="anchor-heading" aria-labelledby="博象uart通訊協定"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博象UART通訊協定<a name="iot-protocol"></a>
         
         
       </h3>
@@ -616,7 +616,7 @@
   </li>
 </ul>
 
-<p>博橡Arduino Library可參考<a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino" target="_blank">IOT Binary Protocol</a></p>
+<p>博象Arduino Library可參考<a href="https://github.com/iot-hmi/IOTBinaryProtocol_Arduino" target="_blank">IOT Binary Protocol</a></p>
       <h3 id="ack-test">
         
         
