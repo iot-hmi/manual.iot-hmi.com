@@ -328,7 +328,7 @@
         
       </h2>
     
-<p>最左邊的是下載到 Ubique Panel 控制板的按鍵：</p>
+<p>最左邊的是下載到博象科技智慧屏的按鍵：</p>
 
 <p><img src="/zh-tw/3.4.3/imgs/file23.png" alt="圖2-7 下載鈕" /></p>
 
@@ -338,7 +338,7 @@
 
 <p><img src="/zh-tw/3.4.3/imgs/file24.png" alt="圖2-8 下載完成提示對話框" /></p>
 
-<p>這表示 HMI 設計已經成功下載到 Ubique Panel 的控制板上。下載時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。</p>
+<p>這表示 HMI 設計已經成功下載到博象科技智慧屏上。下載時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。</p>
       <h2 id="啟動模擬器">
         
         
@@ -351,9 +351,9 @@
 
 <p><img src="/zh-tw/3.4.3/imgs/file25.png" alt="圖2-9 啟動模擬器按鈕" /></p>
 
-<p>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者螢幕以及 Ubique Panel的規格差異)。</p>
+<p>內建的模擬器是模擬使用者設計被載入博象科技智慧屏之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與博象科技智慧屏上一致(色差可能發生於使用者螢幕以及博象科技智慧屏的規格差異)。</p>
 
-<p>模擬器無法於個人電腦模擬 Ubique Panel 上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。</p>
+<p>模擬器無法於個人電腦模擬博象科技智慧屏上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬博象科技智慧屏暫存器通訊協定。</p>
       <h2 id="啟動屏通訊程式messenger">
         
         
@@ -362,7 +362,7 @@
         
       </h2>
     
-<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊</p>
+<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與博象科技智慧屏或是模擬器進行通訊</p>
 
 <p><img src="/zh-tw/3.4.3/imgs/file26.png" alt="圖2-10 開啟通訊Messenger鈕" /></p>
 
@@ -370,7 +370,7 @@
 
 <p><img src="/zh-tw/3.4.3/imgs/file27.png" alt="圖2-11 Messenger視窗" /></p>
 
-<p>在這視窗中，使用者可以透過個人電腦的序列埠或網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。</p>
+<p>在這視窗中，使用者可以透過個人電腦的序列埠或網路，連結博象科技智慧屏，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給博象科技智慧屏。</p>
 
 <p>通訊分為兩種方法：一種為透過網路Socket，另一種為序列埠</p>
 
@@ -397,7 +397,7 @@
   </li>
 </ul>
 
-<p>以下詳細說明與模擬器以及 Ubique Panel 通訊方法：</p>
+<p>以下詳細說明與模擬器以及博象科技智慧屏通訊方法：</p>
       <h3 id="利用屏通訊程式messenger和模擬器通訊">
         
         
@@ -411,7 +411,8 @@
   <li>
     <p>首先用 ADE 開啟一個既有設計</p>
 
-    <p>確認IOConfig頁面UART為啟動且UART鮑率正確且暫存器已選取</p>
+    <p>確認IOConfig頁面UART為啟動且UART鮑率正確且暫存器已選取
+注:在新版的Nexus Panel不需要進行此設定</p>
 
     <p><img src="/zh-tw/3.4.3/imgs/file28.png" alt="圖2-12 IOConfig頁面-UART設定" /></p>
   </li>
@@ -451,10 +452,10 @@
     <p><img src="/zh-tw/3.4.3/imgs/file31.png" alt="圖2-15 模擬器顯示通訊結果" /></p>
   </li>
 </ul>
-      <h3 id="屏通訊程式messenger與ubique-panel通訊">
+      <h3 id="屏通訊程式messenger與博象科技智慧屏通訊">
         
         
-          <a href="#屏通訊程式messenger與ubique-panel通訊" class="anchor-heading" aria-labelledby="屏通訊程式messenger與ubique-panel通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式(Messenger)與Ubique Panel通訊
+          <a href="#屏通訊程式messenger與博象科技智慧屏通訊" class="anchor-heading" aria-labelledby="屏通訊程式messenger與博象科技智慧屏通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式(Messenger)與博象科技智慧屏通訊
         
         
       </h3>
@@ -462,7 +463,7 @@
 
 <ul>
   <li>
-    <p>首先利用ADE將既有的設計下載至博象科技控制板上</p>
+    <p>首先利用ADE將既有的設計下載至博象科技智慧屏上</p>
   </li>
   <li>
     <p>之後利用電腦UART(eg.USB to TTL模組)連接控制板的TX、RX、GND</p>
@@ -488,15 +489,15 @@
     </ol>
   </li>
   <li>
-    <p>接下來即可在 Ubique Panel 上看到相對應的顯示</p>
+    <p>接下來即可在智慧屏上看到相對應的顯示</p>
 
     <p><img src="/zh-tw/3.4.3/imgs/file33.png" alt="" /></p>
   </li>
 </ul>
-      <h3 id="ubique-panel-和-mcu-通訊">
+      <h3 id="博象科技智慧屏-和-mcu-通訊">
         
         
-          <a href="#ubique-panel-和-mcu-通訊" class="anchor-heading" aria-labelledby="ubique-panel-和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Ubique Panel 和 MCU 通訊
+          <a href="#博象科技智慧屏-和-mcu-通訊" class="anchor-heading" aria-labelledby="博象科技智慧屏-和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博象科技智慧屏 和 MCU 通訊
         
         
       </h3>
@@ -507,7 +508,7 @@
     <p>首先，準備一個 ADE Project並且設好暫存器。再參考<a href="#iot-protocol">博象通訊協定</a>寫出 Arduino 程式，將資料透過通訊傳給指定ID的暫存器。</p>
   </li>
   <li>
-    <p>其次，連接博象控制板與Arduino控制板的TX、RX和GND</p>
+    <p>其次，連接博象科技智慧屏與Arduino控制板的TX、RX和GND</p>
 
     <p><img src="/zh-tw/3.4.3/imgs/file42.png" alt="" /></p>
   </li>
