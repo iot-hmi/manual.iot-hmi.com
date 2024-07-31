@@ -16213,7 +16213,7 @@
   },"2702": {
     "doc": "彈性捲動文本",
     "title": "元件屬性",
-    "content": "彈性捲動文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 暫存器設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . 文本陣列設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . 設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用格式化字串 | 是否要使用python格式化字串 | Checkbox | . | 格式化字串 | 詳情參考Format String | Format String | . | 字型大小 | 設定字型大小 | Font Selector | . | 文字顏色 | 設定文字顏色 | Color Selector | . | 不透明度 % | 設定文字不透明度(0-100%) | Number Editor | . | 顯示背景顏色 | 是否要顯示背景顏色 | Checkbox | . | 背景主要顏色 | 設定背景主要顏色 | Color Selector | . | 背景漸變顏色 | 設定背景漸變顏色 | Color Selector | . | 背景不透明度 % | 設定背景不透明度(0-100%) | Number Editor | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . | 捲動速度 像素/秒 | 設定文本捲動速度(5-50 px/sec) | Number Editor | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . ",
+    "content": "彈性捲動文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 暫存器設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . 文本陣列設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . 設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用格式化字串 | 是否要使用python格式化字串 | Checkbox | . | 格式化字串 | 詳情參考Format String | Format String | . | 字型 | 設定字型和大小 | Font Selector | . | 文字顏色 | 設定文字顏色 | Color Selector | . | 不透明度 % | 設定文字不透明度(0-100%) | Number Editor | . | 顯示背景顏色 | 是否要顯示背景顏色 | Checkbox | . | 背景主要顏色 | 設定背景主要顏色 | Color Selector | . | 背景漸變顏色 | 設定背景漸變顏色 | Color Selector | . | 背景不透明度 % | 設定背景不透明度(0-100%) | Number Editor | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . | 捲動速度 像素/秒 | 設定文本捲動速度(5-50 px/sec) | Number Editor | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/#元件屬性"
   },"2703": {
@@ -16501,7 +16501,7 @@
   },"2750": {
     "doc": "漸層圖形",
     "title": "漸層圖形",
-    "content": ". ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/"
   },"2751": {
@@ -16549,7 +16549,7 @@
   },"2758": {
     "doc": "垂直數字刻度",
     "title": "垂直數字刻度",
-    "content": ". ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/"
   },"2759": {
@@ -16561,100 +16561,196 @@
   },"2760": {
     "doc": "垂直數字刻度",
     "title": "右鍵選單",
-    "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
+    "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#右鍵選單"
   },"2761": {
     "doc": "水平數字刻度",
     "title": "水平數字刻度",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/"
   },"2762": {
+    "doc": "水平數字刻度",
+    "title": "元件屬性",
+    "content": "水平數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度開始的數字 | Number Editor | . | 結束數字 | 設定刻度結束的數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 對齊方式 | 設定文字和刻度的對齊方式 | Dropdown List | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#元件屬性"
+  },"2763": {
+    "doc": "水平數字刻度",
+    "title": "右鍵選單",
+    "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#右鍵選單"
+  },"2764": {
     "doc": "圓形數字刻度",
     "title": "圓形數字刻度",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/"
-  },"2763": {
+  },"2765": {
+    "doc": "圓形數字刻度",
+    "title": "元件屬性",
+    "content": "圓形數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度開始的數字 | Number Editor | . | 結束數字 | 設定刻度結束的數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 數字刻度半徑 | 設定刻度數字佔的半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 終端圓半徑 | 設定終端圓的半徑 | Number Editor | . | 刻度數字對齊圓切線 | 決定刻度數字是否對齊圓切線 | Checkbox | . | 刻度數字上下顛倒 | 決定刻度數字是否上下顛倒 | Checkbox | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#元件屬性"
+  },"2766": {
+    "doc": "圓形數字刻度",
+    "title": "右鍵選單",
+    "content": "移動選轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#右鍵選單"
+  },"2767": {
     "doc": "方形格線",
     "title": "方形格線",
-    "content": "施工中… . ",
+    "content": "如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/"
-  },"2764": {
+  },"2768": {
+    "doc": "方形格線",
+    "title": "元件屬性",
+    "content": "方形格線 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始顏色 | 設定背景開始的顏色 | Color Selector | . | 結束顏色 | 設定背景結束的顏色 | Color Selector | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 垂直格線設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直格線 | 決定是否要顯示垂直格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 刻度分格數 | 設定方格的垂直分格數 | Number Editor | . | 垂直格線顏色 | 設定垂直格線的顏色 | Color Selector | . | 垂直格線樣式 | 設定垂直格線的框線風格 | Dropdown List | . 水平格線設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示水平格線 | 決定是否要顯示水平格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 刻度分格數 | 設定方格的水平分格數 | Number Editor | . | 水平格線顏色 | 設定水平格線的顏色 | Color Selector | . | 水平格線樣式 | 設定水平格線的框線風格 | Dropdown List | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#元件屬性"
+  },"2769": {
+    "doc": "方形格線",
+    "title": "右鍵選單",
+    "content": "顯示格線 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直格線 | 決定是否要顯示垂直格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 顯示水平格線 | 決定是否要顯示水平格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 移除邊框 | 移除方格的邊框 |   | . | 變成正方形 | 將方格擴展成正方形 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#右鍵選單"
+  },"2770": {
     "doc": "垂直刻度",
     "title": "垂直刻度",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/"
-  },"2765": {
+  },"2771": {
+    "doc": "垂直刻度",
+    "title": "元件屬性",
+    "content": "垂直刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Dropdown List | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#元件屬性"
+  },"2772": {
+    "doc": "垂直刻度",
+    "title": "右鍵選單",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#右鍵選單"
+  },"2773": {
     "doc": "水平刻度",
     "title": "水平刻度",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/"
-  },"2766": {
+  },"2774": {
+    "doc": "水平刻度",
+    "title": "元件屬性",
+    "content": "水平刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Dropdown List | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#元件屬性"
+  },"2775": {
+    "doc": "水平刻度",
+    "title": "右鍵選單",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#右鍵選單"
+  },"2776": {
     "doc": "圓形刻度",
     "title": "圓形刻度",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/"
-  },"2767": {
+  },"2777": {
+    "doc": "圓形刻度",
+    "title": "元件屬性",
+    "content": "圓形刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 外沿起始半徑 | 設定刻度的外沿起始半徑 | Number Editor | . | 內沿起始半徑 | 設定刻度的內沿起始半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 外沿結束半徑 | 設定刻度的外沿結束半徑 | Number Editor | . | 內沿結束半徑 | 設定刻度的內沿結束半徑 | Number Editor | . | 選擇刻度模式 | 設定刻度為直線或多邊形 | Dropdown List | . | 開始顏色 | 設定刻度開始的顏色 | Color Selector | . | 結束顏色 | 設定刻度結束的顏色 | Color Selector | . | 選擇刻度形狀 | 設定刻度的形狀 | Dropdown List | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#元件屬性"
+  },"2778": {
+    "doc": "圓形刻度",
+    "title": "右鍵選單",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . | 選擇刻度模式 | 設定刻度為直線或多邊形 | Checkbox | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#右鍵選單"
+  },"2779": {
     "doc": "可變半徑圓形色條",
     "title": "可變半徑圓形色條",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/"
-  },"2768": {
+  },"2780": {
+    "doc": "可變半徑圓形色條",
+    "title": "元件屬性",
+    "content": "可變半徑圓形色條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 色條設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 外沿起始半徑 | 設定刻度的外沿起始半徑 | Number Editor | . | 內沿起始半徑 | 設定刻度的內沿起始半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 外沿結束半徑 | 設定刻度的外沿結束半徑 | Number Editor | . | 內沿結束半徑 | 設定刻度的內沿結束半徑 | Number Editor | . | 開始顏色 | 設定刻度開始的顏色 | Color Selector | . | 結束顏色 | 設定刻度結束的顏色 | Color Selector | . | 顯示邊框 | 決定是否要顯示邊框 | Checkbox | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#元件屬性"
+  },"2781": {
+    "doc": "可變半徑圓形色條",
+    "title": "右鍵選單",
+    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#右鍵選單"
+  },"2782": {
     "doc": "繞圓文字",
     "title": "繞圓文字",
-    "content": ". 施工中… . ",
+    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/"
-  },"2769": {
+  },"2783": {
+    "doc": "繞圓文字",
+    "title": "元件屬性",
+    "content": "繞圓文字 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 繞圓文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文字內容 | 顯示繞圓的文字內容 | Plain Text | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 圓半徑 | 設定文字佔的圓半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 終端圓半徑 | 設定終端圓的半徑 | Number Editor | . | 字型選擇 | 設定字型和大小 | Font Selector | . | 文字顏色 | 設定文字的顏色 | Color Selector | . | 顯示文字路徑 | 決定是否要顯示文字路徑 | Checkbox | . | 文字方向 | 設定文字的旋轉方向 | Dropdown List | . | 文字間隔 | 設定每個文字的間隔 | Number Editor | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#元件屬性"
+  },"2784": {
+    "doc": "繞圓文字",
+    "title": "右鍵選單",
+    "content": "移動選轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . | 文字方向 | 設定文字的旋轉方向 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
+    "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
+    "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#右鍵選單"
+  },"2785": {
     "doc": "儀表繪製元件",
     "title": "儀表繪製元件",
     "content": "儀表繪製元件庫提供多樣化的元件，讓使用者可簡單快速製作美麗又實用的儀表。 . 儀表繪製元件庫中的元件預設不能輸出。 . 若要輸出，需將兩個(含)以上的元件同時選取並進行建立點陣圖輸出群組操作。 . 如欲快速入門，可以觀看博象教育影片，幫助了解儀表繪製元件用法 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/"
-  },"2770": {
+  },"2786": {
     "doc": "私有圖形元件",
     "title": "私有圖形元件",
     "content": "使用者可將設定完成的元件、設計完成的群組存入私有圖形元件庫以供日後在不同設計文件中使用，以達到設計複用之目的。舉例來說，密碼輸入頁面為HMI常用設計，使用者設定密碼輸入相關元件之屬性，群組後加入私有圖形元件，即可重複使用，節省設計花費時間。 . 私有圖形元件頁面會顯示已儲存的收藏集和收藏包含的圖形元件 . 使用方法： . | 將要加入私有圖形元件的元件全選取起來，點擊右鍵選擇建立群組，如果只有單一元件要加入私有圖形元件則不須建立群組 . | 建立完群組後再次點擊右鍵，選擇將選擇加入私有收藏… . | 選擇是否建立新的私有元件庫或者使用現有的私有元件庫 . | 輸入元件集合名稱、描述和元件名稱並選擇元件圖示，設定完點擊完成即可在私有圖形元件獲得新建立的私有元件庫 . | 將圖形元件拖曳至工作區域即可使用 . 在私有圖形元件頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在圖形元件上點擊右鍵則可以對圖形元件進行刪除和編輯 . | . ",
     "url": "/zh-tw/3.4.3/my_collections/",
     "relUrl": "/zh-tw/3.4.3/my_collections/"
-  },"2771": {
+  },"2787": {
     "doc": "圖形元件列表",
     "title": "圖形元件列表",
     "content": "本章節將介紹一些實用的元件圖層相關工具，讓設計變得更加簡單 . 首先點選工具面板的圖形元件列表按鈕，進入頁面後可以看見當前工作區域所在的頁面所有元件及其相關圖層設定 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/"
-  },"2772": {
+  },"2788": {
     "doc": "圖形元件列表",
     "title": "鎖定",
     "content": "透過點選鎖定按鈕，將元件鎖定，用以保護元件內容 . 鎖定中的元件會呈現灰色的鎖定圖示，且屬性不可被更改 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E9%8E%96%E5%AE%9A",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#鎖定"
-  },"2773": {
+  },"2789": {
     "doc": "圖形元件列表",
     "title": "可見的",
     "content": "點選可見按鈕調整元件可見性，方便修改重疊的元件 . 顯示可見的元件會顯示眼睛的可見圖示 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E5%8F%AF%E8%A6%8B%E7%9A%84",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#可見的"
-  },"2774": {
+  },"2790": {
     "doc": "圖形元件列表",
     "title": "圖形元件型別",
     "content": "顯示所用元件的型別 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E5%9C%96%E5%BD%A2%E5%85%83%E4%BB%B6%E5%9E%8B%E5%88%A5",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#圖形元件型別"
-  },"2775": {
+  },"2791": {
     "doc": "圖形元件列表",
     "title": "圖形元件名稱",
     "content": "元件實體名稱為使用者自行定義之名稱，不可重複，方便辨識及尋找 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E5%9C%96%E5%BD%A2%E5%85%83%E4%BB%B6%E5%90%8D%E7%A8%B1",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#圖形元件名稱"
-  },"2776": {
+  },"2792": {
     "doc": "快捷鍵",
     "title": "快捷鍵",
     "content": "| 快捷鍵 | 功能描述 | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟屏通訊程式 | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋元件 | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | 拖移+Ctrl | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放工作區域 | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小工作區域 | . | Ctrl+[+] | 放大工作區域 | . | Shift+滑鼠滾輪 | 左右捲動工作區域 | . | Ctrl+元件 | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個元件 | . | Shift+Tab | 換上一個元件 | . | F3 | 開啟元件庫管理頁面 | . | F10 | 鎖定元件比例 | . | F12 | 鎖定元件位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示工具面板 | . ",
