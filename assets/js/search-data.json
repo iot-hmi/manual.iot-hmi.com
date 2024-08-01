@@ -15277,7 +15277,7 @@
   },"2546": {
     "doc": "特殊頁面",
     "title": "商標圖像",
-    "content": "商標圖像元件顯示如圖示 . 提供使用者自訂開機Logo顯示功能以及顯示時間。 . 商標圖像元件的設定以及使用詳見 商標圖像元件 . ",
+    "content": "提供使用者自訂開機Logo顯示功能以及顯示時間。 . 商標圖像元件的設定以及使用詳見 商標圖像元件 . ",
     "url": "/zh-tw/3.4.3/page/special_page/#%E5%95%86%E6%A8%99%E5%9C%96%E5%83%8F",
     "relUrl": "/zh-tw/3.4.3/page/special_page/#商標圖像"
   },"2547": {
@@ -15337,7 +15337,7 @@
   },"2556": {
     "doc": "排列選擇器",
     "title": "排列選擇器",
-    "content": ". | 設定文字的對齊方式。 . | 設定圓心的對齊方式。 . | 設定刻度數字對齊方式。 . | 設定捲動文本對齊方式。 . | 設定圓規圓心x、y座標。 . | . ",
+    "content": ". | 設定圓心的對齊方式。 . | 設定刻度數字對齊方式。 . | 設定捲動文本對齊方式。 . | 設定圓規圓心x、y座標。 . | . ",
     "url": "/zh-tw/3.4.3/widget_properties/properties/alignment_selector/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/properties/alignment_selector/"
   },"2557": {
@@ -15515,1242 +15515,1254 @@
     "url": "/zh-tw/3.4.3/widget_properties/properties/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/properties/"
   },"2586": {
-    "doc": "模板底色編輯器",
-    "title": "模板底色編輯器",
-    "content": "利用拖曳箭頭改變模板底色大小 . 利用拖曳箭頭改變模板底色圓角半徑，可將模板底色從矩形變成橢圓 . 註解：如果模板底色形狀為橢圓則無效 ",
-    "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/mask_editor/",
-    "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/mask_editor/"
-  },"2587": {
-    "doc": "偏移量編輯器",
-    "title": "偏移量編輯器",
-    "content": "利用拖曳箭頭調整文字x軸與y軸的偏移量 . | 屬性 | 功能描述 | . | | 文字對齊置頂時，箭頭往下移文字往下移 | . | | 文字對齊置底時，箭頭往下移文字往上移 | . | | 文字對齊置左時，箭頭往右移文字往右移 | . | | 文字對齊置右時，箭頭往右移文字往左移 | . ",
-    "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/offset_editor/",
-    "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/offset_editor/"
-  },"2588": {
     "doc": "中心點編輯器",
     "title": "中心點編輯器",
     "content": "利用拖曳綠環改變元件中心點位置，藉此改變使用圓心對齊時的位置 . 利用拖曳綠環改變圓弧角度的位置，同時改變圓心對齊時的位置 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/center_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/center_editor/"
-  },"2589": {
+  },"2587": {
     "doc": "水銀柱輔助調節器",
     "title": "水銀柱輔助調節器",
     "content": "利用拖曳箭頭改變水銀柱位置 . 如果起始位置對應到旋鈕，正中間對應到進度條開始位置，則水銀柱會跟隨旋鈕增加和減少 . ⮜ 水銀柱示意圖 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/liquid_column_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/liquid_column_editor/"
-  },"2590": {
+  },"2588": {
     "doc": "滑鈕輔助調節器",
     "title": "滑鈕輔助調節器",
     "content": "利用拖曳箭頭調整旋鈕圖片的位置大小以及比例 . 利用拖曳兩側輔助圖示調整旋鈕的開始位置以及結束位置。 . 旋鈕中線對應到兩側輔助圖示 . ⮜旋鈕起始結束示意圖 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/knob_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/knob_editor/"
-  },"2591": {
+  },"2589": {
     "doc": "毛細管輔助調節器",
     "title": "毛細管輔助調節器",
     "content": "利用左上，右下兩個標籤，調整顯示毛細管的位置以及尺寸。毛細管的位置與尺寸與旋鈕位置無關，為獨立設定。 . 一般而言，毛細管會作為條狀調節器的條狀顯示的背景，水銀柱圖形會作為前景。水銀柱會隨輸入數值移動，而毛細管不會移動。 . 如果選擇將刻度鏤空，可以利用毛細管將顏色透出來，此例中毛細管是灰色的。 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/bore_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/bore_editor/"
-  },"2592": {
+  },"2590": {
     "doc": "刻度輔助調節器",
     "title": "刻度輔助調節器",
     "content": "利用拖曳調整刻度的範圍，藉由調整右上角以及左下角的調整標籤，可以決定刻度的範圍。 . 利用拖曳T字標籤調整數字的垂直或是水平位置。 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/scale_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/scale_editor/"
-  },"2593": {
+  },"2591": {
     "doc": "刻度圓弧半徑輔助調節器",
     "title": "刻度圓弧半徑輔助調節器",
     "content": "利用拖曳調整刻度圓弧的半徑大小 . 調整刻度圓弧的半徑大小來符合需求，刻度以及刻度文字會以此半徑為基準。 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/label_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/label_editor/"
-  },"2594": {
+  },"2592": {
     "doc": "圖片大小調節器",
     "title": "圖片大小調節器",
     "content": "拖曳左上角或是右下角的三角形調整背景圖片大小及位置，圖片的大小限制為外框的尺寸。 此調整功能被使用於圓形刻度盤以及圓形儀表。 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/image_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/image_editor/"
-  },"2595": {
+  },"2593": {
     "doc": "多文本",
     "title": "多文本",
     "content": ". 允許元件就地編輯，輸入多行文字及符號，可顯示不同字型、風格、尺寸及顏色。 . 註解：選取欲編輯的文字後即可進入編輯模式 ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/rich_text_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/rich_text_editor/"
-  },"2596": {
+  },"2594": {
     "doc": "文字方框編輯器",
     "title": "文字方框編輯器",
     "content": "利用拖曳箭頭改變文字顯示框的大小 . 利用拖曳箭頭改變背景的圓角半徑，可將背景從矩形變成橢圓 . 註解：如果背景不透明度為0則無效 ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/handle_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/handle_editor/"
+  },"2595": {
+    "doc": "漸層編輯器",
+    "title": "漸層編輯器",
+    "content": "待施工… . ",
+    "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/gradient_editor/",
+    "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/gradient_editor/"
+  },"2596": {
+    "doc": "圓角編輯器",
+    "title": "圓角編輯器",
+    "content": "待施工… . ",
+    "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/Radius_editor/",
+    "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/Radius_editor/"
   },"2597": {
+    "doc": "圖表編輯器",
+    "title": "圖表編輯器",
+    "content": "待施工… . ",
+    "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/chart_editor/",
+    "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/chart_editor/"
+  },"2598": {
+    "doc": "儀表文字定位",
+    "title": "儀表文字定位",
+    "content": "待施工… . ",
+    "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/meter_text_positioning/",
+    "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/meter_text_positioning/"
+  },"2599": {
     "doc": "元件上編輯器",
     "title": "元件上編輯器",
     "content": " ",
     "url": "/zh-tw/3.4.3/widget_properties/on_widget_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_widget_editor/"
-  },"2598": {
+  },"2600": {
     "doc": "重置編輯器",
     "title": "重置編輯器",
     "content": ". | 重置為原始大小：將元件重置回原始大小 . | 依寬度重置比例：將元件長寬比例根據寬度重置 . | 依高度重置比例：將元件寬度比例根據高度重置 . | . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_context_menu/reset_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_context_menu/reset_editor/"
-  },"2599": {
+  },"2601": {
     "doc": "中心點編輯器",
     "title": "中心點編輯器",
     "content": ". | 移動旋轉中心到圖形中心點：將旋轉中心水平垂直置中，方便於使用圓心對齊 | . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_context_menu/center_editor/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_context_menu/center_editor/"
-  },"2600": {
+  },"2602": {
     "doc": "右鍵選單",
     "title": "共同右鍵選單",
     "content": "在設計畫布上按下滑鼠右鍵時，會出現右鍵選單，此選單會根據是否選擇元件以及所選擇的不同元件而改變選單內容，不同元件提供的選單內容將在各個元件的說明頁中描述，此頁專職描述所有右鍵選單的共同功能。 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_context_menu/#%E5%85%B1%E5%90%8C%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_context_menu/#共同右鍵選單"
-  },"2601": {
+  },"2603": {
     "doc": "右鍵選單",
     "title": "未選擇任何元件時",
     "content": "基本編輯功能 . | 屬性名稱 | 屬性功能描述 | Shortcut | . | 復原 | 復原回上一個動作，選單會一併顯示復原的動作名稱 | Ctrl+Z | . | 重作 | 當可以重作上一個動作時，選單會致能，可以重做上一個動作 | Ctrl+Y | . | 貼上 | 從剪貼簿貼上，目前支援元件貼上，圖片貼上，以及SVG貼上功能 | Ctrl+V | . | 全選 | 選擇此設計頁面上的所有元件 | Ctrl+A | . 畫布尺寸 . 此功能主要用於文件邊即時自動調整畫布大小，在編輯HMI用頁面時較少用到 . | 屬性名稱 | 屬性功能描述 | Shortcut | . | 尺寸符合頁面內容 | 將畫布尺寸調整為包含目前所有元件的最小長方型 |   | . | 尺寸符合頁面內容加上留白 | 將畫布尺寸調整為包含目前所有元件的最小長方型，再加上留白點數，此功能會顯示一個對話盒要求使用者輸入留白點數 |   | . | 尺寸符合編輯區大小 | 將畫布尺寸調整為目前編輯區的尺寸，即扣除左邊工作面板(Widget Panel)以及右邊屬性面板(Property Panel)和下方頁面清單(Page List)之後的所有空間 |   | . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_context_menu/#%E6%9C%AA%E9%81%B8%E6%93%87%E4%BB%BB%E4%BD%95%E5%85%83%E4%BB%B6%E6%99%82",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_context_menu/#未選擇任何元件時"
-  },"2602": {
+  },"2604": {
     "doc": "右鍵選單",
     "title": "選擇一個或是多個元件時",
     "content": "圖層順序 . 選擇單一或是多個元件時，可以調整所選元件在頁面上的圖層順序，藉由帶透明度元件的不同圖層安排，Ubique Panel 可以顯示豐富多樣的視覺效果。 . | 屬性名稱 | 屬性功能描述 | Shortcut | . | 移至最上一層 | 將所選元件移至畫布的最上層 | Shift+Page Up | . | 上移一層 | 將所選元件上移一層 | Page Up | . | 下移一層 | 將所選元件下移一層 | Page Down | . | 移至最下層 | 將所選元件移至畫布的最下層 | Shift+Page Down | . 元件子功能 . 功能隨選擇的元件改變，詳見各個元件的屬性說明。 . 連結頁面 . 選擇匯出的網頁件，按下此元件時是否要切換到其他頁面，若設定連接，則匯出的網頁可以做 HMI 換頁動作，適合在 HMI 開發過程中做展示說明。 可連結的頁面名稱會顯示在子功能表中被選擇。 . 鎖定 . 勾選此選項，可以固定此元件的座標位置以及尺寸，避免此元件被滑鼠點選造成失誤移動或是改變其位置。 . 建立群組 . 當選擇多個元件時，可以用這個選項將他們建立成一個群組，方便移動，調整尺寸，收入私有收藏等。 . Shortcut： Ctrl+G . 解散群組 . 此選項可以解散以建立的群組 . Shortcut： Ctrl+Shift+G . 刪除所選 . 刪除選擇的元件 . Shortcut： Delete . 將選擇加入私有收藏 . 此選項可以將所選擇的元件或是群組加入私有收藏，方便日後使用，詳情請見 私有收藏。 . 剪下 . 剪下所選元件，並存於剪貼簿 . Shortcut： Ctrl+X . 複製 . 複製所選元件，並存於剪貼簿 . Shortcut： Ctrl+C . 貼上 . 貼上於剪貼簿上的元件，有些元件若多次貼上，其貼上位置以及尺寸會相同因此重疊，使用這需重新調整元件位置。 . Shortcut： Ctrl+V . 匯出選取部分(含背景)作為PNG圖檔… . 將所選元件或是群組匯出成PNG圖片，此功能會出現檔案對話盒讓使用者指定儲存檔名。 此選項會連同所選的元件的背景一併匯出。 . 若點選此功能時按住Shift鍵，則匯出的圖片會直接儲存於剪貼簿，可以直接貼上使用，不會儲存到檔案。 . Shortcut： Ctrl+Alt+E . 匯出選取部分(不含背景)作為PNG圖檔… . 將所選元件或是群組匯出成PNG圖片，此功能會出現檔案對話盒讓使用者指定儲存檔名。 此選項不會匯出背景。 . 若點選此功能時按住Shift鍵，則匯出的圖片會直接儲存於剪貼簿，可以提之後貼上使用，不會儲存到檔案。 . Shortcut： Ctrl+Alt+E . 設定尺寸調整規則 . 此功能用於設定元件在一個群組中，當群組尺寸改變時，元件的尺寸以及位置調整選項，當使用者想要把一個群組存在私有收藏以供日後使用，並日後此收藏可能改變尺寸，應用在不同階析度的顯示器上時，此功能提供正確地元件尺寸改變方式。 . 藉由指定群組尺寸變化時，單一元件的寬度，高度，水平位置，垂直位置如何隨之變化，來調整群組尺寸縮放的視覺效果。 . ",
     "url": "/zh-tw/3.4.3/widget_properties/on_context_menu/#%E9%81%B8%E6%93%87%E4%B8%80%E5%80%8B%E6%88%96%E6%98%AF%E5%A4%9A%E5%80%8B%E5%85%83%E4%BB%B6%E6%99%82",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_context_menu/#選擇一個或是多個元件時"
-  },"2603": {
+  },"2605": {
     "doc": "右鍵選單",
     "title": "右鍵選單",
     "content": " ",
     "url": "/zh-tw/3.4.3/widget_properties/on_context_menu/",
     "relUrl": "/zh-tw/3.4.3/widget_properties/on_context_menu/"
-  },"2604": {
+  },"2606": {
     "doc": "元件",
     "title": "元件",
     "content": " ",
     "url": "/zh-tw/3.4.3/widgets/",
     "relUrl": "/zh-tw/3.4.3/widgets/"
-  },"2605": {
+  },"2607": {
     "doc": "圖形元件庫",
     "title": "圖形元件庫",
     "content": "ADE 中可以用來設計 HMI 畫面以及動作的物件稱為元件，元件在 ADE 工具面板中被分類為各種收藏，如標準元件庫、極簡主義元件集合、系統元件庫等等。使用者可以點選左方的圖形元件庫標籤來選擇不同的元件庫。 . | 利用上方的搜尋引擎藉由關鍵字或是名字搜尋元件。 . | 點擊管理元件庫按鈕可以設定元件庫的排列以及呈現。點選顯示圖標可將元件庫隱藏，也可以藉由拖曳修改元件庫間的排列順序。 . | 使用者可藉由滑鼠將元件從圖形元件庫拖曳至工作區域，完成 HMI 畫面設計 . | . ",
     "url": "/zh-tw/3.4.3/widgets/collection/",
     "relUrl": "/zh-tw/3.4.3/widgets/collection/"
-  },"2606": {
+  },"2608": {
     "doc": "圖形元件庫",
     "title": "右鍵選單",
     "content": "在元件庫上點擊右鍵，會看到右鍵選單，有收藏管理…、隱藏、解除安裝、前往和管理元件庫… . | 收藏管理…：設定元件屬性預設值 . | 隱藏：將元件庫隱藏，可以透過前往或者管理元件庫再次顯示 . | 解除安裝：解除自訂的元件庫 . | 前往：選擇欲前往的元件庫並開啟 . | 管理元件庫：設定元件庫的排列以及呈現。點選顯示圖標可將元件庫隱藏，也可以藉由拖曳修改元件庫間的排列順序。y . | . ",
     "url": "/zh-tw/3.4.3/widgets/collection/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/collection/#右鍵選單"
-  },"2607": {
+  },"2609": {
     "doc": "滑動開關",
     "title": "滑動開關",
     "content": ". 滑動開關既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。狀態可以由使用者觸摸按鈕改變，或是藉由其他元件、程式改變繫結的暫存器內容以改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。按鈕的不同按鈕狀態可以對應到不同的顯示圖像以及文字。開關按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . 如欲快速入門，可以觀看博象教育影片，幫助了解滑動開關： . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/slider_switch_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/slider_switch_v2/"
-  },"2608": {
+  },"2610": {
     "doc": "滑動開關",
     "title": "元件屬性",
     "content": "滑動開關 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示釋放/按下狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . OFF狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定開關為關時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定開關為關時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . ON狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定開關為開時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定開關為開時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 按鈕關閉事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 按鈕開啟事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 綁定狀態暫存器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用狀態綁定暫存器 | 決定是否要將狀態綁定暫存器 | Checkbox | . | 綁定暫存器 | 狀態綁定的暫存器，藉由改變暫存器值變換元件狀態 | Register Selector | . OFF狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . ON狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/slider_switch_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/slider_switch_v2/#元件屬性"
-  },"2609": {
+  },"2611": {
     "doc": "滑動開關",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入OFF狀態圖片… | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 載入ON狀態圖片… | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯OFF狀態圖片… | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 編輯ON狀態圖片… | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上OFF狀態圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . | 貼上ON狀態圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/slider_switch_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/slider_switch_v2/#右鍵選單"
-  },"2610": {
+  },"2612": {
     "doc": "無段按鍵",
     "title": "元件屬性",
     "content": "無段按鍵 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示釋放/按下狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件釋放狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件釋放狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件釋放狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件按下狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件按下狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件按下狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/click_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/click_button_v2/#元件屬性"
-  },"2611": {
+  },"2613": {
     "doc": "無段按鍵",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/click_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/click_button_v2/#右鍵選單"
-  },"2612": {
+  },"2614": {
     "doc": "無段按鍵",
     "title": "無段按鍵",
     "content": ". 無段按鍵是一個輸入元件，主要作為一個無內部狀態的按鈕，按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 點擊無段按鍵時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . 如欲快速入門，可以觀看博象教育影片，幫助了解無段按鍵 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/click_button_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/click_button_v2/"
-  },"2613": {
+  },"2615": {
     "doc": "段位按鍵",
     "title": "元件屬性",
     "content": "段位按鍵 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示釋放/按下狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 按下事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被按著時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/pressrelease_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/pressrelease_button_v2/#元件屬性"
-  },"2614": {
+  },"2616": {
     "doc": "段位按鍵",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/pressrelease_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/pressrelease_button_v2/#右鍵選單"
-  },"2615": {
+  },"2617": {
     "doc": "段位按鍵",
     "title": "段位按鍵",
     "content": ". 段位按鍵是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 段位按鍵可以對應到不同的顯示圖像以及文字。 . 按鈕按下、釋放時皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可以控制按下與釋放時做不同的動作。 . 如欲快速入門，可以觀看博象教育影片，幫助了解段位按鍵 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/pressrelease_button_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/pressrelease_button_v2/"
-  },"2616": {
+  },"2618": {
     "doc": "單擊多狀態按鍵",
     "title": "元件屬性",
     "content": "單擊多狀態按鍵 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示釋放/按下狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/momentary_push_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/momentary_push_button_v2/#元件屬性"
-  },"2617": {
+  },"2619": {
     "doc": "單擊多狀態按鍵",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/momentary_push_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/momentary_push_button_v2/#右鍵選單"
-  },"2618": {
+  },"2620": {
     "doc": "單擊多狀態按鍵",
     "title": "單擊多狀態按鍵",
     "content": ". 單擊多狀態按鍵是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 可以偵測使用者長按行為，長按以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 單擊多狀態按鍵被長按(按下超過1.5秒)或釋放時會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . 如欲快速入門，可以觀看博象教育影片，幫助了解單擊多狀態按鍵 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/momentary_push_button_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/momentary_push_button_v2/"
-  },"2619": {
+  },"2621": {
     "doc": "多狀態按鍵開關",
     "title": "元件屬性",
     "content": "多狀態按鍵開關 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示釋放/按下狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 釋放狀態文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定放開按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 按下狀態文字設定 . | 顯示文字 | 決定按著按鈕時是否要顯示文字 | Checkbox | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定按著按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 按下事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被按著時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 快速點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被快速點擊(小於1秒)時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被快速點擊(小於1秒)時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被快速點擊(小於1秒)時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 循環長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被循環長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被循環長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被循環長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 OFF 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 OFF 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 OFF 狀態的圖片 |   | . 按下狀態圖片操作 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇作為元件 ON 狀態的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯元件 ON 狀態的圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為元件 ON 狀態的圖片 |   | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_push_button_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_push_button_v2/#元件屬性"
-  },"2620": {
+  },"2622": {
     "doc": "多狀態按鍵開關",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入釋放狀態圖片… | 從檔案系統選擇作為元件放開狀態的圖片 | File Open Dialog Box | . | 載入按下狀態圖片… | 從檔案系統選擇作為元件按著狀態的圖片 | File Open Dialog Box | . | 編輯釋放狀態圖片… | 編輯元件放開狀態的圖片 | Image Editor Dialog Box | . | 編輯按下狀態圖片… | 編輯元件按著狀態的圖片 | Image Editor Dialog Box | . | 貼上釋放狀態圖片 | 貼上剪貼簿中的圖片作為元件放開狀態的圖片 |   | . | 貼上按下狀態圖片 | 貼上剪貼簿中的圖片作為元件按著狀態的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_push_button_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_push_button_v2/#右鍵選單"
-  },"2621": {
+  },"2623": {
     "doc": "多狀態按鍵開關",
     "title": "多狀態按鍵開關",
     "content": ". 多狀態按鍵開關是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 按下以及釋放按鈕可以對應到不同的顯示圖像以及文字。 . 多狀態按鍵開關提供所有按鈕能觸發的事件，包括點擊、按下、釋放、快速點擊、長按和循環長按等動作，所有動作皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可精細控制不同的觸發做不同的動作。 . 如欲快速入門，可以觀看博象教育影片，幫助了解多狀態按鍵開關 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_push_button_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_push_button_v2/"
-  },"2622": {
+  },"2624": {
     "doc": "有段按鈕",
     "title": "元件屬性",
     "content": "有段按鈕 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示OFF/ON狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 釋放時文字 | 設定按鈕放開時的文字 | Plain Text | . | 文字顏色 | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | 文字不透明度 % | 設定按鈕放開時的文字不透明度(1-100%) | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同的文字並另外設定按下時的文字與風格 | Checkbox | . | 按下時文字 | 設定按鈕按下時的文字 | Plain Text | . | 文字顏色 | 設定按鈕按下時的文字顏色 | Color Selector | . | 文字不透明度 % | 設定按鈕按下時的文字不透明度(1-100%) | Number Editor | . 本體設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定按鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定按鈕的漸變顏色 | Color Selector | . | 按鈕不透明度 % | 設定按鈕的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定按鈕的圓角半徑，最大值隨元件大小而變動 | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | 主要顏色 | 設定按鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定按鈕按下時的漸變顏色 | Color Selector | . | 按鈕不透明度 % | 設定按鈕按下時的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定按鈕按下時的圓角半徑，最大值隨元件大小而變動 | Number Editor | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定按鈕邊框的顏色 | Color Selector | . | 邊框寬度 | 設定按鈕邊框的寬度 | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | 邊框顏色 | 設定按鈕按下時邊框的顏色 | Color Selector | . | 邊框寬度 | 設定按鈕按下時邊框的寬度 | Number Editor | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 陰影顏色 | 設定按鈕陰影的顏色 | Color Selector | . | 陰影寬度 | 設定按鈕陰影的寬度 | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | 陰影顏色 | 設定按鈕按下時陰影的顏色 | Color Selector | . | 陰影寬度 | 設定按鈕按下時陰影的寬度 | Number Editor | . 按鈕開啟事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 按鈕關閉事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 綁定狀態暫存器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用狀態綁定暫存器 | 決定是否要將狀態綁定暫存器 | Checkbox | . | 綁定暫存器 | 狀態綁定的暫存器，藉由改變暫存器值變換元件狀態 | Register Selector | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_latching_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_latching_button/#元件屬性"
-  },"2623": {
+  },"2625": {
     "doc": "有段按鈕",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_latching_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_latching_button/#右鍵選單"
-  },"2624": {
+  },"2626": {
     "doc": "有段按鈕",
     "title": "有段按鈕",
     "content": ". 有段按鈕既是一個輸入元件也是輸出元件，主要作為一個雙態按鈕。 . 狀態可以由使用者觸摸按鈕來改變，或是藉由其他元件或是程式改變繫結的暫存器內容來改變按鈕狀態，利用這個特性，可以做到在不同頁面但是相互連動的雙切開關功能。 . 有段按鈕為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。 . 按下或釋放按鈕時，會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。 . 如欲快速入門，可以觀看博象教育影片，幫助了解有段按鈕 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_latching_button/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_latching_button/"
-  },"2625": {
+  },"2627": {
     "doc": "多功能按鈕",
     "title": "元件屬性",
     "content": "多功能按鈕 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示釋放/按下狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件狀態 | 選擇要預覽的狀態 | Dropdown List | . 文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文字內容 | 設定按鈕放開時的文字 | Plain Text | . | 文字顏色 | 設定放開按鈕時文字的顯示顏色 | Color Selector | . | 文字不透明度 % | 設定按鈕放開時的文字不透明度(1-100%) | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同的文字並另外設定按下時的文字與風格 | Checkbox | . | 按下時文字 | 設定按鈕按下時的文字 | Plain Text | . | 文字顏色 | 設定按鈕按下時的文字顏色 | Color Selector | . | 文字不透明度 % | 設定按鈕按下時的文字不透明度(1-100%) | Number Editor | . 本體設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定按鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定按鈕的漸變顏色 | Color Selector | . | 按鈕不透明度 % | 設定按鈕的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定按鈕的圓角半徑，最大值隨元件大小而變動 | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | 主要顏色 | 設定按鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定按鈕按下時的漸變顏色 | Color Selector | . | 按鈕不透明度 % | 設定按鈕按下時的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定按鈕按下時的圓角半徑，最大值隨元件大小而變動 | Number Editor | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定按鈕邊框的顏色 | Color Selector | . | 邊框寬度 | 設定按鈕邊框的寬度 | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | 邊框顏色 | 設定按鈕按下時邊框的顏色 | Color Selector | . | 邊框寬度 | 設定按鈕按下時邊框的寬度 | Number Editor | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 陰影顏色 | 設定按鈕陰影的顏色 | Color Selector | . | 陰影寬度 | 設定按鈕陰影的寬度 | Number Editor | . | 啟用按下時風格 | 決定按鈕放開與按下時是否要顯示不同風格並另外設定按下時的風格 | Checkbox | . | 陰影顏色 | 設定按鈕按下時陰的顏色 | Color Selector | . | 陰影寬度 | 設定按鈕按下時陰的寬度 | Number Editor | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 按下事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被按著時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 快速點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被快速點擊(小於1秒)時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被快速點擊(小於1秒)時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被快速點擊(小於1秒)時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 循環長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被循環長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被循環長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被循環長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽元件點擊效果 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_button/#元件屬性"
-  },"2626": {
+  },"2628": {
     "doc": "多功能按鈕",
     "title": "右鍵選單",
     "content": "啟用按下時風格 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用按下時風格 | 決定按鈕按鈕放開與按下時是否要顯示不同陰影風格並另外設定按下時的陰影風格 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 預覽按鈕按下動畫 | 預覽元件點擊效果 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_button/#右鍵選單"
-  },"2627": {
+  },"2629": {
     "doc": "多功能按鈕",
     "title": "多功能按鈕",
     "content": ". 多功能按鈕是一個輸入元件，主要作為一個無內部狀態的按鈕。 . 為高效能以及節省資源的最佳選擇，僅提供特定字型尺寸的英文顯示以及漸層填滿與邊框顏色尺寸等風格設定。不提供載入圖像功能。 . 多功能按鈕提供所有按鈕能觸發的事件，包括點擊、按下、釋放、快速點擊、長按和循環長按等動作，所有動作皆會產生事件並可以對應到頁面切換、暫存器數值改變或是執行使用者撰寫的Blockly程式。使用者可精細控制不同的觸發做不同的動作。 . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_button/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_button/"
-  },"2628": {
+  },"2630": {
     "doc": "多狀態按鈕",
     "title": "元件屬性",
     "content": "多狀態按鈕 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 影像集設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 影像集 | 詳情參考Image Collection Management | Image Collection Management | . 影像顯示設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 綁定索引暫存器 | 對圖片的索引進行暫存器綁定，暫存器的值改變時變換顯示的圖片 | Register Selector | . | 預覽索引影像 | 影像集的圖片索引 | Number Editor | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/multiple_state_button/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/multiple_state_button/#元件屬性"
-  },"2629": {
+  },"2631": {
     "doc": "多狀態按鈕",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/multiple_state_button/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/multiple_state_button/#右鍵選單"
-  },"2630": {
+  },"2632": {
     "doc": "多狀態按鈕",
     "title": "多狀態按鈕",
     "content": ". 多狀態按鈕是一個輸入元件，作為有多個內部狀態的按鈕。 . 不同的內部狀態可以對應到不同圖片，可將一個暫存器繫結到按鈕狀態，並且可以用Blockly程式處理點擊事件。 . 如欲快速入門，可以觀看博象教育影片，幫助了解多狀態按鈕 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/multiple_state_button/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/multiple_state_button/"
-  },"2631": {
+  },"2633": {
     "doc": "影像清單",
     "title": "元件屬性",
     "content": "影像清單 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 影像集設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 影像集 | 詳情參考Image Collection Management | Image Collection Management | . 影像顯示設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 綁定索引暫存器 | 對圖片的索引進行暫存器綁定，暫存器的值改變時變換顯示的圖片 | Register Selector | . | 預覽索引影像 | 影像集的圖片索引 | Number Editor | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_list/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_list/#元件屬性"
-  },"2632": {
+  },"2634": {
     "doc": "影像清單",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_list/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_list/#右鍵選單"
-  },"2633": {
+  },"2635": {
     "doc": "影像清單",
     "title": "影像清單",
     "content": ". 影像清單為輸出元件。 . 使用者預先載入多張圖片，繫結的暫存器內容決定圖片的顯示，此元件經常用以顯示多狀態燈號，或是車輛檔位等圖形。 . 如欲快速入門，可以觀看博象教育影片，幫助了解影像清單 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_list/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_list/"
-  },"2634": {
+  },"2636": {
     "doc": "動畫",
     "title": "元件屬性",
     "content": "動畫 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 影像集設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 影像集 | 詳情參考Image Collection Management | Image Collection Management | . 動畫設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始索引 | 設定動畫起始圖片，需小於結束 | Number Editor | . | 結束索引 | 設定動畫結束圖片，需大於起始 | Number Editor | . | 動畫播放時長 (ms) | 設定一次的動畫時長，單位為毫秒 | Number Editor | . 觸發事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用觸發事件 | 決定是否要使用觸發事件。如果不使用觸發事件，動畫為自動循環播放。如果使用觸發事件，則視暫存器值決定播放或暫停動畫 | Checkbox | . | 綁定觸發暫存器 | 綁定觸發暫存器，如果暫存器內容為False( 0 )則暫停播放動畫 | Register Selector | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 動畫預覽 | 預覽播放動畫 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/animation/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/animation/#元件屬性"
-  },"2635": {
+  },"2637": {
     "doc": "動畫",
     "title": "右鍵選單",
     "content": "啟用觸發事件 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用觸發事件 | 決定是否要使用觸發事件。如果不使用觸發事件，動畫為自動循環播放。如果使用觸發事件，則視暫存器值決定播放或暫停動畫 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 預覽動畫播放 | 預覽播放動畫 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/animation/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/animation/#右鍵選單"
-  },"2636": {
+  },"2638": {
     "doc": "動畫",
     "title": "動畫",
     "content": ". 動畫為逐格動畫，是輸出元件。 . 可播放預先載入的圖片動畫，並且可以繫結暫存器控制播放。 . 如欲快速入門，可以觀看博象教育影片，幫助了解動畫 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/animation/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/animation/"
-  },"2637": {
+  },"2639": {
     "doc": "捲動文本",
     "title": "元件屬性",
     "content": "捲動文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 暫存器設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . 文本陣列設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . 設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用格式化字串 | 是否要使用python格式化字串 | Checkbox | . | 格式化字串 | 詳情參考Format String | Format String | . | 字型大小 | 設定字型大小 | Font Selector | . | 文字顏色 | 設定文字顏色 | Color Selector | . | 不透明度 % | 設定文字不透明度(0-100%) | Number Editor | . | 顯示背景顏色 | 是否要顯示背景顏色 | Checkbox | . | 背景主要顏色 | 設定背景主要顏色 | Color Selector | . | 背景漸變顏色 | 設定背景漸變顏色 | Color Selector | . | 背景不透明度 % | 設定背景不透明度(0-100%) | Number Editor | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . | 捲動速度 像素/秒 | 設定文本捲動速度(5-50 px/sec) | Number Editor | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/scrolling_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/scrolling_label/#元件屬性"
-  },"2638": {
+  },"2640": {
     "doc": "捲動文本",
     "title": "右鍵選單",
     "content": "字型大小 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 字型大小 | 設定字型大小 | Font Selector | . 文本捲動方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . 對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/scrolling_label/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/scrolling_label/#右鍵選單"
-  },"2639": {
+  },"2641": {
     "doc": "捲動文本",
     "title": "捲動文本",
     "content": ". 捲動文本為輸出元件。 . 使用內建字型顯示英文，並且支援捲動功能。由於使用內建字型，因此效率高，占用資源少，適合顯示變動的訊息，譬如錯誤訊息等。 . 如欲快速入門，可以觀看博象教育影片，幫助了解捲動文本 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/scrolling_label/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/scrolling_label/"
-  },"2640": {
+  },"2642": {
     "doc": "日期/時間文本",
     "title": "元件屬性",
     "content": "日期/時間文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 文本內容設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 第一綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . | 第一暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . | 第二綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . | 第二暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . | 第三綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . | 第三暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . | 格式化字串 | 詳情參考Format String | Format String | . 設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 字型大小 | 設定字型大小 | Font Selector | . | 文字顏色 | 設定文字顏色 | Color Selector | . | 不透明度 % | 設定文字不透明度(0-100%) | Number Editor | . | 顯示背景顏色 | 是否要顯示背景顏色 | Checkbox | . | 背景主要顏色 | 設定背景主要顏色 | Color Selector | . | 背景漸變顏色 | 設定背景漸變顏色 | Color Selector | . | 背景不透明度 % | 設定背景不透明度(0-100%) | Number Editor | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . | 捲動速度 像素/秒 | 設定文本捲動速度(5-50 px/sec) | Number Editor | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/datetime_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/datetime_label/#元件屬性"
-  },"2641": {
+  },"2643": {
     "doc": "日期/時間文本",
     "title": "右鍵選單",
     "content": "字型大小 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 字型大小 | 設定字型大小 | Font Selector | . 文本捲動方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . 對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/datetime_label/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/datetime_label/#右鍵選單"
-  },"2642": {
+  },"2644": {
     "doc": "日期/時間文本",
     "title": "日期/時間文本",
     "content": ". 日期/時間文本為輸出元件。 . 是一個特化的捲動文本，主要功能是可以繫結多個暫存器，使用內建字型顯示時間或是日期。 . 如欲快速入門，可以觀看博象教育影片，幫助了解日期/時間文本 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/datetime_label/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/datetime_label/"
-  },"2643": {
+  },"2645": {
     "doc": "影像文本",
     "title": "元件屬性",
     "content": "影像文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定背景的顏色 | Color Selector | . | 漸變顏色 | 設定背景的漸變顏色 | Color Selector | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 載入圖片 | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . | 行高 | 設定文字間的距離 | Number Editor | . | 圖層混合模式 | 決定放開按鈕時文字的顏色與背景圖片的混色，詳情參考Blending Selector文字為模板底色時此功能無效 | Blending Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/#元件屬性"
-  },"2644": {
+  },"2646": {
     "doc": "影像文本",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字，可利用Shift+Enter換行輸入 | RichText Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/#元件上編輯器"
-  },"2645": {
+  },"2647": {
     "doc": "影像文本",
     "title": "右鍵選單",
     "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/#右鍵選單"
-  },"2646": {
+  },"2648": {
     "doc": "影像文本",
     "title": "影像文本",
     "content": ". 影像文本為輸出元件。 . 目標是顯示Rich Text文本，並且支援多國語言以及使用者安裝字型。內容必須在ADE編輯時輸入，且在執行期間內容無法變動，適合用作展現文字風格的標題或是指示標示。 . 如欲快速入門，可以觀看博象教育影片，幫助了解影像文本 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/image_label_v2/"
-  },"2647": {
+  },"2649": {
     "doc": "七段顯示器",
     "title": "元件屬性",
     "content": "七段顯示器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 七段顯示器格式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 總位數 | 設定顯示的總位數 | Number Editor | . | 小數位數 | 設定小數點後顯示的位數 | Number Editor | . | 有號數 | 是否顯示有號數字 | Checkbox | . | 是否顯示正號 | 設定如果為正數時是否顯示正號。使用有號數時有效 | Dropdown List | . | 文字顏色 | 設定文字的顏色 | Color Selector | . | 字型 | 設定文字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 綁定數值暫存器 | 綁定暫存器顯示數字 | Register Selector | . | 預覽格式 | 隨機顯示數字預覽格式 | Checkbox | . 模擬七段顯示器顯示效果 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示不活躍片段 | 模擬七段顯示器未發光部分 | Checkbox | . | 顏色 | 設定未發光部分的顏色 | Color Selector | . 七段顯示器陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . | 陰影x座標 | 設定陰影x座標 | Number Editor | . | 陰影y座標 | 設定陰影y座標 | Number Editor | . | 陰影顏色 | 設定陰影顏色 | Color Selector | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用背景 | 是否要顯示背景顏色 | Checkbox | . | 背景顏色 | 設定背景顏色 | Color Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/digits/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/digits/#元件屬性"
-  },"2648": {
+  },"2650": {
     "doc": "七段顯示器",
     "title": "右鍵選單",
     "content": "有號數 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 有號數 | 是否顯示有號數字 | Checkbox | . 是否顯示正號 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 是否顯示正號 | 設定如果為正數時是否顯示正號。使用有號數時有效 | Dropdown List | . 預覽格式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 預覽格式 | 隨機顯示數字預覽格式 | Checkbox | . 顯示不活躍片段 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示不活躍片段 | 模擬七段顯示器未發光部分 | Checkbox | . 啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 啟用背景 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用背景 | 是否要顯示背景顏色 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/digits/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/digits/#右鍵選單"
-  },"2649": {
+  },"2651": {
     "doc": "七段顯示器",
     "title": "七段顯示器",
     "content": ". 七段顯示器是一個輸出元件。 . 用以顯示特定位數帶正負號或是不帶正負號的整數或是小數。可以指定尺寸、字型、顏色、背景顏色以及陰影，適合用來做大尺寸數字，如時速、馬達轉速、溫度及溼度等。 . 如欲快速入門，可以觀看博象教育影片，幫助了解七段顯示器 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/digits/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/digits/"
-  },"2650": {
+  },"2652": {
     "doc": "圓形進度條",
     "title": "元件屬性",
     "content": "圓形進度條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 增長方向 | 進度條順時針或逆時針的增長 | Dropdown List | . | 反向 | 進度條順時針或逆時針的減少 | Dropdown List | . | 最小資料值 | 對應到圓弧開始角度的資料值，必須小於最大資料值 | Number Editor | . | 最大資料值 | 對應到圓弧結束角度的資料值，必須大於最小資料值 | Number Editor | . | 綁定數值暫存器 | 暫存器的內容是最小資料值的話，圓形進度條會顯示在開始角度，隨著暫存器數值增加，角度會隨著增加，直至暫存器是最大資料值時圓形進度條會顯示到最大角度 | Register Selector | . | 顯示方向指示 | 是否要顯示方向指示箭頭 | Checkbox | . | 圓心位置 | 設定圓心的座標 | Alignment Selector | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . 風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示前景圖片 | 是否要顯示前景圖片，如果前景圖片帶透明，則可以將進度條透出來顯示 | Checkbox | . | 載入前景圖片 | 從檔案系統選擇作為前景圖片 | File Open Dialog Box | . | 端點圓角化 | 是否要將進度條兩端終點圓弧化 | Checkbox | . | 開始角度 | 進度條圓弧開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 進度條圓弧長度(1-359) | Number Editor | . | 圓弧半徑 | 進度條半徑大小，最大值隨元件大小而變動 | Number Editor | . | 圓弧顏色 | 設定進度條顏色 | Color Selector | . | 圓弧寬度 | 設定進度條寬度(0-100) | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/#元件屬性"
-  },"2651": {
+  },"2653": {
     "doc": "圓形進度條",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/#元件上編輯器"
-  },"2652": {
+  },"2654": {
     "doc": "圓形進度條",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 增長方向 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 增長方向 | 進度條順時針或逆時針的增長 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 編輯圖片 | 編輯前景圖片 | Image Editor Dialog Box | . | 載入前景圖片… | 從檔案系統選擇作為前景圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 貼上剪貼簿中的圖片作為前景圖片 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/#右鍵選單"
-  },"2653": {
+  },"2655": {
     "doc": "圓形進度條",
     "title": "圓形進度條",
     "content": ". 圓形進度條為輸出元件。 . 藉由填充顏色顯示進度或是數值，可設定不同的填充方向以及填充角度與最小最大數值的對應，並且可以加上有鏤空區域的前景圖片，可以用來設計類似內有LED光源並隨數值變化亮滅的旋鈕，或是圓形碼表等圖示。 . 如欲快速入門，可以觀看博象教育影片，幫助了解圓形進度條 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_progress_bar/"
-  },"2654": {
+  },"2656": {
     "doc": "儀表",
     "title": "元件屬性",
     "content": "儀表 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 對應到圓弧開始角度的資料值，必須小於最大資料值 | Number Editor | . | 最大資料值 | 對應到圓弧結束角度的資料值，必須大於最小資料值 | Number Editor | . | 開始角度 | 進度條圓弧開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 進度條圓弧長度(1-359) | Number Editor | . | 綁定數值暫存器 | 暫存器的內容是最小資料值的話，儀表會顯示底色，隨著暫存器數值增加，會顯示活躍顏色，直至暫存器是最大資料值時儀表顏色會顯示全滿 | Register Selector | . 風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 未作動片段顏色 | 設定未作動片段的顏色 | Color Selector | . | 作動片段起始顏色 | 設定作動片段起始的主要顏色 | Color Selector | . | 作動片段結束顏色 | 設定作動片段結束的漸變顏色 | Color Selector | . | 刻度分格數 | 設定刻度的分格數 | Number Editor | . | 刻度寬度 | 設定刻度的寬度 | Number Editor | . | 刻度長度 | 設定刻度的長度 | Number Editor | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示輔助器 | 是否要顯示輔助抓取點 | Checkbox | . | 數值 | 將最小資料值與最大資料值對應圓弧角度和長度進行預覽顯示 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/#元件屬性"
-  },"2655": {
+  },"2657": {
     "doc": "儀表",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/#元件上編輯器"
-  },"2656": {
+  },"2658": {
     "doc": "儀表",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/#右鍵選單"
-  },"2657": {
+  },"2659": {
     "doc": "儀表",
     "title": "儀表",
     "content": ". 儀表為輸出元件。 . 其功能類似圓形進度條，但是儀表左右顯示角度必須對稱，並且可以使用漸層顏色表達不同輸入資料大小，並有默認底色。適合用來作為數值高低不同時，帶警告或是指示訊息的儀表，譬如壓力表。 . 如欲快速入門，可以觀看博象教育影片，幫助了解儀表 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_meter/"
-  },"2658": {
+  },"2660": {
     "doc": "通用型進度條",
     "title": "元件屬性",
     "content": "通用型進度條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 最小資料值，對應到進度條開始 | Number Editor | . | 最大資料值 | 最大資料值，對應到進度條結束 | Number Editor | . | 綁定數值暫存器 | 如果綁定的暫存器內容等於最小資料值，進度條顯示在開始位置如果綁定的暫存器內容等於最大資料值，進度條顯示在結束位置 | Register Selector | . | 預覽段落狀態 | 選擇要預覽的段落狀態 | Dropdown List | . 進度條風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定進度條的主要顏色 | Color Selector | . | 漸變顏色 | 設定進度條的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定進度條的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定進度條的圓角半徑 | Number Editor | . | 邊框顏色 | 設定進度條邊框的顏色 | Color Selector | . | 邊框寬度 | 設定進度條邊框的寬度 | Number Editor | . | 陰影顏色 | 設定進度條陰影的顏色 | Color Selector | . | 陰影寬度 | 設定進度條陰影的寬度 | Number Editor | . 段落2風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用段落 2 | 決定是否要顯示第二段落 | Checkbox | . | 段落開始數值 | 設定第二段落開始數值，當綁定的暫存器內容等於此數值時，顯示第二段落與其設定 必須小於第三段落開始數值 | Number Editor | . | 主要顏色 | 設定第二段落的主要顏色 | Color Selector | . | 漸變顏色 | 設定第二段落的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定第二段落的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定第二段落的圓角半徑 | Number Editor | . | 邊框顏色 | 設定第二段落邊框的顏色 | Color Selector | . | 邊框寬度 | 設定第二段落邊框的寬度 | Number Editor | . | 陰影顏色 | 設定第二段落陰影的顏色 | Color Selector | . | 陰影寬度 | 設定第二段落陰影的寬度 | Number Editor | . 段落3風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用段落 3 | 決定是否要顯示第三段落 | Checkbox | . | 段落開始數值 | 設定第三段落開始數值，當綁定的暫存器內容等於此數值時，顯示第三段落與其設定 | Number Editor | . | 主要顏色 | 設定第三段落的主要顏色 | Color Selector | . | 漸變顏色 | 設定第三段落的漸變顏色 | Color Selector | . | 進度條不透明度 % | 設定第三段落的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定第三段落的圓角半徑 | Number Editor | . | 邊框顏色 | 設定第三段落邊框的顏色 | Color Selector | . | 邊框寬度 | 設定第三段落邊框的寬度 | Number Editor | . | 陰影顏色 | 設定第三段落陰影的顏色 | Color Selector | . | 陰影寬度 | 設定第三段落陰影的寬度 | Number Editor | . 滑鈕風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用滑鈕 | 決定是否要顯示使用滑鈕，可以藉由滑鈕改變暫存器的值 | Checkbox | . | 主要顏色 | 設定滑鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定滑鈕的漸變顏色 | Color Selector | . | 滑鈕不透明度 % | 設定滑鈕的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定滑鈕的圓角半徑 | Number Editor | . | 邊框顏色 | 設定滑鈕邊框的顏色 | Color Selector | . | 邊框寬度 | 設定滑鈕邊框的寬度 | Number Editor | . | 陰影顏色 | 設定滑鈕陰影的顏色 | Color Selector | . | 陰影寬度 | 設定滑鈕陰影的寬度 | Number Editor | . 進度條邊距設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 進度條和背景的上下邊距 | 調整進度條和背景的上下邊距，最大最小值隨元件高度而改變 | Number Editor | . | 進度條和背景的左右邊距 | 調整進度條和背景的左右邊距，最大最小值隨元件寬度而改變 | Number Editor | . 進度條背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定進度條背景的主要顏色 | Color Selector | . | 漸變顏色 | 設定進度條背景的漸變顏色 | Color Selector | . | 背景不透明度 % | 設定進度條背景的不透明度(0-100%) | Number Editor | . | 圓角半徑 | 設定進度條背景的圓角半徑 | Number Editor | . | 邊框顏色 | 設定進度條背景邊框的顏色 | Color Selector | . | 邊框寬度 | 設定進度條背景邊框的寬度 | Number Editor | . | 陰影顏色 | 設定進度條背景陰影的顏色 | Color Selector | . | 陰影寬度 | 設定進度條背景陰影的寬度 | Number Editor | . 背景邊距設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 背景和元件的上下邊距 | 調整背景和元件外框的上下邊距，最大最小值隨元件高度而改變 | Number Editor | . | 背景和元件的左右邊距 | 調整背景和元件外框的左右邊距，最大最小值隨元件寬度而改變 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_progress_bar/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_progress_bar/#元件屬性"
-  },"2659": {
+  },"2661": {
     "doc": "通用型進度條",
     "title": "右鍵選單",
     "content": "預覽段落狀態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 預覽段落狀態 | 選擇要預覽的段落狀態 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_progress_bar/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_progress_bar/#右鍵選單"
-  },"2660": {
+  },"2662": {
     "doc": "通用型進度條",
     "title": "通用型進度條",
     "content": ". 通用型進度條可作為輸出以及輸入元件，將滑鈕開啟時進度條為輸入元件，否則則為輸出元件。 . 通用型進度條可以有橫式以及直式兩種，視長寬的尺寸自行調整。此外通用型進度條可以調整背景、進度條和滑鈕的邊框、顏色、透明度以及圓角半徑等風格屬性。 . 當需要使用大量進度條時，此元件為兼顧美觀，效能與資源的最佳選擇。 . 如欲快速入門，可以觀看博象教育影片，幫助了解通用型進度條 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_progress_bar/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_progress_bar/"
-  },"2661": {
+  },"2663": {
     "doc": "水平條狀調節器",
     "title": "元件屬性",
     "content": "水平條狀調節器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 背景圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 顯示輔助線 | 決定是否要顯示背景圖片的輔助線輔助線顯示元件外框及中心點 | Checkbox | . | 載入圖片 | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . 水銀柱圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示水銀柱圖片，水銀柱隨著暫存器值改變 | Checkbox | . | 顯示輔助線 | 決定是否要顯示水銀柱的調整圖示利用調整圖示調整水銀柱的位置，以及水銀柱的寬度 | Checkbox | . | 水銀柱左上座標 | 設定水銀柱左上的座標水銀柱顯示輔助線時有效 | Alignment Selector | . | 水銀柱右下座標 | 設定水銀柱右下的座標水銀柱顯示輔助線時有效 | Alignment Selector | . | 載入圖片 | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . 滑鈕圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示滑鈕圖片，可以藉由滑鈕改變暫存器的值 | Checkbox | . | 顯示輔助線 | 決定是否要顯示滑鈕的調整圖示利用調整圖示調整滑鈕的開始與結束位置，以及滑鈕的大小 | Checkbox | . | 滑鈕左上座標 | 設定滑鈕左上的座標滑鈕顯示輔助線時有效 | Alignment Selector | . | 滑鈕右下座標 | 設定滑鈕右下的座標滑鈕顯示輔助線時有效 | Alignment Selector | . | 載入圖片 | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . 毛細管圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示毛細管圖片 | Checkbox | . | 顯示輔助線 | 決定是否要顯示毛細管的輔助圖示利用輔助圖示調整毛細管的位置，以及毛細管的寬度 | Checkbox | . | 毛細管左上座標 | 設定毛細管左上的座標毛細管顯示輔助線時有效 | Alignment Selector | . | 毛細管右下座標 | 設定毛細管左上的座標毛細管顯示輔助線時有效 | Alignment Selector | . | 載入圖片 | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度 | 決定是否要顯示刻度 | Checkbox | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 | Dropdown List | . | 刻度鏤空 | 決定刻度是否要鏤空如果選擇鏤空，刻度會透出後面的顏色 | Checkbox | . | 刻度開始座標 | 設定刻度開始位置座標顯示刻度時有效 | Alignment Selector | . | 刻度結束座標 | 設定刻度結束位置座標顯示刻度時有效 | Alignment Selector | . | 刻度分格數 | 設定刻度的分格數 | Number Editor | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的框線風格 | Frame Selector | . | 顯示子刻度 | 決定是否要顯示子刻度 | Checkbox | . | 子刻度分格數 | 設定子刻度的分格數 | Number Editor | . | 子刻度顏色 | 設定子刻度的顏色 | Color Selector | . | 子刻度樣式 | 設定子刻度的框線風格 | Frame Selector | . | 子刻度長度 % | 設定子刻度的長度佔刻度長度的百分比(1-100%) | Number Editor | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . | 開始數字 | 設定刻度開始的數值 | Number Editor | . | 結束數字 | 設定刻度結束的數值 | Number Editor | . | 對齊方式 | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . | 數字字型 | 設定刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 數字顏色 | 設定刻度數字的顏色 | Color Selector | . 滑鈕行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 最小資料值，對應到滑桿開始 | Number Editor | . | 最大資料值 | 最大資料值，對應到滑桿結束 | Number Editor | . | 反向對應數值 | 決定是否要反向對應數值最小資料值對應到滑桿結束，最大資料值對應到滑桿開始 | Checkbox | . | 綁定數值暫存器 | 如果綁定的暫存器內容等於最小資料值，滑桿顯示在開始位置如果綁定的暫存器內容等於最大資料值，滑桿顯示在結束位置 | Register Selector | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽滑桿隨著暫存器內容而變化 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/#元件屬性"
-  },"2662": {
+  },"2664": {
     "doc": "水平條狀調節器",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整水銀柱位置以及寬度 | Liquid Column Editor | . | | 調整滑鈕的開始與結束位置，以及滑鈕的大小 | Knob Editor | . | | 調整毛細管的位置及寬度 | Bore Editor | . | | 調整刻度位置 | Scale Editor | . | | 調整刻度數字位置 | Scale Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/#元件上編輯器"
-  },"2663": {
+  },"2665": {
     "doc": "水平條狀調節器",
     "title": "右鍵選單",
     "content": "選擇刻度形狀 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 |   | . 顯示刻度數字 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . 對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . 反向對應數值 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 反向對應數值 | 決定是否要反向對應數值最小資料值對應到滑桿結束，最大資料值對應到滑桿開始 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入背景圖片… | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | 編輯背景圖片 | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上背景圖片 | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . | 載入水銀柱圖片… | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | 編輯水銀柱圖片 | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上水銀柱圖片 | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . | 載入滑鈕圖片… | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | 編輯滑鈕圖片 | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上滑鈕圖片 | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . | 載入毛細管圖片… | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | 編輯毛細管圖片 | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上毛細管圖片 | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . | 預覽按鈕按下動畫 | 預覽滑桿隨著暫存器內容而變化 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/#右鍵選單"
-  },"2664": {
+  },"2666": {
     "doc": "水平條狀調節器",
     "title": "水平條狀調節器",
     "content": ". 水平條狀調節器可作為輸出以及輸入元件，將滑鈕開啟時進度條為輸入元件，否則則為輸出元件。 . 水平條狀調節器的背景、進度條、進度條底色和滑鈕等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . 如欲快速入門，可以觀看博象教育影片，幫助了解水平條狀調節器 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/horizontal_slider/"
-  },"2665": {
+  },"2667": {
     "doc": "垂直條狀調節器",
     "title": "元件屬性",
     "content": "垂直條狀調節器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 背景圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 顯示輔助線 | 決定是否要顯示背景圖片的輔助線輔助線顯示元件外框及中心點 | Checkbox | . | 載入圖片 | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . 水銀柱圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示水銀柱圖片，水銀柱隨著暫存器值改變 | Checkbox | . | 顯示輔助線 | 決定是否要顯示水銀柱的調整圖示利用調整圖示調整水銀柱的位置，以及水銀柱的寬度 | Checkbox | . | 水銀柱左上座標 | 設定水銀柱左上的座標水銀柱顯示輔助線時有效 | Alignment Selector | . | 水銀柱右下座標 | 設定水銀柱右下的座標水銀柱顯示輔助線時有效 | Alignment Selector | . | 載入圖片 | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . 滑鈕圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示滑鈕圖片，可以藉由滑鈕改變暫存器的值 | Checkbox | . | 顯示輔助線 | 決定是否要顯示滑鈕的調整圖示利用調整圖示調整滑鈕的開始與結束位置，以及滑鈕的大小 | Checkbox | . | 滑鈕左上座標 | 設定滑鈕左上的座標滑鈕顯示輔助線時有效 | Alignment Selector | . | 滑鈕右下座標 | 設定滑鈕右下的座標滑鈕顯示輔助線時有效 | Alignment Selector | . | 載入圖片 | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . 毛細管圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示圖片 | 決定是否要顯示毛細管圖片 | Checkbox | . | 顯示輔助線 | 決定是否要顯示毛細管的輔助圖示利用輔助圖示調整毛細管的位置，以及毛細管的寬度 | Checkbox | . | 毛細管左上座標 | 設定毛細管左上的座標毛細管顯示輔助線時有效 | Alignment Selector | . | 毛細管右下座標 | 設定毛細管左上的座標毛細管顯示輔助線時有效 | Alignment Selector | . | 載入圖片 | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | 貼上圖片 | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度 | 決定是否要顯示刻度 | Checkbox | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 | Dropdown List | . | 刻度鏤空 | 決定刻度是否要鏤空如果選擇鏤空，刻度會透出後面的顏色 | Checkbox | . | 刻度開始座標 | 設定刻度開始位置座標顯示刻度時有效 | Alignment Selector | . | 刻度結束座標 | 設定刻度結束位置座標顯示刻度時有效 | Alignment Selector | . | 刻度分格數 | 設定刻度的分格數 | Number Editor | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的框線風格 | Frame Selector | . | 顯示子刻度 | 決定是否要顯示子刻度 | Checkbox | . | 子刻度分格數 | 設定子刻度的分格數 | Number Editor | . | 子刻度顏色 | 設定子刻度的顏色 | Color Selector | . | 子刻度樣式 | 設定子刻度的框線風格 | Frame Selector | . | 子刻度長度 % | 設定子刻度的長度佔刻度長度的百分比(1-100%) | Number Editor | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . | 開始數字 | 設定刻度開始的數值 | Number Editor | . | 結束數字 | 設定刻度結束的數值 | Number Editor | . | 對齊方式 | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . | 數字字型 | 設定刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 數字顏色 | 設定刻度數字的顏色 | Color Selector | . 滑鈕行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 最小資料值，對應到滑桿開始 | Number Editor | . | 最大資料值 | 最大資料值，對應到滑桿結束 | Number Editor | . | 反向對應數值 | 決定是否要反向對應數值最小資料值對應到滑桿結束，最大資料值對應到滑桿開始 | Checkbox | . | 綁定數值暫存器 | 如果綁定的暫存器內容等於最小資料值，滑桿顯示在開始位置如果綁定的暫存器內容等於最大資料值，滑桿顯示在結束位置 | Register Selector | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 按鈕按下動畫 | 預覽滑桿隨著暫存器內容而變化 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/#元件屬性"
-  },"2666": {
+  },"2668": {
     "doc": "垂直條狀調節器",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整水銀柱位置以及寬度 | Liquid Column Editor | . | | 調整滑鈕的開始與結束位置，以及滑鈕的大小 | Knob Editor | . | | 調整毛細管的位置及寬度 | Bore Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/#元件上編輯器"
-  },"2667": {
+  },"2669": {
     "doc": "垂直條狀調節器",
     "title": "右鍵選單",
     "content": "選擇刻度形狀 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 |   | . 顯示刻度數字 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . 對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定刻度數字的開始在刻度的開始、中間或者結束 | Alignment Selector | . 反向對應數值 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 反向對應數值 | 決定是否要反向對應數值最小資料值對應到滑桿結束，最大資料值對應到滑桿開始 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入背景圖片… | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | 編輯背景圖片 | 編輯滑桿的背景圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上背景圖片 | 貼上剪貼簿中的圖片作為滑桿的背景圖片 |   | . | 載入水銀柱圖片… | 從檔案系統選擇作為水銀柱的圖片 | File Open Dialog Box | . | 編輯水銀柱圖片 | 編輯滑桿的水銀柱圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上水銀柱圖片 | 貼上剪貼簿中的圖片作為滑桿的水銀柱圖片 |   | . | 載入滑鈕圖片… | 從檔案系統選擇作為滑鈕的圖片 | File Open Dialog Box | . | 編輯滑鈕圖片 | 編輯滑桿的滑鈕圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上滑鈕圖片 | 貼上剪貼簿中的圖片作為滑桿的滑鈕圖片 |   | . | 載入毛細管圖片… | 從檔案系統選擇作為毛細管的圖片 | File Open Dialog Box | . | 編輯毛細管圖片 | 編輯滑桿的毛細管圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上毛細管圖片 | 貼上剪貼簿中的圖片作為滑桿的毛細管圖片 |   | . | 預覽按鈕按下動畫 | 預覽滑桿隨著暫存器內容而變化 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/#右鍵選單"
-  },"2668": {
+  },"2670": {
     "doc": "垂直條狀調節器",
     "title": "垂直條狀調節器",
     "content": ". 垂直條狀調節器可作為輸出以及輸入元件，將滑鈕開啟時進度條為輸入元件，否則則為輸出元件。 . 垂直條狀調節器的背景、進度條、進度條底色和滑鈕等，皆可分別載入不同尺寸的圖形，使用者可以根據需求，製作不同風格及形狀的進度條，適合使用於需要顯示特別指示訊息的進度條，譬如電池存量或液體槽的液體高度等。 . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/vertical_slider/"
-  },"2669": {
+  },"2671": {
     "doc": "觸控區域",
     "title": "元件屬性",
     "content": "觸控區域 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被點擊時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被點擊時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被點擊時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 按下事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被按著時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被按著時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被按著時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被按著時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 釋放事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被放開時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被放開時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被放開時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被放開時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 快速點擊事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被快速點擊(小於1秒)時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被快速點擊(小於1秒)時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被快速點擊(小於1秒)時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被快速點擊(小於1秒)時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . 循環長按事件設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用頁面選擇器 | 當按鈕被循環長按1.5秒時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目標頁面 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 啟用暫存器操作 | 當按鈕被循環長按1.5秒時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 綁定暫存器 | 決定要改變的暫存器 | Register Selector | . | 操作模式 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 啟用回呼函式 | 當按鈕被循環長按1.5秒時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當按鈕被循環長按1.5秒時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/touch_area/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/touch_area/#元件屬性"
-  },"2670": {
+  },"2672": {
     "doc": "觸控區域",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/touch_area/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/touch_area/#右鍵選單"
-  },"2671": {
+  },"2673": {
     "doc": "觸控區域",
     "title": "觸控區域",
     "content": ". 觸控區域為輸入元件。 . 提供無段按鍵相同的功能，但是只作用在一個使用者定義的矩形範圍。當在屏上執行時，這個區域沒有可見的圖形，但是會回應觸屏事件。 . 這個元件主要的目的是處理不規則形狀的觸控，用多個大小不同的矩形組合來填滿不規則狀，並且可以回應觸控事件。 . 此外，從節省資源的觀點上來看，若使用者不須顯示按鈕按下效果圖形，則可以使用單一背景圖，再加上多個觸控區域疊在按鈕圖形上，完成按鈕功能。 . 如欲快速入門，可以觀看博象教育影片，幫助了解觸控區域 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/touch_area/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/touch_area/"
-  },"2672": {
+  },"2674": {
     "doc": "靜態圖像",
     "title": "元件屬性",
     "content": "靜態圖像 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 背景顏色 | 設定背景的顏色 | Color Selector | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 中心點位置設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/#元件屬性"
-  },"2673": {
+  },"2675": {
     "doc": "靜態圖像",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/#元件上編輯器"
-  },"2674": {
+  },"2676": {
     "doc": "靜態圖像",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/#右鍵選單"
-  },"2675": {
+  },"2677": {
     "doc": "靜態圖像",
     "title": "靜態圖像",
     "content": ". 靜態圖像為輸出元件。 . 提供背景或是前景圖像的顯示，支援多種圖檔格式(BMP,JPG,PNG)以及透明疊層，並提供圖像尺寸調整功能。圖像會以原尺寸記錄在ADE專案內，在輸出到屏時，會自動調整成屏上對應的真實解析度。 . 如欲快速入門，可以觀看博象教育影片，幫助了解靜態圖像 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/bitmap_image/"
-  },"2676": {
+  },"2678": {
     "doc": "旋轉影像",
     "title": "元件屬性",
     "content": "旋轉影像 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 中心點位置設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 圓心位置 | 設定圓心的座標 | Alignment Selector | . | 置中心點 | 將圓心水平垂直置中 | Alignment Selector | . 旋轉設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 對應到指針旋轉開始角度的資料值，必須小於最大資料值 | Number Editor | . | 最大資料值 | 對應到指針旋轉結束角度的資料值，必須大於最小資料值 | Number Editor | . | 反向 | 決定是否要反向對應數值即 最小資料值對應到指針旋轉結束角度，最大資料值對應到指針旋轉開始角度 | Checkbox | . | 開始角度 | 指針旋轉開始角度(0-360)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 指針旋轉長度(0-360) | Number Editor | . | 載入旋轉影像 | 從檔案系統選擇作為旋轉指針的圖片 | File Open Dialog Box | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用滑鈕 | 決定是否要作旋鈕作用如果作旋鈕作用，可以藉由操控旋轉指針改變暫存器的內容 | Checkbox | . | 綁定暫存器 | 暫存器的內容是最小資料值的話，旋轉指針會對應到旋轉開始角度，指針隨著暫存器數值增加而選轉，直至暫存器是最大資料值時旋轉指針會對應到結束角度 | Register Selector | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示輔助器 | 是否要顯示輔助線輔助線為旋轉指針的旋轉範圍 | Checkbox | . | 數值 | 將最小資料值與最大資料值對應指針旋轉角度和長度進行預覽顯示 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/#元件屬性"
-  },"2677": {
+  },"2679": {
     "doc": "旋轉影像",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/#元件上編輯器"
-  },"2678": {
+  },"2680": {
     "doc": "旋轉影像",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 載入旋轉影像… | 從檔案系統選擇作為旋轉指針的圖片 | File Open Dialog Box | . | 從剪貼簿貼上旋轉影像 | 從剪貼簿貼上要作為旋轉指針的圖片 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/#右鍵選單"
-  },"2679": {
+  },"2681": {
     "doc": "旋轉影像",
     "title": "旋轉影像",
     "content": ". 旋轉影像為輸出元件。 . 提供靜態圖像任意角度的即時旋轉功能。適合用於製作指針等旋轉儀表。同時支援透明度以及疊層功能，可與其他元件合併使用生成美觀有效的HMI顯示。 . 旋轉影像的效能反比於影像的面積尺寸，越大的影像會消耗越多記憶體以及運算資源。 . 如欲快速入門，可以觀看博象教育影片，幫助了解旋轉影像 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/rotation_image/"
-  },"2680": {
+  },"2682": {
     "doc": "圖表",
     "title": "元件屬性",
     "content": "圖表 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示輔助器 | 決定是否要顯示圖表外框輔助圖示 | Checkbox | . | 顯示背景圖片 | 決定是否要顯示圖表背景圖片 | Checkbox | . | 顯示網格 | 決定是否要顯示圖表網格 | Checkbox | . | 載入背景圖片 | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 背景顏色 | 設定元件背景顏色 | Color Selector | . | 邊框顏色 | 設定元件邊框顏色 | Color Selector | . | 邊框樣式 | 設定元件邊框的框線風格 | Frame Selector | . 圖表區域設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 圖表左上座標 | 設定圖表左上角座標 | Alignment Selector | . | 圖表右下座標 | 設定圖表右下角座標 | Alignment Selector | . | 資料繪製模式 | 設定圖表資料繪製模式是循環還是移動 | Dropdown List | . | 圖表顯示類型 | 設定圖表為折線圖、長條圖、散點圖或面積圖 | Dropdown List | . | 資料繪製不透明度 % | 設定圖表資料繪製的不透明度(0-100%) | Number Editor | . | 資料繪製寬度 | 設定圖表資料的寬度 | Number Editor | . | 橫軸資料個數 | 設定圖表橫軸的資料個數 | Number Editor | . | 最大資料值 | 最大資料值，對應到圖表y軸最大值 | Number Editor | . | 最小資料值 | 最小資料值，對應到圖表y軸最小值 | Number Editor | . 網格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 網格輔助線座標 | 設定網格輔助圖示的座標(圖表右下角X座標-圖表左上角X座標)/網格輔助圖示X座標 = 網格橫軸刻度數量 | Alignment Selector | . | 網格背景顏色 | 設定網格背景顏色 | Color Selector | . | 網格格線顏色 | 設定網格顏色 | Color Selector | . | 網格格線風格 | 設定網格框線風格 | Frame Selector | . 水平刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示水平刻度 | 決定是否要顯示水平刻度 | Checkbox | . | 字型 | 設定水平刻度的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定水平刻度的顏色 | Color Selector | . | 開始數字 | 設定水平刻度的起始數字 | Number Editor | . | 刻度遞增或遞減數值 | 設定水平刻度遞增或遞減的數值，如果設定為負數，則表遞減 | Plain Text | . | 刻度開始座標 | 設定水平刻度的位置 | Alignment Selector | . 垂直刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直刻度 | 決定是否要顯示垂直刻度 | Checkbox | . | 字型 | 設定垂直刻度的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定垂直刻度的顏色 | Color Selector | . | 開始數字 | 設定垂直刻度的起始數字 | Number Editor | . | 刻度遞增或遞減數值 | 設定垂直刻度遞增或遞減的數值，如果設定為負數，則表遞減 | Plain Text | . | 刻度開始座標 | 設定垂直刻度的位置 | Alignment Selector | . 網格陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 網格陰影x座標 | 設定網格陰影的x座標 | Number Editor | . | 網格陰影y座標 | 設定網格陰影的y座標 | Number Editor | . | 網格陰影顏色 | 設定網格陰影的顏色 | Color Selector | . 第一組資料設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示第一組資料 | 決定是否要顯示第一組資料 | Checkbox | . | 綁定暫存器 | 如果暫存器內容等於最大資料值，圖表資料繪製對應到y軸最大值，如果等於最小資料值，圖表資料繪製對應到y軸最小值暫存器不能和其他組資料相同 | Register Selector | . | 資料繪製顏色 | 設定第一組資料的顏色 | Color Selector | . 第二組資料設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示第二組資料 | 決定是否要顯示第二組資料 | Checkbox | . | 綁定暫存器 | 如果暫存器內容等於最大資料值，圖表資料繪製對應到y軸最大值，如果等於最小資料值，圖表資料繪製對應到y軸最小值暫存器不能和其他組資料相同 | Register Selector | . | 資料繪製顏色 | 設定第二組資料的顏色 | Color Selector | . 第三組資料設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示第三組資料 | 決定是否要顯示第三組資料 | Checkbox | . | 綁定暫存器 | 如果暫存器內容等於最大資料值，圖表資料繪製對應到y軸最大值，如果等於最小資料值，圖表資料繪製對應到y軸最小值暫存器不能和其他組資料相同 | Register Selector | . | 資料繪製顏色 | 設定第三組資料的顏色 | Color Selector | . 第四組資料設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示第四組資料 | 決定是否要顯示第四組資料 | Checkbox | . | 綁定暫存器 | 如果暫存器內容等於最大資料值，圖表資料繪製對應到y軸最大值，如果等於最小資料值，圖表資料繪製對應到y軸最小值暫存器不能和其他組資料相同 | Register Selector | . | 資料繪製顏色 | 設定第四組資料的顏色 | Color Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/#元件屬性"
-  },"2681": {
+  },"2683": {
     "doc": "圖表",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 設定水平刻度和垂直刻度的位置 |   | . | | 設定圖表大小及位置 |   | . | | 設定網格數量 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/#元件上編輯器"
-  },"2682": {
+  },"2684": {
     "doc": "圖表",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 載入背景圖片… | 從檔案系統選擇作為背景的圖片 | File Open Dialog Box | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/#右鍵選單"
-  },"2683": {
+  },"2685": {
     "doc": "圖表",
     "title": "圖表",
     "content": ". 圖表為輸出元件。 . 提供根據輸入資料繪製折線圖的功能，並提供彈性的圖面顯示設定，如不同的背景、前景或者循環顯示等，適合作為歷史圖形顯示。 . 如欲快速入門，可以觀看博象教育影片，幫助了解圖表 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/data_chart/"
-  },"2684": {
+  },"2686": {
     "doc": "通用型儀表",
     "title": "元件屬性",
     "content": "通用型儀表 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 儀表設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 設定對應到圓弧開始角度的資料值 | Number Editor | . | 最大資料值 | 設定對應到圓弧結束角度的資料值 | Number Editor | . | 臨界資料值 | 設定臨界的數值 | Number Editor | . | 開始角度 | 進度條圓弧開始角度(0-179)，圓弧對稱，詳情參考Number Editor | Number Editor | . | 刻度分格數 | 設定刻度的分格數(0-100) | Number Editor | . | 子刻度分格數 | 設定子刻度的分格數(0-20) | Number Editor | . 刻度文字風格設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . | 刻度數字間距 | 設定刻度數字的間距(0-100) | Number Editor | . | 刻度數字離半徑的百分比 | 設定刻度數字離半徑的百分比(0-100) | Number Editor | . | 刻度數字顏色 | 設定刻度數字的顏色 | Color Selector | . 刻度樣式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度主要顏色 | 設定刻度的主要顏色 | Color Selector | . | 刻度漸變顏色 | 設定刻度的漸變顏色 | Color Selector | . | 刻度寬度 | 設定刻度的寬度(0-100) | Number Editor | . | 刻度長度 | 設定刻度的長度(0-200) | Number Editor | . | 刻度臨界顏色 | 設定刻度於臨界的顏色 | Color Selector | . | 圓心位置 | 設定元件的中心點座標 | Alignment Selector | . 指針設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 輔助圓的半徑 | 設定輔助圓形的半徑，將半徑拉至最大值再配合透明度可做元件背景使用 | Number Editor | . | 輔助圓顏色 | 設定輔助圓形的顏色 | Color Selector | . | 啟用指針1 | 決定是否要顯示指針1 | Checkbox | . | 指針1綁定暫存器 | 暫存器的內容是最小資料值的話，指針會指向圓弧的開始角度，隨著暫存器數值增加，直至暫存器是最大資料值時指針指向圓弧的結束角度 | Register Selector | . | 指針1顏色 | 設定指針1的顏色 | Color Selector | . | 啟用指針2 | 決定是否要顯示指針2 | Checkbox | . | 指針2綁定暫存器 | 暫存器的內容是最小資料值的話，指針會指向圓弧的開始角度，隨著暫存器數值增加，直至暫存器是最大資料值時指針指向圓弧的結束角度 | Register Selector | . | 指針2顏色 | 設定指針2的顏色 | Color Selector | . | 啟用指針3 | 決定是否要顯示指針3 | Checkbox | . | 指針3綁定暫存器 | 暫存器的內容是最小資料值的話，指針會指向圓弧的開始角度，隨著暫存器數值增加，直至暫存器是最大資料值時指針指向圓弧的結束角度 | Register Selector | . | 指針3顏色 | 設定指針3的顏色 | Color Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/#元件屬性"
-  },"2685": {
+  },"2687": {
     "doc": "通用型儀表",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/#元件上編輯器"
-  },"2686": {
+  },"2688": {
     "doc": "通用型儀表",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/#右鍵選單"
-  },"2687": {
+  },"2689": {
     "doc": "通用型儀表",
     "title": "通用型儀表",
     "content": ". 通用型儀表為輸出元件。 . 提供高效能省資源的數字表指針顯示，刻度為左右對稱，並可設定漸層顏色。此元件以直接繪製方式繪製指針，適合用於需要大量圓形指針並需要快速反應數值刻度的頁面。此元件具透明底色，可以疊在任何背景上增加顯示辨識度。 . 如欲快速入門，可以觀看博象教育影片，幫助了解通用型儀表 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/generic_gauge/"
-  },"2688": {
+  },"2690": {
     "doc": "圓形刻度盤",
     "title": "元件屬性",
     "content": "圓形刻度盤 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定是否要顯示文字標籤 | Checkbox | . | 文字內容 | 設定要顯示的文字 | Plain Text | . | 字型 | 設定文字標籤的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定文字標籤的顏色 | Color Selector | . | 文字位置 | 設定文字標籤的座標 | Alignment Selector | . | 開始數字 | 對應到圓弧刻度開始角度的數值 | Number Editor | . | 結束數字 | 對應到圓弧刻度結束角度的數值 | Number Editor | . | 反向 | 決定是否要反向對應數值，開始數字對應到圓弧刻度結束角度，結束數字對應到圓弧刻度開始角度 | Checkbox | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . 純色背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示純色背景 | 決定是否要顯示純色背景 | Checkbox | . | 邊框顏色 | 設定純色背景邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . | 純色背景顏色 | 設定純色背景的顏色 | Color Selector | . 背景圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 圖片左上座標 | 設定圖片左上的座標 | Alignment Selector | . | 圖片右下座標 | 設定圖片右下的座標 | Alignment Selector | . | 載入背景圖片 | 從系統檔案選擇作為背景的圖片 | File Open Dialog Box | . 刻度樣式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度樣式 | 設定刻度是否要鏤空，或設定使用漸變顏色，並設定臨界值。詳情參考Color Selector | Dropdown List | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 | Dropdown List | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . | 置中心點 | 將圓心水平垂直置中 | Alignment Selector | . 主刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度 | 決定是否要顯示刻度 | Checkbox | . | 刻度分隔數 | 設定刻度的分格數 | Number Editor | . | 刻度開始位置百分比 | 設定刻度起始位置佔半徑的百分比(1-200%) | Number Editor | . | 刻度結束位置百分比 | 設定刻度結束位置佔半徑的百分比 (1-200%) | Number Editor | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的框線風格 | Frame Selector | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . | 顯示開始數字 | 決定是否要顯示開始數字 | Checkbox | . | 顯示結束數字 | 決定是否要顯示結束數字 | Checkbox | . | 刻度數字開始百分比 | 設定刻度數字佔半徑的百分比(1-200%) | Number Editor | . | 數字字型 | 設定刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 數字顏色 | 設定刻度數字的顏色 | Color Selector | . 子刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度 | 決定是否要顯示子刻度 | Checkbox | . | 刻度分隔數 | 設定子刻度的分格數 | Number Editor | . | 刻度開始位置百分比 | 設定子刻度起始位置佔半徑的百分比 (1-200%) | Number Editor | . | 刻度結束位置百分比 | 設定子刻度結束位置佔半徑的百分比 (1-200%) | Number Editor | . | 刻度顏色 | 設子定刻度的顏色 | Color Selector | . | 刻度樣式 | 設子定刻度的框線風格 | Frame Selector | . | 顯示刻度數字 | 決定是否要顯示子刻度數字 | Checkbox | . | 顯示開始數字 | 決定是否要顯示開始數字 | Checkbox | . | 顯示結束數字 | 決定是否要顯示結束數字 | Checkbox | . | 刻度數字開始百分比 | 設定子刻度數字佔半徑的百分比(1-200%) | Number Editor | . | 數字字型 | 設定子刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 數字顏色 | 設定子刻度數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用Filter，詳情請參閱SVG Filter | Checkbox | . | 陰影x座標 | 設定陰影的x軸位移 | Number Editor | . | 陰影y座標 | 設定陰影的y軸位移 | Number Editor | . | 鏡射平面 | 設定鏡射平面，詳情請參閱SVG Filter | Number Editor | . | 鏡射光常數 | 設定鏡射光常數，詳情請參閱 SVG Filter | Number Editor | . | 鏡射光指數 | 設定鏡射光指數，詳情請參閱 SVG Filter | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標，詳情請參閱 SVG Filter | Number Editor | . | 光源y座標 | 設定光源的y座標，詳情請參閱 SVG Filter | Number Editor | . | 光源z座標 | 設定光源的z座標，詳情請參閱 SVG Filter | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/#元件屬性"
-  },"2689": {
+  },"2691": {
     "doc": "圓形刻度盤",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整刻度圓弧的圓心 | Center Editor | . | | 調整文字標籤的位置 | Label Editor | . | | 調整刻度的位置 | Scale Editor | . | | 調整刻度的位置 | Image Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/#元件上編輯器"
-  },"2690": {
+  },"2692": {
     "doc": "圓形刻度盤",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 刻度樣式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度樣式 | 設定刻度是否要鏤空或設定使用漸變顏色，並設定臨界值，詳情參考Color Selector |   | . 選擇刻度形狀 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入背景圖片… | 從系統檔案選擇作為背景的圖片 | File Open Dialog Box | . | 從剪貼簿貼上旋轉影像 | 從剪貼簿貼上要作為背景的圖片 |   | . | 編輯背景圖片 | 編輯背景圖片 | Image Editor Dialog Box | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/#右鍵選單"
-  },"2691": {
+  },"2693": {
     "doc": "圓形刻度盤",
     "title": "圓形刻度盤",
     "content": ". 圓形刻度盤為一般顯示元件。 . 目的為快速產生使用這需求的圓形表的刻度以及數字，省卻使用者需要使用外部繪圖軟體繪製圓盤表的需求。此元件提供彈性刻度以及顯示文件設定，並提供光影效果，可以簡單快速建立出美觀的表盤。 . 如欲快速入門，可以觀看博象教育影片，幫助了解圓形刻度盤 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_scale/"
-  },"2692": {
+  },"2694": {
     "doc": "圓形儀表",
     "title": "元件屬性",
     "content": "圓形儀表 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 顯示設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示文字 | 決定是否要顯示文字標籤 | Checkbox | . | 文字內容 | 設定要顯示的文字 | Plain Text | . | 字型 | 設定文字標籤的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 文字顏色 | 設定文字標籤的顏色 | Color Selector | . | 文字位置 | 設定文字標籤的座標 | Alignment Selector | . | 開始數字 | 對應到圓弧刻度開始角度的數值 | Number Editor | . | 結束數字 | 對應到圓弧刻度結束角度的數值 | Number Editor | . | 反向 | 決定是否要反向對應數值，開始數字對應到圓弧刻度結束角度，結束數字對應到圓弧刻度開始角度 | Checkbox | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . 指針行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 最小資料值 | 對應指針到圓弧刻度開始角度的資料值，必須小於最大資料值 | Number Editor | . | 最大資料值 | 對應指針到圓弧刻度結束角度的資料值，必須大於最小資料值 | Number Editor | . | 綁定暫存器 | 暫存器的內容是最小資料值的話，指針會指向圓弧刻度開始角度，指針隨著暫存器數值增加而選轉，直至暫存器是最大資料值時旋轉指針會指向到圓弧刻度結束角度 | Register Selector | . | 指針左上座標 | 設定指針左上的座標 | Alignment Selector | . | 指針右下座標 | 設定指針右下的座標 | Alignment Selector | . | 啟用滑鈕 | 決定是否要作旋鈕作用，如果作旋鈕作用，可以藉由操控旋轉指針改變暫存器的內容 | Checkbox | . | 載入指針圖片 | 從檔案系統選擇作為旋轉指針的圖片 | File Open Dialog Box | . 純色背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示純色背景 | 決定是否要顯示純色背景 | Checkbox | . | 邊框顏色 | 設定純色背景邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . | 純色背景顏色 | 設定純色背景的顏色 | Color Selector | . 背景圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 圖片左上座標 | 設定圖片左上的座標 | Alignment Selector | . | 圖片右下座標 | 設定圖片右下的座標 | Alignment Selector | . | 載入背景圖片 | 從系統檔案選擇作為背景的圖片 | File Open Dialog Box | . 刻度樣式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度樣式 | 設定刻度是否要鏤空，或設定使用漸變顏色，並設定臨界值。詳情參考Color Selector | Dropdown List | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 | Dropdown List | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . | 置中心點 | 將圓心水平垂直置中 | Alignment Selector | . 主刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度 | 決定是否要顯示刻度 | Checkbox | . | 刻度分隔數 | 設定刻度的分格數 | Number Editor | . | 刻度開始位置百分比 | 設定刻度起始位置佔半徑的百分比(1-200%) | Number Editor | . | 刻度結束位置百分比 | 設定刻度結束位置佔半徑的百分比 (1-200%) | Number Editor | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的框線風格 | Frame Selector | . | 顯示刻度數字 | 決定是否要顯示刻度數字 | Checkbox | . | 顯示開始數字 | 決定是否要顯示開始數字 | Checkbox | . | 顯示結束數字 | 決定是否要顯示結束數字 | Checkbox | . | 刻度數字開始百分比 | 設定刻度數字佔半徑的百分比(1-200%) | Number Editor | . | 數字字型 | 設定刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 數字顏色 | 設定刻度數字的顏色 | Color Selector | . 子刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示刻度 | 決定是否要顯示子刻度 | Checkbox | . | 刻度分隔數 | 設定子刻度的分格數 | Number Editor | . | 刻度開始位置百分比 | 設定子刻度起始位置佔半徑的百分比 (1-200%) | Number Editor | . | 刻度結束位置百分比 | 設定子刻度結束位置佔半徑的百分比 (1-200%) | Number Editor | . | 刻度顏色 | 設子定刻度的顏色 | Color Selector | . | 刻度樣式 | 設子定刻度的框線風格 | Frame Selector | . | 顯示刻度數字 | 決定是否要顯示子刻度數字 | Checkbox | . | 顯示開始數字 | 決定是否要顯示開始數字 | Checkbox | . | 顯示結束數字 | 決定是否要顯示結束數字 | Checkbox | . | 刻度數字開始百分比 | 設定子刻度數字佔半徑的百分比(1-200%) | Number Editor | . | 數字字型 | 設定子刻度數字的字型樣式、字體大小、粗細、斜體及行距 | Font Selector | . | 數字顏色 | 設定子刻度數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用Filter，詳情請參閱SVG Filter | Checkbox | . | 陰影x座標 | 設定陰影的x軸位移 | Number Editor | . | 陰影y座標 | 設定陰影的y軸位移 | Number Editor | . | 鏡射平面 | 設定鏡射平面，詳情請參閱SVG Filter | Number Editor | . | 鏡射光常數 | 設定鏡射光常數，詳情請參閱 SVG Filter | Number Editor | . | 鏡射光指數 | 設定鏡射光指數，詳情請參閱 SVG Filter | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標，詳情請參閱 SVG Filter | Number Editor | . | 光源y座標 | 設定光源的y座標，詳情請參閱 SVG Filter | Number Editor | . | 光源z座標 | 設定光源的z座標，詳情請參閱 SVG Filter | Number Editor | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示輔助器 | 決定是否要顯示輔助器 | Checkbox | . | 數值 | 設定輔助器的數值(1-100) | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/#元件屬性"
-  },"2693": {
+  },"2695": {
     "doc": "圓形儀表",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整刻度圓弧的圓心 | Center Editor | . | | 調整文字標籤的位置 | Label Editor | . | | 調整刻度的位置 | Scale Editor | . | | 調整刻度的位置 | Image Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/#元件上編輯器"
-  },"2694": {
+  },"2696": {
     "doc": "圓形儀表",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 刻度樣式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度樣式 | 設定刻度是否要鏤空或設定使用漸變顏色，並設定臨界值，詳情參考Color Selector | Dropdown List | . 選擇刻度形狀 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度是否要圓頭或矩形 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入背景圖片… | 從系統檔案選擇作為背景的圖片 | File Open Dialog Box | . | 從剪貼簿貼上旋轉影像 | 從剪貼簿貼上要作為背景的圖片 |   | . | 編輯背景圖片 | 編輯背景圖片 | Image Editor Dialog Box | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/#右鍵選單"
-  },"2695": {
+  },"2697": {
     "doc": "圓形儀表",
     "title": "圓形儀表",
     "content": ". 圓形儀表為輸出/輸入元件。 . 使用者用單一元件可以完成完整的表盤與指針設定，除了作為輸出用，還可以作為輸入元件，譬如結合圓形指針以及適當背景，可以做為觸控旋鈕使用。 . 此元件亦使用了旋轉影像，其效能表現與旋轉影像相似。 . 如欲快速入門，可以觀看博象教育影片，幫助了解圓形儀表 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/circular_gauge/"
-  },"2696": {
+  },"2698": {
     "doc": "發光二極體",
     "title": "元件屬性",
     "content": "發光二極體 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 數值作為亮度 | 決定是否要將暫存器內容作為亮度 | Checkbox | . | 觸發/亮度暫存器 | 根據暫存器內容顯示亮/暗如果將暫存器內容作為亮度(0-255)，則LED會根據暫存器內容顯示不同的亮度 | Register Selector | . 本體設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示中心輔助 | 決定是否要顯示中心的調整圖示 | Checkbox | . | 主要顏色 | 設定LED的主要顏色 | Color Selector | . | 漸變顏色 | 設定LED的漸變顏色 | Color Selector | . | 本體不透明度 % | 設定LED的不透明度(0-100%) | Number Editor | . | 形狀 | 設定LED的形狀為圓形或矩形 | Dropdown List | . | 圓角半徑 | 設定LED的圓角半徑，如果LED形狀為圓形則無效 | Number Editor | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定LED邊框的顏色 | Color Selector | . | 邊框不透明度 % | 設定LED邊框的不透明度(0-100%) | Number Editor | . | 邊框寬度 | 設定LED邊框的寬度，最大值隨元件大小變化 | Number Editor | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 陰影模式 | 設定LED陰影往下方或往四周擴散 | Dropdown List | . | 陰影顏色 | 設定LED陰影的顏色 | Color Selector | . | 陰影寬度 | 設定LED陰影的寬度(0-30) | Number Editor | . 元件上編輯器 . | 操作圖框 | 功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/led/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/led/#元件屬性"
-  },"2697": {
+  },"2699": {
     "doc": "發光二極體",
     "title": "右鍵選單",
     "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將圓心水平垂直置中 | Center Editor | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/led/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/led/#右鍵選單"
-  },"2698": {
+  },"2700": {
     "doc": "發光二極體",
     "title": "發光二極體",
     "content": ". 發光二極體為輸出元件。 . 功能為模擬實體介面上常用的LED燈，可以設定做為數位的開啟、關閉顯示，或是做為類比的亮度顯示。並支援圓形、方形、圓角和透明度等調整，適合用來做HMI上的各種燈號。 . 如欲快速入門，可以觀看博象教育影片，幫助了解發光二極體 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/led/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/led/"
-  },"2699": {
+  },"2701": {
     "doc": "調色盤",
     "title": "元件屬性",
     "content": "調色盤 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 本體設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 綁定三原色暫存器 | 決定是否要綁定三原色暫存器 | Checkbox | . | 顏色 0 | 設定顏色0，如果綁定三原色暫存器則無效 | Color Selector | . | 顏色 1 | 設定顏色1，如果綁定三原色暫存器則無效 | Color Selector | . | 顏色 2 | 設定顏色2，如果綁定三原色暫存器則無效 | Color Selector | . | 顏色 3 | 設定顏色3，如果綁定三原色暫存器則無效 | Color Selector | . | 紅色 | 設定暫存器內容，將暫存器內容對應三原色紅色的比例(0-255) | Register Selector | . | 綠色 | 設定暫存器內容，將暫存器內容對應三原色綠色的比例(0-255) | Register Selector | . | 藍色 | 設定暫存器內容，將暫存器內容對應三原色藍色的比例(0-255) | Register Selector | . | 綁定暫存器 | 設定暫存器，將暫存器內容作為索引顯示顏色 0到顏色 3的顏色，如果綁定三原色暫存器則無效 | Register Selector | . | 形狀 | 設定調色盤的形狀為圓形或矩形 | Dropdown List | . | 圓角半徑 | 設定調色盤的圓角半徑，如果形狀為圓形則無效 | Number Editor | . | 預覽顏色 | 設定要預覽的顏色，如果綁定三原色暫存器則無效 | Dropdown List | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定調色盤邊框的顏色 | Color Selector | . | 邊框寬度 | 設定調色盤邊框的寬度，最大值隨元件大小變化 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/palette/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/palette/#元件屬性"
-  },"2700": {
+  },"2702": {
     "doc": "調色盤",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/palette/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/palette/#右鍵選單"
-  },"2701": {
+  },"2703": {
     "doc": "調色盤",
     "title": "調色盤",
     "content": ". 調色盤為輸出元件。 . 作為多顏色燈號顯示，或是提供RGB調色功能模擬三色LED燈，或是調色盤。 . 如欲快速入門，可以觀看博象教育影片，幫助了解調色盤 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/palette/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/palette/"
-  },"2702": {
+  },"2704": {
     "doc": "彈性捲動文本",
     "title": "元件屬性",
     "content": "彈性捲動文本 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 顯示/隱藏控制 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結顯示/隱藏 | 決定是否要綁定暫存器，藉由暫存器內容觸發隱藏元件 | Checkbox | . | 選擇顯示/隱藏 | 透過改變暫存器值決定顯示或不顯示元件 | Register Selector | . 暫存器設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 暫存器作為索引 | 決定是否要將暫存器內容作為文本陣列的索引 | Checkbox | . | 綁定暫存器 | 綁定暫存器作為文本顯示內容或作為文本陣列的索引 | Register Selector | . 文本陣列設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本陣列 | 詳情參考PlainTextArray Table Dialog | PlainTextArray Table Dialog | . 設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用格式化字串 | 是否要使用python格式化字串 | Checkbox | . | 格式化字串 | 詳情參考Format String | Format String | . | 字型 | 設定字型和大小 | Font Selector | . | 文字顏色 | 設定文字顏色 | Color Selector | . | 不透明度 % | 設定文字不透明度(0-100%) | Number Editor | . | 顯示背景顏色 | 是否要顯示背景顏色 | Checkbox | . | 背景主要顏色 | 設定背景主要顏色 | Color Selector | . | 背景漸變顏色 | 設定背景漸變顏色 | Color Selector | . | 背景不透明度 % | 設定背景不透明度(0-100%) | Number Editor | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . | 捲動速度 像素/秒 | 設定文本捲動速度(5-50 px/sec) | Number Editor | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/#元件屬性"
-  },"2703": {
+  },"2705": {
     "doc": "彈性捲動文本",
     "title": "右鍵選單",
     "content": "字型大小 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 字型大小 | 設定字型大小 | Font Selector | . 文本捲動方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文本捲動方式 | 設定文本捲動方式，詳情參考Label Display Mode | Label Display Mode | . 對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字位置水平置中、水平置左或者水平置右 | Alignment Selector | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/#右鍵選單"
-  },"2704": {
+  },"2706": {
     "doc": "彈性捲動文本",
     "title": "彈性捲動文本",
     "content": ". 捲動文本為輸出元件。 . 使用內建字型顯示英文，並且支援捲動功能。由於使用內建字型，因此效率高，占用資源少，適合顯示變動的訊息，譬如錯誤訊息等。 . 如欲快速入門，可以觀看博象教育影片，幫助了解捲動文本 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/flexible_label/"
-  },"2705": {
+  },"2707": {
     "doc": "標準元件庫",
     "title": "標準元件庫",
     "content": " ",
     "url": "/zh-tw/3.4.3/widgets/standard_widget_library/",
     "relUrl": "/zh-tw/3.4.3/widgets/standard_widget_library/"
-  },"2706": {
+  },"2708": {
     "doc": "斷電後保存資料",
     "title": "元件屬性",
     "content": "斷電後保存資料 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 保存資料設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 保存資料鍵值 | 設定保留資料的金鑰，利用金鑰區分不同儲存資料，因此不能重複 | Plain Text | . | 繫結內容暫存器 | 設定要保留的暫存器內容 | Register Selector | . | 是否使用動作暫存器 | 決定是否要使用觸發暫存器 | Checkbox | . | 繫結動作暫存器 | 設定觸發暫存器，依觸發方式決定是否儲存 | Register Selector | . | 觸發模式 | 設定觸發方式為暫存器有改變就記錄或暫存器被寫入再記錄 | Dropdown List | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/retained_data/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/retained_data/#元件屬性"
-  },"2707": {
+  },"2709": {
     "doc": "斷電後保存資料",
     "title": "右鍵選單",
     "content": "是否使用動作暫存器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 是否使用動作暫存器 | 決定是否要使用觸發暫存器 | Checkbox | . 觸發模式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 觸發模式 | 設定觸發方式為暫存器有改變就記錄或暫存器被寫入再記錄，如果使用觸發暫存器則無效 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/retained_data/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/retained_data/#右鍵選單"
-  },"2708": {
+  },"2710": {
     "doc": "斷電後保存資料",
     "title": "斷電後保存資料",
     "content": ". 斷電後保存資料提供將資料寫入非揮發性記憶體的功能，寫入的資料在屏的電源消失後會被保存，並於下次電源開啟後被讀出，適合用來紀錄持續性資訊，如紀錄屏的總使用時間等。 此元件紀錄的方法為使用鍵值，一個字串鍵可以對應一個值，鍵不能重複。此元件開始運作後，鍵對應的值會在屏啟動時自動被載入繫結的暫存器。 . 註解：在ADE系統功能表中的回復Ubique屏之出廠設定按鈕可以清除屏上的所有已經儲存的鍵值以及設計圖資。 如欲快速入門，可以觀看博象教育影片，幫助了解斷電後保存資料 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/retained_data/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/retained_data/"
-  },"2709": {
+  },"2711": {
     "doc": "彈出式輸入對話盒",
     "title": "元件屬性",
     "content": "彈出式輸入對話盒 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 視窗標題 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 標題文字 | 設定彈出視窗的視窗標題 | Plain Text | . | 使用暫存器內容作為標題 | 決定是否要使用暫存器內容作為彈出視窗的視窗標題 | Checkbox | . | 內容暫存器 | 設定作為視窗標題的暫存器 | Register Selector | . | 啟用密碼模式 | 決定是否要使用密碼模式，如果使用密碼模式，輸入板將以*代替字元。 | Checkbox | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 資料輸入格式 | 設定彈出輸入板的模式，詳情參考Input Data Selector | Input Data Selector | . | 致能暫存器 | 設定觸發彈出輸入板的暫存器，暫存器內容為True時彈出輸入板，當輸入結束自動將暫存器內容設為False | Register Selector | . | 結果暫存器 | 設定暫存器儲存由彈出輸入板輸入的字符 | Register Selector | . 回呼函式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動彈出前回呼函式 | 當彈出輸入板被觸發時，根據設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當彈出輸入板被觸發時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | 按下’√’後回呼函式 | 當輸入完成時，根據設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當輸入完成時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | 按下取消後回呼函式 | 當輸入被取消時，根據設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當輸入被取消時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/popup_inputpad/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/popup_inputpad/#元件屬性"
-  },"2710": {
+  },"2712": {
     "doc": "彈出式輸入對話盒",
     "title": "右鍵選單",
     "content": "使用暫存器內容作為標題 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用暫存器內容作為標題 | 決定是否要使用暫存器內容作為彈出輸入板的視窗標題 | Checkbox | . 啟用密碼模式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用密碼模式 | 決定是否要使用密碼模式，如果使用密碼模式，輸入板將以*代替字元 | Checkbox | . 資料輸入格式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 資料輸入格式 | 設定彈出輸入板的模式，詳情參考Input Data Selector | Input Data Selector | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/popup_inputpad/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/popup_inputpad/#右鍵選單"
-  },"2711": {
+  },"2713": {
     "doc": "彈出式輸入對話盒",
     "title": "彈出式輸入對話盒",
     "content": ". 彈出式輸入對話盒是一個彈出的對話盒，其目的為提供使用者輸入文字、數字或是密碼，並將其值紀錄於繫結的暫存器中。HMI通常會有需要使用者輸入數字或是文字的功能，這個元件可以省去自行設計輸入頁的時間。 . 如欲快速入門，可以觀看博象教育影片，幫助了解彈出式輸入對話盒 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/popup_inputpad/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/popup_inputpad/"
-  },"2712": {
+  },"2714": {
     "doc": "彈出式訊息窗",
     "title": "元件屬性",
     "content": "彈出式訊息窗 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 視窗標題 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 內容/選擇暫存器 | 設定暫存器內容作為信息框的視窗標題或者作為視窗標題陣列的索引 | Register Selector | . | 使用暫存器內容作為標題索引 | 決定是否要將暫存器內容作為視窗標題陣列的索引 | Checkbox | . | 標題陣列 | 設定信息框的視窗標題陣列，詳情參考PlainTextArray Table Dialog | Plain Text Array Table Dialog | . 按鍵組態設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 視窗模式 | 設定彈出信息框的模式，詳情參考MessageBox Selector | MessageBox Selector | . | 按鈕標題 | 自訂彈出信息框的選擇按鈕，視窗模式選擇使用者自訂有效 | Plain Text Array Table Dialog | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 致能暫存器 | 設定觸發彈出信息框的暫存器，暫存器內容為True時彈出信息框，當選擇完成自動將暫存器內容設為False | Register Selector | . | 結果暫存器 | 設定暫存器儲存選擇的按鈕索引，視窗模式選擇OK好無效 | Register Selector | . 回呼函式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用彈出前回呼函式 | 當彈出輸入板被觸發時，根據設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當彈出輸入板被觸發時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . | 啟動關閉後回呼函式 | 當輸入完成時，根據設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當輸入完成時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/popup_messagebox/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/popup_messagebox/#元件屬性"
-  },"2713": {
+  },"2715": {
     "doc": "彈出式訊息窗",
     "title": "右鍵選單",
     "content": "使用暫存器內容作為標題索引 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用暫存器內容作為標題索引 | 決定是否要將暫存器內容作為視窗標題陣列的索引 | Checkbox | . 視窗模式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 視窗模式 | 設定彈出信息框的模式，詳情參考MessageBox Selector | Input Data Selector | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/popup_messagebox/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/popup_messagebox/#右鍵選單"
-  },"2714": {
+  },"2716": {
     "doc": "彈出式訊息窗",
     "title": "彈出式訊息窗",
     "content": ". 彈出式訊息窗是一個彈出的對話盒，其目的為提供使用者輸入文字、數字或是密碼，並將其值紀錄於繫結的暫存器中。HMI通常會有需要使用者輸入數字或是文字的功能，這個元件可以省去自行設計輸入頁的時間。 . 如欲快速入門，可以觀看博象教育影片，幫助了解彈出式訊息窗 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/popup_messagebox/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/popup_messagebox/"
-  },"2715": {
+  },"2717": {
     "doc": "暫存器監視器",
     "title": "元件屬性",
     "content": "暫存器監視器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 繫結被監視暫存器 | 當暫存器被寫入且值有改變時，根據回呼函式設計的行為進行操作 | Register Selector | . 回呼函式設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用回呼函式 | 當暫存器被寫入且值有改變時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當暫存器被寫入且值有改變時，此處的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/register_observer/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/register_observer/#元件屬性"
-  },"2716": {
+  },"2718": {
     "doc": "暫存器監視器",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/register_observer/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/register_observer/#右鍵選單"
-  },"2717": {
+  },"2719": {
     "doc": "暫存器監視器",
     "title": "暫存器監視器",
     "content": ". 暫存器監視器的功能在於監視暫存器數值的變化，並於暫存器數值變化時執行相對應的Blockly程式來啟動元件與元件之間的事件鏈。 . 譬如，ADC輸入可以藉由將輸入暫存器繫結到儀表元件，這個儀表元件即可顯示輸入數值。但若是使用者想要在輸入數值大於某個閥值之後，使用一個LED來顯示警告，但是LED繫結於另一個暫存器。 . 此時使用者可以用一個暫存器監視器監視ADC暫存器，當ADC暫存器的數值改變時，此暫存器監視器的對應Blockly程式會被呼叫，因此可以在Blockly程式中比較 ADC數值，當大於閥值時，就設定LED繫結的暫存器數值，讓LED亮起。 . 如欲快速入門，可以觀看博象教育影片，幫助了解暫存器監視器 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/register_observer/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/register_observer/"
-  },"2718": {
+  },"2720": {
     "doc": "計時器",
     "title": "元件屬性",
     "content": "計時器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 週期設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 固定週期 | 決定是否要使用固定計時器週期 | Checkbox | . | 週期(ms) | 設定固定計時器週期(單位為毫秒)，使用固定週期有效 | Number Editor | . | 週期暫存器 | 設定暫存器內容作為計時器週期，使用固定週期無效 | Register Selector | . 計時器啟動設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 隨電源啟動 | 決定是否要開機就啟動計時器 | Checkbox | . | 繫結動作暫存器 | 設定暫存器觸發計時器，使用隨電源啟動無效 | Register Selector | . | 只啟動一次計時器 | 決定計時器是否只執行一次 | Checkbox | . 時間到行為 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 是否切換換頁 | 當計時器時間到時，根據選擇目標頁面的內容啟動換頁行為 | Checkbox | . | 選擇目的頁面 | 當按鈕被點擊時，此處設定的行為會執行，詳情參考Page Selector | Page Selector | . | 是否更動暫存器 | 當計時器時間到時，根據綁定暫存器以及操作模式的內容對暫存器進行操作 | Checkbox | . | 繫結暫存器 | 決定要改變的暫存器 | Register Selector | . | 運作模式 | 當計時器時間到時，此處設定的行為會執行，詳情參考Register Operation Setting | Register Operation Setting | . | 是否啟動回呼函式 | 當計時器時間到時，根據行為設計所設計的回呼函式進行操作 | Checkbox | . | 行為設計 | 當計時器時間到時，此處設定的行為會執行，詳情參考Blockly Editor | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/timer/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/timer/#元件屬性"
-  },"2719": {
+  },"2721": {
     "doc": "計時器",
     "title": "右鍵選單",
     "content": "固定週期 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 固定週期 | 決定是否要使用固定計時器週期 | Checkbox | . 隨電源啟動 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 隨電源啟動 | 決定是否要開機就啟動計時器 | Checkbox | . 只啟動一次計時器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 只啟動一次計時器 | 決定計時器是否只執行一次 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/timer/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/timer/#右鍵選單"
-  },"2720": {
+  },"2722": {
     "doc": "計時器",
     "title": "計時器",
     "content": ". 計時器可以週期性的觸發事件，並呼叫對應的Blockly程式，任何需要週期性檢查、讀取或是改變的資料，都可以用計時器來產生觸發事件 . 如欲快速入門，可以觀看博象教育影片，幫助了解計時器 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/timer/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/timer/"
-  },"2721": {
+  },"2723": {
     "doc": "音樂播放器",
     "title": "元件屬性",
     "content": "音樂播放器 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 行為設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要使用音樂播放器，如果沒有啟動則不能使用 | Checkbox | . | 音效命令播放暫存器 | 設定暫存器作為音樂播放器指令 暫存器內容為 0 時表示停止播放暫存器內容為 1 時表示開始播放暫存器內容為 2 時表示暫停撥放暫存器內容為 3 時表示恢復暫停 | Register Selector | . | 音效序號暫存器 | 設定暫存器內容作為音檔的索引 | Register Selector | . | 匯入音效檔案 | 詳情參考FileArray Table Dialog | FileArray Table Dialog | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/audio_player/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/audio_player/#元件屬性"
-  },"2722": {
+  },"2724": {
     "doc": "音樂播放器",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要使用音樂播放器，如果沒有啟動則不能使用 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/audio_player/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/audio_player/#右鍵選單"
-  },"2723": {
+  },"2725": {
     "doc": "音樂播放器",
     "title": "音樂播放器",
     "content": ". 音樂播放器為輸出元件，功能為播放音樂，目前支援音樂格式為 . | File Format：.wav | Date：PCM | Sample Rate：8 kHz-22.05 kHz | Bit Resolution：8 bits | Channel：1 | . 可指定多個音效檔，並於執行期根據繫結的暫存器，指定播放檔案的索引序號以及播放指令。 . 如欲快速入門，可以觀看博象教育影片，幫助了解音樂播放器 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/audio_player/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/audio_player/"
-  },"2724": {
+  },"2726": {
     "doc": "GPIO",
     "title": "元件屬性",
     "content": "I/O腳位名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . I/O 腳位處態設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要啟動此I/O腳位 | Checkbox | . | 繫結暫存器 | I/O Pin的值繫結的暫存器，當I/O設為輸出時，改變此暫存器的值會直接反應至Output Pin上，當設定為輸入腳位時，腳位準位發生變化時，新的準位執會被寫入此暫存器。容許值為True或者False | Register Selector | . | 輸出入模式 | 選擇I/O Pin的輸出入模式，可以選擇的值有Digital Output/Digital Input/Digital Output PP(Push Pull) |   | . | 輸入提升模式 | 選擇I/O Pin作為輸入模式時的內建的準位提升方式，容許值為No Pull/Pull Up/Pull Down |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/gpio/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/gpio/#元件屬性"
-  },"2725": {
+  },"2727": {
     "doc": "GPIO",
     "title": "GPIO",
     "content": "GPIO元件用以設定I/O Pin的輸出入屬性，以及繫結的暫存器。 . 如欲快速入門，可以觀看博象教育影片，幫助了解I/O元件 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/gpio/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/gpio/"
-  },"2726": {
+  },"2728": {
     "doc": "PWM",
     "title": "元件屬性",
     "content": "脈衝寬度調變/輸入擷取名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 脈衝寬度調變/輸入擷取腳位組態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要啟動此PWM腳位 | Checkbox | . | 腳位功能 | 選擇多功能腳位的功能，容許的功能有 脈衝寬度調變/數位輸出輸入/輸入擷取。所有多功能腳位都具備數位輸出入功能，當選擇位輸出入功能功能時，屬性設定會轉變成GPIO，詳見GPIO，選輸入擷時需要設定擷取模式，計數暫存器，以及經過時間暫存器。脈衝寬度調變為預設選擇 |   | . | 脈衝寬度調變頻率 | 選擇脈衝寬度調變功能時顯示。設定脈衝寬度調變頻率，容許值為1Hz到100000Hz | Number Editor | . | 脈衝寬度調變繫結暫存器 | 選擇脈衝寬度調變功能時顯示。PWM值繫結的暫存器，暫存器的值為輸出為高電位的百分比例，如脈衝寬度調變頻率設為100Hz，暫存器的值為50.0，表示輸出100Hz方波，每個方波有50%的時間高准位。使用者可藉由輸入元件，或是Blockly積木程式執行期改變繫結暫存器的值來改變輸出的高電位比例。 | Register Selector | . | 輸入擷取模式 | 選擇輸入擷取時顯示。 功能為選擇方波擷取觸發條件，容許值為 升緣觸發/降緣觸發/升降緣接觸發 |   | . | 計數暫存器 | 選擇輸入擷取時顯示。 選擇繫結暫存器，內容為自上次讀取後輸入的方波觸發數。 | Register Selector | . | 經過時間暫存器(ms) | 選擇輸入擷取時顯示。 選擇繫結暫存器，內容為自上次讀取後經過的時間，單位ms | Register Selector | . | 使用回呼函示 | 選擇輸入擷取時顯示。 選擇是否啟用回呼函數。 | Checkbox | . | 回呼函示 | 選擇輸入擷取使用回呼函示時顯示，可撰寫Blockly回呼函示。於固定的時間間格內，若有輸入方波被計數，則此回呼函數會被呼叫，此時計數暫存器的內容為自上次讀取後輸入的方波觸發數，經過時間暫存器內容為自上次讀取後經過的時間，單位ms。每次回呼事件發生時，暫存器的內容會被更新 | Blockly Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/pwm/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/pwm/#元件屬性"
-  },"2727": {
+  },"2729": {
     "doc": "PWM",
     "title": "PWM",
     "content": "PWM元件用以設定 Pulse-width modulation Pin的輸出屬性，以及繫結的暫存器。 . 當使用Input Capture時，則提供輸入方波計數功能 . 如欲快速入門，可以觀看博象教育影片，幫助了解I/O元件 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/pwm/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/pwm/"
-  },"2728": {
+  },"2730": {
     "doc": "ADC",
     "title": "元件屬性",
     "content": "I/O腳位名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . I/O腳位腳位組態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要啟動此ADC腳位 | Checkbox | . | 繫結暫存器 | 類比輸入腳位輸入數值的變化會自動反應在此暫存器中，預設輸入數值範圍為0-4095。 | Register Selector | . | 腳位功能 | 選擇多功能腳位的功能，類比輸入以及數位輸出入，當選擇位輸出入功能功能時，屬性設定會轉變成GPIO，詳見GPIO，類比輸入為預設選擇 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/adc/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/adc/#元件屬性"
-  },"2729": {
+  },"2731": {
     "doc": "ADC",
     "title": "ADC",
     "content": "ADC元件用以設定類比輸入腳位的祖組態，以及繫結的暫存器。 . 所有類比輸入腳位，都能設定為GPIO使用。 . 如欲快速入門，可以觀看博象教育影片，幫助了解I/O元件 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/adc/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/adc/"
-  },"2730": {
+  },"2732": {
     "doc": "UART",
     "title": "元件屬性",
     "content": "UART名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . UART組態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要啟動此UART | Checkbox | . | UART埠 | 選擇使用的實體UART埠，不同的Ubique Panel控制板提供不同數量的UART埠選擇。 |   | . | UART鮑率 | 選擇UART通訊報率，容許值為9600/14400/19200/38400/57600/115200 |   | . | UART繫結暫存器 | 指定一暫存器，作為UART處理的代表物件。 | Register Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/uart/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/uart/#元件屬性"
-  },"2731": {
+  },"2733": {
     "doc": "UART",
     "title": "UART",
     "content": "UART元件用來設定串列通訊埠組態，串列通訊埠預設的通訊協定為博象科技Binary Protocol(詳見Ubique Panel DataSheet)，此通訊埠亦可支援其他多種通訊協定，詳請洽博象科技。 . 如欲快速入門，可以觀看博象教育影片，幫助了解UART元件 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/uart/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/uart/"
-  },"2732": {
+  },"2734": {
     "doc": "背光",
     "title": "元件屬性",
     "content": "背光名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 背光腳位組態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要啟動背光控制，若不啟動，將以100%亮度以及預設頻率驅動背光 | Checkbox | . | 繫結暫存器 | 選擇背光亮度百分比繫結暫存器，暫存器內容容許數值為0-100。 | Register Selector | . | 自訂背光頻率致能 | 勾選後可以開啟背光頻率設定選項 | Checkbox | . | 背光頻率(Hz) | 勾選自訂背光頻率後顯示，選擇背光驅動PWM頻率值，容許數值為500Hz-100000Hz，每款LCD螢幕最佳驅動頻率不同，調整前請參閱LCD說明書 | Number Editor | . 螢幕鎖定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動螢幕鎖定 | 是否啟動螢幕鎖定功能，啟動後螢幕會根據繫結暫存器或是時間數值進行螢幕鎖定 | Checkbox | . | 是否繫結螢幕鎖定暫存器 | 是否繫結螢幕鎖定暫存器，選擇是後螢幕的鎖定功能可由繫結暫存器內容控制 | Checkbox | . | 暫存器 | 選擇細節螢幕鎖定暫存器時顯示，選擇螢幕鎖定暫存器。其內容為True時，螢幕鎖定的功能啟動 | Register Selector | . | 時間(秒) | 設定螢幕鎖定前的閒置時間，當螢幕鎖定功能啟動時，觸控輸入閒置超過此時間後，螢幕會變暗，並進入鎖定狀態 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/backlight/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/backlight/#元件屬性"
-  },"2733": {
+  },"2735": {
     "doc": "背光",
     "title": "背光",
     "content": "背光元件用來設定背光控制，背光驅動頻率，以及螢幕鎖定組態。 . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/backlight/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/backlight/"
-  },"2734": {
+  },"2736": {
     "doc": "即時時鐘",
     "title": "元件屬性",
     "content": "即時時鐘名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 即時時鐘組態 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟動 | 決定是否要啟動即時時鐘功能 | Checkbox | . | 設定對話盒致能繫結暫存器 | 選擇暫存器，這個暫存器內容為True時，會啟動時即時時鐘設定對話盒，供使用者設定日期，時間。 | Register Selector | . 即時時鐘暫存器設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 年暫存器 | 選擇即時時鐘年份數字對應的暫存器，內容為即時時鐘目前的西元年分，為四位數字，例如2021 | Register Selector | . | 年末二位暫存器 | 選擇即時時鐘年份數字對應的暫存器，內容為即時時鐘目前的西元年分的末二位，例如西元2021，該數字為21 | Register Selector | . | 月暫存器 | 選擇即時時鐘月份數字對應的暫存器，內容為即時時鐘目前的月份數字，由1-12分別表示一月到十二月 | Register Selector | . | 日暫存器 | 選擇即時時鐘日期數字對應的暫存器，內容為即時時鐘目前的日數字，由1-31分別表示每月的第幾日 | Register Selector | . | 星期暫存器 | 選擇即時時中星期幾數字對應的暫存器，內容為即時時鐘目前的星期數字，由1-7分別表示星期一到星期日 | Register Selector | . | 時暫存器 | 選擇即時時鐘小時數字對應的暫存器，內容為即時時鐘目前的小時數，由0-23分別表24小時制目前的時 | Register Selector | . | 分暫存器 | 選擇即時時鐘分鐘數字對應的暫存器，內容為即時時鐘目前的分鐘數，由0-59分別表24小時制目前的時間的分鐘數 | Register Selector | . | 秒暫存器 | 選擇即時時鐘秒數字對應的暫存器，內容為即時時鐘目前的秒數，由0-59分別表24小時制目前的時間的秒鐘數 | Register Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/rtc/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/rtc/#元件屬性"
-  },"2735": {
+  },"2737": {
     "doc": "即時時鐘",
     "title": "即時時鐘",
     "content": "RTC元件提供時鐘以及萬年曆功能 . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/rtc/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/rtc/"
-  },"2736": {
+  },"2738": {
     "doc": "商標圖像",
     "title": "元件屬性",
     "content": "商標圖像名稱設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 圖像設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示商標圖像 | 決定是否要啟動開機商標圖像顯示 | Checkbox | . | 最小顯示時間(ms) | 在開機完成後，系統會顯示商標圖像並繼續載入頁面資料，此數值設定商標圖像最少的顯示時間，單位為1/1000秒，目前容許值為1000到10000(1到10秒) | Number Editor | . | 載入商標圖像 | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . 預覽 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 商標圖像 | 在設計頁面上預覽商標圖像 | Checkbox | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/logo/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/logo/#元件屬性"
-  },"2737": {
+  },"2739": {
     "doc": "商標圖像",
     "title": "右鍵選單",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示商標圖像 | 決定是否要啟動開機商標圖像顯示 | Checkbox | . | 預覽商標圖像 | 在設計頁面上預覽商標圖像 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 編輯圖片… | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片… | 從剪貼簿貼上要顯示的圖片 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/logo/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/logo/#右鍵選單"
-  },"2738": {
+  },"2740": {
     "doc": "商標圖像",
     "title": "商標圖像",
     "content": "商標圖像元件提開機商標圖像顯示功能設定 . 如欲快速入門，可以觀看博象教育影片，幫助了解商標圖像元件 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/logo/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/logo/"
-  },"2739": {
+  },"2741": {
     "doc": "系統元件庫",
     "title": "系統元件庫",
     "content": " ",
     "url": "/zh-tw/3.4.3/widgets/system_widget_library/",
     "relUrl": "/zh-tw/3.4.3/widgets/system_widget_library/"
-  },"2740": {
+  },"2742": {
     "doc": "編輯工作區域",
     "title": "編輯工作區域",
     "content": "利用滑鼠將元件從圖形元件庫拖曳至工作區域，即可開始 HMI 設計。 . ",
     "url": "/zh-tw/3.4.3/widgets/edit_canvas/",
     "relUrl": "/zh-tw/3.4.3/widgets/edit_canvas/"
-  },"2741": {
+  },"2743": {
     "doc": "編輯工作區域",
     "title": "移動元件",
     "content": "移動元件，調整 HMI 設計的畫面。 . | 滑鼠拖動：將滑鼠放置元件圖形上，看到 ，即可拖曳移動。 . | 座標調整：利用工具列的位置調整工具，調整元件座標。 . | . ",
     "url": "/zh-tw/3.4.3/widgets/edit_canvas/#%E7%A7%BB%E5%8B%95%E5%85%83%E4%BB%B6",
     "relUrl": "/zh-tw/3.4.3/widgets/edit_canvas/#移動元件"
-  },"2742": {
+  },"2744": {
     "doc": "編輯工作區域",
     "title": "選取一個物件",
     "content": "選取單一個物件，修改和編輯元件屬性。 . | 點選：點擊工作區域中的元件圖形進行選取。 . | 框選：按下滑鼠左鍵並拖曳滑鼠，將欲選取的元件框選起來。 . | 利用圖形元件列表：在圖形元件列表中點擊欲選取的元件。 . | . 註解：可以利用Tab鍵切換選取的元件 ",
     "url": "/zh-tw/3.4.3/widgets/edit_canvas/#%E9%81%B8%E5%8F%96%E4%B8%80%E5%80%8B%E7%89%A9%E4%BB%B6",
     "relUrl": "/zh-tw/3.4.3/widgets/edit_canvas/#選取一個物件"
-  },"2743": {
+  },"2745": {
     "doc": "編輯工作區域",
     "title": "選取多個元件",
     "content": "選取多個元件，進行群組、位置對齊、尺寸對齊、間隔對齊，以及調整共同屬性等操作。 . | Ctrl+元件：點擊一個元件後，按住Ctrl鍵再點擊另一個元件，達到多選。 . | 框選：按下滑鼠左鍵並拖曳滑鼠，將欲選取的元件們框選起來。 . | Ctrl+A：利用快捷鍵全選工作區域中的所有元件。 . | . 註解：群組後，可利用圖形元件列表調整個別元件屬性。 ",
     "url": "/zh-tw/3.4.3/widgets/edit_canvas/#%E9%81%B8%E5%8F%96%E5%A4%9A%E5%80%8B%E5%85%83%E4%BB%B6",
     "relUrl": "/zh-tw/3.4.3/widgets/edit_canvas/#選取多個元件"
-  },"2744": {
+  },"2746": {
     "doc": "編輯工作區域",
     "title": "圖層順序",
     "content": "利用改變圖層順序，可以顯示豐富多樣的視覺效果。 . 詳情參考圖層順序 . ",
     "url": "/zh-tw/3.4.3/widgets/edit_canvas/#%E5%9C%96%E5%B1%A4%E9%A0%86%E5%BA%8F",
     "relUrl": "/zh-tw/3.4.3/widgets/edit_canvas/#圖層順序"
-  },"2745": {
+  },"2747": {
     "doc": "極簡主義元件集合",
     "title": "極簡主義元件集合",
     "content": "點擊極簡主義元件集合會得到多種樣式的元件 . 元件種類和標準元件庫相同，但設計風格不同 . 直接拖拉至工作區域即可使用，節省美工花費的時間 . ",
     "url": "/zh-tw/3.4.3/widgets/iot_gallery_minimalist/",
     "relUrl": "/zh-tw/3.4.3/widgets/iot_gallery_minimalist/"
-  },"2746": {
+  },"2748": {
     "doc": "V2文字方塊",
     "title": "V2文字方塊",
     "content": ". 文字方塊為輸出元件。 . 目標是顯示Rich Text文本，並且支援多國語言以及使用者安裝字型。內容必須在ADE編輯時輸入，且在執行期間內容無法變動，適合用作展現文字風格的標題或是指示標示。 . 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/"
-  },"2747": {
+  },"2749": {
     "doc": "V2文字方塊",
     "title": "元件屬性",
     "content": "V2文字方塊 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影，使用背景顏色時有效 | Checkbox | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定背景的顏色 | Color Selector | . | 漸變顏色 | 設定背景的漸變顏色 | Color Selector | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 載入圖片 | 從檔案系統選擇背景圖片 | File Open Dialog Box | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . | 行高 | 設定兩行文字之間的距離 | Number Editor | . | 圖層混合模式 | 決定文字與背景的混色，詳情參考Blending Selector | Blending Selector | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/#元件屬性"
-  },"2748": {
+  },"2750": {
     "doc": "V2文字方塊",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字 | RichText Editor | . | | 調整文字顯示框大小 | Handle Editor | . | | 調整背景的圓角半徑 | Handle Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/#元件上編輯器"
-  },"2749": {
+  },"2751": {
     "doc": "V2文字方塊",
     "title": "右鍵選單",
     "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/image_label_v2/#右鍵選單"
-  },"2750": {
+  },"2752": {
     "doc": "漸層圖形",
     "title": "漸層圖形",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/"
-  },"2751": {
+  },"2753": {
     "doc": "漸層圖形",
     "title": "元件屬性",
     "content": "漸層圖形 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定圓心的座標 | Alignment Selector | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 圖形形狀 | 設定圖形的形狀 | Dropdown List | . | 輔助圓的半徑 | 設定圓的半徑大小(1-100) | Number Editor | . | 漸層樣式 | 設定圖形的漸層樣式 | Dropdown List | . | 主要顏色 | 設定按鈕的主要顏色 | Color Selector | . | 漸變顏色 | 設定按鈕的漸變顏色 | Color Selector | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 圖層混合模式 | 決定文字與背景的混色，詳情參考Blending Selector | Blending Selector | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/#元件屬性"
-  },"2752": {
+  },"2754": {
     "doc": "漸層圖形",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字 | RichText Editor | . | | 調整文字顯示框大小 | Handle Editor | . | | 調整背景的圓角半徑 | Handle Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/#元件上編輯器"
-  },"2753": {
+  },"2755": {
     "doc": "漸層圖形",
     "title": "右鍵選單",
     "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_graphic/#右鍵選單"
-  },"2754": {
+  },"2756": {
     "doc": "點陣圖",
     "title": "點陣圖",
     "content": ". ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/"
-  },"2755": {
+  },"2757": {
     "doc": "點陣圖",
     "title": "元件屬性",
     "content": "點陣圖 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . | 背景顏色 | 設定背景的顏色 | Color Selector | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/#元件屬性"
-  },"2756": {
+  },"2758": {
     "doc": "點陣圖",
     "title": "元件上編輯器",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/#元件上編輯器"
-  },"2757": {
+  },"2759": {
     "doc": "點陣圖",
     "title": "右鍵選單",
     "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/bitmap_image/#右鍵選單"
-  },"2758": {
+  },"2760": {
     "doc": "垂直數字刻度",
     "title": "垂直數字刻度",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/"
-  },"2759": {
+  },"2761": {
     "doc": "垂直數字刻度",
     "title": "元件屬性",
     "content": "垂直數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度開始的數字 | Number Editor | . | 結束數字 | 設定刻度結束的數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 對齊方式 | 設定文字和刻度的對齊方式 | Dropdown List | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#元件屬性"
-  },"2760": {
+  },"2762": {
     "doc": "垂直數字刻度",
     "title": "右鍵選單",
     "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#右鍵選單"
-  },"2761": {
+  },"2763": {
     "doc": "水平數字刻度",
     "title": "水平數字刻度",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/"
-  },"2762": {
+  },"2764": {
     "doc": "水平數字刻度",
     "title": "元件屬性",
     "content": "水平數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度開始的數字 | Number Editor | . | 結束數字 | 設定刻度結束的數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 對齊方式 | 設定文字和刻度的對齊方式 | Dropdown List | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#元件屬性"
-  },"2763": {
+  },"2765": {
     "doc": "水平數字刻度",
     "title": "右鍵選單",
     "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#右鍵選單"
-  },"2764": {
+  },"2766": {
     "doc": "圓形數字刻度",
     "title": "圓形數字刻度",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/"
-  },"2765": {
+  },"2767": {
     "doc": "圓形數字刻度",
     "title": "元件屬性",
     "content": "圓形數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度開始的數字 | Number Editor | . | 結束數字 | 設定刻度結束的數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 數字刻度半徑 | 設定刻度數字佔的半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 終端圓半徑 | 設定終端圓的半徑 | Number Editor | . | 刻度數字對齊圓切線 | 決定刻度數字是否對齊圓切線 | Checkbox | . | 刻度數字上下顛倒 | 決定刻度數字是否上下顛倒 | Checkbox | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#元件屬性"
-  },"2766": {
+  },"2768": {
     "doc": "圓形數字刻度",
     "title": "右鍵選單",
     "content": "移動選轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_number_scale/#右鍵選單"
-  },"2767": {
+  },"2769": {
     "doc": "方形格線",
     "title": "方形格線",
     "content": "如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/"
-  },"2768": {
+  },"2770": {
     "doc": "方形格線",
     "title": "元件屬性",
     "content": "方形格線 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始顏色 | 設定背景開始的顏色 | Color Selector | . | 結束顏色 | 設定背景結束的顏色 | Color Selector | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 垂直格線設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直格線 | 決定是否要顯示垂直格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 刻度分格數 | 設定方格的垂直分格數 | Number Editor | . | 垂直格線顏色 | 設定垂直格線的顏色 | Color Selector | . | 垂直格線樣式 | 設定垂直格線的框線風格 | Dropdown List | . 水平格線設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示水平格線 | 決定是否要顯示水平格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 刻度分格數 | 設定方格的水平分格數 | Number Editor | . | 水平格線顏色 | 設定水平格線的顏色 | Color Selector | . | 水平格線樣式 | 設定水平格線的框線風格 | Dropdown List | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#元件屬性"
-  },"2769": {
+  },"2771": {
     "doc": "方形格線",
     "title": "右鍵選單",
     "content": "顯示格線 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直格線 | 決定是否要顯示垂直格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 顯示水平格線 | 決定是否要顯示水平格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 移除邊框 | 移除方格的邊框 |   | . | 變成正方形 | 將方格擴展成正方形 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#右鍵選單"
-  },"2770": {
+  },"2772": {
     "doc": "垂直刻度",
     "title": "垂直刻度",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/"
-  },"2771": {
+  },"2773": {
     "doc": "垂直刻度",
     "title": "元件屬性",
     "content": "垂直刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Dropdown List | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#元件屬性"
-  },"2772": {
+  },"2774": {
     "doc": "垂直刻度",
     "title": "右鍵選單",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/vertical_tick/#右鍵選單"
-  },"2773": {
+  },"2775": {
     "doc": "水平刻度",
     "title": "水平刻度",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/"
-  },"2774": {
+  },"2776": {
     "doc": "水平刻度",
     "title": "元件屬性",
     "content": "水平刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Dropdown List | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#元件屬性"
-  },"2775": {
+  },"2777": {
     "doc": "水平刻度",
     "title": "右鍵選單",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/horizontal_tick/#右鍵選單"
-  },"2776": {
+  },"2778": {
     "doc": "圓形刻度",
     "title": "圓形刻度",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/"
-  },"2777": {
+  },"2779": {
     "doc": "圓形刻度",
     "title": "元件屬性",
     "content": "圓形刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 外沿起始半徑 | 設定刻度的外沿起始半徑 | Number Editor | . | 內沿起始半徑 | 設定刻度的內沿起始半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 外沿結束半徑 | 設定刻度的外沿結束半徑 | Number Editor | . | 內沿結束半徑 | 設定刻度的內沿結束半徑 | Number Editor | . | 選擇刻度模式 | 設定刻度為直線或多邊形 | Dropdown List | . | 開始顏色 | 設定刻度開始的顏色 | Color Selector | . | 結束顏色 | 設定刻度結束的顏色 | Color Selector | . | 選擇刻度形狀 | 設定刻度的形狀 | Dropdown List | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#元件屬性"
-  },"2778": {
+  },"2780": {
     "doc": "圓形刻度",
     "title": "右鍵選單",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . | 選擇刻度模式 | 設定刻度為直線或多邊形 | Checkbox | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circular_tick/#右鍵選單"
-  },"2779": {
+  },"2781": {
     "doc": "可變半徑圓形色條",
     "title": "可變半徑圓形色條",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/"
-  },"2780": {
+  },"2782": {
     "doc": "可變半徑圓形色條",
     "title": "元件屬性",
     "content": "可變半徑圓形色條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 色條設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 外沿起始半徑 | 設定刻度的外沿起始半徑 | Number Editor | . | 內沿起始半徑 | 設定刻度的內沿起始半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 外沿結束半徑 | 設定刻度的外沿結束半徑 | Number Editor | . | 內沿結束半徑 | 設定刻度的內沿結束半徑 | Number Editor | . | 開始顏色 | 設定刻度開始的顏色 | Color Selector | . | 結束顏色 | 設定刻度結束的顏色 | Color Selector | . | 顯示邊框 | 決定是否要顯示邊框 | Checkbox | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#元件屬性"
-  },"2781": {
+  },"2783": {
     "doc": "可變半徑圓形色條",
     "title": "右鍵選單",
     "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#右鍵選單"
-  },"2782": {
+  },"2784": {
     "doc": "繞圓文字",
     "title": "繞圓文字",
     "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解文字方塊 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/"
-  },"2783": {
+  },"2785": {
     "doc": "繞圓文字",
     "title": "元件屬性",
     "content": "繞圓文字 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 繞圓文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文字內容 | 顯示繞圓的文字內容 | Plain Text | . | 開始角度 | 圓弧刻度開始角度(1-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-360) | Number Editor | . | 圓半徑 | 設定文字佔的圓半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 終端圓半徑 | 設定終端圓的半徑 | Number Editor | . | 字型選擇 | 設定字型和大小 | Font Selector | . | 文字顏色 | 設定文字的顏色 | Color Selector | . | 顯示文字路徑 | 決定是否要顯示文字路徑 | Checkbox | . | 文字方向 | 設定文字的旋轉方向 | Dropdown List | . | 文字間隔 | 設定每個文字的間隔 | Number Editor | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#元件屬性"
-  },"2784": {
+  },"2786": {
     "doc": "繞圓文字",
     "title": "右鍵選單",
     "content": "移動選轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . | 文字方向 | 設定文字的旋轉方向 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/circle_text/#右鍵選單"
-  },"2785": {
+  },"2787": {
     "doc": "儀表繪製元件",
     "title": "儀表繪製元件",
     "content": "儀表繪製元件庫提供多樣化的元件，讓使用者可簡單快速製作美麗又實用的儀表。 . 儀表繪製元件庫中的元件預設不能輸出。 . 若要輸出，需將兩個(含)以上的元件同時選取並進行建立點陣圖輸出群組操作。 . 如欲快速入門，可以觀看博象教育影片，幫助了解儀表繪製元件用法 . | 教育影片 . | . ",
     "url": "/zh-tw/3.4.3/widgets/meter_graphic_library/",
     "relUrl": "/zh-tw/3.4.3/widgets/meter_graphic_library/"
-  },"2786": {
+  },"2788": {
     "doc": "私有圖形元件",
     "title": "私有圖形元件",
     "content": "使用者可將設定完成的元件、設計完成的群組存入私有圖形元件庫以供日後在不同設計文件中使用，以達到設計複用之目的。舉例來說，密碼輸入頁面為HMI常用設計，使用者設定密碼輸入相關元件之屬性，群組後加入私有圖形元件，即可重複使用，節省設計花費時間。 . 私有圖形元件頁面會顯示已儲存的收藏集和收藏包含的圖形元件 . 使用方法： . | 將要加入私有圖形元件的元件全選取起來，點擊右鍵選擇建立群組，如果只有單一元件要加入私有圖形元件則不須建立群組 . | 建立完群組後再次點擊右鍵，選擇將選擇加入私有收藏… . | 選擇是否建立新的私有元件庫或者使用現有的私有元件庫 . | 輸入元件集合名稱、描述和元件名稱並選擇元件圖示，設定完點擊完成即可在私有圖形元件獲得新建立的私有元件庫 . | 將圖形元件拖曳至工作區域即可使用 . 在私有圖形元件頁面點擊右鍵可進行匯入匯出編輯等操作 . 若在圖形元件上點擊右鍵則可以對圖形元件進行刪除和編輯 . | . ",
     "url": "/zh-tw/3.4.3/my_collections/",
     "relUrl": "/zh-tw/3.4.3/my_collections/"
-  },"2787": {
+  },"2789": {
     "doc": "圖形元件列表",
     "title": "圖形元件列表",
     "content": "本章節將介紹一些實用的元件圖層相關工具，讓設計變得更加簡單 . 首先點選工具面板的圖形元件列表按鈕，進入頁面後可以看見當前工作區域所在的頁面所有元件及其相關圖層設定 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/"
-  },"2788": {
+  },"2790": {
     "doc": "圖形元件列表",
     "title": "鎖定",
     "content": "透過點選鎖定按鈕，將元件鎖定，用以保護元件內容 . 鎖定中的元件會呈現灰色的鎖定圖示，且屬性不可被更改 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E9%8E%96%E5%AE%9A",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#鎖定"
-  },"2789": {
+  },"2791": {
     "doc": "圖形元件列表",
     "title": "可見的",
     "content": "點選可見按鈕調整元件可見性，方便修改重疊的元件 . 顯示可見的元件會顯示眼睛的可見圖示 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E5%8F%AF%E8%A6%8B%E7%9A%84",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#可見的"
-  },"2790": {
+  },"2792": {
     "doc": "圖形元件列表",
     "title": "圖形元件型別",
     "content": "顯示所用元件的型別 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E5%9C%96%E5%BD%A2%E5%85%83%E4%BB%B6%E5%9E%8B%E5%88%A5",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#圖形元件型別"
-  },"2791": {
+  },"2793": {
     "doc": "圖形元件列表",
     "title": "圖形元件名稱",
     "content": "元件實體名稱為使用者自行定義之名稱，不可重複，方便辨識及尋找 . ",
     "url": "/zh-tw/3.4.3/widget_inspector/#%E5%9C%96%E5%BD%A2%E5%85%83%E4%BB%B6%E5%90%8D%E7%A8%B1",
     "relUrl": "/zh-tw/3.4.3/widget_inspector/#圖形元件名稱"
-  },"2792": {
+  },"2794": {
     "doc": "快捷鍵",
     "title": "快捷鍵",
     "content": "| 快捷鍵 | 功能描述 | . | Ctrl+A | 全選 | . | Ctrl+C | 複製 | . | Ctrl+D | 下載至控制板 | . | Ctrl+R | 開啟模擬器 | . | Ctrl+U | 開啟屏通訊程式 | . | Ctrl+X | 剪下 | . | Ctrl+V | 貼上 | . | Ctrl+Z | 復原操作 | . | Ctrl+Y | 取消復原 | . | Ctrl+G | 建立群組 | . | Ctrl+Shift+G | 解散群組 | . | Delete | 刪除 | . | Ctrl+F | 搜尋元件 | . | Ctrl+Alt+E | 匯出選取部分(含背景)作為PNG圖檔 | . | Ctrl+Alt+S | 匯出選取部分(不含背景)作為PNG檔 | . | 拖移+Ctrl | 平行/垂直移動 | . | Shift+拖移 | 複製 | . | Ctrl+Shift+N | 從預設模板建立檔案 | . | Ctrl+O | 開啟檔案 | . | Ctrl+S | 儲存檔案 | . | Ctrl+Shift+S | 另存新檔 | . | Ctrl+Shift+E | 匯出檔案 | . | Ctrl+P | 列印 | . | Ctrl+Shift+W | 關閉檔案 | . | Ctrl+Q | 關閉ADE | . | Ctrl+滑鼠滾輪 | 縮放工作區域 | . | Ctrl+0 | 100%縮放比例 | . | Ctrl+[-] | 縮小工作區域 | . | Ctrl+[+] | 放大工作區域 | . | Shift+滑鼠滾輪 | 左右捲動工作區域 | . | Ctrl+元件 | 多選 | . | Ctrl+E | 匯出此頁面作為PNG圖檔 | . | Ctrl+Shift+C | 複製頁面作為點陣圖至剪貼簿 | . | L | 水平置左 | . | C | 水平置中 | . | R | 水平置右 | . | T | 垂直置頂 | . | M | 垂直置中 | . | B | 垂直置底 | . | O | 圓心對齊 | . | W | 等寬 | . | H | 等高 | . | Ctrl+W | 最小寬度等寬 | . | Ctrl+H | 最小高度等高 | . | G | 水平等距 | . | V | 垂直等距 | . | Shift+PgUp | 移至最上層 | . | PgUp | 上移一層 | . | Shift+PgDn | 移至最下層 | . | PgDn | 下移一層 | . | Tab | 換下一個元件 | . | Shift+Tab | 換上一個元件 | . | F3 | 開啟元件庫管理頁面 | . | F10 | 鎖定元件比例 | . | F12 | 鎖定元件位置 | . | F11 | 切換全螢幕顯示 | . | ` | 切換顯示工具面板 | . ",
