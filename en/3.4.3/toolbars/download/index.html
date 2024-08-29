@@ -150,6 +150,16 @@
                     <a href="/en/3.4.3/widget_properties/on_widget_editor/image_editor/" class="nav-list-link">Image Size Editor</a>
                   </li><li class="nav-list-item ">
                     <a href="/en/3.4.3/widget_properties/on_widget_editor/rich_text_editor/" class="nav-list-link">Rich Text Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.3/widget_properties/on_widget_editor/handle_editor/" class="nav-list-link">Text Box handler</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.3/widget_properties/on_widget_editor/gradient_editor/" class="nav-list-link">Gradeint Color Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.3/widget_properties/on_widget_editor/Radius_editor/" class="nav-list-link">Rounded Corner Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.3/widget_properties/on_widget_editor/chart_editor/" class="nav-list-link">Chart Editor</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/en/3.4.3/widget_properties/on_widget_editor/meter_text_positioning/" class="nav-list-link">Meter label Position</a>
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/en/3.4.3/widget_properties/on_context_menu/" class="nav-list-link">On Context Menu</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/en/3.4.3/widget_properties/on_context_menu/reset_editor/" class="nav-list-link">Reset Editor</a>
                   </li><li class="nav-list-item ">
@@ -332,11 +342,7 @@
 
 <p class="for_img_mid"><img src="/en/3.4.3/imgs/file24.png" alt="Figure 2-8 Download Successful Pop-up window" /></p>
 
-<p>這表示 HMI 設計已經成功下載到博象科技智慧屏上。下載時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>這表示 HMI 設計已經成功下載到 Ubique Panel 的控制板上。下載時間會隨著設計使用圖片的多寡而變化，若設計專案有錯誤，視窗會顯示錯誤訊息，並停止下載。
-
-This pop-up window informs the user that the HMI is successfully downloaded to Ubique Panel. The download time varies according to the sizes of the images. If any error occurs during the download process, the error message will be shown and the download will be stopped immediately.
-</code></pre></div></div>
+<p>This pop-up window informs the user that the HMI is successfully downloaded to IOT products. The download time may vary according to the sizes of the images in the HMI projects. If any error occurs during the download process, the error message will be shown and the download will be stopped immediately.</p>
       <h2 id="launch-simulator">
         
         
@@ -349,18 +355,9 @@ This pop-up window informs the user that the HMI is successfully downloaded to U
 
 <p><img src="/en/3.4.3/imgs/file25.png" alt="Figure 2-9 Button for launching Simulator" /></p>
 
-<p>內建的模擬器是模擬使用者設計被載入博象科技智慧屏之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見即所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與博象科技智慧屏上一致(色差可能發生於使用者螢幕以及博象科技智慧屏的規格差異)。</p>
+<p>The built-in simulator allows users to simulate their HMI design in ADE. In this simulator, users can use mouse to interact with the HMI design. This simulator supports What-You-See-Is-What-You-Get. The resolution of the simulator meets that of the target IOT product. However, the color in the simulator cannot be the same as that of your target IOT product.</p>
 
-<p>模擬器無法於個人電腦模擬博象科技智慧屏上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬博象科技智慧屏暫存器通訊協定。</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>內建的模擬器是模擬使用者設計被載入 Ubique Panel 之後的顯示以及互動功能，使用者可以在個人電腦上以滑鼠操作設計出來的介面，模擬器會模擬完整圖像介面功能，並且支援所見及所得 (What-You-See-Is-What-You-Get) 的特色，模擬的圖像與 Ubique Panel 上一致(色差可能發生於使用者螢幕以及 Ubique Panel的規格差異)。
-
-模擬器無法於個人電腦模擬 Ubique Panel 上的I/O、PWM、ADC等實體輸入輸出行為，但可以模擬 Ubique Panel 暫存器通訊協定。
-
-
-The built-in simulator allows users to simulate their HMI design in ADE. In this simulator, users can use mouse to interact with the HMI design. This simulator supports What-You-See-Is-What-You-Get. The resolution of the simulator meets that of the target Ubique Panel. However, the color of HMI in the simulator can not be 100% the same as that of Ubique Panel.
-
-The built-in simulator cannot simulate the I/O functionalities like GPIO, PWM and ADC. On the other hand, the simulator supports the communcation protocol used by Ubique Panel.
-</code></pre></div></div>
+<p>The built-in simulator cannot simulate the I/O functionalities like GPIO, PWM and ADC. On the other hand, the simulator supports the communcation protocol.</p>
       <h2 id="launch-messegner">
         
         
@@ -369,11 +366,7 @@ The built-in simulator cannot simulate the I/O functionalities like GPIO, PWM an
         
       </h2>
     
-<p>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與博象科技智慧屏或是模擬器進行通訊</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>最右邊的按鍵啟動屏通訊程式(Messenger)，目的是在個人電腦上與 Ubique Panel 或是模擬器進行通訊
-
-The messager can be used to communicated with the connected Ubique Panel or with the built-in simulator.
-</code></pre></div></div>
+<p>The right most bottom is to launch the Messenger. The Messager can be used to communicated the built-in simulator and the target IOT product.</p>
 
 <p><img src="/en/3.4.3/imgs/file26.png" alt="Figure 2-10 Button for launching Messenger" /></p>
 
@@ -381,11 +374,7 @@ The messager can be used to communicated with the connected Ubique Panel or with
 
 <p class="for_img_mid"><img src="/en/3.4.3/imgs/file27.png" alt="Figure 2-11 Messenger" /></p>
 
-<p>在這視窗中，使用者可以透過個人電腦的序列埠或網路，連結博象科技智慧屏，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給博象科技智慧屏。</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>在這視窗中，使用者可以透過個人電腦的序列埠或網路，連結 Ubique Panel，藉由暫存器通訊協定改變暫存器的內容值，模擬由外部 MCU 透過 UART 傳遞數值給 Ubique Panel。
-
-In this dialog box, users can use PC's serial port and network interface to connect to Ubique Panel or the built-in simulator. The communication protocol is based on IOT's proprietary protocol and will be described in details later. The messenger emulates the communication between an external MCU and the Ubique Panel via a UART interface.
-</code></pre></div></div>
+<p>In this dialog box, users can use PC’s serial port or the network interface to connect to the IOT product. The Messenger serves as a terminal to send and receive data between the built-in simulator and the IOT product.</p>
 
 <p>Messenger offers two communication methods: Network Socket and Serial Port.</p>
 
@@ -412,11 +401,7 @@ In this dialog box, users can use PC's serial port and network interface to conn
   </li>
 </ul>
 
-<p>以下詳細說明與模擬器以及博象科技智慧屏通訊方法：</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>以下詳細說明與模擬器以及 Ubique Panel 通訊方法：
-
-The communication between the built-in simulator and Ubique Panel will be described in details:
-</code></pre></div></div>
+<p>The communication between the built-in simulator and IOT products will be described in details:</p>
       <h3 id="use-messenger-to-communicate-with-the-built-in-simulator">
         
         
@@ -471,18 +456,14 @@ The communication between the built-in simulator and Ubique Panel will be descri
     <p class="for_img_mid"><img src="/en/3.4.3/imgs/file31.png" alt="Figure 2-15 Simulator shows the communication" /></p>
   </li>
 </ul>
-      <h3 id="屏通訊程式messenger與博象科技智慧屏通訊">
+      <h3 id="communication-between-the-messenger-and-iot-products">
         
         
-          <a href="#屏通訊程式messenger與博象科技智慧屏通訊" class="anchor-heading" aria-labelledby="屏通訊程式messenger與博象科技智慧屏通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 屏通訊程式(Messenger)與博象科技智慧屏通訊
+          <a href="#communication-between-the-messenger-and-iot-products" class="anchor-heading" aria-labelledby="communication-between-the-messenger-and-iot-products"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Communication between the Messenger and IOT Products
         
         
       </h3>
     
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### 屏通訊程式(Messenger)與Ubique Panel通訊
-
-### Communication between Messenger and Ubique Panel
-</code></pre></div></div>
 
 <ul>
   <li>
@@ -511,42 +492,28 @@ The communication between the built-in simulator and Ubique Panel will be descri
       </li>
     </ol>
   </li>
-  <li>接下來即可在智慧屏上看到相對應的顯示
-```</li>
   <li>
-    <p>接下來即可在 Ubique Panel 上看到相對應的顯示</p>
-  </li>
-  <li>
-    <p>Then you can see the reaction in Ubique Panel.<br />
-```</p>
+    <p>Then you can see the reaction in the IOT prodcut.</p>
 
     <p class="for_img_mid"><img src="/en/3.4.3/imgs/file33.png" alt="" /></p>
   </li>
 </ul>
-      <h3 id="博象科技智慧屏-和-mcu-通訊">
+      <h3 id="communication-between-the-iot-product-and-mcu">
         
         
-          <a href="#博象科技智慧屏-和-mcu-通訊" class="anchor-heading" aria-labelledby="博象科技智慧屏-和-mcu-通訊"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 博象科技智慧屏 和 MCU 通訊
+          <a href="#communication-between-the-iot-product-and-mcu" class="anchor-heading" aria-labelledby="communication-between-the-iot-product-and-mcu"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Communication between the IOT Product and MCU
         
         
       </h3>
     
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### Ubique Panel 和 MCU 通訊
-
-### Communication between Ubique Panel and MCU 
-</code></pre></div></div>
 
 <ul>
   <li>
     <p>First, please prepare an ADE project and set the registers up properly. Please refer to our communication protocol <a href="#iot-protocol">IOT Protocol</a> for writing the Arduino code. Then the data can be sent to the registers with designated IDs.</p>
   </li>
-  <li>其次，連接博象科技智慧屏與Arduino控制板的TX、RX和GND
-```</li>
   <li>
-    <p>其次，連接博象控制板與Arduino控制板的TX、RX和GND</p>
+    <p>Secondly, please connect IOT’s control board with Aurdino. Make sure you connect RX, TX and GND.</p>
   </li>
-  <li>Then, connect IOT’s control board with Aurdino. Make sure you connect RX, TX and GND.
-```</li>
 </ul>
 
 <div class="note_container">
