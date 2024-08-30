@@ -8112,22 +8112,22 @@
     "relUrl": "/en/3.4.3/system_menu/export/#web-page"
   },"1352": {
     "doc": "Flash",
-    "title": "韌體燒錄流程",
-    "content": "博象科技智慧屏在新版有兩種模式 . ",
-    "url": "/en/3.4.3/system_menu/Flash/#%E9%9F%8C%E9%AB%94%E7%87%92%E9%8C%84%E6%B5%81%E7%A8%8B",
-    "relUrl": "/en/3.4.3/system_menu/Flash/#韌體燒錄流程"
+    "title": "Firmware Programming Process",
+    "content": "IOT Products support two power-on modes. These modes are “Normal Power-on Mode” and “Programming Mode”: . ",
+    "url": "/en/3.4.3/system_menu/Flash/#firmware-programming-process",
+    "relUrl": "/en/3.4.3/system_menu/Flash/#firmware-programming-process"
   },"1353": {
     "doc": "Flash",
-    "title": "模式一",
-    "content": "正常啟動模式 . 開機上電後可以看到ADE專案設計的Logo、還有設計好的專案仔入後的模樣，插上Micro USB線時，可以跟PC連線端打開ADE IOT Messenger進行 =&gt; 資料顯示、設定、讀取、執行等操作。 . | 如何進入模式一 | . 將電源接口插上IOT Panel . (放圖片) . 打開電源 . (放圖片) . 開機成功 可以看到顯示的專案 . (放圖片) . 再來插入Micro USB， 即可在ADE 的 IOT Messenger 進行想要的操作 . (放圖片) . 注意: 插拔Micro USB會影響IOT Messenger 與 IOT Panel 之間的連線，若是拔除Micro USB，將無法在IOT Messenger上聯繫到IOT Panel . (放圖片) . 註解：在新版ADE3.4.3 中支援開機狀態下燒錄之動作(需搭配 IOT Panel Firmware日期 &gt;= 20240809) ",
-    "url": "/en/3.4.3/system_menu/Flash/#%E6%A8%A1%E5%BC%8F%E4%B8%80",
-    "relUrl": "/en/3.4.3/system_menu/Flash/#模式一"
+    "title": "Normal Power-on Mode",
+    "content": "During the power-on process, IOT products display logos and load the ADE project from on-board storage. Once the power-on process is complete, the IOT product is ready as an HMI. After the power-on process, a USB cable is connected between the IOT product and the PC that is running ADE’s IOT Messenger, then users can use the Messenger to communicate to the IOT product for reading, writing and executing commands. How to enter Normal Power-on Mode . ➊ Connect the DC cable to the IOT product. ➋ Turn on the power supply, then the logos are displayed on the LCM. ➌ If power on process is done successfully, the first page of the user HMI project is displayed. ➍ Connect the IOT product with the PC via a USB cable, then ADE’s IOT Messenger can communicate with the IOT product. Note: Unplug the USB cable can affect the communication between the ADE IOT Messenger and the IOT product as the IOT Messenger can no longer find the IOT product. Note: After ADE v3.4.3, ADE support ADE project programming during the power on state. The requirement to support this feature is to have IOT Panel Firmware with compiled date later than 20240809. ",
+    "url": "/en/3.4.3/system_menu/Flash/#normal-power-on-mode",
+    "relUrl": "/en/3.4.3/system_menu/Flash/#normal-power-on-mode"
   },"1354": {
     "doc": "Flash",
-    "title": "模式二",
-    "content": "下載模式 . 畫面不會有任何顯示的內容，且板子接上了Micro USB 可以看到 “電源指示燈” 亮起，ADE可以在設定頁面查看已連接的板子韌體之資訊，並且可以對板子進行 1.專案、韌體之燒錄 及 2.設定RTC 3.清除板子上之專案之操作。 . | 如何進入模式二 | . 在電源不開啟的狀態下，將Micro USB線插入 . (放圖片) . 可以看到 “電源指示燈正常亮起” . (放圖片) . 確定讀取到板子之韌體資訊時，即可進行燒錄、設定、清除等操作 . (放圖片) . ",
-    "url": "/en/3.4.3/system_menu/Flash/#%E6%A8%A1%E5%BC%8F%E4%BA%8C",
-    "relUrl": "/en/3.4.3/system_menu/Flash/#模式二"
+    "title": "Programming Mode",
+    "content": "In the programming mode, the LCM does not display any image at all with the Power LED indicator is lit. ADE can read the control board status in this mode and can download the ADE project to the control board, set RTC or erase any ADE project on the control board. How to enter Programming Mode . ➊ First, connect the USB cable between the IOT product and the PC running ADE. Then turn the power on, the power LED indicator is lit. ➋ Now the IOT product enters the Programming Mode. Users can download ADE projects, read control board status, erase ADE projects or other operations. ",
+    "url": "/en/3.4.3/system_menu/Flash/#programming-mode",
+    "relUrl": "/en/3.4.3/system_menu/Flash/#programming-mode"
   },"1355": {
     "doc": "Flash",
     "title": "Flash",
