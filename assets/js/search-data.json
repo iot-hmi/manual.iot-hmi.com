@@ -8947,13 +8947,13 @@
   },"1491": {
     "doc": "Collection",
     "title": "Widget Libraries",
-    "content": "ADE uses widgets as the basic HMI design elements. There are several widget libraries such as Standard Widget Library, System Widget Library, and IOT Gallery Minimalist. Users can click the wiget library icon at the right hand size of the ADE for selecting libraries. | Users can use the search engine to find widgets. | 點擊管理元件庫按鈕可以設定元件庫的排列以及呈現。取消點選顯示圖標可將元件庫隱藏，也可以藉由拖曳修改元件庫間的排列順序。 ``` | 點擊管理元件庫按鈕可以設定元件庫的排列以及呈現。點選顯示圖標可將元件庫隱藏，也可以藉由拖曳修改元件庫間的排列順序。 . | Manage Widget Libraries in the Sytem menu can help manage the widget libraries’ appearance and order. Click Visible icon can hide the library. Users can drag the libraries around for changing the listing order. ``` . | Users use the mouse to drag and drop widgets to the design panel for designing HMIs. | . ",
+    "content": "ADE uses widgets as the basic HMI design elements. There are several widget libraries such as Standard Widget Library, System Widget Library, and IOT Gallery Minimalist. Users can click the wiget library icon at the right hand size of the ADE for selecting libraries. | Users can use the search engine to find widgets. | Right click the widget library icon, users can select Manage Collections…. Once entering the dialog window, users can drag collection’s icons to arrange the their appearance order in ADE. Furthermore, users can click Visible to determine which widget collections show up in ADE. | Users use the mouse to drag and drop widgets to the design panel for designing HMIs. | . ",
     "url": "/en/3.4.3/widgets/collection/#widget-libraries",
     "relUrl": "/en/3.4.3/widgets/collection/#widget-libraries"
   },"1492": {
     "doc": "Collection",
     "title": "Right-Click Menu",
-    "content": "在元件庫上點擊右鍵，會看到右鍵選單，有收藏設定…、隱藏、解除安裝、前往和管理元件庫… . 在元件庫上點擊右鍵，會看到右鍵選單，有**收藏管理...**、**隱藏**、**解除安裝**、**前往**和**管理元件庫...** Right clicking mouse on top of the widget library icon, users can see **Collection Setting...**, **Hide**, **Uninstall**, **Go to** and **Manage Collections...**. | Collection Setting…: Set the default values for widgets . | Hide: Hide this widget library. Users can use Go to or Manage Collection… to make the widget library reappear. | Unstaill: Unstalling the user’s self-defined widget library. | Go to: Go to a widget library and open it. | Manage Collections…: Go to Manage Widget Libraries dialog box. | . ",
+    "content": "Right clicking on top of the widget library icon, users can see Collection Setting…, Hide, Uninstall, Go to and Manage Collections…. | Collection Setting…: Set the default values for widgets . | Hide: Hide this widget library. Users can use Go to or Manage Collection… to make the widget library reappear. | Unstaill: Unstalling the user’s self-defined widget library. | Go to: Go to a widget library and open it. | Manage Collections…: Go to Manage Widget Libraries dialog box. | . ",
     "url": "/en/3.4.3/widgets/collection/#right-click-menu",
     "relUrl": "/en/3.4.3/widgets/collection/#right-click-menu"
   },"1493": {
@@ -10080,10 +10080,10 @@
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#right-click-menu"
   },"1680": {
     "doc": "Meter Graphic Library",
-    "title": "儀表繪製元件",
-    "content": "儀表繪製元件庫提供多樣化的元件，讓使用者可簡單快速製作美麗又實用的儀表。 . 儀表繪製元件庫中的元件預設不能輸出。 . 若要輸出，需將兩個(含)以上的元件同時選取並進行建立點陣圖輸出群組操作。 . 如欲快速入門，可以觀看博象教育影片，幫助了解儀表繪製元件用法 . | 教育影片 . | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/#%E5%84%80%E8%A1%A8%E7%B9%AA%E8%A3%BD%E5%85%83%E4%BB%B6",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/#儀表繪製元件"
+    "title": "Meter Graphic",
+    "content": "Meter Graphic widget library offers a comprehensive set of widgets that enable users to design complex images in ADE. The widgets in this library do not offer any functionality. Users must export the designs done by the Meter Graphic to a PNG file and then import the file to your HMI GUI design. For learning how to use this widget library, please take a look at our educational video: . | Educational Video . | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/#meter-graphic",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/#meter-graphic"
   },"1681": {
     "doc": "Meter Graphic Library",
     "title": "Meter Graphic Library",
