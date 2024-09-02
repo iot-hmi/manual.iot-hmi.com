@@ -8149,15 +8149,15 @@
   },"1358": {
     "doc": "Setting",
     "title": "Installation and Update",
-    "content": "Users can see the following buttons: . | Connected Board Information: This button can gather the information of the board connected via a USB cable to this computer. The gathered information can help verify if the board is connected properly. | . Default Document Template . | 重新安裝內建設計樣板：重新載入博象科技智慧屏產品，通常使用於更新 ADE 之後，想要確定新的文件樣版時使用。 ``` | 重新安裝內建設計樣板：重新載入博象科技 Ubique Panel 產品，通常使用於更新 ADE 之後，想要確定新的文件樣版時使用。 . | Reinstall Default Document Templates: Reloading the Ubique Panel product line. This button can be used after ADE is updated to a newer version and ensure that the new document templates are in use. ``` | . Firmware Update . | 瀏覽韌體檔案…：更新博象科技智慧屏上的韌體。 ``` | 瀏覽韌體檔案…：更新 Ubique Panel 控制板上的韌體。 . | Select Firmware Binary and Update…: Update the firmware in the Ubique Panel’s control board. The prerequisite of firmware update: * The latest firmware: The firmware might be avaiable along with the lastest version of ADE or can be downloaded from our website. * 使用USB線與博象科技智慧屏連接。 . | 使用USB線與 Ubique Panel 控制板連接。 . | Please connect to the Ubique Panel’s control board with a USB cable. ``` . | . | . Update Older Loader . | 瀏覽載入器檔案…：更新博象科技智慧屏上的 BootLoader。 ``` | 瀏覽載入器檔案…：更新 Ubique Panel 控制板上的 BootLoader。 . | Select Loader Binary and Update…: Select the loader for the Ubique Panel and update the loader. Attention for the Bootloader update requirement: * How to receive the updated Bootloader file: Please contactt [support@iot-hmi.com](mailto:support@iot-hmi.com). * 使用USB線與博象科技智慧屏連接。 . | 使用USB線與 Ubique Panel 控制板連接。 . | Please connect to the Ubique Panel’s control board with a USB cable. ``` . | . | . 與電腦同步智慧屏上時鐘 . ### 與電腦同步Ubique屏上時鐘 . | 執行同步：設定博象科技智慧屏上的時間與執行 ADE 的電腦系統時間同步。 ``` | 執行同步：設定 Ubique Panel 控制板上的時間與執行 ADE 的電腦系統時間同步。 | . Sync IOT Ubique Panel’s date/time with those of PC . ### 回復智慧屏之出廠設定 . 回復Ubique屏之出廠設定 . Factory Reset for IOT Ubique Panel . * **執行回復**：是強制讓博象科技智慧屏回到出廠時的設定。此選項會清除博象科技智慧屏上所有圖資以及使用者儲存之資料。 . | 執行回復：是強制讓 Ubique Panel 控制板回到出廠時的設定。此選項會清除 Ubique Panel 上所有圖資以及使用者儲存之資料。 . | Execute: Forcing the connected Ubique Panel to reset to the factory settings. This option will clear up all the user’s stored data or images in the Ubique Panel. ``` . | . 註解：除了重新安裝內建設計樣板，其餘功能皆需使用USB線與博象科技智慧屏連接。 ``` 註解：除了重新安裝內建設計樣板，其餘功能皆需使用USB線與 Ubique Panel 控制板連接。 Note: Other thanReintall Default Document Templates, all other functions require a USB connection to the Ubique Panel control board. ``` ",
+    "content": "Users can see the following buttons: . | Connected Board Information: This button can gather the information of the board connected via a USB cable to this computer. The gathered information can help verify if the board is connected properly. | . Default Document Template . | Reinstall Default Document Templates: Reloading the IOT product lines. This button can be used after ADE is updated to a newer version and ensure that the new document templates are in use. | . Firmware Update . | Select Firmware Binary and Update…: Update the firmware in the IOT products’ control board. The prerequisite of firmware update: . | The latest firmware: The firmware might be avaiable along with the lastest version of ADE or can be downloaded from our website. | Please connect to IOT’s control board with a USB cable. | . | . Update Older Loader . | Select Loader Binary and Update…: Select the loader for the IOT product and update the loader. Attention for the Bootloader update requirement: . | How to receive the updated Bootloader file: Please contactt support@iot-hmi.com. | Please connect to the IOT products’ control board with a USB cable. | . | . Sync Control Board’s date/time with those of PC . | Execute：Synchronise the control board’s date and time with those of this PC. Make sure that the control board is connected to the PC via a USB cable. | . Factory Reset for the IOT Product . | Execute: Forcing the connected IOT’s control board to reset to the factory settings. This option clears up all the user’s stored data or images in the control board. | . Note: Other thanReintall Default Document Templates, all other functions require a USB connection to the IOT product's control board. ",
     "url": "/en/3.4.3/system_menu/setting/#installation-and-update",
     "relUrl": "/en/3.4.3/system_menu/setting/#installation-and-update"
   },"1359": {
     "doc": "Setting",
-    "title": "外部編譯器",
-    "content": "如需使用外部編譯器來編輯python code，請在此輸入編譯器的啟動路徑。 . ",
-    "url": "/en/3.4.3/system_menu/setting/#%E5%A4%96%E9%83%A8%E7%B7%A8%E8%AD%AF%E5%99%A8",
-    "relUrl": "/en/3.4.3/system_menu/setting/#外部編譯器"
+    "title": "External Editor",
+    "content": "Users can specify an externnal editor for Python coding . ",
+    "url": "/en/3.4.3/system_menu/setting/#external-editor",
+    "relUrl": "/en/3.4.3/system_menu/setting/#external-editor"
   },"1360": {
     "doc": "Setting",
     "title": "Setting",
@@ -9852,46 +9852,46 @@
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/"
   },"1642": {
     "doc": "V2 Image Label",
-    "title": "元件屬性",
-    "content": "V2文字方塊 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 陰影設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影，使用背景顏色時有效 | Checkbox | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 主要顏色 | 設定背景的顏色 | Color Selector | . | 漸變顏色 | 設定背景的漸變顏色 | Color Selector | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 載入圖片 | 從檔案系統選擇背景圖片 | File Open Dialog Box | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . | 行高 | 設定兩行文字之間的距離 | Number Editor | . | 圖層混合模式 | 決定文字與背景的混色，詳情參考Blending Selector | Blending Selector | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#元件屬性"
+    "title": "Widget Property",
+    "content": "V2 Image label . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . Shadow Setting . | Property | Description | Operation | . | Enable Shadow | Enable shadow and it’s only valid when there is a background color | Checkbox | . Background Setting . | Property | Description | Operation | . | Main Color | Select the main color for the background | Color Selector | . | Gradient Color | Select the color for the gradient effect | Color Selector | . | Show Background Image | Show the background image or not | Checkbox | . | Load Image | Load an image as the background | File Open Dialog Box | . Border Setting . | Property | Description | Operation | . | Border Color | Select a color for the border | Color Selector | . | Border Style | Select a line style for the border | Dropdown List | . | Line Height | Set the line height for the text | Number Editor | . | Blending Mode | Select the blending mode for blending the text and the background. For more detail, please refer to Blending Selector | Blending Selector | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#widget-property"
   },"1643": {
     "doc": "V2 Image Label",
-    "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 雙擊輸入想顯示的文字 | RichText Editor | . | | 調整文字顯示框大小 | Handle Editor | . | | 調整背景的圓角半徑 | Handle Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#元件上編輯器"
+    "title": "On-Widget Editor",
+    "content": "| Property | Description | Operation | . | | Double click to enter the rich text | RichText Editor | . | | Adjust the size of the text box | Handle Editor | . | | Adjust the radius of the background corners | Handle Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#on-widget-editor",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#on-widget-editor"
   },"1644": {
     "doc": "V2 Image Label",
-    "title": "右鍵選單",
-    "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Enable Shadow . | Property | Description | Operation | . | Enable Shadow | Enable shadow and it’s only valid when there is a background color | Checkbox | . Widget-Specific Actions . | Property | Description | Operation | . | Remove Border | Remove the border |   | . | Make Squared | Make the widget a square by choosing the larger number between the width and the height of the widget as the edge |   | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . | Load Image… | Load an image from the file system | File Open Dialog Box | . | Edit Image | Launch the image editor | Image Editor Dialog Box | . | Paste from Clipboard | Paste an image from Clipboard |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/image_label_v2/#right-click-menu"
   },"1645": {
     "doc": "Gradient Graphic",
     "title": "Gradient Graphic",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解漸層圖形 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/"
   },"1646": {
     "doc": "Gradient Graphic",
-    "title": "元件屬性",
-    "content": "漸層圖形 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定圓心的座標 | Alignment Selector | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 圖形形狀 | 設定圖形的形狀 | Dropdown List | . | 輔助圓的半徑 | 設定圓的半徑大小 | Number Editor | . | 漸層樣式 | 設定圖形的漸層樣式 | Dropdown List | . | 主要顏色 | 設定圖形的主要顏色 | Color Selector | . | 漸變顏色 | 設定圖形的漸變顏色 | Color Selector | . | 顯示背景圖片 | 決定是否要顯示背景圖片 | Checkbox | . | 圖層混合模式 | 決定圖形與背景圖片的混色，詳情參考Blending Selector | Blending Selector | . 邊框設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#元件屬性"
+    "title": "Widget Property",
+    "content": "Gradient Graphic . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . | Center Location | Set the coordinate values for the center | Alignment Selector | . Background Setting . | Property | Description | Operation | . | Graphic Type | Select the shape for the gradient graphic | Dropdown List | . | Radus Origin Circle | Set the radius for the circular gradient graphic | Number Editor | . | Gradient Mode | Select the gradient mode | Dropdown List | . | Main Color | Select the main color | Color Selector | . | Gradient Color | Select the color for the gradient effect | Color Selector | . | Show Background Image | Show the background image or not | Checkbox | . | Blending Mode | Select the blending mode for blending this widget with the background image. Please refer to Blending Selector | Blending Selector | . Border Setting . | Property | Description | Operation | . | Border Color | Select a color for the border | Color Selector | . | Border Style | Select a line style for the border | Dropdown List | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#widget-property"
   },"1647": {
     "doc": "Gradient Graphic",
-    "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整圓形圓角半徑 | RichText Editor | . | | 調整線性漸層的主要顏色及漸變顏色位置 | Handle Editor | . | | 調整圓形漸層的主要顏色及漸變顏色位置 | Handle Editor | . | | 調整圓形漸層的圓心位置 | Handle Editor | . | | 調整圖形圓心位置 | Handle Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#元件上編輯器"
+    "title": "On-Widget Editor",
+    "content": "| Property | Description | Operation | . | | Adjust the radius for the corners | RichText Editor | . | | Adjust the linear gradient’s main color and its location | Handle Editor | . | | Adjust the radial gradient’s main color and its location | Handle Editor | . | | Adjust the location for the center of the radial gradient | Handle Editor | . | | Adjust the location of the center of the circle | Handle Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#on-widget-editor",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#on-widget-editor"
   },"1648": {
     "doc": "Gradient Graphic",
-    "title": "右鍵選單",
-    "content": "元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 移除邊框 | 移除邊框，將邊框寬度變為0 |   | . | 變成正方形 | 根據長度和寬度的最大值，將元件變成方形 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Widget-Specific Actions . | Property | Description | Operation | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . | Remove Border | Remove the border |   | . | Make Squared | Make the widget a square by choosing the larger number between the width and the height of the widget as the edge |   | . | Reset to Original Size | Reset the widget to its default size | Reset Editor | . | Edit Image | Launch the image editor | Image Editor Dialog Box | . | Load Image… | Load an image from the file system | File Open Dialog Box | . | Paste from Clipboard | Paste an image from Clipboard |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_graphic/#right-click-menu"
   },"1649": {
     "doc": "Bitmap Image",
     "title": "Bitmap Image",
@@ -9900,184 +9900,184 @@
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/"
   },"1650": {
     "doc": "Bitmap Image",
-    "title": "元件屬性",
-    "content": "點陣圖 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 載入圖片 | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 對齊 | 將圓心水平垂直置中 | Alignment Selector | . | 背景顏色 | 設定背景的顏色 | Color Selector | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#元件屬性"
+    "title": "Widget Property",
+    "content": "Bitmap Image . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . Image Setting . | Property | Description | Operation | . | Load Image | Load an image from the file system | File Open Dialog Box | . | Alignment | Set the center to the widget center | Alignment Selector | . | Background Color | Select the background color | Color Selector | . | Border Color | Select the border color | Color Selector | . | Border Style | Select the border line style | Dropdown List | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#widget-property"
   },"1651": {
     "doc": "Bitmap Image",
-    "title": "元件上編輯器",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | | 調整元件的圓心 | Center Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#%E5%85%83%E4%BB%B6%E4%B8%8A%E7%B7%A8%E8%BC%AF%E5%99%A8",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#元件上編輯器"
+    "title": "On-Widget Editor",
+    "content": "| Property | Description | Operation | . | | Adjust the location for the center of the circle | Center Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#on-widget-editor",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#on-widget-editor"
   },"1652": {
     "doc": "Bitmap Image",
-    "title": "右鍵選單",
-    "content": "啟用陰影 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 啟用陰影 | 決定是否要顯示陰影 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "With Shadow . | Property | Description | Operation | . | With Shadow | Click to enable shadow | Checkbox | . Widget-Specific Actions . | Property | Description | Operation | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . | Reset to Original Size | Reset the widget to its default size | Reset Editor | . | Edit Image | Launch the image editor | Image Editor Dialog Box | . | Load Image… | Load an image from the file system | File Open Dialog Box | . | Paste from Clipboard | Paste an image from Clipboard |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/bitmap_image/#right-click-menu"
   },"1653": {
     "doc": "Vertical Number Scale",
     "title": "Vertical Number Scale",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解垂直數字刻度 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/"
   },"1654": {
     "doc": "Vertical Number Scale",
-    "title": "元件屬性",
-    "content": "垂直數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度的開始數字 | Number Editor | . | 結束數字 | 設定刻度的結束數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 對齊方式 | 設定數字刻度的對齊方式 | Dropdown List | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#元件屬性"
+    "title": "Widget Property",
+    "content": "Vertical Number Scale . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . Scale Setting . | Property | Description | Operation | . | Start Number | The starting number for the scale | Number Editor | . | End Number | The ending number for the scale | Number Editor | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Alignment | Select the alignment method for the number | Dropdown List | . | Show First Number | Checked to show the first number | Checkbox | . | Show End Number | Checked to show the ending number | Checkbox | . | Number Font | Set the font type and size | Font Selector | . | Number Color | Select the color for the scale | Color Selector | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#widget-property"
   },"1655": {
     "doc": "Vertical Number Scale",
-    "title": "右鍵選單",
-    "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 重置為原始大小 | 將元件重置為原始大小 | Reset Editor | . | 依寬度重置比例 | 依元件寬度將元件高度與寬度比例重置 | Reset Editor | . | 依高度重置比例 | 依元件高度將元件高度與寬度比例重置 | Reset Editor | . | 編輯圖片 | 編輯要顯示的圖片 | Image Editor Dialog Box | . | 載入圖片… | 從檔案系統選擇要顯示的圖片 | File Open Dialog Box | . | 從剪貼簿貼上圖片 | 從剪貼簿貼上要顯示的圖片 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Alignment . | Property | Description | Operation | . | Alignment | Select the alignment method for the number | Dropdown List | . Widget-Specific Actions . | Property | Description | Operation | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . | Reset to Original Size | Reset the widget to its default size | Reset Editor | . | Edit Image | Launch the image editor | Image Editor Dialog Box | . | Load Image… | Load an image from the file system | File Open Dialog Box | . | Paste from Clipboard | Paste an image from Clipboard |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_number_scale/#right-click-menu"
   },"1656": {
     "doc": "Horizontal Number Scale",
     "title": "Horizontal Number Scale",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解水平數字刻度 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/"
   },"1657": {
     "doc": "Horizontal Number Scale",
-    "title": "元件屬性",
-    "content": "水平數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度的開始數字 | Number Editor | . | 結束數字 | 設定刻度的結束數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 對齊方式 | 設定數字刻度的對齊方式 | Dropdown List | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#元件屬性"
+    "title": "Widget Property",
+    "content": "Horizontal Number Scale . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . Scale Setting . | Property | Description | Operation | . | Start Number | The starting number for the scale | Number Editor | . | End Number | The ending number for the scale | Number Editor | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Alignment | Select the alignment method for the number | Dropdown List | . | Show First Number | Checked to show the first number | Checkbox | . | Show End Number | Checked to show the ending number | Checkbox | . | Number Font | Set the font type and size | Font Selector | . | Number Color | Select the color for the scale | Color Selector | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#widget-property"
   },"1658": {
     "doc": "Horizontal Number Scale",
-    "title": "右鍵選單",
-    "content": "對齊方式 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 對齊方式 | 設定文字和刻度的對齊方式 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Alignment . | Property | Description | Operation | . | Alignment | Select the alignment method for the number | Dropdown List | . Widget-Specific Actions . | Property | Description | Operation | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_number_scale/#right-click-menu"
   },"1659": {
     "doc": "Circular Number Scale",
     "title": "Circular Number Scale",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解圓形數字刻度 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/"
   },"1660": {
     "doc": "Circular Number Scale",
-    "title": "元件屬性",
-    "content": "圓形數字刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始數字 | 設定刻度的開始數字 | Number Editor | . | 結束數字 | 設定刻度的結束數字 | Number Editor | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 開始角度 | 圓弧刻度開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-720) | Number Editor | . | 數字刻度半徑 | 設定數字刻度到圓心的距離 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 終端圓半徑 | 設定變動圓終端到圓心的距離 | Number Editor | . | 刻度數字對齊圓切線 | 決定刻度數字是否對齊圓切線 | Checkbox | . | 刻度數字上下顛倒 | 決定刻度數字是否上下顛倒 | Checkbox | . | 顯示第一格數字 | 決定是否要顯示第一格數字 | Checkbox | . | 顯示最後一格數字 | 決定是否要顯示最後一格數字 | Checkbox | . | 數字字型 | 設定字型和大小 | Font Selector | . | 數字顏色 | 設定數字的顏色 | Color Selector | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#元件屬性"
+    "title": "Widget Property",
+    "content": "Circular Number Scale . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . | Center Location | Set the center’s coordinate values | Alignment Selector | . Scale Setting . | Property | Description | Operation | . | Start Number | The starting number for the scale | Number Editor | . | End Number | The ending number for the scale | Number Editor | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Start Angle | Set the starting angle for the arc(0-359), please refer to Number Editor | Number Editor | . | Arc Length | Set the length for the arc in degrees(1-720) | Number Editor | . | Number Radius | Set the distance between the number scale and the center of the circle | Number Editor | . | Enable Variant Radius | Enable the variant radius | Checkbox | . | Number End Radius | Set the ending radius for the variant radius function | Number Editor | . | Text Align to Tangent | Align the text to the tangent of the circle | Checkbox | . | Text Up Down Reverse | Make the text up side down | Checkbox | . | Show First Number | Checked to show the first number | Checkbox | . | Show End Number | Checked to show the ending number | Checkbox | . | Number Font | Set the font type and size | Font Selector | . | Number Color | Select the color for the scale | Color Selector | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#widget-property"
   },"1661": {
     "doc": "Circular Number Scale",
-    "title": "右鍵選單",
-    "content": "移動旋轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Move to Center . | Property | Description | Operation | . | Move to Center | Move the rotation center to the center of the widget |   | . Widget-Specific Actions . | Property | Description | Operation | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_number_scale/#right-click-menu"
   },"1662": {
     "doc": "Gradient Rectangle Grid",
     "title": "Gradient Rectangle Grid",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解方形格線 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/"
   },"1663": {
     "doc": "Gradient Rectangle Grid",
-    "title": "元件屬性",
-    "content": "方形格線 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 背景設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始顏色 | 設定背景開始的顏色 | Color Selector | . | 結束顏色 | 設定背景結束的顏色 | Color Selector | . 圖片設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 垂直格線設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直格線 | 決定是否要顯示垂直格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 刻度分格數 | 設定方格的垂直分格數 | Number Editor | . | 垂直格線顏色 | 設定垂直格線的顏色 | Color Selector | . | 垂直格線樣式 | 設定垂直格線的框線風格 | Dropdown List | . 水平格線設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示水平格線 | 決定是否要顯示水平格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 刻度分格數 | 設定方格的水平分格數 | Number Editor | . | 水平格線顏色 | 設定水平格線的顏色 | Color Selector | . | 水平格線樣式 | 設定水平格線的框線風格 | Dropdown List | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#元件屬性"
+    "title": "Widget Property",
+    "content": "Gradient Rectangle Grid . | Property | Description | Operation |   | . | Widget Name | Widget Displayed Name |   | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   |   | . Background Setting . | Property | Description | Operation | . | Start Color | Select the starting color for the gradient effect | Color Selector | . | End Color | Select the ending color for the gradient effect | Color Selector | . Border Setting . | Property | Description | Operation | . | Border Color | Select the border color | Color Selector | . | Border Style | Select the line style for border | Dropdown List | . Vertical Line Setting . | Property | Description | Operation | . | Show Vertical Line | Clicked to show the vertical lines | Checkbox | . | Show First and Last Line | Clicked to show the first and the last lines | Checkbox | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Vertical Line Color | Select the color for the vertical lines | Color Selector | . | Vertical Line Style | Select the style for the vertical lines | Dropdown List | . Horizontal Line Setting . | Property | Description | Operation | . | Show Horizontal Line | Clicked to show the horizontal lines | Checkbox | . | Show First and Last Line | Clicked to show the first and the last lines | Checkbox | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Horizontal Line Color | Select the color for the horizontal lines | Color Selector | . | Horizontal Line Style | Select the style for the horizontal lines | Dropdown List | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#widget-property"
   },"1664": {
     "doc": "Gradient Rectangle Grid",
-    "title": "右鍵選單",
-    "content": "顯示格線 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 顯示垂直格線 | 決定是否要顯示垂直格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . | 顯示水平格線 | 決定是否要顯示水平格線 | Checkbox | . | 顯示第一以及最後一條直線 | 決定是否要顯示第一以及最後一條直線 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . | 移除邊框 | 移除方格的邊框 |   | . | 變成正方形 | 將方格擴展成正方形 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "Show Grids . | Property | Description | Operation | . | Show Vertical Line | Clicked to show the vertical lines | Checkbox | . | Show Vertical First and Last Line | Clicked to show the first and the last lines | Checkbox | . | Show Horizontal Line | Clicked to show the horizontal lines | Checkbox | . | Show Horizontal First and Last Line | Clicked to show the first and the last lines | Checkbox | . Widget-Specific Actions . | Property | Description | Operation | . | Link to User Manual… | Link to IOT’s website for User Manual |   | . | Remove Border | Remove all four borders |   | . | Make Squared | Make the widget squared |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/gradient_rectangle_grid/#right-click-menu"
   },"1665": {
     "doc": "Vertical Tick",
     "title": "Vertical Tick",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解垂直刻度 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/"
   },"1666": {
     "doc": "Vertical Tick",
-    "title": "元件屬性",
-    "content": "垂直刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Dropdown List | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#元件屬性"
+    "title": "Widget Property",
+    "content": "Vertical Tick . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . Tick Setting . | Property | Description | Operation | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Tick Head Style | Select the tick head style | Dropdown List | . | Tick Color | Select the color for the ticks | Color Selector | . | Tick Style | Select the style for the ticks | Dropdown List | . | Show First Tick | Checked to show the first tick | Checkbox | . | Show Last Tick | Checked to show the last tick | Checkbox | . | Show Base Line | Checked to show the base line for the ticks | Checkbox | . | Base Line Position | Set the base line position relatively to the ticks | Dropdown List | . | Base Line Color | Select the color for the base line | Color Selector | . | Base Line Style | Select the style for the base line | Dropdown List | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#widget-property"
   },"1667": {
     "doc": "Vertical Tick",
-    "title": "右鍵選單",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "| Property | Description | Operation | . | Tick Head Style | Select the tick head style | Dropdown List | . | Base Line Position | Set the base line position relatively to the ticks | Dropdown List | . Widget-Specific Actions . | Property | Description | Operation |   | . |   | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/vertical_tick/#right-click-menu"
   },"1668": {
     "doc": "Horizontal Tick",
     "title": "Horizontal Tick",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解水平刻度 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/"
   },"1669": {
     "doc": "Horizontal Tick",
-    "title": "元件屬性",
-    "content": "水平刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Dropdown List | . | 刻度顏色 | 設定刻度的顏色 | Color Selector | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#元件屬性"
+    "title": "Widget Property",
+    "content": "Horizontal Tick . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . Tick Setting . | Property | Description | Operation | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Tick Head Style | Select the tick head style | Dropdown List | . | Tick Color | Select the color for the ticks | Color Selector | . | Tick Style | Select the style for the ticks | Dropdown List | . | Show First Tick | Checked to show the first tick | Checkbox | . | Show Last Tick | Checked to show the last tick | Checkbox | . | Show Base Line | Checked to show the base line for the ticks | Checkbox | . | Base Line Position | Set the base line position relatively to the ticks | Dropdown List | . | Base Line Color | Select the color for the base line | Color Selector | . | Base Line Style | Select the style for the base line | Dropdown List | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#widget-property"
   },"1670": {
     "doc": "Horizontal Tick",
-    "title": "右鍵選單",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "| Property | Description | Operation | . | Tick Head Style | Select the tick head style | Dropdown List | . | Base Line Position | Set the base line position relatively to the ticks | Dropdown List | . Widget-Specific Actions . | Property | Description | Operation |   | . |   | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/horizontal_tick/#right-click-menu"
   },"1671": {
     "doc": "Circular Tick",
     "title": "Circular Tick",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解圓形刻度 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/"
   },"1672": {
     "doc": "Circular Tick",
-    "title": "元件屬性",
-    "content": "圓形刻度 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 刻度設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 刻度分格數 | 設定刻度分格的數量 | Number Editor | . | 開始角度 | 圓弧刻度開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-720) | Number Editor | . | 外沿起始半徑 | 設定刻度的外沿起始半徑 | Number Editor | . | 內沿起始半徑 | 設定刻度的內沿起始半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 外沿結束半徑 | 設定刻度的外沿結束半徑 | Number Editor | . | 內沿結束半徑 | 設定刻度的內沿結束半徑 | Number Editor | . | 選擇刻度模式 | 設定刻度為直線或多邊形 | Dropdown List | . | 開始顏色 | 設定刻度開始的顏色 | Color Selector | . | 結束顏色 | 設定刻度結束的顏色 | Color Selector | . | 選擇刻度形狀 | 設定刻度的形狀 | Dropdown List | . | 刻度樣式 | 設定刻度的風格 | Dropdown List | . | 顯示第一格刻度 | 決定是否要顯示第一格刻度 | Checkbox | . | 顯示最後一格刻度 | 決定是否要顯示最後一格刻度 | Checkbox | . | 顯示刻度基準線 | 決定是否要顯示刻度基準線 | Checkbox | . | 刻度基準線位置 | 設定基準線的位置 | Dropdown List | . | 刻度基準線顏色 | 設定刻度基準線的顏色 | Color Selector | . | 刻度基準線樣式 | 設定刻度基準線的風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#元件屬性"
+    "title": "Widget Property",
+    "content": "Circular Tick . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . | Center Location | Set the center’s coordinates | Alignment Selector | . Tick Setting . | Property | Description | Operation | . | Tick Granularity | Set the granularity for the scale | Number Editor | . | Start Angle | Starting Angle for the arc in degrees(0-359), please refer to Number Editor | Number Editor | . | Arc Length | The length of the arc in degrees(1-720) | Number Editor | . | Outer Edge Start Radius | Set the outer edge radius for the ticks | Number Editor | . | Inner Edge Start Radius | Set the inner edge radius for the ticks | Number Editor | . | Enable Variant Radius | Checked to enable variant radius | Checkbox | . | Outer Edge End Radius | Set the ending radius for the outer edge of the ticks | Number Editor | . | Inner Edge End Radius | Set the ending radius for the inner edge of the ticks | Number Editor | . | Select Tick Mode | Set the tick shape to be line or polygon | Dropdown List | . | Bar Start Color | Select the starting color for the ticks | Color Selector | . | Bar End Color | Select the ending color for the ticks | Color Selector | . | Tick Head Style | Select the tick head style | Dropdown List | . | Tick Style | Select the style for the ticks | Dropdown List | . | Show First Tick | Checked to show the first tick | Checkbox | . | Show Last Tick | Checked to show the last tick | Checkbox | . | Show Base Line | Checked to show the base line for the ticks | Checkbox | . | Base Line Position | Set the base line position relatively to the ticks | Dropdown List | . | Base Line Color | Select the color for the base line | Color Selector | . | Base Line Style | Select the style for the base line | Dropdown List | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#widget-property"
   },"1673": {
     "doc": "Circular Tick",
-    "title": "右鍵選單",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動旋轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . | 選擇刻度模式 | 設定刻度為直線或多邊形 | Checkbox | . | 選擇刻度形狀 | 設定刻度為方形或圓形 | Checkbox | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "| Property | Description | Operation | . | Move to Center | Move the rotational center to the center of the widget |   | . | Select Tick Mode | Set the tick shape to be line or polygon | Checkbox | . | Tick Head Style | Select the tick head style | Checkbox | . Widget-Specific Actions . | Property | Description | Operation |   | . |   | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circular_tick/#right-click-menu"
   },"1674": {
     "doc": "Variant Radius Pie",
     "title": "Variant Radius Pie",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解變半徑圓形色條 . | 教育影片 . | . ",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/"
   },"1675": {
     "doc": "Variant Radius Pie",
-    "title": "元件屬性",
-    "content": "可變半徑圓形色條 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 色條設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 開始角度 | 圓弧刻度開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-720) | Number Editor | . | 外沿起始半徑 | 設定刻度的外沿起始半徑 | Number Editor | . | 內沿起始半徑 | 設定刻度的內沿起始半徑 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 外沿結束半徑 | 設定刻度的外沿結束半徑 | Number Editor | . | 內沿結束半徑 | 設定刻度的內沿結束半徑 | Number Editor | . | 開始顏色 | 設定刻度開始的顏色 | Color Selector | . | 結束顏色 | 設定刻度結束的顏色 | Color Selector | . | 顯示邊框 | 決定是否要顯示邊框 | Checkbox | . | 邊框顏色 | 設定邊框的顏色 | Color Selector | . | 邊框樣式 | 設定邊框的框線風格 | Dropdown List | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#元件屬性"
+    "title": "Widget Property",
+    "content": "Variant Radisu Pie . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . | Center Location | Set the center’s coordinates | Alignment Selector | . Bar Setting . | Property | Description | Operation | . | Start Angle | Starting angle for the arc(0-359), please refer to Number Editor | Number Editor | . | Arc Length | The length of the arc in degrees(1-720) | Number Editor | . | Outer Edge Start Radius | Set the outer edge radius for the ticks | Number Editor | . | Inner Edge Start Radius | Set the inner edge radius for the ticks | Number Editor | . | Enable Variant Radius | Checked to enable variant radius | Checkbox | . | Outer Edge End Radius | Set the ending radius for the outer edge of the ticks | Number Editor | . | Inner Edge End Radius | Set the ending radius for the inner edge of the ticks | Number Editor | . | Bar Start Color | Select the starting color for the ticks | Color Selector | . | Bar End Color | Select the ending color for the ticks | Color Selector | . | Show Border | Checked to show border | Checkbox | . | Border Color | Select the border color | Color Selector | . | Border Style | Select the border style | Dropdown List | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#widget-property"
   },"1676": {
     "doc": "Variant Radius Pie",
-    "title": "右鍵選單",
-    "content": "| 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#右鍵選單"
+    "title": "Right-Click Menu",
+    "content": "| Property | Description | Operation | . | Move to Center | Move the rotational center to the center of the widget |   | . Widget-Specific Actions . | Property | Description | Operation |   | . |   | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/variant_radius_pie/#right-click-menu"
   },"1677": {
-    "doc": "Circle Text",
-    "title": "Circle Text",
-    "content": ". 如欲快速入門，可以觀看博象教育影片，幫助了解繞圓文字 . | 教育影片 . | . ",
+    "doc": "Circular Text",
+    "title": "Circular Text",
+    "content": ". For learning how to use this widget, please take a look at our educational video: . | Educational Video . | . ",
     "url": "/en/3.4.3/widgets/meter_graphic_library/circle_text/",
     "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circle_text/"
   },"1678": {
-    "doc": "Circle Text",
-    "title": "元件屬性",
-    "content": "繞圓文字 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 元件名稱 | 元件實體名稱 | Name | . | 連結到使用手冊 | 連結至博象使用手冊 |   | . | 圓心位置 | 設定刻度圓心的座標 | Alignment Selector | . 繞圓文字設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 文字內容 | 顯示繞圓的文字內容 | Plain Text | . | 開始角度 | 圓弧刻度開始角度(0-359)，詳情參考Number Editor | Number Editor | . | 圓弧長度 | 圓弧刻度長度(1-720) | Number Editor | . | 圓半徑 | 設定文字到圓心的距離 | Number Editor | . | 變動圓半徑 | 決定是否要使用變動圓 | Checkbox | . | 終端圓半徑 | 設定變動圓終端到圓心的距離 | Number Editor | . | 字型選擇 | 設定字型和大小 | Font Selector | . | 文字顏色 | 設定文字的顏色 | Color Selector | . | 顯示文字路徑 | 決定是否要顯示文字路徑 | Checkbox | . | 文字方向 | 設定文字的旋轉方向 | Dropdown List | . | 文字間隔 | 設定每個文字的間隔 | Number Editor | . 光暈與光源設定 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 使用光暈與光源效果 | 決定是否要使用光暈與光源效果 | Checkbox | . | 陰影x座標 | 設定陰影的x座標 | Number Editor | . | 陰影y座標 | 設定陰影的y座標 | Number Editor | . | 透明度斜率 | 設定圖形的透明度斜率 | Number Editor | . | 鏡設平面 | 設定圖形的鏡設平面 | Number Editor | . | 鏡設光常數 | 設定圖形的光常數 | Number Editor | . | 鏡設光指數 | 設定圖形的光指數 | Number Editor | . | 光源顏色 | 設定光源的顏色 | Color Selector | . | 光源x座標 | 設定光源的x座標 | Number Editor | . | 光源y座標 | 設定光源的y座標 | Number Editor | . | 光源z座標 | 設定光源的z座標 | Number Editor | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#%E5%85%83%E4%BB%B6%E5%B1%AC%E6%80%A7",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#元件屬性"
+    "doc": "Circular Text",
+    "title": "Widget Property",
+    "content": "Circular Text . | Property | Description | Operation | . | Widget Name | Widget Displayed Name | Name | . | Link to User Manual | Link to IOT’s website for User Manual |   | . | Center Location | Set the center’s coordinates | Alignment Selector | . Text Setting . | Property | Description | Operation | . | Text | Enter the contents | Plain Text | . | Start Angle | Starting Angle for the arc in degrees(0-359), please refer to Number Editor | Number Editor | . | Arc Length | The length of the arc in degrees(1-720) | Number Editor | . | Bar Radius | Set the radius of the circular text | Number Editor | . | Enable Variant Radius | Checked to enable variant radius | Checkbox | . | Bar End Radius | The ending radius for the variant circle | Number Editor | . | Text Font | Select the font and set the font size | Font Selector | . | Text Color | Select the text color | Color Selector | . | Show Text Base Line | Checked to show the base line | Checkbox | . | Direction | Set the CW or CCW for the text orientation | Dropdown List | . | Text Spacing | Set the spacing for text | Number Editor | . Shadow and Light Source Control . | Property | Description | Operation | . | Enable Shadow and Light Source | Enable the effects of shadow and light source | Checkbox | . | Shadow Dx | Set the X-axle coordinate for the shadow | Number Editor | . | Shadow Dy | Set the Y-axle coordinate for the shadow | Number Editor | . | Alpha Channel Linear Mapping Slope | Set the transparency for the shadow | Number Editor | . | Light Surface Scale | Set the height of the surface for reflecting the light | Number Editor | . | Light Specular Constant | Define the surface for reflecting the light. Zero for no reflection | Number Editor | . | Light Specular Exponent | Define the focus of the light source. The larger number the less focused | Number Editor | . | Light Color | Set the color for the light source | Color Selector | . | Light Source X | Set the X coordinate for the light source | Number Editor | . | Light Source Y | Set the Y coordinate for the light source | Number Editor | . | Light Source Z | Set the Z coordinate for the light source | Number Editor | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#widget-property",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#widget-property"
   },"1679": {
-    "doc": "Circle Text",
-    "title": "右鍵選單",
-    "content": "移動選轉中心到圖形中心點 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 移動選轉中心到圖形中心點 | 將旋轉中心重設置圖形中心點 |   | . | 文字方向 | 設定文字的旋轉方向 | Dropdown List | . 元件子功能 . | 屬性名稱 | 屬性功能描述 | 操作型態 | . | 連接到使用手冊… | 連結至博象使用手冊 |   | . ",
-    "url": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#%E5%8F%B3%E9%8D%B5%E9%81%B8%E5%96%AE",
-    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#右鍵選單"
+    "doc": "Circular Text",
+    "title": "Right-Click Menu",
+    "content": "Move to Center . | Property | Description | Operation | . | Move to Center | Move the rotational center to the center of the widget |   | . | Direction | Set the CW or CCW for the text orientation | Dropdown List | . Widget-Specific Actions . | Property | Description | Operation |   | . |   | Link to User Manual… | Link to IOT’s website for User Manual |   | . ",
+    "url": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#right-click-menu",
+    "relUrl": "/en/3.4.3/widgets/meter_graphic_library/circle_text/#right-click-menu"
   },"1680": {
     "doc": "Meter Graphic Library",
     "title": "儀表繪製元件",
