@@ -336,7 +336,7 @@
 
 <p><img src="/en/3.4.3/imgs/file23.png" alt="Figure 2-7 Download button" /></p>
 
-<p>Please use a USB cable to connect to the control board and then press this button, the design can be  downloaded into the board.</p>
+<p>Please use a USB cable to connect to the control board and then press this button, the design can be downloaded onto the board.</p>
 
 <p>When download is successful, a pop-up window will show up:</p>
 
@@ -357,11 +357,11 @@
 
 <p>The built-in simulator allows users to simulate their HMI design in ADE. In this simulator, users can use mouse to interact with the HMI design. This simulator supports What-You-See-Is-What-You-Get. The resolution of the simulator meets that of the target IOT product. However, the color in the simulator cannot be the same as that of your target IOT product.</p>
 
-<p>The built-in simulator cannot simulate the I/O functionalities like GPIO, PWM and ADC. On the other hand, the simulator supports the communcation protocol.</p>
-      <h2 id="launch-messegner">
+<p>The built-in simulator cannot simulate the I/O functionalities like GPIO, PWM and ADC. On the other hand, the simulator supports the communication protocol.</p>
+      <h2 id="launch-messenger">
         
         
-          <a href="#launch-messegner" class="anchor-heading" aria-labelledby="launch-messegner"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Launch Messegner
+          <a href="#launch-messenger" class="anchor-heading" aria-labelledby="launch-messenger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Launch Messenger
         
         
       </h2>
@@ -378,14 +378,14 @@
 
 <p>Messenger offers two communication methods: Network Socket and Serial Port.</p>
 
-<p>If Network Socket is selected, IP addfress, Port number must be set; if Serial Port is used, Baudrate must be set.</p>
+<p>If Network Socket is selected, IP address, Port number must be set; if Serial Port is used, Baud rate must be set.</p>
 
 <ul>
   <li>
     <p>Command Type: Set Register is to write a value to a register; Get Register is to read the content of a register.</p>
   </li>
   <li>
-    <p>Register ID: Set the ID of the reigster to which commands are performed.</p>
+    <p>Register ID: Set the ID of the register to which commands are performed.</p>
   </li>
   <li>
     <p>Data Type: Select the data type. This is valid only during Set Register operations.</p>
@@ -415,7 +415,7 @@
   <li>
     <p>First, please open a design in ADE.</p>
 
-    <p>In IOConfig page, please make sure that UART is activated, Baudrate is accurate and UART Value Register is bound to a register. 
+    <p>In IOConfig page, please make sure that UART is activated, Baud rate is accurate and UART Value Register is bound to a register. 
 Note: In the new version of Nexus Panel, this setting is not required.</p>
 
     <p class="for_img_larger"><img src="/en/3.4.3/imgs/file28.png" alt="Figure 2-12 IOConfig-UART Setting" /></p>
@@ -435,21 +435,21 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
         <p>Set Socket</p>
       </li>
       <li>
-        <p>Click Connect. If the connection is ready, a pop-up message box tells users if the connection is valid or not.</p>
+        <p>Click Connect. After the connection is ready, a pop-up message box tells users if the connection is valid or not.</p>
       </li>
       <li>
-        <p>Click Ack Test then Messeenger will send out a connection verification command. If the simulator receives the command successfully, then a ACK command is sent back to the messenger.</p>
+        <p>Click Ack Test then Messenger will send out a connection verification command. If the simulator receives the command successfully, then an ACK command is sent back to the messenger.</p>
       </li>
       <li>
-        <p>If the connection is ready, ACK will be recevied by the messenger after sending a command.</p>
+        <p>If the connection is ready, ACK will be received by the messenger after sending a command.</p>
       </li>
       <li>
-        <p>For communication commands, please refer to <a href="#iot-protocol">IOT Protocol</a> more more details.</p>
+        <p>For communication commands, please refer to <a href="#iot-protocol">IOT Protocol</a> more details.</p>
 
         <p>When Set Register is used, users have to enter the register ID and Data Type. The ID and the data type must match those of the registers set in ADE.</p>
       </li>
       <li>
-        <p>Simulator takes the communication commands and change the corresponding registers’s value. Subsequently, the value change is reflected on the widgets in Simulator.</p>
+        <p>Simulator takes the communication commands and changes the corresponding register’s value. Subsequently, the value change is reflected on the widgets in Simulator.</p>
       </li>
     </ol>
 
@@ -470,7 +470,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
     <p>Please download the HMI design to Ubique Panel.</p>
   </li>
   <li>
-    <p>Please use a USB-to-UART cable to connect PC’s USB port with Ubiqu Panel’s UART.</p>
+    <p>Please use a USB-to-UART cable to connect PC’s USB port with Ubique Panel’s UART.</p>
   </li>
   <li>
     <p>Launch Messenger.</p>
@@ -479,13 +479,13 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
 
     <ol>
       <li>
-        <p>Set the Serial Port. Users can use <strong>Scan</strong> for scanning the available serial ports. Then a correct baudrate must be set as well.</p>
+        <p>Set the Serial Port. Users can use <strong>Scan</strong> for scanning the available serial ports. Then a correct baud rate must be set as well.</p>
       </li>
       <li>
-        <p>Clik <strong>Ack Test</strong> for testing the connectivity.</p>
+        <p>Click <strong>Ack Test</strong> for testing the connectivity.</p>
       </li>
       <li>
-        <p>If connection is normal, ack message is received.</p>
+        <p>If the connection is normal, an ACK message is received.</p>
       </li>
       <li>
         <p>Set up and send communication instructions. Please refer to <a href="#iot-protocol">IOT Protocol</a> for more details.</p>
@@ -493,7 +493,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
     </ol>
   </li>
   <li>
-    <p>Then you can see the reaction in the IOT prodcut.</p>
+    <p>Then you can see the reaction in the IOT product.</p>
 
     <p class="for_img_mid"><img src="/en/3.4.3/imgs/file33.png" alt="" /></p>
   </li>
@@ -512,7 +512,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
     <p>First, please prepare an ADE project and set the registers up properly. Please refer to our communication protocol <a href="#iot-protocol">IOT Protocol</a> for writing the Arduino code. Then the data can be sent to the registers with designated IDs.</p>
   </li>
   <li>
-    <p>Secondly, please connect IOT’s control board with Aurdino. Make sure you connect RX, TX and GND.</p>
+    <p>Secondly, please connect IOT’s control board with Arduino. Make sure you connect RX, TX and GND.</p>
   </li>
 </ul>
 
@@ -526,7 +526,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
 <p class="for_img_mid"><img src="/en/3.4.3/imgs/file42.png" alt="" /></p>
 
 <ul>
-  <li>Please download ADE project to our control board and Arduino program to the Arduino board. Turn on the power, the commuication starts.</li>
+  <li>Please download ADE project to our control board and Arduino program to the Arduino board. Turn on the power, the communication starts.</li>
 </ul>
       <h3 id="iots-uart-protocol-">
         
@@ -638,7 +638,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
         
       </h3>
     
-<p>In order to ensure that the connection is established properly, users can click <strong>Ack Test</strong>. Once clicked, the system will send out <strong>16</strong>. If <strong>ack</strong> is received, the the connection is in order; otherwise, the connection is not established yet.</p>
+<p>In order to ensure that the connection is established properly, users can click <strong>Ack Test</strong>. Once clicked, the system will send out <strong>16</strong>. If <strong>ack</strong> is received, the connection is in order; otherwise, the connection is not established yet.</p>
 
 <p class="for_img_mid"><img src="/en/3.4.3/imgs/file269.png" alt="Ack" /></p>
 
@@ -654,7 +654,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
 
     <p class="for_img_mid"><img src="/en/3.4.3/imgs/file267.png" alt="Connected" /></p>
 
-    <p>If connection is not established, <strong>Connection FAILED</strong> message is prompted. Afterward, <strong>No Connection</strong> is show at the right-hand side of the Socket command row.</p>
+    <p>If connection is not established, <strong>Connection FAILED</strong> message is prompted. Afterward, <strong>No Connection</strong> is shown at the right-hand side of the Socket command row.</p>
 
     <p class="for_img_part"><img src="/en/3.4.3/imgs/file266.png" alt="Connection FAILED" /></p>
 
@@ -663,7 +663,7 @@ Note: In the new version of Nexus Panel, this setting is not required.</p>
   <li>
     <p>Use Serial Port</p>
 
-    <p>If the connection is not established, please check the serial port assignment and baudrate setting. Then press <strong>Set</strong> for establishing connection.</p>
+    <p>If the connection is not established, please check the serial port assignment and baud rate setting. Then press <strong>Set</strong> for establishing connection.</p>
   </li>
 </ul>
 

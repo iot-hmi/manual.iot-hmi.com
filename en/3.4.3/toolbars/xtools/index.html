@@ -340,20 +340,20 @@
 
 <p class="for_img_larger"><img src="/en/3.4.3/imgs/file45.png" alt="Figure 2-21 Register Table" /></p>
 
-<p>In this register editor, all the regsiters used in this HMI project are shown. These registers include the built-in system registers, and user-defined registers. The user-defined registers are listed below the system registers. Regisers are critical in ADE. In order to use ADE to design HMIs, users must be familiar with the concept and usage of regiser binding. Please refer to 
+<p>In this register editor, all the registers used in this HMI project are shown. These registers include the built-in system registers, and user-defined registers. The user-defined registers are listed below the system registers. Registers are critical in ADE. In order to use ADE to design HMIs, users must be familiar with the concept and usage of register binding. Please refer to 
 <a href="/en/3.4.3/register/">Register</a> for more details.</p>
 
-<p>For any register with “Send to host” option checked, if any change of this regiser’s value during the HMI execution triggers a communication via UART for sending this register’s updated value to an external system (e.g. Arduino). The default communication protocol is described in <a href="/en/3.4.3/toolbars/download/index.html#iot-protocol">IOT Protocol</a>.</p>
+<p>For any register with “Send to host” option checked, if any change of this register’s value during the HMI execution triggers a communication via UART for sending this register’s updated value to an external system (e.g. Arduino). The default communication protocol is described in <a href="/en/3.4.3/toolbars/download/index.html#iot-protocol">IOT Protocol</a>.</p>
 
-<p>Please note that “HMI execution” is referred to either running on Simulator or executing on the IOT products.</p>
+<p>Please note that “HMI execution” refers to either running on Simulator or executing on the IOT products.</p>
 
 <p>Clicking <strong>Validation</strong> invokes Blockly editor.</p>
 
-<p>Clicking Validation button will pop up Blockly editor. We can use a Blockly program to vailidate the value of the register before updating the register. If the incoming value is validated, then the register is updated with that value. If the incoming value is rejected, the content of the register remains unchanged.</p>
+<p>Clicking Validation button will pop up Blockly editor. We can use a Blockly program to validate the value of the register before updating the register. If the incoming value is validated, then the register is updated with that value. If the incoming value is rejected, the content of the register remains unchanged.</p>
 
 <p>A Validation example：</p>
 
-<p>Whenever there is a change for the register’s content, the validation funciton, input_value, checks if the incoming change meets the requirement, the length of the value must be longer than or equal to 4. If the length meets the requirement, <strong>return valid</strong> is returned; otherwise, <strong>return invalid</strong> is returned.</p>
+<p>Whenever there is a change for the register’s content, the validation function, input_value, checks if the incoming change meets the requirement, the length of the value must be longer than or equal to 4. If the length meets the requirement, <strong>return valid</strong> is returned; otherwise, <strong>return invalid</strong> is returned.</p>
 
 <ul>
   <li>
@@ -363,11 +363,11 @@
     <p>return valid: Write input_value into the register</p>
   </li>
   <li>
-    <p>return invalid: The content of the register remains unchaged</p>
+    <p>return invalid: The content of the register remains unchanged</p>
   </li>
 </ul>
 
-<p><strong>The length of the data must be larger than or equal to four; otherwise the data is rejected</strong></p>
+<p><strong>The length of the data must be larger than or equal to four; otherwise, the data is rejected</strong></p>
 
 <p class="for_img_larger"><img src="/en/3.4.3/imgs/file46.png" alt="Figure 2-22 Validation" /></p>
       <h2 id="global-function-blockly-editor">
